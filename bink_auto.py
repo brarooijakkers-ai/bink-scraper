@@ -5,90 +5,84 @@ import time
 from playwright.async_api import async_playwright
 from datetime import datetime
 
-# 1. TIJDZONE FIX: Forceer de tijd naar Amsterdam
-# Dit voorkomt dat GitHub (UTC tijd) de workout van gisteren pakt.
+# 1. TIJDZONE FIX
 os.environ['TZ'] = 'Europe/Amsterdam'
 try:
     time.tzset()
 except:
-    pass # Werkt alleen op Linux/Mac (GitHub Actions), niet op Windows
+    pass
 
-# Haal inloggegevens veilig uit de omgevingsvariabelen
+# Haal inloggegevens uit Secrets
 EMAIL = os.environ.get("BINK_EMAIL")
 PASSWORD = os.environ.get("BINK_PASSWORD")
 
 async def get_workout():
     async with async_playwright() as p:
+        # Headless True voor cloud
         browser = await p.chromium.launch(headless=True) 
         context = await browser.new_context()
         page = await context.new_page()
 
         days_nl = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
-        days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-        
         idx = datetime.now().weekday()
         dag_nl = days_nl[idx]
-        dag_en = days_en[idx]
         
         print(f"[{datetime.now().strftime('%H:%M:%S')}] Cloud-scraper gestart voor {dag_nl}...")
 
         try:
             # --- STAP 1: INLOGGEN ---
             print("Inloggen...")
+            # We gaan eerst naar home om in te loggen
             await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
-            await page.get_by_role("link", name="Inloggen").first.click()
-            await page.wait_for_load_state("networkidle")
+            
+            # Probeer inlogknop te klikken
+            try:
+                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
+            except:
+                print("Inlogknop niet gevonden, direct naar /login...")
+                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
 
             if not EMAIL or not PASSWORD:
-                raise Exception("Geen inloggegevens gevonden in Secrets!")
+                raise Exception("Geen inloggegevens in Secrets!")
 
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
-            await page.wait_for_timeout(3000)
+            await page.wait_for_timeout(4000)
 
-            # --- STAP 2: ROOSTER ---
-            print("Naar rooster...")
-            await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
-            await page.get_by_text("Zaal 1").first.click()
-            await page.wait_for_timeout(3000)
+            # --- STAP 2: DIRECT NAAR DE WOD PAGINA ---
+            # Dit is jouw gouden vondst: direct naar de pagina met de workout!
+            target_url = "https://www.crossfitbink36.nl/?workout=wod"
+            print(f"Navigeren naar: {target_url}")
+            
+            await page.goto(target_url, wait_until="networkidle")
+            
+            # --- STAP 3: DATA EXTRACTIE ---
+            print("Pagina geladen, zoeken naar workout tekst...")
 
-            # --- STAP 3: WOD ZOEKEN (SPECIFIEKE ID METHODE) ---
-            print(f"Zoeken naar de WOD van {dag_nl} ({dag_en})...")
+            # We wachten tot het label "WOD:" zichtbaar is (zie je screenshot)
+            # Of tot "Share this Workout" zichtbaar is, dat staat onderaan het blok.
+            await page.get_by_text("Share this Workout").first.wait_for(state="visible", timeout=15000)
 
-            # We zoeken naar de knop met de unieke ID van vandaag (bijv: 'modal-saturday-WoD')
-            # Dit voorkomt dat hij per ongeluk maandag aanklikt.
-            wod_selector = f"a[data-remodal-target*='{dag_en}'][data-remodal-target*='WoD']"
+            # STRATEGIE:
+            # We zoeken het element dat de tekst "WOD:" bevat.
+            # In je screenshot staat: "WOD: emom 32min..."
+            # We pakken de container (parent) van dat stukje tekst.
             
-            if await page.locator(wod_selector).count() > 0:
-                print(f"🎯 Specifieke knop gevonden: {wod_selector}")
-                knop = page.locator(wod_selector).first
-                await knop.scroll_into_view_if_needed()
-                await knop.click()
-            else:
-                print("⚠️ Specifieke ID niet gevonden, fallback naar kolom-zoektocht...")
-                # Fallback: Zoek de kolom van vandaag en klik daar op WOD
-                kolom = page.locator(f".grid-column:has-text('{dag_nl}')")
-                knop = kolom.locator("text=WOD").first
-                await knop.click()
+            # Locator: Zoek naar tekst 'WOD:', en pak de ouder (het blok eromheen)
+            content_block = page.locator("text=WOD:").first.locator("xpath=..")
+            
+            workout_tekst = await content_block.inner_text()
+            
+            # Schoonmaak: Als er 'Share this Workout' in de tekst zit, halen we dat weg
+            if "Share this Workout" in workout_tekst:
+                workout_tekst = workout_tekst.split("Share this Workout")[0]
 
-            print("WOD aangeklikt, wachten op pop-up...")
-            
-            # --- STAP 4: DATA EXTRACTIE ---
-            popup_selector = ".remodal-is-opened"
-            await page.wait_for_selector(popup_selector, timeout=10000)
-            
-            popup = page.locator(popup_selector)
-            
-            # Pak de lijst
-            list_items = await popup.locator(".wod-list li").all_text_contents()
-            
-            if list_items:
-                workout_tekst = "\n".join([i.strip() for i in list_items])
-            else:
-                workout_tekst = await popup.locator(".content").first.inner_text()
+            print("Workout gevonden!")
+            print("-" * 20)
+            print(workout_tekst[:100] + "...") # Print eerste stukje ter controle
 
-            # --- STAP 5: OPSLAAN ---
+            # --- STAP 4: OPSLAAN ---
             data = {
                 "datum": datetime.now().strftime("%d-%m-%Y"),
                 "dag": dag_nl,
@@ -102,10 +96,10 @@ async def get_workout():
 
         except Exception as e:
             print(f"❌ FOUT: {e}")
-            error_data = {"error": str(e)}
+            error_data = {"error": str(e), "datum": datetime.now().strftime("%d-%m-%Y")}
             with open("workout.json", "w", encoding="utf-8") as f:
                 json.dump(error_data, f, indent=4)
-            exit(1) # Zorgt dat GitHub 'rood' wordt bij een fout
+            exit(1)
         
         await browser.close()
 
