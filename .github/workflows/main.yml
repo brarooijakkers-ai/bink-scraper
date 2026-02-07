@@ -1,0 +1,41 @@
+name: Haal WOD op
+
+on:
+  schedule:
+    # Dit is 06:00 UTC (dat is 07:00 of 08:00 in NL, afhankelijk van zomer/wintertijd)
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Hiermee kun je hem ook handmatig testen via een knop
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Toestemming om workout.json terug te schrijven
+    
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Python installeren
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Playwright installeren
+        run: |
+          pip install playwright
+          playwright install chromium
+
+      - name: Script draaien
+        env: # Hier geven we de sleutels door aan het script
+          BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
+          BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
+        run: python bink_auto.py
+
+      - name: Resultaat opslaan (Commit & Push)
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add workout.json
+          git commit -m "Update workout [skip ci]" || exit 0
+          git push
