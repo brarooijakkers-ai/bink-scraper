@@ -1,0 +1,33 @@
+name: Auto Inschrijven
+
+on:
+  schedule:
+    # 15 minuten na uur 2 en 3 op Zondag (UTC)
+    # Zomer: 02:15 UTC = 04:15 NL
+    # Winter: 03:15 UTC = 04:15 NL
+    - cron: '15 2,3 * * 0'
+  workflow_dispatch:
+
+jobs:
+  register:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Python installeren
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Playwright installeren
+        run: |
+          pip install playwright
+          playwright install chromium
+
+      - name: Script draaien
+        env:
+          BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
+          BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
+        run: python bink_inschrijven.py
