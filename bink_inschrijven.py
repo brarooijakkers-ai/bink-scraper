@@ -38,7 +38,7 @@ def stuur_telegram(bericht):
 async def sign_up():
     # --- TIJD CHECK ---
     nu = datetime.now()
-    if nu.hour != 4:
+    if nu.hour != 99:
         print(f"⛔️ Het is {nu.strftime('%H:%M')}. Wachten op 04:00 uur trigger.")
         return
 
