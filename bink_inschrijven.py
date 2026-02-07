@@ -1,38 +1,48 @@
 import asyncio
 import os
 import time
+import urllib.request
+import urllib.parse
 from playwright.async_api import async_playwright
 from datetime import datetime
 
-# 1. Tijdzone forceren naar Amsterdam
+# 1. Tijdzone instellen
 os.environ['TZ'] = 'Europe/Amsterdam'
 try:
     time.tzset()
 except:
     pass
 
-# Haal inloggegevens uit Secrets
+# Gegevens ophalen
 EMAIL = os.environ.get("BINK_EMAIL")
 PASSWORD = os.environ.get("BINK_PASSWORD")
+TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
+
+# --- TELEGRAM FUNCTIE ---
+def stuur_telegram(bericht):
+    if not TG_TOKEN or not TG_CHAT_ID:
+        print("⚠️ Geen Telegram gegevens gevonden, bericht niet verstuurd.")
+        return
+
+    print(f"📨 Telegram versturen: {bericht}")
+    url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
+    data = urllib.parse.urlencode({"chat_id": TG_CHAT_ID, "text": bericht}).encode("utf-8")
+    
+    try:
+        req = urllib.request.Request(url, data=data)
+        urllib.request.urlopen(req)
+    except Exception as e:
+        print(f"❌ Telegram fout: {e}")
 
 async def sign_up():
-    # --- TIJD CHECK (Zomer/Wintertijd Fix) ---
-    # We checken hoe laat het NU is in Nederland.
+    # --- TIJD CHECK ---
     nu = datetime.now()
-    print(f"Huidige tijd in NL: {nu.strftime('%H:%M')}")
-
-    # We willen dat dit script ALLEEN draait tussen 04:00 en 04:59 NL tijd.
-    # Als GitHub dit script in de winter start om 03:15 UTC (wat 04:15 NL is) -> OK.
-    # Als GitHub dit script in de zomer start om 02:15 UTC (wat 04:15 NL is) -> OK.
-    # Maar... als GitHub in de winter óók de 'zomer-trigger' (02:15 UTC) afvuurt, is het pas 03:15 NL.
-    # Dan moeten we stoppen, anders zijn we te vroeg.
-    
     if nu.hour != 4:
-        print(f"⛔️ Het is {nu.strftime('%H:%M')}. Het inschrijfvenster is pas om 04:00.")
-        print("Script stopt nu (we wachten op de volgende trigger).")
-        return # Stop het script hier
+        print(f"⛔️ Het is {nu.strftime('%H:%M')}. Wachten op 04:00 uur trigger.")
+        return
 
-    print("✅ Tijd is correct (tussen 04:00 en 05:00). Start inschrijving!")
+    messages = [] # Hier verzamelen we de statusupdates
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -40,81 +50,75 @@ async def sign_up():
         page = await context.new_page()
 
         try:
-            # --- STAP 1: INLOGGEN ---
             print("Inloggen...")
             await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
 
             if not EMAIL or not PASSWORD:
-                raise Exception("Geen inloggegevens in Secrets!")
+                raise Exception("Geen inloggegevens!")
 
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             await page.wait_for_timeout(3000)
 
-            # --- STAP 2: NAVIGEREN NAAR ROOSTER ---
-            # Direct naar volgende week, Zaal 2
             target_url = "https://www.crossfitbink36.nl/rooster?week=next&hall=Zaal-2"
-            print(f"Navigeren naar: {target_url}")
+            print(f"Naar rooster: {target_url}")
             await page.goto(target_url, wait_until="networkidle")
             
-            # --- FUNCTIE OM IN TE SCHRIJVEN ---
-            async def schrijf_in_voor_les(zoek_id, beschrijving):
-                print(f"\n--- Bezig met: {beschrijving} ---")
+            # --- INSCHRIJF FUNCTIE ---
+            async def schrijf_in(zoek_id, beschrijving):
+                print(f"\n--- {beschrijving} ---")
                 try:
-                    # Zoek op ID (bijv: 'modal-tuesday-Oly Lifting-18:30')
-                    # We gebruiken een selector die zoekt naar een LI element met deze tekst in de data-target
                     selector = f"li[data-remodal-target*='{zoek_id}']"
                     
                     if await page.locator(selector).count() > 0:
-                        print(f"✅ Les gevonden. Klikken...")
                         knop = page.locator(selector).first
                         await knop.scroll_into_view_if_needed()
                         await knop.click(force=True)
                         
-                        # Wacht op pop-up
                         await page.wait_for_selector(".remodal-is-opened", timeout=10000)
                         popup = page.locator(".remodal-is-opened")
                         
-                        # Zoek specifieke inschrijfknop
                         inschrijf_knop = popup.locator("input[value='INSCHRIJVEN'], button:has-text('Inschrijven')")
                         
                         if await inschrijf_knop.count() > 0:
                             if await inschrijf_knop.is_enabled():
-                                print("✍️  Knop gevonden! INSCHRIJVEN...")
                                 await inschrijf_knop.click()
-                                await page.wait_for_timeout(3000) # Wachten op save
-                                print("✅  Gelukt!")
+                                await page.wait_for_timeout(3000)
+                                messages.append(f"✅ Ingeschreven: {beschrijving}")
+                                print("✅ Gelukt!")
                             else:
-                                print("⚠️ Knop is uitgeschakeld (vol of dicht).")
+                                messages.append(f"⚠️ {beschrijving} zit VOL of is dicht.")
+                                print("⚠️ Knop disabled")
                         else:
-                            # Check of we al ingeschreven zijn
                             if await popup.locator("input[value='UITSCHRIJVEN']").count() > 0:
-                                print("ℹ️ Je bent AL ingeschreven.")
+                                messages.append(f"ℹ️ Was al ingeschreven: {beschrijving}")
+                                print("ℹ️ Reeds ingeschreven")
                             else:
-                                print("❌ Geen inschrijfknop gevonden.")
+                                messages.append(f"❓ Geen knop bij: {beschrijving}")
                         
-                        # Refresh pagina voor de volgende les (veiligste manier om pop-up te sluiten)
                         await page.reload(wait_until="networkidle")
                         
                     else:
-                        print(f"❌ Les niet gevonden in het rooster.")
+                        messages.append(f"❌ Les niet gevonden: {beschrijving}")
+                        print("❌ Niet gevonden in rooster")
                         
                 except Exception as e:
-                    print(f"❌ Fout bij {beschrijving}: {e}")
+                    messages.append(f"❌ Fout bij {beschrijving}: {str(e)}")
+                    print(f"Error: {e}")
 
-            # --- STAP 3: UITVOEREN ---
-            
-            # Dinsdag OLY 18:30 (Check ID in broncode bijv: tuesday-Oly Lifting-18:30)
-            await schrijf_in_voor_les("tuesday-Oly Lifting-18:30", "Dinsdag OLY (18:30)")
+            # --- UITVOEREN ---
+            await schrijf_in("tuesday-Oly Lifting-18:30", "Dinsdag OLY (18:30)")
+            await schrijf_in("saturday-Oly Lifting-11:15", "Zaterdag OLY (11:15)")
 
-            # Zaterdag OLY 11:15
-            await schrijf_in_voor_les("saturday-Oly Lifting-11:15", "Zaterdag OLY (11:15)")
-
-            print("\n🏁 Script voltooid.")
+            # --- EINDRAPPORT NAAR TELEGRAM ---
+            eind_bericht = "🏋️‍♂️ *Bink Update:*\n\n" + "\n".join(messages)
+            stuur_telegram(eind_bericht)
 
         except Exception as e:
-            print(f"CRITISCHE FOUT: {e}")
+            fout_bericht = f"🚨 *CRITCAL ERROR:*\nScript is gecrasht!\n{str(e)}"
+            stuur_telegram(fout_bericht)
+            print(f"CRITICAL: {e}")
             exit(1)
         
         await browser.close()
