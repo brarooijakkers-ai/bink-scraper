@@ -1,34 +1,44 @@
 import asyncio
 import json
 import os
+import time
 from playwright.async_api import async_playwright
 from datetime import datetime
 
-# Haal inloggegevens veilig uit de omgevingsvariabelen (GitHub Secrets)
+# 1. TIJDZONE FIX: Forceer de tijd naar Amsterdam
+# Dit voorkomt dat GitHub (UTC tijd) de workout van gisteren pakt.
+os.environ['TZ'] = 'Europe/Amsterdam'
+try:
+    time.tzset()
+except:
+    pass # Werkt alleen op Linux/Mac (GitHub Actions), niet op Windows
+
+# Haal inloggegevens veilig uit de omgevingsvariabelen
 EMAIL = os.environ.get("BINK_EMAIL")
 PASSWORD = os.environ.get("BINK_PASSWORD")
 
 async def get_workout():
     async with async_playwright() as p:
-        # Headless MOET True zijn in de cloud
         browser = await p.chromium.launch(headless=True) 
         context = await browser.new_context()
         page = await context.new_page()
 
         days_nl = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
+        days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+        
         idx = datetime.now().weekday()
         dag_nl = days_nl[idx]
+        dag_en = days_en[idx]
         
         print(f"[{datetime.now().strftime('%H:%M:%S')}] Cloud-scraper gestart voor {dag_nl}...")
 
         try:
-            # Login
+            # --- STAP 1: INLOGGEN ---
             print("Inloggen...")
             await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
             await page.get_by_role("link", name="Inloggen").first.click()
             await page.wait_for_load_state("networkidle")
 
-            # Gebruik de variabelen hier
             if not EMAIL or not PASSWORD:
                 raise Exception("Geen inloggegevens gevonden in Secrets!")
 
@@ -37,32 +47,27 @@ async def get_workout():
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             await page.wait_for_timeout(3000)
 
-            # Rooster
+            # --- STAP 2: ROOSTER ---
             print("Naar rooster...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.get_by_text("Zaal 1").first.click()
             await page.wait_for_timeout(3000)
 
-        # --- STAP 3: WOD ZOEKEN (VERBETERD) ---
-            print(f"Zoeken naar de WOD van {dag_nl}...")
+            # --- STAP 3: WOD ZOEKEN (SPECIFIEKE ID METHODE) ---
+            print(f"Zoeken naar de WOD van {dag_nl} ({dag_en})...")
 
-            # OPLOSSING: We gebruiken de 'data-remodal-target'. 
-            # Dit is een unieke ID in de websitecode die de dagnaam in het Engels bevat.
-            # Bijv: 'modal-saturday-WoD'. Hierdoor kan hij NOOIT per ongeluk maandag pakken.
-            
-            # Selector: Zoek een link (a) die 'saturday' (bijv) én 'WoD' in zijn target heeft.
+            # We zoeken naar de knop met de unieke ID van vandaag (bijv: 'modal-saturday-WoD')
+            # Dit voorkomt dat hij per ongeluk maandag aanklikt.
             wod_selector = f"a[data-remodal-target*='{dag_en}'][data-remodal-target*='WoD']"
             
-            # We checken of deze specifieke knop bestaat
             if await page.locator(wod_selector).count() > 0:
-                print(f"🎯 Specifieke knop gevonden via ID: {wod_selector}")
+                print(f"🎯 Specifieke knop gevonden: {wod_selector}")
                 knop = page.locator(wod_selector).first
                 await knop.scroll_into_view_if_needed()
                 await knop.click()
             else:
-                print("⚠️ Specifieke ID niet gevonden, over op strenge fallback...")
-                # Fallback: Zoek de KOLOM van vandaag en zoek DAARBINNEN naar WOD.
-                # We ketenen de locators aan elkaar zodat hij niet buiten de kolom mag kijken.
+                print("⚠️ Specifieke ID niet gevonden, fallback naar kolom-zoektocht...")
+                # Fallback: Zoek de kolom van vandaag en klik daar op WOD
                 kolom = page.locator(f".grid-column:has-text('{dag_nl}')")
                 knop = kolom.locator("text=WOD").first
                 await knop.click()
@@ -70,15 +75,10 @@ async def get_workout():
             print("WOD aangeklikt, wachten op pop-up...")
             
             # --- STAP 4: DATA EXTRACTIE ---
-            # Wacht tot de pop-up ECHT zichtbaar is
             popup_selector = ".remodal-is-opened"
             await page.wait_for_selector(popup_selector, timeout=10000)
             
             popup = page.locator(popup_selector)
-            
-            # DUBBELCHECK: We controleren of de tekst in de pop-up wel van vandaag is.
-            # Vaak staat de dagnaam ook in de titel van de pop-up.
-            full_content = await popup.inner_text()
             
             # Pak de lijst
             list_items = await popup.locator(".wod-list li").all_text_contents()
@@ -88,7 +88,7 @@ async def get_workout():
             else:
                 workout_tekst = await popup.locator(".content").first.inner_text()
 
-            # Opslaan (Gewoon in de huidige map, GitHub regelt de rest)
+            # --- STAP 5: OPSLAAN ---
             data = {
                 "datum": datetime.now().strftime("%d-%m-%Y"),
                 "dag": dag_nl,
@@ -105,8 +105,7 @@ async def get_workout():
             error_data = {"error": str(e)}
             with open("workout.json", "w", encoding="utf-8") as f:
                 json.dump(error_data, f, indent=4)
-            # Zorg dat de GitHub Action faalt zodat je een mail krijgt
-            exit(1)
+            exit(1) # Zorgt dat GitHub 'rood' wordt bij een fout
         
         await browser.close()
 
