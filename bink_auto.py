@@ -43,20 +43,46 @@ async def get_workout():
             await page.get_by_text("Zaal 1").first.click()
             await page.wait_for_timeout(3000)
 
-            # Zoeken
-            print(f"Zoeken naar WOD van {dag_nl}...")
-            wod_knop = page.locator(f".roster-block:has-text('{dag_nl}')").get_by_text("WOD").first
-            if not await wod_knop.is_visible():
-                wod_knop = page.locator(f"a:has-text('WOD'), div:has-text('WOD')").filter(has_text=dag_nl).first
+        # --- STAP 3: WOD ZOEKEN (VERBETERD) ---
+            print(f"Zoeken naar de WOD van {dag_nl}...")
 
-            await wod_knop.click()
+            # OPLOSSING: We gebruiken de 'data-remodal-target'. 
+            # Dit is een unieke ID in de websitecode die de dagnaam in het Engels bevat.
+            # Bijv: 'modal-saturday-WoD'. Hierdoor kan hij NOOIT per ongeluk maandag pakken.
             
-            # Extractie
+            # Selector: Zoek een link (a) die 'saturday' (bijv) én 'WoD' in zijn target heeft.
+            wod_selector = f"a[data-remodal-target*='{dag_en}'][data-remodal-target*='WoD']"
+            
+            # We checken of deze specifieke knop bestaat
+            if await page.locator(wod_selector).count() > 0:
+                print(f"🎯 Specifieke knop gevonden via ID: {wod_selector}")
+                knop = page.locator(wod_selector).first
+                await knop.scroll_into_view_if_needed()
+                await knop.click()
+            else:
+                print("⚠️ Specifieke ID niet gevonden, over op strenge fallback...")
+                # Fallback: Zoek de KOLOM van vandaag en zoek DAARBINNEN naar WOD.
+                # We ketenen de locators aan elkaar zodat hij niet buiten de kolom mag kijken.
+                kolom = page.locator(f".grid-column:has-text('{dag_nl}')")
+                knop = kolom.locator("text=WOD").first
+                await knop.click()
+
+            print("WOD aangeklikt, wachten op pop-up...")
+            
+            # --- STAP 4: DATA EXTRACTIE ---
+            # Wacht tot de pop-up ECHT zichtbaar is
             popup_selector = ".remodal-is-opened"
             await page.wait_for_selector(popup_selector, timeout=10000)
+            
             popup = page.locator(popup_selector)
             
+            # DUBBELCHECK: We controleren of de tekst in de pop-up wel van vandaag is.
+            # Vaak staat de dagnaam ook in de titel van de pop-up.
+            full_content = await popup.inner_text()
+            
+            # Pak de lijst
             list_items = await popup.locator(".wod-list li").all_text_contents()
+            
             if list_items:
                 workout_tekst = "\n".join([i.strip() for i in list_items])
             else:
