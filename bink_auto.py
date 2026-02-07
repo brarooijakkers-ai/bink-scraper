@@ -27,15 +27,13 @@ async def get_workout():
         idx = datetime.now().weekday()
         dag_nl = days_nl[idx]
         
-        print(f"[{datetime.now().strftime('%H:%M:%S')}] Cloud-scraper gestart voor {dag_nl}...")
+        print(f"[{datetime.now().strftime('%H:%M:%S')}] Scraper gestart voor {dag_nl}...")
 
         try:
             # --- STAP 1: INLOGGEN ---
             print("Inloggen...")
-            # We gaan eerst naar home om in te loggen
             await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
             
-            # Probeer inlogknop te klikken
             try:
                 await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
             except:
@@ -50,37 +48,36 @@ async def get_workout():
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             await page.wait_for_timeout(4000)
 
-            # --- STAP 2: DIRECT NAAR DE WOD PAGINA ---
-            # Dit is jouw gouden vondst: direct naar de pagina met de workout!
+            # --- STAP 2: DIRECT NAAR DE WOD URL ---
             target_url = "https://www.crossfitbink36.nl/?workout=wod"
             print(f"Navigeren naar: {target_url}")
-            
             await page.goto(target_url, wait_until="networkidle")
             
-            # --- STAP 3: DATA EXTRACTIE ---
-            print("Pagina geladen, zoeken naar workout tekst...")
+            # --- STAP 3: DATA EXTRACTIE (Gebaseerd op Screenshot 3) ---
+            print("Zoeken naar '.wod-list' container...")
 
-            # We wachten tot het label "WOD:" zichtbaar is (zie je screenshot)
-            # Of tot "Share this Workout" zichtbaar is, dat staat onderaan het blok.
-            await page.get_by_text("Share this Workout").first.wait_for(state="visible", timeout=15000)
+            # In je screenshot zien we: <ul class="wod-list">
+            # We wachten tot deze lijst zichtbaar is.
+            # Omdat het tabblad 'WOD' standaard actief is, is deze lijst direct zichtbaar.
+            await page.wait_for_selector(".wod-list", timeout=15000)
 
-            # STRATEGIE:
-            # We zoeken het element dat de tekst "WOD:" bevat.
-            # In je screenshot staat: "WOD: emom 32min..."
-            # We pakken de container (parent) van dat stukje tekst.
+            # Nu pakken we alle <li> elementen (list items) BINNEN die lijst
+            # In je screenshot zijn dit de regels: "min 1: sandbag walk", etc.
+            list_items = await page.locator(".wod-list li").all_text_contents()
             
-            # Locator: Zoek naar tekst 'WOD:', en pak de ouder (het blok eromheen)
-            content_block = page.locator("text=WOD:").first.locator("xpath=..")
-            
-            workout_tekst = await content_block.inner_text()
-            
-            # Schoonmaak: Als er 'Share this Workout' in de tekst zit, halen we dat weg
-            if "Share this Workout" in workout_tekst:
-                workout_tekst = workout_tekst.split("Share this Workout")[0]
+            if list_items:
+                # We plakken alle regels onder elkaar met een enter (\n)
+                workout_tekst = "\n".join([i.strip() for i in list_items])
+                print("✅ Lijstitems gevonden en uitgelezen.")
+            else:
+                # Fallback: Mocht de lijst leeg zijn, pakken we de tekst van de hele container
+                print("⚠️ Geen lijstitems gevonden, fallback naar container tekst...")
+                workout_tekst = await page.locator(".wodlist-bg").first.inner_text()
 
-            print("Workout gevonden!")
+            # Resultaat printen ter controle in GitHub logs
             print("-" * 20)
-            print(workout_tekst[:100] + "...") # Print eerste stukje ter controle
+            print(workout_tekst)
+            print("-" * 20)
 
             # --- STAP 4: OPSLAAN ---
             data = {
