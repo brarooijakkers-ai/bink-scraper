@@ -6,7 +6,7 @@ import urllib.parse
 from playwright.async_api import async_playwright
 from datetime import datetime
 
-# 1. Tijdzone instellen
+# 1. Tijdzone instellen op Amsterdam
 os.environ['TZ'] = 'Europe/Amsterdam'
 try:
     time.tzset()
@@ -22,10 +22,10 @@ TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 # --- TELEGRAM FUNCTIE ---
 def stuur_telegram(bericht):
     if not TG_TOKEN or not TG_CHAT_ID:
-        print("⚠️ Geen Telegram gegevens gevonden, bericht niet verstuurd.")
+        print("⚠️ Geen Telegram gegevens, bericht niet verstuurd.")
         return
 
-    print(f"📨 Telegram versturen: {bericht}")
+    print(f"📨 Telegram: {bericht}")
     url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
     data = urllib.parse.urlencode({"chat_id": TG_CHAT_ID, "text": bericht}).encode("utf-8")
     
@@ -36,13 +36,21 @@ def stuur_telegram(bericht):
         print(f"❌ Telegram fout: {e}")
 
 async def sign_up():
-    # --- TIJD CHECK ---
+    # --- TIJD CHECK (Soepeler gemaakt) ---
     nu = datetime.now()
-    if nu.hour != 4:
-        print(f"⛔️ Het is {nu.strftime('%H:%M')}. Wachten op 04:00 uur trigger.")
+    
+    # Als het script draait tussen 04:00 en 06:30 is het goed.
+    # Dit vangt eventuele wachtrij-vertragingen van GitHub op.
+    if not (4 <= nu.hour <= 6):
+        rede = f"⛔️ Script gestart om {nu.strftime('%H:%M')}, maar mag alleen tussen 04:00-07:00 draaien."
+        print(rede)
+        # Optioneel: stuur hier ook een melding van zodat je het weet
+        # stuur_telegram(rede) 
         return
 
-    messages = [] # Hier verzamelen we de statusupdates
+    print(f"✅ Tijd is {nu.strftime('%H:%M')}. We gaan beginnen!")
+    
+    messages = [] 
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -71,16 +79,20 @@ async def sign_up():
                 try:
                     selector = f"li[data-remodal-target*='{zoek_id}']"
                     
+                    # Check of de les bestaat
                     if await page.locator(selector).count() > 0:
                         knop = page.locator(selector).first
                         await knop.scroll_into_view_if_needed()
                         await knop.click(force=True)
                         
+                        # Wacht op pop-up
                         await page.wait_for_selector(".remodal-is-opened", timeout=10000)
                         popup = page.locator(".remodal-is-opened")
                         
+                        # Zoek knoppen
                         inschrijf_knop = popup.locator("input[value='INSCHRIJVEN'], button:has-text('Inschrijven')")
-                        
+                        uitschrijf_knop = popup.locator("input[value='UITSCHRIJVEN']")
+
                         if await inschrijf_knop.count() > 0:
                             if await inschrijf_knop.is_enabled():
                                 await inschrijf_knop.click()
@@ -90,13 +102,13 @@ async def sign_up():
                             else:
                                 messages.append(f"⚠️ {beschrijving} zit VOL of is dicht.")
                                 print("⚠️ Knop disabled")
+                        elif await uitschrijf_knop.count() > 0:
+                            messages.append(f"ℹ️ Reeds ingeschreven: {beschrijving}")
+                            print("ℹ️ Was al ingeschreven")
                         else:
-                            if await popup.locator("input[value='UITSCHRIJVEN']").count() > 0:
-                                messages.append(f"ℹ️ Was al ingeschreven: {beschrijving}")
-                                print("ℹ️ Reeds ingeschreven")
-                            else:
-                                messages.append(f"❓ Geen knop bij: {beschrijving}")
+                            messages.append(f"❓ Geen inschrijfknop: {beschrijving}")
                         
+                        # Pagina verversen om pop-up veilig te sluiten
                         await page.reload(wait_until="networkidle")
                         
                     else:
@@ -111,12 +123,12 @@ async def sign_up():
             await schrijf_in("tuesday-Oly Lifting-18:30", "Dinsdag OLY (18:30)")
             await schrijf_in("saturday-Oly Lifting-11:15", "Zaterdag OLY (11:15)")
 
-            # --- EINDRAPPORT NAAR TELEGRAM ---
+            # --- RAPPORTAGE ---
             eind_bericht = "🏋️‍♂️ *Bink Update:*\n\n" + "\n".join(messages)
             stuur_telegram(eind_bericht)
 
         except Exception as e:
-            fout_bericht = f"🚨 *CRITCAL ERROR:*\nScript is gecrasht!\n{str(e)}"
+            fout_bericht = f"🚨 *ERROR:*\nScript gecrasht!\n{str(e)}"
             stuur_telegram(fout_bericht)
             print(f"CRITICAL: {e}")
             exit(1)
