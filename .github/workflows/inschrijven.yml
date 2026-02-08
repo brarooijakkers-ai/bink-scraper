@@ -2,10 +2,9 @@ name: Auto Inschrijven
 
 on:
   schedule:
-    # 15 minuten na uur 2 en 3 op Zondag (UTC)
-    # Zomer: 02:15 UTC = 04:15 NL
-    # Winter: 03:15 UTC = 04:15 NL
-    - cron: '15 2,3 * * 0'
+    # We pakken minuut 17 om de drukte bij GitHub te ontwijken.
+    # Uur 2 en 3 UTC dekt zowel zomer- als wintertijd.
+    - cron: '17 2,3 * * 0'
   workflow_dispatch:
 
 jobs:
@@ -30,4 +29,6 @@ jobs:
         env:
           BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
           BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python bink_inschrijven.py
