@@ -36,16 +36,13 @@ def stuur_telegram(bericht):
         print(f"❌ Telegram fout: {e}")
 
 async def sign_up():
-    # --- TIJD CHECK (Soepeler gemaakt) ---
+    # --- TIJD CHECK ---
     nu = datetime.now()
     
-    # Als het script draait tussen 04:00 en 06:30 is het goed.
-    # Dit vangt eventuele wachtrij-vertragingen van GitHub op.
-    if not (4 <= nu.hour <= 6):
+    # Ruime marge: mag draaien tussen 04:00 en 07:00
+    if not (4 <= nu.hour <= 7):
         rede = f"⛔️ Script gestart om {nu.strftime('%H:%M')}, maar mag alleen tussen 04:00-07:00 draaien."
         print(rede)
-        # Optioneel: stuur hier ook een melding van zodat je het weet
-        # stuur_telegram(rede) 
         return
 
     print(f"✅ Tijd is {nu.strftime('%H:%M')}. We gaan beginnen!")
@@ -73,7 +70,7 @@ async def sign_up():
             print(f"Naar rooster: {target_url}")
             await page.goto(target_url, wait_until="networkidle")
             
-            # --- INSCHRIJF FUNCTIE ---
+            # --- INSCHRIJF FUNCTIE (NU MET WACHTLIJST) ---
             async def schrijf_in(zoek_id, beschrijving):
                 print(f"\n--- {beschrijving} ---")
                 try:
@@ -89,24 +86,39 @@ async def sign_up():
                         await page.wait_for_selector(".remodal-is-opened", timeout=10000)
                         popup = page.locator(".remodal-is-opened")
                         
-                        # Zoek knoppen
+                        # Definieer de knoppen
+                        # 1. Normaal inschrijven
                         inschrijf_knop = popup.locator("input[value='INSCHRIJVEN'], button:has-text('Inschrijven')")
+                        # 2. Wachtlijst (Op basis van je broncode: vaak 'WACHTLIJST' of 'AANMELDEN WACHTLIJST')
+                        wachtlijst_knop = popup.locator("input[value*='WACHTLIJST'], input[value*='Wachtlijst'], button:has-text('Wachtlijst')")
+                        # 3. Uitschrijven (reeds ingeschreven)
                         uitschrijf_knop = popup.locator("input[value='UITSCHRIJVEN']")
 
-                        if await inschrijf_knop.count() > 0:
-                            if await inschrijf_knop.is_enabled():
-                                await inschrijf_knop.click()
-                                await page.wait_for_timeout(3000)
-                                messages.append(f"✅ Ingeschreven: {beschrijving}")
-                                print("✅ Gelukt!")
-                            else:
-                                messages.append(f"⚠️ {beschrijving} zit VOL of is dicht.")
-                                print("⚠️ Knop disabled")
+                        # --- LOGICA ---
+                        if await inschrijf_knop.count() > 0 and await inschrijf_knop.is_enabled():
+                            # Situatie A: Plek vrij!
+                            await inschrijf_knop.click()
+                            await page.wait_for_timeout(3000)
+                            messages.append(f"✅ Ingeschreven: {beschrijving}")
+                            print("✅ Gelukt!")
+
+                        elif await wachtlijst_knop.count() > 0 and await wachtlijst_knop.is_enabled():
+                            # Situatie B: Vol, maar wachtlijst open
+                            print("⚠️ Les is vol. Inschrijven op WACHTLIJST...")
+                            await wachtlijst_knop.click()
+                            await page.wait_for_timeout(3000)
+                            messages.append(f"⏳ Op WACHTLIJST gezet: {beschrijving}")
+                            print("✅ Op wachtlijst!")
+
                         elif await uitschrijf_knop.count() > 0:
+                            # Situatie C: Al geregeld
                             messages.append(f"ℹ️ Reeds ingeschreven: {beschrijving}")
                             print("ℹ️ Was al ingeschreven")
+
                         else:
-                            messages.append(f"❓ Geen inschrijfknop: {beschrijving}")
+                            # Situatie D: Echt helemaal dicht
+                            messages.append(f"❌ Geen plek/wachtlijst: {beschrijving}")
+                            print("❌ Geen opties gevonden")
                         
                         # Pagina verversen om pop-up veilig te sluiten
                         await page.reload(wait_until="networkidle")
