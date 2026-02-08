@@ -53,26 +53,28 @@ async def get_workout():
             print(f"Navigeren naar: {target_url}")
             await page.goto(target_url, wait_until="networkidle")
             
-            # --- STAP 3: DATA EXTRACTIE (Gebaseerd op Screenshot 3) ---
-            print("Zoeken naar '.wod-list' container...")
+            # --- STAP 3: DATA EXTRACTIE (ALLES OPHALEN) ---
+            print("Zoeken naar workout container...")
 
-            # In je screenshot zien we: <ul class="wod-list">
-            # We wachten tot deze lijst zichtbaar is.
-            # Omdat het tabblad 'WOD' standaard actief is, is deze lijst direct zichtbaar.
+            # We wachten tot de lijst zichtbaar is (bevestiging dat WOD geladen is)
             await page.wait_for_selector(".wod-list", timeout=15000)
 
-            # Nu pakken we alle <li> elementen (list items) BINNEN die lijst
-            # In je screenshot zijn dit de regels: "min 1: sandbag walk", etc.
-            list_items = await page.locator(".wod-list li").all_text_contents()
+            # TRUCJE: We pakken de lijst (.wod-list) en gaan één niveau omhoog (xpath=..)
+            # Hierdoor hebben we de 'container' (het grijze vlak) te pakken.
+            # Dit bevat dus OOK de headers ("Strength", "WOD") die boven de lijst staan.
+            container = page.locator(".wod-list").first.locator("xpath=..")
             
-            if list_items:
-                # We plakken alle regels onder elkaar met een enter (\n)
-                workout_tekst = "\n".join([i.strip() for i in list_items])
-                print("✅ Lijstitems gevonden en uitgelezen.")
-            else:
-                # Fallback: Mocht de lijst leeg zijn, pakken we de tekst van de hele container
-                print("⚠️ Geen lijstitems gevonden, fallback naar container tekst...")
-                workout_tekst = await page.locator(".wodlist-bg").first.inner_text()
+            # Pak alle tekst uit dit blok (inclusief enters en witregels)
+            full_text = await container.inner_text()
+            
+            # --- SCHOONMAAK ---
+            # Soms staat er "Share this Workout" of social media knoppen onderaan. Die halen we weg.
+            if "Share this Workout" in full_text:
+                full_text = full_text.split("Share this Workout")[0]
+            
+            # Dubbele witregels opschonen voor netheid
+            lines = [line.strip() for line in full_text.splitlines() if line.strip()]
+            workout_tekst = "\n".join(lines)
 
             # Resultaat printen ter controle in GitHub logs
             print("-" * 20)
