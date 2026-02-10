@@ -35,19 +35,22 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python bink_auto.py
 
-      - name: Resultaat opslaan (Commit & Push)
+      - name: Resultaat opslaan (Forceer Update)
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # STAP 1: Eerst lokaal opslaan (Commit)
-          # Dit zorgt dat de werkmap 'schoon' is voor we gaan synchroniseren
+          # STAP 1: Haal de laatste status van de server op
+          git fetch origin main
+          
+          # STAP 2: Reset de 'tijdlijn' naar wat er op de server staat
+          # (Dit negeert conflicten, maar laat jouw nieuwe workout.json staan)
+          git reset origin/main
+          
+          # STAP 3: Voeg jouw nieuwe bestand toe
           git add workout.json
+          
+          # STAP 4: Maak het pakketje en stuur het op
           git commit -m "Update workout met AI Coach [skip ci]" || exit 0
-          
-          # STAP 2: Nu pas synchroniseren met de server (Pull)
-          # Omdat we net gecommit hebben, geeft dit geen errors meer
-          git pull --rebase origin main
-          
-          # STAP 3: Alles versturen (Push)
-          git push
+          git push origin main
+
