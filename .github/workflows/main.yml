@@ -2,8 +2,10 @@ name: Haal WOD op
 
 on:
   schedule:
-    # Dit is 06:00 UTC (dat is 07:00 of 08:00 in NL, afhankelijk van zomer/wintertijd)
-    - cron: '0 6 * * *'
+    # Aangepast naar 03:17 UTC.
+    # Dit is 04:17 (winter) of 05:17 (zomer) in NL.
+    # Zo ben je de drukte voor en is hij zeker klaar als je wakker wordt.
+    - cron: '17 3 * * *'
   workflow_dispatch: # Hiermee kun je hem ook handmatig testen via een knop
 
 jobs:
