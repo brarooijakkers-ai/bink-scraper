@@ -2,7 +2,7 @@ name: Haal WOD op
 
 on:
   schedule:
-    # 03:17 UTC = 04:17 of 05:17 in NL (rustig tijdstip om files te vermijden)
+    # 03:17 UTC = 04:17 NL (Winter) of 05:17 NL (Zomer)
     - cron: '17 3 * * *'
   workflow_dispatch: # Hiermee kun je hem ook handmatig testen via een knop
 
