@@ -35,22 +35,21 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python bink_auto.py
 
-      - name: Resultaat opslaan (Forceer Update)
+      - name: Resultaat opslaan (Reset & Forceer)
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # STAP 1: Haal de laatste status van de server op
+          # STAP 1: Haal de allerlaatste versie van de server op (zonder te mergen)
           git fetch origin main
           
-          # STAP 2: Reset de 'tijdlijn' naar wat er op de server staat
-          # (Dit negeert conflicten, maar laat jouw nieuwe workout.json staan)
-          git reset origin/main
+          # STAP 2: Zet de 'klok' van Git gelijk met de server
+          # --soft zorgt dat jouw NIEUWE workout.json blijft bestaan!
+          git reset --soft origin/main
           
-          # STAP 3: Voeg jouw nieuwe bestand toe
+          # STAP 3: Voeg het bestand toe
           git add workout.json
           
-          # STAP 4: Maak het pakketje en stuur het op
+          # STAP 4: Commit en Push
           git commit -m "Update workout met AI Coach [skip ci]" || exit 0
           git push origin main
-
