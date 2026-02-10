@@ -2,14 +2,15 @@ name: Haal WOD op
 
 on:
   schedule:
+    # 03:17 UTC = 04:17 (winter) of 05:17 (zomer) in NL
     - cron: '17 3 * * *'
-  workflow_dispatch:
+  workflow_dispatch: # Knop om handmatig te testen
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
+      contents: write # Nodig om te mogen opslaan
     
     steps:
       - name: Code ophalen
@@ -39,9 +40,14 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # DE OPLOSSING: Eerst even synchroniseren met de server
-          git pull --rebase
-          
+          # STAP 1: Eerst lokaal opslaan (Commit)
+          # Dit zorgt dat de werkmap 'schoon' is voor we gaan synchroniseren
           git add workout.json
-          git commit -m "Update workout [skip ci]" || exit 0
+          git commit -m "Update workout met AI Coach [skip ci]" || exit 0
+          
+          # STAP 2: Nu pas synchroniseren met de server (Pull)
+          # Omdat we net gecommit hebben, geeft dit geen errors meer
+          git pull --rebase origin main
+          
+          # STAP 3: Alles versturen (Push)
           git push
