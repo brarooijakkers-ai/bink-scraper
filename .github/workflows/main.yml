@@ -2,15 +2,14 @@ name: Haal WOD op
 
 on:
   schedule:
-    # 03:17 UTC = 04:17 NL (Winter) of 05:17 NL (Zomer)
     - cron: '17 3 * * *'
-  workflow_dispatch: # Hiermee kun je hem ook handmatig testen via een knop
+  workflow_dispatch:
 
 jobs:
   scrape:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # Toestemming om workout.json terug te schrijven
+      contents: write
     
     steps:
       - name: Code ophalen
@@ -27,7 +26,7 @@ jobs:
           playwright install chromium
 
       - name: Script draaien
-        env: # Hier geven we ALLE sleutels door aan het script
+        env:
           BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
           BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
@@ -39,6 +38,10 @@ jobs:
         run: |
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
+          
+          # DE OPLOSSING: Eerst even synchroniseren met de server
+          git pull --rebase
+          
           git add workout.json
-          git commit -m "Update workout met AI Coach [skip ci]" || exit 0
+          git commit -m "Update workout [skip ci]" || exit 0
           git push
