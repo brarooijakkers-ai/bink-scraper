@@ -40,16 +40,17 @@ jobs:
           git config --global user.name "GitHub Action"
           git config --global user.email "action@github.com"
           
-          # STAP 1: Haal de allerlaatste versie van de server op (zonder te mergen)
+          # STAP 1: Haal de allerlaatste versie van de server op
           git fetch origin main
           
-          # STAP 2: Zet de 'klok' van Git gelijk met de server
-          # --soft zorgt dat jouw NIEUWE workout.json blijft bestaan!
+          # STAP 2: Zet de 'tijdlijn' van Git gelijk met de server
+          # --soft zorgt dat jouw NIEUWE bestanden (json + csv) bewaard blijven!
           git reset --soft origin/main
           
-          # STAP 3: Voeg het bestand toe
-          git add workout.json
+          # STAP 3: Voeg BEIDE bestanden toe
+          # Hier zorgen we dat ook de nieuwe historie wordt meegenomen
+          git add workout.json history.csv
           
           # STAP 4: Commit en Push
-          git commit -m "Update workout met AI Coach [skip ci]" || exit 0
+          git commit -m "Update workout & history [skip ci]" || exit 0
           git push origin main
