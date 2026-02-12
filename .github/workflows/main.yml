@@ -2,8 +2,7 @@ name: Haal WOD op
 
 on:
   schedule:
-    # Draait elk half uur (bijv. 14:00, 14:30, 15:00)
-    # Dit is veilig voor je gratis minuten (48x per dag)
+    # Elk half uur (veilig voor limieten)
     - cron: '*/30 * * * *'
   workflow_dispatch: # Knop om handmatig te testen
 
@@ -45,15 +44,15 @@ jobs:
           git fetch origin main
           
           # STAP 2: Reset de status (Mixed Reset).
-          # Dit zorgt dat alle wijzigingen 'los' komen te staan.
-          # Hierdoor wordt het workflow-bestand zelf NIET per ongeluk meegenomen.
+          # Dit zorgt dat alle wijzigingen 'los' komen te staan (unstaged).
+          # Hierdoor wordt het workflow-bestand zelf NIET meegenomen in de commit.
           git reset origin/main
           
           # STAP 3: Voeg EXPLICIET alleen de data-bestanden toe
-          # Als history.csv nog niet bestaat, wordt dat hier genegeerd zonder error
+          # De '|| true' zorgt dat hij niet crasht als een bestand nog niet bestaat
           git add workout.json history.csv || true
           
           # STAP 4: Commit en Push
-          # De '|| exit 0' zorgt dat hij niet crasht als er niets veranderd is
-          git commit -m "Update workout & status [skip ci]" || exit 0
+          # De '|| exit 0' zorgt dat hij stopt zonder error als er niets nieuws is
+          git commit -m "Update workout data [skip ci]" || exit 0
           git push origin main
