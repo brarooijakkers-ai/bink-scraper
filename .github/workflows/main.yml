@@ -2,8 +2,8 @@ name: Haal WOD op
 
 on:
   schedule:
-    # 03:17 UTC = 04:17 (winter) of 05:17 (zomer) in NL
-    - cron: '17 3 * * *'
+    # Elk half uur (veilig voor limieten)
+    - cron: '*/30 * * * *'
   workflow_dispatch: # Knop om handmatig te testen
 
 jobs:
