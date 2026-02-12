@@ -1,26 +1,59 @@
-# 1. Inloggen
-            print("Inloggen...")
-            # We wachten nu tot 'networkidle' (netwerk is stil), dat is veiliger dan 'domcontentloaded'
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="networkidle")
-            
-            # --- VERBETERDE SELECTOR ---
-            try:
-                # We zoeken breed: naar type='email', of iets met 'user'/'login' in de naam
-                # .first zorgt dat hij de bovenste pakt
-                login_field = page.locator("input[type='email'], input[name*='user'], input[name*='login'], input[name*='email']").first
-                await login_field.fill(EMAIL)
-            except Exception as e:
-                print(f"⚠️ Eerste poging mislukt, we proberen de fallback... ({e})")
-                # Plan B: Pak gewoon letterlijk het eerste invulveld op de pagina
-                await page.locator("input:not([type='hidden'])").first.fill(EMAIL)
+name: Haal WOD op
 
-            # Wachtwoord veld is makkelijker (is altijd type='password')
-            await page.locator("input[type='password']").first.fill(PASSWORD)
-            
-            # Login knop indrukken
-            # We klikken, en wachten even tot de navigatie start
-            submit_btn = page.locator("button[type='submit'], input[type='submit'], button:has-text('Inloggen')").first
-            await submit_btn.click()
-            
-            # Even wachten tot we echt ingelogd zijn
-            await page.wait_for_timeout(4000)
+on:
+  schedule:
+    # Draait elk half uur (bijv. 14:00, 14:30, 15:00)
+    # Dit is veilig voor je gratis minuten (48x per dag)
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Knop om handmatig te testen
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Nodig om te mogen opslaan
+    
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v4
+
+      - name: Python installeren
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Bibliotheken installeren
+        run: |
+          pip install playwright openai
+          playwright install chromium
+
+      - name: Script draaien
+        env:
+          BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
+          BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python bink_auto.py
+
+      - name: Resultaat opslaan (Veilige methode)
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          
+          # STAP 1: Haal de laatste status van de server
+          git fetch origin main
+          
+          # STAP 2: Reset de status (Mixed Reset).
+          # Dit zorgt dat alle wijzigingen 'los' komen te staan.
+          # Hierdoor wordt het workflow-bestand zelf NIET per ongeluk meegenomen.
+          git reset origin/main
+          
+          # STAP 3: Voeg EXPLICIET alleen de data-bestanden toe
+          # Als history.csv nog niet bestaat, wordt dat hier genegeerd zonder error
+          git add workout.json history.csv || true
+          
+          # STAP 4: Commit en Push
+          # De '|| exit 0' zorgt dat hij niet crasht als er niets veranderd is
+          git commit -m "Update workout & status [skip ci]" || exit 0
+          git push origin main
