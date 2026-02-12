@@ -74,33 +74,24 @@ async def get_workout():
         }
 
         try:
-            # 1. Inloggen
+            # --- 1. ROBUUST INLOGGEN ---
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
-            await page.locator("input[name*='pass']").first.fill(PASSWORD)
-            await page.locator("button[type='submit'], input[type='submit']").first.click()
-            await page.wait_for_timeout(3000)
+            await page.goto("https://www.crossfitbink36.nl/login", wait_until="networkidle")
+            
+            try:
+                login_field = page.locator("input[type='email'], input[name*='user'], input[name*='login'], input[name*='email']").first
+                await login_field.fill(EMAIL)
+            except Exception as e:
+                print(f"⚠️ Eerste poging mislukt, fallback gebruiken... ({e})")
+                await page.locator("input:not([type='hidden'])").first.fill(EMAIL)
 
-            # 2. Naar Rooster gaan
-            print("Naar Rooster...")
-            await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
-            await page.wait_for_timeout(2000)
+            await page.locator("input[type='password']").first.fill(PASSWORD)
+            submit_btn = page.locator("button[type='submit'], input[type='submit'], button:has-text('Inloggen')").first
+            await submit_btn.click()
+            await page.wait_for_timeout(4000)
 
-            # 3. Checken of we ingeschreven zijn
-            # We zoeken naar lessen van VANDAAG. Dit is vaak lastig te vinden in grids.
-            # Strategie: We klikken op lessen die 'ingeschreven' lijken of we openen modals.
-            # Omdat ik de classnames niet exact weet, proberen we een generieke scan van de dag.
-            
-            print("Zoeken naar inschrijvingen...")
-            # Dit is een gok voor de selector op basis van je screenshot (modal)
-            # We zoeken naar elementen die 'jouw' inschrijving kunnen zijn.
-            # Vaak hebben die een andere kleur.
-            
-            # ALTERNATIEF: We klikken gewoon de eerste paar lessen van vandaag open en checken de knop.
-            # (Dit kan geoptimaliseerd worden als we de HTML code van het rooster zien)
-            
-            # Voor nu: We halen eerst de WOD op (zoals altijd)
+            # --- 2. WOD OPHALEN ---
+            print("Naar WOD URL...")
             await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
             try:
                 await page.wait_for_selector(".wod-list", timeout=5000)
@@ -110,75 +101,54 @@ async def get_workout():
             except:
                 full_text = "Geen WOD tekst gevonden (rustdag?)."
 
-            # 4. Nu specifiek rooster checken voor status (Terug naar rooster)
+            # --- 3. ROOSTER CHECKEN (WIDGET DATA) ---
+            print("Rooster checken voor inschrijvingen...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.wait_for_timeout(2000)
-
-            # We zoeken alle blokken die 'vandaag' zijn. 
-            # Omdat dit lastig is zonder HTML, zoeken we naar de tekst "UITSCHRIJVEN" in de pagina bron code
-            # Als die er staat, zijn we ergens ingeschreven.
             
             page_content = await page.content()
             
             if "UITSCHRIJVEN" in page_content or "ingeschreven" in page_content.lower():
-                print("✅ Je staat ergens ingeschreven! We proberen details te vinden.")
-                
-                # Probeer de les te openen waar je ingeschreven staat.
-                # We klikken op alle zichtbare les-blokken.
-                les_blokken = await page.locator(".event, .fc-event").all() # Veelgebruikte classes in roosters
+                print("✅ Inschrijving gevonden, details zoeken...")
+                les_blokken = await page.locator(".event, .fc-event").all()
                 
                 for blok in les_blokken:
                     try:
                         await blok.click()
                         await page.wait_for_timeout(500)
-                        
-                        # Check Modal Inhoud
                         modal_text = await page.locator("body").inner_text()
                         
                         if "UITSCHRIJVEN" in modal_text:
-                            # GEVONDEN!
                             mijn_status["ingeschreven"] = True
                             
-                            # Tijd extracten (uit screenshot: "17:30 tot 18:30")
+                            # Tijd
                             if "tot" in modal_text:
-                                lines = modal_text.split('\n')
-                                for line in lines:
+                                for line in modal_text.split('\n'):
                                     if "tot" in line and ":" in line:
                                         mijn_status["tijd"] = line.strip()
                                         break
                             
-                            # Deelnemers (uit screenshot: "6/14")
+                            # Deelnemers
                             if "/" in modal_text:
-                                lines = modal_text.split('\n')
-                                for line in lines:
+                                for line in modal_text.split('\n'):
                                     if "/" in line and any(c.isdigit() for c in line):
-                                        # Zoek naar iets als "Aanmeldingen: 6/14"
-                                        parts = line.split(":")[-1].strip()
-                                        mijn_status["deelnemers"] = parts
+                                        mijn_status["deelnemers"] = line.split(":")[-1].strip()
                             
                             # Wachtlijst check
                             if "Wachtlijst" in modal_text or "wachtlijst" in modal_text.lower():
                                 mijn_status["wachtlijst"] = True
-                                # Probeer plek te vinden
-                                # Vaak staat er "Positie: 2" of "Wachtlijst: 2"
                                 import re
                                 match = re.search(r'achtlijst.*?(\d+)', modal_text, re.IGNORECASE)
-                                if match:
-                                    mijn_status["wachtlijst_plek"] = match.group(1)
-                                else:
-                                    mijn_status["wachtlijst_plek"] = "?"
+                                mijn_status["wachtlijst_plek"] = match.group(1) if match else "?"
                             
-                            break # Klaar, we hebben de les gevonden
+                            break # Klaar, we hebben de les
                         
-                        # Sluit modal (vaak escape of klik ernaast)
                         await page.keyboard.press("Escape")
                         await page.wait_for_timeout(200)
                     except:
                         continue
 
-            # --- AI & OPSLAAN ---
-            # We halen AI advies alleen op als de WOD tekst nieuw is of nog niet bestaat
-            # Om kosten te besparen. Maar voor nu doen we het gewoon.
+            # --- 4. AI & OPSLAAN ---
             ai_advies = get_ai_coach_advice(full_text)
 
             data = {
@@ -186,17 +156,16 @@ async def get_workout():
                 "dag": dag_nl,
                 "workout": full_text.strip(),
                 "coach": ai_advies,
-                "status": mijn_status # <--- HIER ZIT JE NIEUWE DATA
+                "status": mijn_status
             }
             
             with open("workout.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4)
 
-            # CSV Updaten (alleen als WOD tekst lang genoeg is)
             if len(full_text) > 10:
                 update_history_csv(datum_str, dag_nl, full_text.strip(), ai_advies)
             
-            print(f"✅ SUCCES: Status={mijn_status['ingeschreven']}")
+            print(f"✅ SUCCES opgeslagen. Status: {mijn_status['ingeschreven']}")
 
         except Exception as e:
             print(f"❌ FOUT: {e}")
