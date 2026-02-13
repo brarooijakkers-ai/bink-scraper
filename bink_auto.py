@@ -58,9 +58,13 @@ async def get_workout():
         context = await browser.new_context()
         page = await context.new_page()
 
+        # Dagen in NL (voor weergave) en EN (voor het zoeken in de HTML)
         days_nl = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
+        days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+        
         now = datetime.now()
         dag_nl = days_nl[now.weekday()]
+        dag_en = days_en[now.weekday()] # Bijv: "friday"
         datum_str = now.strftime("%d-%m-%Y")
 
         mijn_status = {
@@ -72,7 +76,7 @@ async def get_workout():
         }
 
         try:
-            # 1. Inloggen (Terug naar de originele, werkende methode!)
+            # 1. Inloggen (De werkende methode)
             print("Inloggen...")
             await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
             
@@ -81,14 +85,13 @@ async def get_workout():
             except:
                 await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
 
-            await page.wait_for_timeout(2000) # Even ademhalen
+            await page.wait_for_timeout(2000) 
             
-            # Vul direct in, net als vroeger
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             
-            print("Wachten op dashboard na inloggen...")
+            print("Wachten op dashboard...")
             await page.wait_for_timeout(4000)
 
             # 2. WOD Ophalen
@@ -102,15 +105,17 @@ async def get_workout():
             except:
                 full_text = "Geen WOD tekst gevonden (rustdag?)."
 
-            # 3. Status Checken via de HTML Classes (Jouw ontdekking)
-            print("Naar Rooster voor status...")
+            # 3. Status Checken (Nu mét dag-filter!)
+            print(f"Naar Rooster voor status van vandaag ({dag_nl})...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.wait_for_timeout(2000) 
             
-            les_ingeschreven = page.locator("li.workout-signedup").first
+            # We zoeken nu een class 'workout-signedup' WAARIN de engelse dagnaam ('friday') staat
+            selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}']"
+            les_ingeschreven = page.locator(selector_ingeschreven).first
             
             if await les_ingeschreven.count() > 0:
-                print("✅ Inschrijving gevonden!")
+                print(f"✅ Inschrijving gevonden voor {dag_nl}!")
                 mijn_status["ingeschreven"] = True
                 try:
                     tijd = await les_ingeschreven.locator(".event-date").first.inner_text()
@@ -123,9 +128,12 @@ async def get_workout():
                 except: pass
 
             else:
-                les_wachtlijst = page.locator("li[class*='waitlist']").first
+                # Hetzelfde filter voor de wachtlijst
+                selector_wachtlijst = f"li[class*='waitlist'][data-remodal-target*='{dag_en}']"
+                les_wachtlijst = page.locator(selector_wachtlijst).first
+                
                 if await les_wachtlijst.count() > 0:
-                    print("⏳ Wachtlijst gevonden!")
+                    print(f"⏳ Wachtlijst gevonden voor {dag_nl}!")
                     mijn_status["ingeschreven"] = True
                     mijn_status["wachtlijst"] = True
                     try:
@@ -133,7 +141,7 @@ async def get_workout():
                         mijn_status["tijd"] = tijd.strip()
                     except: pass
                 else:
-                    print("❌ Niet ingeschreven.")
+                    print(f"❌ Niet ingeschreven voor {dag_nl}.")
 
             # --- AI & OPSLAAN ---
             ai_advies = get_ai_coach_advice(full_text)
