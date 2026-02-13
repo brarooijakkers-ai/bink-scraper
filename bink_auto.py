@@ -72,42 +72,37 @@ async def get_workout():
         }
 
         try:
-            # 1. Inloggen (Nu met extra geduld en slimmere selectors)
+            # 1. Inloggen (Terug naar de originele, werkende methode!)
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="networkidle")
+            await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
             
-            # Extra wachtstap voor vertraagde inlogformulieren
-            await page.wait_for_timeout(2000)
-            
-            # Eventuele cookie banner wegklikken als die er is
             try:
-                await page.locator("text=Akkoord, text=Accepteer, text=Begrepen").first.click(timeout=1000)
+                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
             except:
-                pass # Geen banner gevonden, we gaan gewoon door
+                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
 
-            # Zoek het e-mail veld en wacht tot het écht zichtbaar is
-            email_veld = page.locator("input[type='email'], input[name*='email'], input[name*='user']").first
-            await email_veld.wait_for(state="visible", timeout=20000)
+            await page.wait_for_timeout(2000) # Even ademhalen
             
-            await email_veld.fill(EMAIL)
-            await page.locator("input[type='password'], input[name*='pass']").first.fill(PASSWORD)
+            # Vul direct in, net als vroeger
+            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
+            await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             
             print("Wachten op dashboard na inloggen...")
-            await page.wait_for_timeout(3000)
+            await page.wait_for_timeout(4000)
 
             # 2. WOD Ophalen
             print("WOD checken...")
             await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
             try:
-                await page.wait_for_selector(".wod-list", timeout=10000) # Ook hier iets meer geduld
+                await page.wait_for_selector(".wod-list", timeout=5000)
                 container = page.locator(".wod-list").first.locator("xpath=..")
                 full_text = await container.inner_text()
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
             except:
                 full_text = "Geen WOD tekst gevonden (rustdag?)."
 
-            # 3. Status Checken via de HTML Classes (Jouw eerdere ontdekking)
+            # 3. Status Checken via de HTML Classes (Jouw ontdekking)
             print("Naar Rooster voor status...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.wait_for_timeout(2000) 
