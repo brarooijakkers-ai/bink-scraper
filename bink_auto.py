@@ -43,14 +43,31 @@ def get_ai_coach_advice(wod_text):
     if not API_KEY: return "Geen AI Key."
     try:
         client = OpenAI(api_key=API_KEY)
-        prompt = (f"Je bent een CrossFit coach. Analyseer kort:\n{wod_text}\n"
-                  "Format:\n🔥 **Focus:** [zin]\n💡 **Strategie:** [zin]\n🩹 **Tip:** [zin]")
+        
+        prompt = (
+            f"Hier is de WOD van vandaag:\n\n{wod_text}\n\n"
+            "Geef mij (de atleet) kort en krachtig advies voor deze specifieke workout. "
+            "BELANGRIJK: Namen in de tekst (zoals Randy, Nancy, Fran, Cindy, Murph etc.) "
+            "verwijzen naar bekende CrossFit benchmark workouts of bewegingen, NIET naar personen! "
+            "Praat niet over deze namen als mensen, maar als de workout-structuur die ze vertegenwoordigen.\n"
+            "Spreek mij direct aan met 'je' of 'jij'.\n\n"
+            "Gebruik exact dit format:\n"
+            "🔥 **Focus:** [1 korte, krachtige zin over waar ik op moet letten]\n"
+            "💡 **Strategie:** [1 korte zin over pacing of opbreken van sets]\n"
+            "🩹 **Tip:** [1 korte zin over techniek of ademhaling]"
+        )
+        
         response = client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[{"role": "system", "content": "Coach mode."}, {"role": "user", "content": prompt}]
+            messages=[
+                {"role": "system", "content": "Je bent een ervaren, no-nonsense CrossFit coach. Je geeft de atleet direct, bruikbaar en sportspecifiek advies."},
+                {"role": "user", "content": prompt}
+            ]
         )
         return response.choices[0].message.content
-    except: return "AI Error."
+    except Exception as e:
+        print(f"AI Error: {e}")
+        return "AI Error bij ophalen advies."
 
 async def get_workout():
     async with async_playwright() as p:
