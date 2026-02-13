@@ -5,7 +5,6 @@ import time
 import urllib.request
 import urllib.parse
 import csv
-import re  # Toegevoegd om slim te kunnen zoeken in tekst
 from playwright.async_api import async_playwright
 from datetime import datetime
 from openai import OpenAI
@@ -17,7 +16,6 @@ try:
 except:
     pass
 
-# Gegevens
 EMAIL = os.environ.get("BINK_EMAIL")
 PASSWORD = os.environ.get("BINK_PASSWORD")
 TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
@@ -74,27 +72,13 @@ async def get_workout():
         }
 
         try:
-            # 1. Inloggen (De originele, werkende methode)
+            # 1. Inloggen
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded")
-            await page.wait_for_timeout(2000)
-            
-            # We klikken weer netjes op de link op de homepage
-            try:
-                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-            except:
-                print("Inlogknop niet direct gevonden, fallback naar /login...")
-                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-
-            await page.wait_for_timeout(3000) # Even wachten tot de popup/pagina er is
-
-            # Velden invullen
+            await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
-            
-            inlog_knop = page.locator("button[type='submit'], input[type='submit'], button:has-text('Inloggen')").first
-            await inlog_knop.click()
-            await page.wait_for_timeout(4000) # Wacht tot we succesvol zijn ingelogd
+            await page.locator("button[type='submit'], input[type='submit']").first.click()
+            await page.wait_for_timeout(3000)
 
             # 2. WOD Ophalen
             print("WOD checken...")
@@ -107,71 +91,44 @@ async def get_workout():
             except:
                 full_text = "Geen WOD tekst gevonden (rustdag?)."
 
-            # 3. Status Checken (Het rooster induiken)
+            # 3. Status Checken via de HTML Classes (Jouw ontdekking!)
             print("Naar Rooster voor status...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
-            await page.wait_for_timeout(2000)
+            await page.wait_for_timeout(2000) 
             
-            page_content = await page.content()
+            # We zoeken direct naar de class 'workout-signedup'
+            les_ingeschreven = page.locator("li.workout-signedup").first
             
-            # Eerste grove check of we überhaupt ergens in staan vandaag
-            if "UITSCHRIJVEN" in page_content or "ingeschreven" in page_content.lower():
-                print("✅ Inschrijving gedetecteerd. Details zoeken...")
+            if await les_ingeschreven.count() > 0:
+                print("✅ Inschrijving gevonden via 'workout-signedup' class!")
                 mijn_status["ingeschreven"] = True
                 
-                # We pakken alle blokjes op de kalender en klikken ze één voor één open
-                les_blokken = await page.locator("a, div[class*='event'], div[class*='grid']").all()
+                # Haal de tijd op (class 'event-date' uit jouw screenshot)
+                try:
+                    tijd = await les_ingeschreven.locator(".event-date").first.inner_text()
+                    mijn_status["tijd"] = tijd.strip()
+                except: pass
                 
-                for blok in les_blokken:
+                # Haal het aantal deelnemers op (class 'event-registrations' uit jouw screenshot)
+                try:
+                    deelnemers = await les_ingeschreven.locator(".event-registrations").first.inner_text()
+                    mijn_status["deelnemers"] = deelnemers.strip()
+                except: pass
+
+            else:
+                # Als we niet normaal zijn ingeschreven, checken we of we op de wachtlijst staan.
+                # Gokje: Het systeem gebruikt een class met het woord 'waitlist' erin als je op de wachtlijst staat.
+                les_wachtlijst = page.locator("li[class*='waitlist']").first
+                if await les_wachtlijst.count() > 0:
+                    print("⏳ Wachtlijst gevonden!")
+                    mijn_status["ingeschreven"] = True
+                    mijn_status["wachtlijst"] = True
                     try:
-                        # Zweven en klikken om de popup te forceren
-                        await blok.hover()
-                        await blok.click(timeout=1000)
-                        await page.wait_for_timeout(500)
-                        
-                        # NU HET BELANGRIJKSTE: We zoeken de 'UITSCHRIJVEN' knop die NU ZICHTBAAR is
-                        uitschrijf_knop = page.locator("text=UITSCHRIJVEN").locator("visible=true").first
-                        
-                        if await uitschrijf_knop.count() > 0:
-                            # Gevonden! We pakken nu STRIKT de tekst van de openstaande popup, 
-                            # op basis van de titel uit jouw screenshot.
-                            popup = page.locator("text=WoD workout details:").locator("xpath=..")
-                            
-                            if await popup.count() > 0:
-                                popup_tekst = await popup.inner_text()
-                            else:
-                                # Fallback als de titel net anders is
-                                popup_tekst = await uitschrijf_knop.locator("xpath=ancestor::div[3]").inner_text()
-                            
-                            # Tijd zoeken (bijv "17:30 tot 18:30")
-                            tijd_match = re.search(r'\d{2}:\d{2}\s+tot\s+\d{2}:\d{2}', popup_tekst)
-                            if tijd_match: 
-                                mijn_status["tijd"] = tijd_match.group(0).strip()
-                            
-                            # Aanmeldingen zoeken (bijv "6/14")
-                            deelnemers_match = re.search(r'(\d+/\d+)', popup_tekst)
-                            if deelnemers_match: 
-                                mijn_status["deelnemers"] = deelnemers_match.group(1).strip()
-                            
-                            # Wachtlijst check (alleen binnen de tekst van DEZE specifieke popup)
-                            if "wachtlijst" in popup_tekst.lower() and "uitschrijven" not in popup_tekst.lower():
-                                mijn_status["wachtlijst"] = True
-                                wl_match = re.search(r'wachtlijst.*?(\d+)', popup_tekst, re.IGNORECASE)
-                                if wl_match: 
-                                    mijn_status["wachtlijst_plek"] = wl_match.group(1)
-                            else:
-                                mijn_status["wachtlijst"] = False
-                            
-                            # We hebben alles, we breken uit de loop
-                            break 
-                            
-                        # Sluit popup (Escape toets) en ga door naar het volgende blokje
-                        await page.keyboard.press("Escape")
-                        await page.wait_for_timeout(200)
-                        
-                    except Exception as e:
-                        # Dit blokje was niet klikbaar, we gaan door
-                        continue
+                        tijd = await les_wachtlijst.locator(".event-date").first.inner_text()
+                        mijn_status["tijd"] = tijd.strip()
+                    except: pass
+                else:
+                    print("❌ Niet ingeschreven.")
 
             # --- AI & OPSLAAN ---
             ai_advies = get_ai_coach_advice(full_text)
