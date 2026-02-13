@@ -72,52 +72,62 @@ async def get_workout():
         }
 
         try:
-            # 1. Inloggen
+            # 1. Inloggen (Nu met extra geduld en slimmere selectors)
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
-            await page.locator("input[name*='pass']").first.fill(PASSWORD)
+            await page.goto("https://www.crossfitbink36.nl/login", wait_until="networkidle")
+            
+            # Extra wachtstap voor vertraagde inlogformulieren
+            await page.wait_for_timeout(2000)
+            
+            # Eventuele cookie banner wegklikken als die er is
+            try:
+                await page.locator("text=Akkoord, text=Accepteer, text=Begrepen").first.click(timeout=1000)
+            except:
+                pass # Geen banner gevonden, we gaan gewoon door
+
+            # Zoek het e-mail veld en wacht tot het écht zichtbaar is
+            email_veld = page.locator("input[type='email'], input[name*='email'], input[name*='user']").first
+            await email_veld.wait_for(state="visible", timeout=20000)
+            
+            await email_veld.fill(EMAIL)
+            await page.locator("input[type='password'], input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
+            
+            print("Wachten op dashboard na inloggen...")
             await page.wait_for_timeout(3000)
 
             # 2. WOD Ophalen
             print("WOD checken...")
             await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
             try:
-                await page.wait_for_selector(".wod-list", timeout=5000)
+                await page.wait_for_selector(".wod-list", timeout=10000) # Ook hier iets meer geduld
                 container = page.locator(".wod-list").first.locator("xpath=..")
                 full_text = await container.inner_text()
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
             except:
                 full_text = "Geen WOD tekst gevonden (rustdag?)."
 
-            # 3. Status Checken via de HTML Classes (Jouw ontdekking!)
+            # 3. Status Checken via de HTML Classes (Jouw eerdere ontdekking)
             print("Naar Rooster voor status...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.wait_for_timeout(2000) 
             
-            # We zoeken direct naar de class 'workout-signedup'
             les_ingeschreven = page.locator("li.workout-signedup").first
             
             if await les_ingeschreven.count() > 0:
-                print("✅ Inschrijving gevonden via 'workout-signedup' class!")
+                print("✅ Inschrijving gevonden!")
                 mijn_status["ingeschreven"] = True
-                
-                # Haal de tijd op (class 'event-date' uit jouw screenshot)
                 try:
                     tijd = await les_ingeschreven.locator(".event-date").first.inner_text()
                     mijn_status["tijd"] = tijd.strip()
                 except: pass
                 
-                # Haal het aantal deelnemers op (class 'event-registrations' uit jouw screenshot)
                 try:
                     deelnemers = await les_ingeschreven.locator(".event-registrations").first.inner_text()
                     mijn_status["deelnemers"] = deelnemers.strip()
                 except: pass
 
             else:
-                # Als we niet normaal zijn ingeschreven, checken we of we op de wachtlijst staan.
-                # Gokje: Het systeem gebruikt een class met het woord 'waitlist' erin als je op de wachtlijst staat.
                 les_wachtlijst = page.locator("li[class*='waitlist']").first
                 if await les_wachtlijst.count() > 0:
                     print("⏳ Wachtlijst gevonden!")
