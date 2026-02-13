@@ -44,7 +44,6 @@ def get_ai_coach_advice(wod_text):
 
 async def get_workout():
     async with async_playwright() as p:
-        # Browser starten met iets meer 'menselijke' instellingen
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context(viewport={'width': 1280, 'height': 800})
         page = await context.new_page()
@@ -56,28 +55,18 @@ async def get_workout():
         mijn_status = {"ingeschreven": False, "tijd": "", "deelnemers": "", "wachtlijst": False, "wachtlijst_plek": 0}
 
         try:
-            # --- STAP 1: MENSELIJK INLOGGEN ---
+            # --- STAP 1: INLOGGEN ---
             print("1. Naar homepage...")
             await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded")
             await page.wait_for_timeout(2000)
 
-            print("2. Klikken op Inloggen...")
-            # Probeer op de knop te klikken, als dat faalt, ga pas naar de directe URL
-            try:
-                await page.locator("a:has-text('Inloggen'), a:has-text('Login'), button:has-text('Inloggen')").first.click(timeout=5000)
-            except:
-                print("   Geen knop gevonden, proberen direct naar /login...")
-                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-
+            print("2. Inloggen...")
+            try: await page.locator("a:has-text('Inloggen'), a:has-text('Login'), button:has-text('Inloggen')").first.click(timeout=5000)
+            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
             await page.wait_for_timeout(2000)
             
-            print("3. Gegevens invullen...")
-            # Nu pas zoeken we de velden
-            try:
-                await page.locator("input[type='email'], input[name*='user'], input[name*='mail']").first.fill(EMAIL)
-            except:
-                # Laatste redmiddel: zoek gewoon het eerste de beste invulveld
-                await page.locator("input").first.fill(EMAIL)
+            try: await page.locator("input[type='email'], input[name*='user'], input[name*='mail']").first.fill(EMAIL)
+            except: await page.locator("input").first.fill(EMAIL)
                 
             await page.locator("input[type='password']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
@@ -87,49 +76,73 @@ async def get_workout():
             print("4. WOD Ophalen...")
             await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
             await page.wait_for_timeout(1000)
-            
             try:
                 container = page.locator(".wod-list").first.locator("xpath=..")
                 full_text = await container.inner_text()
                 if "Share this" in full_text: full_text = full_text.split("Share this")[0]
-            except:
-                full_text = "Geen WOD tekst gevonden."
+            except: full_text = "Geen WOD tekst gevonden."
 
-            # --- STAP 3: ROOSTER CHECK (Widget) ---
+            # --- STAP 3: ROOSTER CHECK (OP BASIS VAN JOUW SCREENSHOT) ---
             print("5. Rooster checken...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.wait_for_timeout(3000)
 
-            # Check simpel of we 'UITSCHRIJVEN' zien staan in de broncode
-            content = await page.content()
-            if "UITSCHRIJVEN" in content:
-                print("   ✅ Je staat ingeschreven! Details zoeken...")
+            # We zoeken naar de class uit jouw foto!
+            print("   Zoeken naar '.workout-signedup'...")
+            signed_up_elements = await page.locator(".workout-signedup").all()
+
+            if len(signed_up_elements) > 0:
+                print("   ✅ Inschrijving gevonden!")
                 mijn_status["ingeschreven"] = True
-                
-                # Probeer alle event-blokjes af te gaan
-                events = await page.locator(".event, .fc-event, div[onclick*='openModal']").all()
-                for e in events:
-                    try:
-                        if await e.is_visible():
-                            await e.click()
-                            await page.wait_for_timeout(500)
-                            txt = await page.locator("body").inner_text()
-                            
-                            if "UITSCHRIJVEN" in txt:
-                                # Data uit de popup halen
-                                for line in txt.split('\n'):
-                                    if "tot" in line and ":" in line: mijn_status["tijd"] = line.strip()
-                                    if "/" in line and any(c.isdigit() for c in line): mijn_status["deelnemers"] = line.split(":")[-1].strip()
-                                
-                                if "achtlijst" in txt.lower():
-                                    mijn_status["wachtlijst"] = True
-                                    import re
-                                    m = re.search(r'achtlijst.*?(\d+)', txt, re.IGNORECASE)
-                                    mijn_status["wachtlijst_plek"] = m.group(1) if m else "?"
-                                break
-                            
-                            await page.keyboard.press("Escape")
-                    except: continue
+                les = signed_up_elements[0] # Pak de eerste les waar je voor ingeschreven staat
+
+                # Lees tijd uit (.event-date)
+                try: mijn_status["tijd"] = (await les.locator(".event-date").inner_text()).strip()
+                except: pass
+
+                # Lees deelnemers uit (.event-registrations)
+                try: mijn_status["deelnemers"] = (await les.locator(".event-registrations").inner_text()).strip()
+                except: pass
+
+                # Klik hem toch even open om de wachtlijst te checken in de popup
+                try:
+                    await les.click()
+                    await page.wait_for_timeout(1000)
+                    modal_text = await page.locator("body").inner_text()
+                    
+                    if "achtlijst" in modal_text.lower():
+                        mijn_status["wachtlijst"] = True
+                        import re
+                        m = re.search(r'achtlijst.*?(\d+)', modal_text, re.IGNORECASE)
+                        mijn_status["wachtlijst_plek"] = m.group(1) if m else "?"
+                    await page.keyboard.press("Escape")
+                except: pass
+
+            else:
+                # Fallback: Voor het geval een Wachtlijst geen 'workout-signedup' class krijgt
+                print("   Geen directe class gevonden. Fallback check...")
+                content = await page.content()
+                if "UITSCHRIJVEN" in content or "achtlijst" in content.lower():
+                    events = await page.locator(".single-event.clickable").all()
+                    for e in events:
+                        try:
+                            if await e.is_visible():
+                                await e.click()
+                                await page.wait_for_timeout(500)
+                                txt = await page.locator("body").inner_text()
+                                if "UITSCHRIJVEN" in txt:
+                                    mijn_status["ingeschreven"] = True
+                                    for line in txt.split('\n'):
+                                        if "tot" in line and ":" in line: mijn_status["tijd"] = line.strip()
+                                        if "/" in line and any(c.isdigit() for c in line): mijn_status["deelnemers"] = line.split(":")[-1].strip()
+                                    if "achtlijst" in txt.lower():
+                                        mijn_status["wachtlijst"] = True
+                                        import re
+                                        m = re.search(r'achtlijst.*?(\d+)', txt, re.IGNORECASE)
+                                        mijn_status["wachtlijst_plek"] = m.group(1) if m else "?"
+                                    break
+                                await page.keyboard.press("Escape")
+                        except: continue
 
             # --- STAP 4: OPSLAAN ---
             ai_advies = get_ai_coach_advice(full_text)
