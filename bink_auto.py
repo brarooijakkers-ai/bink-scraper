@@ -74,20 +74,24 @@ async def get_workout():
         }
 
         try:
-            # 1. Inloggen
+            # 1. Inloggen (De originele, werkende methode)
             print("Inloggen...")
-            # networkidle zorgt dat hij wacht tot alle achtergrond-widgets (zoals Sportbit) geladen zijn
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="networkidle")
-            await page.wait_for_timeout(3000) # Geef de pagina even 3 seconden extra ademruimte
+            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded")
+            await page.wait_for_timeout(2000)
+            
+            # We klikken weer netjes op de link op de homepage
+            try:
+                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
+            except:
+                print("Inlogknop niet direct gevonden, fallback naar /login...")
+                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
 
-            # Bredere zoekopdracht voor het e-mail veld en wachten tot hij 'zichtbaar' is
-            email_veld = page.locator("input[type='email'], input[name*='email'], input[name*='user']").first
-            await email_veld.wait_for(state="visible", timeout=15000)
-            await email_veld.fill(EMAIL)
+            await page.wait_for_timeout(3000) # Even wachten tot de popup/pagina er is
 
-            wachtwoord_veld = page.locator("input[type='password'], input[name*='pass']").first
-            await wachtwoord_veld.fill(PASSWORD)
-
+            # Velden invullen
+            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
+            await page.locator("input[name*='pass']").first.fill(PASSWORD)
+            
             inlog_knop = page.locator("button[type='submit'], input[type='submit'], button:has-text('Inloggen')").first
             await inlog_knop.click()
             await page.wait_for_timeout(4000) # Wacht tot we succesvol zijn ingelogd
