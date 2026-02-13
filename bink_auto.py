@@ -76,11 +76,21 @@ async def get_workout():
         try:
             # 1. Inloggen
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
-            await page.locator("input[name*='pass']").first.fill(PASSWORD)
-            await page.locator("button[type='submit'], input[type='submit']").first.click()
-            await page.wait_for_timeout(3000)
+            # networkidle zorgt dat hij wacht tot alle achtergrond-widgets (zoals Sportbit) geladen zijn
+            await page.goto("https://www.crossfitbink36.nl/login", wait_until="networkidle")
+            await page.wait_for_timeout(3000) # Geef de pagina even 3 seconden extra ademruimte
+
+            # Bredere zoekopdracht voor het e-mail veld en wachten tot hij 'zichtbaar' is
+            email_veld = page.locator("input[type='email'], input[name*='email'], input[name*='user']").first
+            await email_veld.wait_for(state="visible", timeout=15000)
+            await email_veld.fill(EMAIL)
+
+            wachtwoord_veld = page.locator("input[type='password'], input[name*='pass']").first
+            await wachtwoord_veld.fill(PASSWORD)
+
+            inlog_knop = page.locator("button[type='submit'], input[type='submit'], button:has-text('Inloggen')").first
+            await inlog_knop.click()
+            await page.wait_for_timeout(4000) # Wacht tot we succesvol zijn ingelogd
 
             # 2. WOD Ophalen
             print("WOD checken...")
