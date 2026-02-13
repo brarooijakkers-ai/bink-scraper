@@ -31,3 +31,9 @@ jobs:
           WORKOUT_MAX_HR: ${{ github.event.client_payload.max_hr }}
           WORKOUT_CALORIES: ${{ github.event.client_payload.calories }}
         run: python bink_analyze.py
+      - name: Commit en push wijzigingen
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add workout.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update workout.json met post-workout data" && git push)
