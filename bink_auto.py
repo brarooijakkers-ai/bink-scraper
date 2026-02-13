@@ -160,8 +160,19 @@ async def get_workout():
                 else:
                     print(f"❌ Niet ingeschreven voor {dag_nl}.")
 
-            # --- AI & OPSLAAN ---
+                # --- AI & OPSLAAN ---
             ai_advies = get_ai_coach_advice(full_text)
+
+            # Check of we vandaag al gesport hebben (post_workout data behouden!)
+            bestaande_post_workout = None
+            try:
+                if os.path.exists("workout.json"):
+                    with open("workout.json", "r", encoding="utf-8") as f:
+                        oud_data = json.load(f)
+                        # Alleen behouden als de data van VANDAAG is
+                        if oud_data.get("datum") == datum_str:
+                            bestaande_post_workout = oud_data.get("post_workout")
+            except: pass
 
             data = {
                 "datum": datum_str,
@@ -170,6 +181,10 @@ async def get_workout():
                 "coach": ai_advies,
                 "status": mijn_status 
             }
+            
+            # Stop de resultaten weer terug in het mapje als ze bestonden
+            if bestaande_post_workout:
+                data["post_workout"] = bestaande_post_workout
             
             with open("workout.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4)
