@@ -52,34 +52,68 @@ async def check_dag_status(page, dag_en):
         "wachtlijst_totaal": "?"
     }
     
-    selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}']"
-    les_ingeschreven = page.locator(selector_ingeschreven).first
+    # We checken nu alle drie de tabbladen (Zaal 1, Zaal 2 en Buiten)
+    zalen = [
+        "https://www.crossfitbink36.nl/rooster", 
+        "https://www.crossfitbink36.nl/rooster?hall=Zaal%202", 
+        "https://www.crossfitbink36.nl/rooster?hall=Buiten"
+    ]
     
-    if await les_ingeschreven.count() > 0:
-        status["ingeschreven"] = True
-        try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
-        except: pass
-        try: status["deelnemers"] = (await les_ingeschreven.locator(".event-registrations").first.inner_text()).strip()
-        except: pass
-    else:
-        selector_wachtlijst = f"li[class*='waitlist'][data-remodal-target*='{dag_en}']"
+    for zaal_url in zalen:
+        await page.goto(zaal_url, wait_until="networkidle")
+        await page.wait_for_timeout(1000)
+        
+        # --- WACHTLIJST CHECK (Op basis van je screenshot) ---
+        selector_wachtlijst = f"li.on-waiting-list[data-remodal-target*='{dag_en}']"
         les_wachtlijst = page.locator(selector_wachtlijst).first
+        
         if await les_wachtlijst.count() > 0:
             status["ingeschreven"] = True
             status["wachtlijst"] = True
             try: status["tijd"] = (await les_wachtlijst.locator(".event-date").first.inner_text()).strip()
             except: pass
             
-            # Wachtlijst details proberen te splitsen (bijv '2/5' -> plek 2, totaal 5)
-            try: 
-                wl_text = (await les_wachtlijst.locator(".event-registrations").first.inner_text()).strip()
-                delen = wl_text.replace(" ", "").split("/")
-                if len(delen) == 2:
-                    status["wachtlijst_plek"] = delen[0]
-                    status["wachtlijst_totaal"] = delen[1]
-                else:
-                    status["wachtlijst_plek"] = wl_text
+            # Bot klikt op de les om de pop-up te openen
+            await les_wachtlijst.click()
+            await page.wait_for_timeout(1500)
+            
+            try:
+                # Leest exact de getallen af uit het schema in je screenshot
+                modal_text = await page.locator(".remodal-is-opened").inner_text()
+                for line in modal_text.split("\n"):
+                    if "Aanmeldingen:" in line:
+                        status["deelnemers"] = line.split(":")[-1].strip()
+                    elif "Positie op wachtlijst:" in line:
+                        status["wachtlijst_plek"] = line.split(":")[-1].strip()
+                    elif "Wachtlijst:" in line and "Positie" not in line:
+                        status["wachtlijst_totaal"] = line.split(":")[-1].strip()
+            except Exception as e:
+                print("Fout bij uitlezen wachtlijst modal:", e)
+                
+            return status # Gevonden! Stop met zoeken in andere zalen.
+
+        # --- NORMALE INSCHRIJVING CHECK ---
+        selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}'], li[class*='signed'][data-remodal-target*='{dag_en}'], li[class*='booked'][data-remodal-target*='{dag_en}']"
+        les_ingeschreven = page.locator(selector_ingeschreven).first
+        
+        if await les_ingeschreven.count() > 0:
+            status["ingeschreven"] = True
+            try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
             except: pass
+            
+            # Bot klikt op de les om deelnemersaantal uit pop-up te halen
+            await les_ingeschreven.click()
+            await page.wait_for_timeout(1500)
+            try:
+                modal_text = await page.locator(".remodal-is-opened").inner_text()
+                for line in modal_text.split("\n"):
+                    if "Aanmeldingen:" in line:
+                        status["deelnemers"] = line.split(":")[-1].strip()
+            except:
+                try: status["deelnemers"] = (await les_ingeschreven.locator(".event-registrations").first.inner_text()).strip()
+                except: pass
+                
+            return status
 
     return status
 
@@ -101,7 +135,6 @@ async def get_workout():
         
         dag_nl_morgen = days_nl[tomorrow.weekday()]
         dag_en_morgen = days_en[tomorrow.weekday()]
-        datum_morgen_str = tomorrow.strftime("%d-%m-%Y")
 
         try:
             print("Inloggen...")
@@ -123,17 +156,12 @@ async def get_workout():
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
             except: full_text = "Geen WOD tekst gevonden."
 
-            print("Naar Rooster voor status...")
-            await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
-            await page.wait_for_timeout(2000) 
-            
-            # Beide dagen ophalen!
+            print("Naar Rooster voor status vandaag & morgen (checkt alle zalen)...")
             status_vandaag = await check_dag_status(page, dag_en_vandaag)
             status_morgen = await check_dag_status(page, dag_en_morgen)
 
             ai_advies = get_ai_coach_advice(full_text)
 
-            # Oude post-workout data behouden als die er is
             bestaande_post_workout = None
             try:
                 if os.path.exists("workout.json"):
@@ -159,12 +187,13 @@ async def get_workout():
 
             if len(full_text) > 10:
                 update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip(), ai_advies)
-            print("✅ Succesvol beide dagen opgeslagen!")
+            print("✅ Succesvol beide dagen en alle zalen verwerkt!")
 
         except Exception as e:
             print(f"❌ FOUT: {e}")
             exit(1)
-        await browser.close()
+        finally:
+            await browser.close()
 
 if __name__ == "__main__":
     asyncio.run(get_workout())
