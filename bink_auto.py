@@ -72,13 +72,11 @@ async def check_dag_status(page, dag_en):
             try: status["tijd"] = (await les_wachtlijst.locator(".event-date").first.inner_text()).strip()
             except: pass
             
-            # Bot klikt op de les om de pop-up te openen
             await les_wachtlijst.click()
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
-                await page.wait_for_timeout(1500) # Geef de pop-up tijd om in te laden
+                await page.wait_for_timeout(1500) 
                 
-                # Lees de tekst en splits het op per regel, precies zoals in je screenshot
                 modal_text = await page.locator(".remodal-is-opened").inner_text()
                 lines = [line.strip() for line in modal_text.split("\n") if line.strip()]
                 
@@ -92,11 +90,10 @@ async def check_dag_status(page, dag_en):
             except Exception as e:
                 print("Fout bij uitlezen wachtlijst modal:", e)
             
-            # Belangrijk: Druk op 'Escape' om de pop-up weer te sluiten
             await page.keyboard.press("Escape")
             await page.wait_for_timeout(1000)
                 
-            return status # Gevonden! Stop met zoeken in andere zalen.
+            return status
 
         # --- NORMALE INSCHRIJVING CHECK ---
         selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}'], li[class*='signed'][data-remodal-target*='{dag_en}'], li[class*='booked'][data-remodal-target*='{dag_en}']"
@@ -107,7 +104,6 @@ async def check_dag_status(page, dag_en):
             try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
             except: pass
             
-            # Bot klikt op de les om deelnemersaantal uit pop-up te halen
             await les_ingeschreven.click()
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
@@ -120,7 +116,6 @@ async def check_dag_status(page, dag_en):
                         status["deelnemers"] = lines[i+1]
             except: pass
             
-            # Druk op 'Escape' om de pop-up weer te sluiten
             await page.keyboard.press("Escape")
             await page.wait_for_timeout(1000)
                 
@@ -153,4 +148,62 @@ async def get_workout():
             try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
             except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
             await page.wait_for_timeout(2000) 
-            await page.locator("input[name*='user
+            
+            # --- HIER ZAT DE FOUT IN DE VORIGE POGING ---
+            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
+            await page.locator("input[name*='pass']").first.fill(PASSWORD)
+            # ---------------------------------------------
+            
+            await page.locator("button[type='submit'], input[type='submit']").first.click()
+            await page.wait_for_timeout(4000)
+
+            print("WOD checken...")
+            await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
+            try:
+                await page.wait_for_selector(".wod-list", timeout=5000)
+                container = page.locator(".wod-list").first.locator("xpath=..")
+                full_text = await container.inner_text()
+                if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
+            except: full_text = "Geen WOD tekst gevonden."
+
+            print("Naar Rooster voor status vandaag & morgen (checkt alle zalen)...")
+            status_vandaag = await check_dag_status(page, dag_en_vandaag)
+            status_morgen = await check_dag_status(page, dag_en_morgen)
+
+            ai_advies = get_ai_coach_advice(full_text)
+
+            bestaande_post_workout = None
+            try:
+                if os.path.exists("workout.json"):
+                    with open("workout.json", "r", encoding="utf-8") as f:
+                        oud_data = json.load(f)
+                        if oud_data.get("datum") == datum_vandaag_str:
+                            bestaande_post_workout = oud_data.get("post_workout")
+            except: pass
+
+            data = {
+                "datum": datum_vandaag_str,
+                "dag": dag_nl_vandaag,
+                "workout": full_text.strip(),
+                "coach": ai_advies,
+                "status_vandaag": status_vandaag,
+                "dag_morgen": dag_nl_morgen,
+                "status_morgen": status_morgen
+            }
+            if bestaande_post_workout: data["post_workout"] = bestaande_post_workout
+            
+            with open("workout.json", "w", encoding="utf-8") as f:
+                json.dump(data, f, indent=4)
+
+            if len(full_text) > 10:
+                update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip(), ai_advies)
+            print("✅ Succesvol beide dagen en alle zalen verwerkt inclusief pop-ups!")
+
+        except Exception as e:
+            print(f"❌ FOUT: {e}")
+            exit(1)
+        finally:
+            await browser.close()
+
+if __name__ == "__main__":
+    asyncio.run(get_workout())
