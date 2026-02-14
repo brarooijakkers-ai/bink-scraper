@@ -1,8 +1,8 @@
 {
-    "datum": "14-02-2026",
-    "dag": "Zaterdag",
-    "workout": "Valentines wod: Helen loves Diane\nbuddy wod\ndivide as you want\n400m run (together)\n126 USA kb swings 24/16kg\n90 hspu\n400m run (together)\n90 deadlifts 100/70kg\n72 pull ups\n400m run (together)\ntimecap 30min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed samenwerkt met je buddy om elkaar gemotiveerd te houden tijdens de hele WOD.  \n\ud83d\udca1 **Strategie:** Deel de herhalingen van de kettlebell swings, handstand push-ups, deadlifts en pull-ups op een manier die voor jullie beiden haalbaar aanvoelt.  \n\ud83e\ude79 **Tip:** Gebruik de 400m runs om goed op adem te komen en elkaar aan te moedigen, dit kan een goede manier zijn om energie te sparen voor de zwaardere onderdelen van de workout.",
+    "datum": "15-02-2026",
+    "dag": "Zondag",
+    "workout": "Fran has a date with Elizabeth\n45 thrusters 42.5/30kg\n45 squat cleans 60/42.5kg\n45 pull ups\n45 ring dips\ntimecap 20min",
+    "coach": "\ud83d\udd25 **Focus:** Concentreer je op een goede techniek en ademhaling bij elke beweging om je kracht te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de herhalingen in haalbare sets, bijvoorbeeld 15-10-20 voor de thrusters en squat cleans, om vermoeidheid te verminderen.  \n\ud83e\ude79 **Tip:** Houd je spullen dichtbij, zodat je snel kunt wisselen tussen de oefeningen en je kostbare tijd bespaart.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -11,10 +11,10 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "dag_morgen": "Zondag",
+    "dag_morgen": "Maandag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
+        "ingeschreven": true,
+        "tijd": "18:30 - 19:30",
         "deelnemers": "",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
