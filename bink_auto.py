@@ -6,30 +6,18 @@ import urllib.request
 import urllib.parse
 import csv
 from playwright.async_api import async_playwright
-from datetime import datetime
+from datetime import datetime, timedelta
 from openai import OpenAI
 
-# Tijdzone instellen
 os.environ['TZ'] = 'Europe/Amsterdam'
-try:
-    time.tzset()
-except:
-    pass
+try: time.tzset()
+except: pass
 
 EMAIL = os.environ.get("BINK_EMAIL")
 PASSWORD = os.environ.get("BINK_PASSWORD")
 TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 API_KEY = os.environ.get("OPENAI_API_KEY")
-
-def stuur_telegram(bericht):
-    if not TG_TOKEN or not TG_CHAT_ID: return
-    url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
-    data = urllib.parse.urlencode({"chat_id": TG_CHAT_ID, "text": bericht, "parse_mode": "Markdown"}).encode("utf-8")
-    try:
-        req = urllib.request.Request(url, data=data)
-        urllib.request.urlopen(req)
-    except: pass
 
 def update_history_csv(datum, dag, workout, coach):
     file_name = "history.csv"
@@ -43,31 +31,57 @@ def get_ai_coach_advice(wod_text):
     if not API_KEY: return "Geen AI Key."
     try:
         client = OpenAI(api_key=API_KEY)
-        
-        prompt = (
-            f"Hier is de WOD van vandaag:\n\n{wod_text}\n\n"
-            "Geef mij (de atleet) kort en krachtig advies voor deze specifieke workout. "
-            "BELANGRIJK: Namen in de tekst (zoals Randy, Nancy, Fran, Cindy, Murph etc.) "
-            "verwijzen naar bekende CrossFit benchmark workouts of bewegingen, NIET naar personen! "
-            "Praat niet over deze namen als mensen, maar als de workout-structuur die ze vertegenwoordigen.\n"
-            "Spreek mij direct aan met 'je' of 'jij'.\n\n"
-            "Gebruik exact dit format:\n"
-            "🔥 **Focus:** [1 korte, krachtige zin over waar ik op moet letten]\n"
-            "💡 **Strategie:** [1 korte zin over pacing of opbreken van sets]\n"
-            "🩹 **Tip:** [1 korte zin over techniek of ademhaling]"
-        )
-        
+        prompt = (f"Hier is de WOD van vandaag:\n\n{wod_text}\n\n"
+                  "Geef mij (de atleet) kort advies. Namen in de tekst verwijzen naar workouts, niet personen! "
+                  "Praat niet over namen als mensen. Spreek mij direct aan met 'je'.\n"
+                  "Format:\n🔥 **Focus:** [zin]\n💡 **Strategie:** [zin]\n🩹 **Tip:** [zin]")
         response = client.chat.completions.create(
             model="gpt-4o-mini",
-            messages=[
-                {"role": "system", "content": "Je bent een ervaren, no-nonsense CrossFit coach. Je geeft de atleet direct, bruikbaar en sportspecifiek advies."},
-                {"role": "user", "content": prompt}
-            ]
+            messages=[{"role": "system", "content": "Je bent een CrossFit coach."}, {"role": "user", "content": prompt}]
         )
         return response.choices[0].message.content
-    except Exception as e:
-        print(f"AI Error: {e}")
-        return "AI Error bij ophalen advies."
+    except: return "AI Error."
+
+async def check_dag_status(page, dag_en):
+    status = {
+        "ingeschreven": False,
+        "tijd": "",
+        "deelnemers": "",
+        "wachtlijst": False,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    }
+    
+    selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}']"
+    les_ingeschreven = page.locator(selector_ingeschreven).first
+    
+    if await les_ingeschreven.count() > 0:
+        status["ingeschreven"] = True
+        try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
+        except: pass
+        try: status["deelnemers"] = (await les_ingeschreven.locator(".event-registrations").first.inner_text()).strip()
+        except: pass
+    else:
+        selector_wachtlijst = f"li[class*='waitlist'][data-remodal-target*='{dag_en}']"
+        les_wachtlijst = page.locator(selector_wachtlijst).first
+        if await les_wachtlijst.count() > 0:
+            status["ingeschreven"] = True
+            status["wachtlijst"] = True
+            try: status["tijd"] = (await les_wachtlijst.locator(".event-date").first.inner_text()).strip()
+            except: pass
+            
+            # Wachtlijst details proberen te splitsen (bijv '2/5' -> plek 2, totaal 5)
+            try: 
+                wl_text = (await les_wachtlijst.locator(".event-registrations").first.inner_text()).strip()
+                delen = wl_text.replace(" ", "").split("/")
+                if len(delen) == 2:
+                    status["wachtlijst_plek"] = delen[0]
+                    status["wachtlijst_totaal"] = delen[1]
+                else:
+                    status["wachtlijst_plek"] = wl_text
+            except: pass
+
+    return status
 
 async def get_workout():
     async with async_playwright() as p:
@@ -75,43 +89,31 @@ async def get_workout():
         context = await browser.new_context()
         page = await context.new_page()
 
-        # Dagen in NL (voor weergave) en EN (voor het zoeken in de HTML)
         days_nl = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
         days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
         
         now = datetime.now()
-        dag_nl = days_nl[now.weekday()]
-        dag_en = days_en[now.weekday()] # Bijv: "friday"
-        datum_str = now.strftime("%d-%m-%Y")
-
-        mijn_status = {
-            "ingeschreven": False,
-            "tijd": "",
-            "deelnemers": "",
-            "wachtlijst": False,
-            "wachtlijst_plek": "?"
-        }
+        tomorrow = now + timedelta(days=1)
+        
+        dag_nl_vandaag = days_nl[now.weekday()]
+        dag_en_vandaag = days_en[now.weekday()]
+        datum_vandaag_str = now.strftime("%d-%m-%Y")
+        
+        dag_nl_morgen = days_nl[tomorrow.weekday()]
+        dag_en_morgen = days_en[tomorrow.weekday()]
+        datum_morgen_str = tomorrow.strftime("%d-%m-%Y")
 
         try:
-            # 1. Inloggen (De werkende methode)
             print("Inloggen...")
             await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
-            
-            try:
-                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-            except:
-                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-
+            try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
+            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
             await page.wait_for_timeout(2000) 
-            
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
-            
-            print("Wachten op dashboard...")
             await page.wait_for_timeout(4000)
 
-            # 2. WOD Ophalen
             print("WOD checken...")
             await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
             try:
@@ -119,85 +121,49 @@ async def get_workout():
                 container = page.locator(".wod-list").first.locator("xpath=..")
                 full_text = await container.inner_text()
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
-            except:
-                full_text = "Geen WOD tekst gevonden (rustdag?)."
+            except: full_text = "Geen WOD tekst gevonden."
 
-            # 3. Status Checken (Nu mét dag-filter!)
-            print(f"Naar Rooster voor status van vandaag ({dag_nl})...")
+            print("Naar Rooster voor status...")
             await page.goto("https://www.crossfitbink36.nl/rooster", wait_until="networkidle")
             await page.wait_for_timeout(2000) 
             
-            # We zoeken nu een class 'workout-signedup' WAARIN de engelse dagnaam ('friday') staat
-            selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}']"
-            les_ingeschreven = page.locator(selector_ingeschreven).first
-            
-            if await les_ingeschreven.count() > 0:
-                print(f"✅ Inschrijving gevonden voor {dag_nl}!")
-                mijn_status["ingeschreven"] = True
-                try:
-                    tijd = await les_ingeschreven.locator(".event-date").first.inner_text()
-                    mijn_status["tijd"] = tijd.strip()
-                except: pass
-                
-                try:
-                    deelnemers = await les_ingeschreven.locator(".event-registrations").first.inner_text()
-                    mijn_status["deelnemers"] = deelnemers.strip()
-                except: pass
+            # Beide dagen ophalen!
+            status_vandaag = await check_dag_status(page, dag_en_vandaag)
+            status_morgen = await check_dag_status(page, dag_en_morgen)
 
-            else:
-                # Hetzelfde filter voor de wachtlijst
-                selector_wachtlijst = f"li[class*='waitlist'][data-remodal-target*='{dag_en}']"
-                les_wachtlijst = page.locator(selector_wachtlijst).first
-                
-                if await les_wachtlijst.count() > 0:
-                    print(f"⏳ Wachtlijst gevonden voor {dag_nl}!")
-                    mijn_status["ingeschreven"] = True
-                    mijn_status["wachtlijst"] = True
-                    try:
-                        tijd = await les_wachtlijst.locator(".event-date").first.inner_text()
-                        mijn_status["tijd"] = tijd.strip()
-                    except: pass
-                else:
-                    print(f"❌ Niet ingeschreven voor {dag_nl}.")
-
-                # --- AI & OPSLAAN ---
             ai_advies = get_ai_coach_advice(full_text)
 
-            # Check of we vandaag al gesport hebben (post_workout data behouden!)
+            # Oude post-workout data behouden als die er is
             bestaande_post_workout = None
             try:
                 if os.path.exists("workout.json"):
                     with open("workout.json", "r", encoding="utf-8") as f:
                         oud_data = json.load(f)
-                        # Alleen behouden als de data van VANDAAG is
-                        if oud_data.get("datum") == datum_str:
+                        if oud_data.get("datum") == datum_vandaag_str:
                             bestaande_post_workout = oud_data.get("post_workout")
             except: pass
 
             data = {
-                "datum": datum_str,
-                "dag": dag_nl,
+                "datum": datum_vandaag_str,
+                "dag": dag_nl_vandaag,
                 "workout": full_text.strip(),
                 "coach": ai_advies,
-                "status": mijn_status 
+                "status_vandaag": status_vandaag,
+                "dag_morgen": dag_nl_morgen,
+                "status_morgen": status_morgen
             }
-            
-            # Stop de resultaten weer terug in het mapje als ze bestonden
-            if bestaande_post_workout:
-                data["post_workout"] = bestaande_post_workout
+            if bestaande_post_workout: data["post_workout"] = bestaande_post_workout
             
             with open("workout.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4)
 
             if len(full_text) > 10:
-                update_history_csv(datum_str, dag_nl, full_text.strip(), ai_advies)
-            
-            print(f"✅ Opgeslagen! Status: {mijn_status}")
+                update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip(), ai_advies)
+            print("✅ Succesvol beide dagen opgeslagen!")
 
         except Exception as e:
             print(f"❌ FOUT: {e}")
             exit(1)
-        
         await browser.close()
 
 if __name__ == "__main__":
