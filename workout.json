@@ -2,7 +2,7 @@
     "datum": "14-02-2026",
     "dag": "Zaterdag",
     "workout": "Valentines wod: Helen loves Diane\nbuddy wod\ndivide as you want\n400m run (together)\n126 USA kb swings 24/16kg\n90 hspu\n400m run (together)\n90 deadlifts 100/70kg\n72 pull ups\n400m run (together)\ntimecap 30min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de bewegingen met een goede techniek uitvoert, vooral bij de kettlebell swings en deadlifts, om blessures te voorkomen.\n\n\ud83d\udca1 **Strategie:** Verdeel de oefeningen met je buddy op een manier die jullie beiden uitdaagt, maar niet uitput. Bijvoorbeeld, hou de kettlebell swings en deadlifts in kleinere sets om de vermoeidheid te beheersen.\n\n\ud83e\ude79 **Tip:** Maak gebruik van de runs om je hartslag omlaag te brengen en goed te recupereren voor de volgende set. Probeer te ontspannen en je ademhaling onder controle te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed samenwerkt met je buddy om de runs en het tempo van de oefeningen te optimaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de reps voor de kettlebell swings, handstand push-ups, deadlifts, en pull-ups in haalbare sets zodat je niet oververmoeid raakt.  \n\ud83e\ude79 **Tip:** Gebruik een goede techniek, vooral bij de deadlifts en handstand push-ups, om blessures te voorkomen en effici\u00ebnt te blijven bewegen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -13,10 +13,10 @@
     },
     "dag_morgen": "Zondag",
     "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "09:15 - 10:15",
+        "ingeschreven": false,
+        "tijd": "",
         "deelnemers": "",
-        "wachtlijst": true,
+        "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     }
