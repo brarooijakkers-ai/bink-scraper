@@ -2,7 +2,7 @@
     "datum": "14-02-2026",
     "dag": "Zaterdag",
     "workout": "Valentines wod: Helen loves Diane\nbuddy wod\ndivide as you want\n400m run (together)\n126 USA kb swings 24/16kg\n90 hspu\n400m run (together)\n90 deadlifts 100/70kg\n72 pull ups\n400m run (together)\ntimecap 30min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je als team goed samenwerkt en elkaar ondersteunt tijdens de WOD.  \n\ud83d\udca1 **Strategie:** Verdeel de reps van de USA kettlebell swings, HSPU, deadlifts en pull-ups gelijkmatig en houd een steady tempo aan om fatique te voorkomen.  \n\ud83e\ude79 **Tip:** Vergeet niet om tijdens de runs aan elkaar te blijven, zodat je energie kunt sparen en elkaar kunt motiveren!",
+    "coach": "\ud83d\udd25 **Focus:** Blijf consistent en werk goed samen met je buddy tijdens de runs en de oefeningen.  \n\ud83d\udca1 **Strategie:** Verdeeld de reps van de swings, hspu's, deadlifts en pull-ups zodat je niet moe wordt en elkaar kunt aanmoedigen.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je techniek op de deadlifts en hspu's goed is, dit voorkomt blessures en maakt de oefeningen effectiever.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -13,10 +13,10 @@
     },
     "dag_morgen": "Zondag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
+        "ingeschreven": true,
+        "tijd": "09:15 - 10:15",
         "deelnemers": "",
-        "wachtlijst": false,
+        "wachtlijst": true,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     }
