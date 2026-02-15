@@ -42,7 +42,8 @@ def get_ai_coach_advice(wod_text):
         return response.choices[0].message.content
     except: return "AI Error."
 
-async def check_dag_status(page, dag_en):
+# Toegevoegd: is_volgende_week geeft aan of de bot naar de '?week=next' link moet gaan
+async def check_dag_status(page, dag_en, is_volgende_week=False):
     status = {
         "ingeschreven": False,
         "tijd": "",
@@ -59,7 +60,13 @@ async def check_dag_status(page, dag_en):
     ]
     
     for zaal_url in zalen:
-        await page.goto(zaal_url, wait_until="networkidle")
+        # Als we naar volgende week moeten (omdat het zondag is en we morgen zoeken)
+        if is_volgende_week:
+            url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
+        else:
+            url = zaal_url
+
+        await page.goto(url, wait_until="networkidle")
         await page.wait_for_timeout(1000)
         
         # --- WACHTLIJST CHECK ---
@@ -77,16 +84,23 @@ async def check_dag_status(page, dag_en):
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
                 await page.wait_for_timeout(1500) 
                 
-                modal_text = await page.locator(".remodal-is-opened").inner_text()
-                lines = [line.strip() for line in modal_text.split("\n") if line.strip()]
+                # Slimme Javascript uitlezer die naar de onzichtbare kolommen kijkt
+                modal_data = await page.evaluate('''() => {
+                    let res = {};
+                    let cols = Array.from(document.querySelectorAll('.remodal-is-opened .grid .col'));
+                    for (let i = 0; i < cols.length; i++) {
+                        let text = cols[i].innerText.trim();
+                        if (text.includes('Aanmeldingen')) res.deelnemers = cols[i+1] ? cols[i+1].innerText.trim() : '';
+                        else if (text.includes('Positie op wachtlijst')) res.wachtlijst_plek = cols[i+1] ? cols[i+1].innerText.trim() : '';
+                        else if (text === 'Wachtlijst:' || text === 'Wachtlijst') res.wachtlijst_totaal = cols[i+1] ? cols[i+1].innerText.trim() : '';
+                    }
+                    return res;
+                }''')
                 
-                for i, line in enumerate(lines):
-                    if "Aanmeldingen" in line:
-                        status["deelnemers"] = lines[i+1]
-                    elif "Positie op wachtlijst" in line:
-                        status["wachtlijst_plek"] = lines[i+1]
-                    elif line == "Wachtlijst:":
-                        status["wachtlijst_totaal"] = lines[i+1]
+                if modal_data.get("deelnemers"): status["deelnemers"] = modal_data["deelnemers"]
+                if modal_data.get("wachtlijst_plek"): status["wachtlijst_plek"] = modal_data["wachtlijst_plek"]
+                if modal_data.get("wachtlijst_totaal"): status["wachtlijst_totaal"] = modal_data["wachtlijst_totaal"]
+
             except Exception as e:
                 print("Fout bij uitlezen wachtlijst modal:", e)
             
@@ -109,11 +123,17 @@ async def check_dag_status(page, dag_en):
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
                 await page.wait_for_timeout(1500)
                 
-                modal_text = await page.locator(".remodal-is-opened").inner_text()
-                lines = [line.strip() for line in modal_text.split("\n") if line.strip()]
-                for i, line in enumerate(lines):
-                    if "Aanmeldingen" in line:
-                        status["deelnemers"] = lines[i+1]
+                modal_data = await page.evaluate('''() => {
+                    let res = {};
+                    let cols = Array.from(document.querySelectorAll('.remodal-is-opened .grid .col'));
+                    for (let i = 0; i < cols.length; i++) {
+                        if (cols[i].innerText.includes('Aanmeldingen')) {
+                            res.deelnemers = cols[i+1] ? cols[i+1].innerText.trim() : '';
+                        }
+                    }
+                    return res;
+                }''')
+                if modal_data.get("deelnemers"): status["deelnemers"] = modal_data["deelnemers"]
             except: pass
             
             await page.keyboard.press("Escape")
@@ -142,6 +162,9 @@ async def get_workout():
         dag_nl_morgen = days_nl[tomorrow.weekday()]
         dag_en_morgen = days_en[tomorrow.weekday()]
 
+        # Zondag Check: Als het vandaag Zondag is (dag 6), dan is morgen de 'Volgende Week'
+        morgen_is_volgende_week = (now.weekday() == 6)
+
         try:
             print("Inloggen...")
             await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
@@ -149,11 +172,8 @@ async def get_workout():
             except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
             await page.wait_for_timeout(2000) 
             
-            # --- HIER ZAT DE FOUT IN DE VORIGE POGING ---
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
-            # ---------------------------------------------
-            
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             await page.wait_for_timeout(4000)
 
@@ -166,9 +186,10 @@ async def get_workout():
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
             except: full_text = "Geen WOD tekst gevonden."
 
-            print("Naar Rooster voor status vandaag & morgen (checkt alle zalen)...")
-            status_vandaag = await check_dag_status(page, dag_en_vandaag)
-            status_morgen = await check_dag_status(page, dag_en_morgen)
+            print("Naar Rooster voor status vandaag & morgen...")
+            # De Zondag Check wordt hier doorgegeven aan de functie!
+            status_vandaag = await check_dag_status(page, dag_en_vandaag, is_volgende_week=False)
+            status_morgen = await check_dag_status(page, dag_en_morgen, is_volgende_week=morgen_is_volgende_week)
 
             ai_advies = get_ai_coach_advice(full_text)
 
@@ -197,7 +218,7 @@ async def get_workout():
 
             if len(full_text) > 10:
                 update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip(), ai_advies)
-            print("✅ Succesvol beide dagen en alle zalen verwerkt inclusief pop-ups!")
+            print("✅ Succesvol!")
 
         except Exception as e:
             print(f"❌ FOUT: {e}")
