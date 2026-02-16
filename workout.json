@@ -2,22 +2,22 @@
     "datum": "16-02-2026",
     "dag": "Maandag",
     "workout": "amrap 16min\n5 strict pull ups\n10 push ups\n15 airsquats\n30 double unders",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede vorm bij elke oefening om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een rustig tempo en bouw je snelheid op; dit helpt je om de langere tijdsduur vol te houden.  \n\ud83e\ude79 **Tip:** Gebruik een dubbel onderbroken ritme bij de double unders om ze minder vermoeiend te maken en je vertrouwen te vergroten.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je vorm goed in de pull-ups en push-ups om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeeld de reps over sets als je merkt dat je moe wordt; bijvoorbeeld 2-3 sets voor de pull-ups en push-ups.  \n\ud83e\ude79 **Tip:** Voor de double unders, gebruik een lichte bounce en focus op een constante polsbeweging om je tempo te behouden.",
     "status_vandaag": {
         "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "deelnemers": "14/14",
+        "tijd": "17:30 - 18:30",
+        "deelnemers": "8/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "dag_morgen": "Dinsdag",
     "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "deelnemers": "9/9",
-        "wachtlijst": true,
-        "wachtlijst_plek": "1",
-        "wachtlijst_totaal": "2"
+        "ingeschreven": false,
+        "tijd": "",
+        "deelnemers": "",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     }
 }
