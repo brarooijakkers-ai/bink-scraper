@@ -42,11 +42,11 @@ def get_ai_coach_advice(wod_text):
         return response.choices[0].message.content
     except: return "AI Error."
 
-# Toegevoegd: is_volgende_week geeft aan of de bot naar de '?week=next' link moet gaan
 async def check_dag_status(page, dag_en, is_volgende_week=False):
     status = {
         "ingeschreven": False,
         "tijd": "",
+        "type": "", # <-- NIEUW: Hier slaan we het type workout op
         "deelnemers": "",
         "wachtlijst": False,
         "wachtlijst_plek": "?",
@@ -60,7 +60,6 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
     ]
     
     for zaal_url in zalen:
-        # Als we naar volgende week moeten (omdat het zondag is en we morgen zoeken)
         if is_volgende_week:
             url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
         else:
@@ -79,12 +78,15 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
             try: status["tijd"] = (await les_wachtlijst.locator(".event-date").first.inner_text()).strip()
             except: pass
             
+            # --- NIEUW: Type ophalen ---
+            try: status["type"] = (await les_wachtlijst.locator(".event-name").first.inner_text()).strip()
+            except: pass
+            
             await les_wachtlijst.click()
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
                 await page.wait_for_timeout(1500) 
                 
-                # Slimme Javascript uitlezer die naar de onzichtbare kolommen kijkt
                 modal_data = await page.evaluate('''() => {
                     let res = {};
                     let cols = Array.from(document.querySelectorAll('.remodal-is-opened .grid .col'));
@@ -116,6 +118,10 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
         if await les_ingeschreven.count() > 0:
             status["ingeschreven"] = True
             try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
+            except: pass
+            
+            # --- NIEUW: Type ophalen ---
+            try: status["type"] = (await les_ingeschreven.locator(".event-name").first.inner_text()).strip()
             except: pass
             
             await les_ingeschreven.click()
@@ -162,7 +168,6 @@ async def get_workout():
         dag_nl_morgen = days_nl[tomorrow.weekday()]
         dag_en_morgen = days_en[tomorrow.weekday()]
 
-        # Zondag Check: Als het vandaag Zondag is (dag 6), dan is morgen de 'Volgende Week'
         morgen_is_volgende_week = (now.weekday() == 6)
 
         try:
@@ -187,7 +192,6 @@ async def get_workout():
             except: full_text = "Geen WOD tekst gevonden."
 
             print("Naar Rooster voor status vandaag & morgen...")
-            # De Zondag Check wordt hier doorgegeven aan de functie!
             status_vandaag = await check_dag_status(page, dag_en_vandaag, is_volgende_week=False)
             status_morgen = await check_dag_status(page, dag_en_morgen, is_volgende_week=morgen_is_volgende_week)
 
