@@ -2,10 +2,11 @@
     "datum": "16-02-2026",
     "dag": "Maandag",
     "workout": "amrap 16min\n5 strict pull ups\n10 push ups\n15 airsquats\n30 double unders",
-    "coach": "\ud83d\udd25 **Focus:** Concentratie op je techniek is cruciaal, vooral bij de strict pull ups en push ups.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een stevig tempo, maar hou kracht over voor de double unders.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je bij de push ups je schouderbladen goed activeert en je kern aangespannen houdt voor een effici\u00ebntere beweging.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt bij elke beweging om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een rustig tempo en bouw geleidelijk je snelheid op, vooral tijdens de double unders, zodat je niet in een vroeg stadium vermoeid raakt.  \n\ud83e\ude79 **Tip:** Gebruik een band of ondersteunende techniek voor de strict pull ups als dat nodig is om je vorm te behouden en het meeste uit de workout te halen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:30",
+        "type": "WOD",
         "deelnemers": "12/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
@@ -15,6 +16,7 @@
     "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
+        "type": "",
         "deelnemers": "",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
