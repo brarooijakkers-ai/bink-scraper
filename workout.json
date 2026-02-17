@@ -1,23 +1,23 @@
 {
-    "datum": "17-02-2026",
-    "dag": "Dinsdag",
-    "workout": "21-15-9\ntoes to bar\ndeadlifts 100/70kg\ncal row\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts altijd correct is om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met de toes to bar en cal row in een ritme dat je kunt volhouden; maak gebruik van de rust tussen de sets.  \n\ud83e\ude79 **Tip:** Als je de deadlifts vermoeiend vindt, overweeg dan om ze in kleinere sets te verdelen om je grip en kracht tot het einde te behouden.  ",
+    "datum": "18-02-2026",
+    "dag": "Woensdag",
+    "workout": "amrap 20min\n5m handstand walk (or 3 wallwalks)\n10 db clean and jerks 1x 22.5/15kg\n15 box jump overs",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de handstand walk of wallwalks optimaal is, dit bespaart energie en voorkomt blessures.  \n\ud83d\udca1 **Strategie:** Verdeel de db clean and jerks in sets van 5 zodat je tijdens de workout niet oververmoeid raakt.  \n\ud83e\ude79 **Tip:** Bij de box jump overs, land zacht en gebruik je armen om je balans te houden, dit helpt je om sneller en effici\u00ebnter te springen.",
     "status_vandaag": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "dag_morgen": "Woensdag",
-    "status_morgen": {
         "ingeschreven": true,
         "tijd": "19:30 - 20:30",
         "type": "WOD",
         "deelnemers": "5/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "dag_morgen": "Donderdag",
+    "status_morgen": {
+        "ingeschreven": true,
+        "tijd": "18:30 - 19:30",
+        "type": "WOD",
+        "deelnemers": "12/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
