@@ -1,8 +1,8 @@
 {
-    "datum": "18-02-2026",
-    "dag": "Woensdag",
-    "workout": "amrap 20min\n5m handstand walk (or 3 wallwalks)\n10 db clean and jerks 1x 22.5/15kg\n15 box jump overs",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de handstand walk of wallwalks op orde is om je energie te sparen.  \n\ud83d\udca1 **Strategie:** Plan je ademhaling en neem korte pauzes tussen de sets van de dumbbell clean en jerks om je grip te behouden.  \n\ud83e\ude79 **Tip:** Bij de box jump overs kun je beter laag springen en snel door beurten om de overgangsduur te minimaliseren.",
+    "datum": "19-02-2026",
+    "dag": "Donderdag",
+    "workout": "18 rounds\n30sec on/30sec off\nrd 1. cleans\nrd 2. snatches\nrd 3. front squats\nRX 60/45kg",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke beweging met een goede techniek uitvoert om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Begin in een gecontroleerd tempo en verhoog je intensiteit geleidelijk naarmate je je comfortabeler voelt met de oefeningen.  \n\ud83e\ude79 **Tip:** Gebruik de actieve rustperiodes om je ademhaling te reguleren en je spieren even te ontspannen, zodat je goed voorbereid bent voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
@@ -12,12 +12,12 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "dag_morgen": "Donderdag",
+    "dag_morgen": "Vrijdag",
     "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "type": "WOD",
-        "deelnemers": "13/14",
+        "ingeschreven": false,
+        "tijd": "",
+        "type": "",
+        "deelnemers": "",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
