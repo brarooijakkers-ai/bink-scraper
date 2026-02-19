@@ -1,0 +1,43 @@
+name: Bink36 Inschrijf Robot
+
+on:
+  repository_dispatch:
+    types: [enroll_action]
+
+jobs:
+  run-enrollment:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright
+          playwright install chromium
+
+      - name: Run Enrollment Script
+        env:
+          BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
+          BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bink_enroll.py
+
+      - name: Rooster direct verversen na wijziging
+        env:
+          BINK_EMAIL: ${{ secrets.BINK_EMAIL }}
+          BINK_PASSWORD: ${{ secrets.BINK_PASSWORD }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: python bink_auto.py
+
+      - name: Sla aangepaste rooster op voor de widget
+        run: |
+          git config --global user.name 'GitHub Action'
+          git config --global user.email 'action@github.com'
+          git add workout.json
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update rooster na in/uitschrijving via Widget" && git push)
