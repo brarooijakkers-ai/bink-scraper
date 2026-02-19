@@ -21,7 +21,6 @@ def stuur_telegram(bericht):
 async def run():
     print("Inschrijf-robot gestart!")
     
-    # Lees het commando van je iPhone uit
     event_path = os.environ.get("GITHUB_EVENT_PATH")
     if not event_path or not os.path.exists(event_path):
         print("Geen event data gevonden.")
@@ -30,16 +29,15 @@ async def run():
     with open(event_path, "r") as f:
         payload = json.load(f).get("client_payload", {})
     
-    doel_dag = payload.get("dag")       # "Vandaag" of "Morgen"
-    doel_tijd = payload.get("tijd")     # Bijv: "17:30"
-    doel_zaal = payload.get("zaal")     # Bijv: "Zaal 1"
-    actie = payload.get("actie")        # "inschrijven" of "uitschrijven"
+    doel_dag = payload.get("dag")       
+    doel_tijd = payload.get("tijd")     
+    doel_zaal = payload.get("zaal")     
+    actie = payload.get("actie")        
 
     if not doel_tijd or not actie:
         print("Commando incompleet!")
         return
 
-    # Reken de juiste dag uit
     now = datetime.now()
     is_morgen = (doel_dag == "Morgen")
     target_date = now + timedelta(days=1) if is_morgen else now
@@ -53,11 +51,17 @@ async def run():
         page = await browser.new_page()
 
         print("Inloggen...")
-        await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
+        # --- ROBUUSTE LOGIN VANUIT bink_auto.py ---
+        await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
+        try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
+        except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
+        await page.wait_for_timeout(2000)
+        
         await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
         await page.locator("input[name*='pass']").first.fill(PASSWORD)
         await page.locator("button[type='submit'], input[type='submit']").first.click()
-        await page.wait_for_timeout(3000)
+        await page.wait_for_timeout(4000)
+        # ------------------------------------------
 
         print(f"Navigeren naar {doel_zaal}...")
         zalen = {
