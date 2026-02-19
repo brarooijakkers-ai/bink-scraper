@@ -42,24 +42,26 @@ def get_ai_coach_advice(wod_text):
         return response.choices[0].message.content
     except: return "AI Error."
 
-async def check_dag_status(page, dag_en, is_volgende_week=False):
+async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
     status = {
         "ingeschreven": False,
         "tijd": "",
-        "type": "", # <-- NIEUW: Hier slaan we het type workout op
+        "type": "",
         "deelnemers": "",
         "wachtlijst": False,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     }
     
-    zalen = [
-        "https://www.crossfitbink36.nl/rooster", 
-        "https://www.crossfitbink36.nl/rooster?hall=Zaal%202", 
-        "https://www.crossfitbink36.nl/rooster?hall=Buiten"
-    ]
+    volledig_rooster = [] # <-- NIEUW: Hier slaan we alle lessen van de dag in op
     
-    for zaal_url in zalen:
+    zalen = {
+        "Zaal 1": "https://www.crossfitbink36.nl/rooster", 
+        "Zaal 2": "https://www.crossfitbink36.nl/rooster?hall=Zaal%202", 
+        "Buiten": "https://www.crossfitbink36.nl/rooster?hall=Buiten"
+    }
+    
+    for zaal_naam, zaal_url in zalen.items():
         if is_volgende_week:
             url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
         else:
@@ -68,17 +70,45 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
         await page.goto(url, wait_until="networkidle")
         await page.wait_for_timeout(1000)
         
-        # --- WACHTLIJST CHECK ---
+        # --- NIEUW: ALLE LESSEN VAN DEZE DAG IN DEZE ZAAL SCRAPEN ---
+        selector_alle_lessen = f"li[data-remodal-target*='{dag_en}']"
+        alle_lessen_elementen = await page.locator(selector_alle_lessen).all()
+        
+        for les in alle_lessen_elementen:
+            try:
+                les_tijd = (await les.locator(".event-date").first.inner_text()).strip()
+                les_type = (await les.locator(".event-name").first.inner_text()).strip()
+                
+                # Probeer het aantal deelnemers (bijv. 14/16) direct van het blokje te lezen
+                les_deelnemers = ""
+                try: les_deelnemers = (await les.locator(".event-registrations").first.inner_text()).strip()
+                except: pass
+                
+                # Bepaal of de les vol is
+                les_class = await les.get_attribute("class") or ""
+                les_status = "Open"
+                if "full" in les_class: les_status = "Vol (Wachtlijst)"
+                if "signedup" in les_class or "booked" in les_class: les_status = "Jij bent Ingeschreven"
+                if "on-waiting-list" in les_class: les_status = "Jij staat op Wachtlijst"
+                
+                volledig_rooster.append({
+                    "tijd": les_tijd,
+                    "type": les_type,
+                    "zaal": zaal_naam,
+                    "deelnemers": les_deelnemers,
+                    "status": les_status
+                })
+            except: pass
+
+        # --- JOUW PERSOONLIJKE INSCHRIJVING CHECK (Wachtlijst) ---
         selector_wachtlijst = f"li.on-waiting-list[data-remodal-target*='{dag_en}']"
         les_wachtlijst = page.locator(selector_wachtlijst).first
         
-        if await les_wachtlijst.count() > 0:
+        if not status["ingeschreven"] and await les_wachtlijst.count() > 0:
             status["ingeschreven"] = True
             status["wachtlijst"] = True
             try: status["tijd"] = (await les_wachtlijst.locator(".event-date").first.inner_text()).strip()
             except: pass
-            
-            # --- NIEUW: Type ophalen ---
             try: status["type"] = (await les_wachtlijst.locator(".event-name").first.inner_text()).strip()
             except: pass
             
@@ -86,7 +116,6 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
                 await page.wait_for_timeout(1500) 
-                
                 modal_data = await page.evaluate('''() => {
                     let res = {};
                     let cols = Array.from(document.querySelectorAll('.remodal-is-opened .grid .col'));
@@ -98,29 +127,21 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
                     }
                     return res;
                 }''')
-                
                 if modal_data.get("deelnemers"): status["deelnemers"] = modal_data["deelnemers"]
                 if modal_data.get("wachtlijst_plek"): status["wachtlijst_plek"] = modal_data["wachtlijst_plek"]
                 if modal_data.get("wachtlijst_totaal"): status["wachtlijst_totaal"] = modal_data["wachtlijst_totaal"]
-
-            except Exception as e:
-                print("Fout bij uitlezen wachtlijst modal:", e)
-            
+            except: pass
             await page.keyboard.press("Escape")
             await page.wait_for_timeout(1000)
-                
-            return status
 
-        # --- NORMALE INSCHRIJVING CHECK ---
+        # --- JOUW PERSOONLIJKE INSCHRIJVING CHECK (Normaal) ---
         selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}'], li[class*='signed'][data-remodal-target*='{dag_en}'], li[class*='booked'][data-remodal-target*='{dag_en}']"
         les_ingeschreven = page.locator(selector_ingeschreven).first
         
-        if await les_ingeschreven.count() > 0:
+        if not status["ingeschreven"] and await les_ingeschreven.count() > 0:
             status["ingeschreven"] = True
             try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
             except: pass
-            
-            # --- NIEUW: Type ophalen ---
             try: status["type"] = (await les_ingeschreven.locator(".event-name").first.inner_text()).strip()
             except: pass
             
@@ -128,26 +149,23 @@ async def check_dag_status(page, dag_en, is_volgende_week=False):
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
                 await page.wait_for_timeout(1500)
-                
                 modal_data = await page.evaluate('''() => {
                     let res = {};
                     let cols = Array.from(document.querySelectorAll('.remodal-is-opened .grid .col'));
                     for (let i = 0; i < cols.length; i++) {
-                        if (cols[i].innerText.includes('Aanmeldingen')) {
-                            res.deelnemers = cols[i+1] ? cols[i+1].innerText.trim() : '';
-                        }
+                        if (cols[i].innerText.includes('Aanmeldingen')) res.deelnemers = cols[i+1] ? cols[i+1].innerText.trim() : '';
                     }
                     return res;
                 }''')
                 if modal_data.get("deelnemers"): status["deelnemers"] = modal_data["deelnemers"]
             except: pass
-            
             await page.keyboard.press("Escape")
             await page.wait_for_timeout(1000)
-                
-            return status
 
-    return status
+    # Sorteer het rooster netjes op tijdstip
+    volledig_rooster = sorted(volledig_rooster, key=lambda x: x['tijd'])
+    
+    return status, volledig_rooster
 
 async def get_workout():
     async with async_playwright() as p:
@@ -191,9 +209,9 @@ async def get_workout():
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
             except: full_text = "Geen WOD tekst gevonden."
 
-            print("Naar Rooster voor status vandaag & morgen...")
-            status_vandaag = await check_dag_status(page, dag_en_vandaag, is_volgende_week=False)
-            status_morgen = await check_dag_status(page, dag_en_morgen, is_volgende_week=morgen_is_volgende_week)
+            print("Naar Rooster voor status vandaag & morgen (Inclusief Compleet Rooster)...")
+            status_vandaag, rooster_vandaag = await check_dag_status_en_rooster(page, dag_en_vandaag, is_volgende_week=False)
+            status_morgen, rooster_morgen = await check_dag_status_en_rooster(page, dag_en_morgen, is_volgende_week=morgen_is_volgende_week)
 
             ai_advies = get_ai_coach_advice(full_text)
 
@@ -212,8 +230,10 @@ async def get_workout():
                 "workout": full_text.strip(),
                 "coach": ai_advies,
                 "status_vandaag": status_vandaag,
+                "rooster_vandaag": rooster_vandaag, # <-- NIEUW
                 "dag_morgen": dag_nl_morgen,
-                "status_morgen": status_morgen
+                "status_morgen": status_morgen,
+                "rooster_morgen": rooster_morgen    # <-- NIEUW
             }
             if bestaande_post_workout: data["post_workout"] = bestaande_post_workout
             
