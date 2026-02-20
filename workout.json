@@ -2,7 +2,7 @@
     "datum": "20-02-2026",
     "dag": "Vrijdag",
     "workout": "amrap 15min\n5 chest to bar\n5m walking lunges\n5 v-ups\n5m walking lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een strakke uitvoering bij de chest to bar, zodat je de maximale kracht benut.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 15 minuten; begin met een steady tempo en probeer dat vast te houden.  \n\ud83e\ude79 **Tip:** Houd je core aangespannen tijdens de v-ups voor een betere stabiliteit en minder kans op blessures.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de techniek van de chest to bar optimaliseert voor een effectieve en veilige uitvoering.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de AMRAP; kom niet te snel in de verleiding om alles razendsnel te doen, maar vind een tempo dat je kunt volhouden.  \n\ud83e\ude79 **Tip:** Gebruik de walking lunges als een kans om je core te activeren en je balans te houden; focus op een goede houding en controle.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/11",
+            "deelnemers": "7/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
