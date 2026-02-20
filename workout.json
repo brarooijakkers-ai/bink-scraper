@@ -2,7 +2,7 @@
     "datum": "20-02-2026",
     "dag": "Vrijdag",
     "workout": "amrap 15min\n5 chest to bar\n5m walking lunges\n5 v-ups\n5m walking lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt bij de chest to bar, zodat je effici\u00ebnt en veilig beweegt.  \n\ud83d\udca1 **Strategie:** Kijk naar je pacing; begin iets langzamer om je energie goed te verdelen over de 15 minuten.  \n\ud83e\ude79 **Tip:** Gebruik de walking lunges als actieve herstelperiode; houd een consistent tempo aan en focus op je houding.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een strakke uitvoering bij de chest to bar, zodat je de maximale kracht benut.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 15 minuten; begin met een steady tempo en probeer dat vast te houden.  \n\ud83e\ude79 **Tip:** Houd je core aangespannen tijdens de v-ups voor een betere stabiliteit en minder kans op blessures.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
