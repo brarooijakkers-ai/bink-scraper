@@ -2,7 +2,7 @@
     "datum": "20-02-2026",
     "dag": "Vrijdag",
     "workout": "amrap 15min\n5 chest to bar\n5m walking lunges\n5 v-ups\n5m walking lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de chest to bar met een goede techniek doet, zodat je de volledige range of motion benut.  \n\ud83d\udca1 **Strategie:** Gebruik een constant tempo bij de lunges en probeer ze in \u00e9\u00e9n vloeiende beweging uit te voeren om tijd te besparen.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je core tijdens de v-ups; dit helpt je om de beweging effectiever en effici\u00ebnter uit te voeren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je in de chest to bar de volledige beweging maakt voor maximale kracht en techniek.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig, zodat je de walking lunges met een goede houding kunt uitvoeren zonder te verzuipen.  \n\ud83e\ude79 **Tip:** Blijf tijdens de v-ups gefocust op je core, en probeer je voeten en schouders tegelijkertijd omhoog te brengen voor effici\u00ebntie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -115,21 +115,21 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -143,21 +143,21 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
