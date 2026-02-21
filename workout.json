@@ -2,7 +2,7 @@
     "datum": "21-02-2026",
     "dag": "Zaterdag",
     "workout": "3 rounds\n25 snatches 35/25kg\n400m run\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches optimaal is, aangezien dit essentieel is voor snelheid en effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Verdeel de snatches in kleinere sets zodat je je kracht en uithoudingsvermogen beter kunt beheren tijdens de rondes.  \n\ud83e\ude79 **Tip:** Blijf gedurende de hele workout hydrateren en controleer je ademhaling tijdens de runs om je tempo consistent te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches solide is, vooral onder vermoeidheid.  \n\ud83d\udca1 **Strategie:** Verdeel de snatches in kleinere sets om je grip en energie optimaal te behouden.  \n\ud83e\ude79 **Tip:** Neem vooraf de tijd om goed op te warmen, focus vooral op je schouders en heupen voor een betere uitvoering.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "11:15 - 12:15",
@@ -23,21 +23,98 @@
     ],
     "dag_morgen": "Zondag",
     "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "10:15 - 11:15",
-        "type": "WOD",
-        "deelnemers": "16/16",
+        "ingeschreven": false,
+        "tijd": "",
+        "type": "",
+        "deelnemers": "",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
+            "tijd": "09:15 - 09:45",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "4/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "12/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:45 - 10:30",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "1/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "3/14",
+            "status": "Open"
+        },
+        {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "16/16",
-            "status": "Jij bent Ingeschreven"
+            "status": "Open"
+        },
+        {
+            "tijd": "10:30 - 11:15",
+            "type": "TEENS",
+            "zaal": "Zaal 2",
+            "deelnemers": "1/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:00",
+            "type": "FUNDAMENTALS",
+            "zaal": "Zaal 1",
+            "deelnemers": "1/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:15",
+            "type": "HYROX",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:00",
+            "type": "BASIC OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "8/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "5/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "13:00 - 14:00",
+            "type": "OPENGYM",
+            "zaal": "Zaal 2",
+            "deelnemers": "1/6",
+            "status": "Open"
         }
     ]
 }
