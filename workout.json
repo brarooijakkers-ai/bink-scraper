@@ -2,7 +2,7 @@
     "datum": "22-02-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: fat rope double unders\nmin 2: kb usa swings 24/16kg\nmin 3: sit-ups\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt bij de fat rope double unders om blessures te voorkomen en je effici\u00ebntie te verhogen.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste minuten van de EMOM om je ademhaling te reguleren en je hartslag onder controle te houden, zodat je gedurende het hele 40 minuten sterk blijft.  \n\ud83e\ude79 **Tip:** Blijf in de laatste minuut van elke cyclus gefocust op je herstel, zodat je fris aan de volgende ronde kunt beginnen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je technische uitvoering van elke oefening optimaal is, vooral bij de fat rope double unders en de kettlebell swings.  \n\ud83d\udca1 **Strategie:** Plan je intensiteit zodat je energie behoudt voor de volledige 40 minuten; begin rustiger aan de eerste minuten als je dat nodig hebt.  \n\ud83e\ude79 **Tip:** Gebruik de rustmomenten effectief en zorg ervoor dat je goed ademhaalt en hydrateert.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -80,21 +80,21 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         }
     ],
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -274,7 +274,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
