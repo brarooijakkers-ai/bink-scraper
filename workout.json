@@ -2,7 +2,7 @@
     "datum": "22-02-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: fat rope double unders\nmin 2: kb usa swings 24/16kg\nmin 3: sit-ups\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op je techniek bij de fat rope double unders om frustratie te voorkomen.  \n\ud83d\udca1 **Strategie:** Zorg ervoor dat je je intensiteit goed verdeeld over de EMOM om de belasting per minuut haalbaar te houden.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiode bewust om je ademhaling te reguleren en je voor te bereiden op de volgende minuut.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij de fat rope double unders een goede timing en techniek hebt om het aantal herhalingen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste 20 seconden van elke minuut om je herhalingen op te bouwen en bespaar je energie voor het laatste gedeelte van de minuut.  \n\ud83e\ude79 **Tip:** Blijf rustig en gefocust tijdens de sit-ups; gebruik je core en ademhaling om effici\u00ebnt te blijven werken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -87,7 +87,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -211,14 +211,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
