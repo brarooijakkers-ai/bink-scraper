@@ -2,7 +2,7 @@
     "datum": "22-02-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: fat rope double unders\nmin 2: kb usa swings 24/16kg\nmin 3: sit-ups\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je technische uitvoering van elke oefening optimaal is, vooral bij de fat rope double unders en de kettlebell swings.  \n\ud83d\udca1 **Strategie:** Plan je intensiteit zodat je energie behoudt voor de volledige 40 minuten; begin rustiger aan de eerste minuten als je dat nodig hebt.  \n\ud83e\ude79 **Tip:** Gebruik de rustmomenten effectief en zorg ervoor dat je goed ademhaalt en hydrateert.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je vorm altijd prioriteit heeft, vooral bij de fat rope double unders en de kettlebell swings.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste minuten om je techniek te verfijnen en verhoog geleidelijk de snelheid naarmate je meer comfortabel wordt.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en maak gebruik van je rustminuten; adem diep in en uit om je hartslag te stabiliseren voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,7 +94,7 @@
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "4/6",
             "status": "Open"
         }
     ],
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
