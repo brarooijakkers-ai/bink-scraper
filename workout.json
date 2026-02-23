@@ -2,7 +2,7 @@
     "datum": "23-02-2026",
     "dag": "Maandag",
     "workout": "4 rounds\n2min work/2min rest\n10 burpee pull ups\nmax wallballs",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed indeelt, want het is een pittige workout met kortere werkperiodes.  \n\ud83d\udca1 **Strategie:** Begin met een constante pacing bij de burpee pull-ups om vermoeidheid te voorkomen en gebruik de restperiodes optimaal om te herstellen.  \n\ud83e\ude79 **Tip:** Concentreer je bij de wallballs op een goede techniek en een sterke core om je snelheid en aantal herhalingen te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief bent bij elke burpee pull up om je kracht en snelheid te maximaliseren.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste 2 minuten van elke ronde effici\u00ebnt; zorg ervoor dat je consistent blijft zonder jezelf te overbelasten, zodat je meer wallballs kunt doen.  \n\ud83e\ude79 **Tip:** Neem tijdens de rust goed de tijd om te herstellen; concentreer je op je ademhaling en hydrateer indien nodig.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,21 +108,21 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/12",
+            "deelnemers": "5/12",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
