@@ -2,7 +2,7 @@
     "datum": "24-02-2026",
     "dag": "Dinsdag",
     "workout": "for time\n1000/900m row\n100 double unders\n500/450m row\n100 double unders\n250/225m row\n100 double unders\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante en effici\u00ebnte roeisnelheid aanhoudt om je energie goed te verdelen.  \n\ud83d\udca1 **Strategie:** Doe de double unders in sets om te voorkomen dat je vermoeid raakt, zoals 25-50 per set afhankelijk van je niveau.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling tijdens het roeien en de double unders; dit helpt je om je snelheid en kracht beter te beheersen.",
+    "coach": "\ud83d\udd25 **Focus:** Richt je op een constante en gecontroleerde roeisnelheid om energie te besparen.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in sets, bijvoorbeeld 50-25-25, om te voorkomen dat je uitgeput raakt.  \n\ud83e\ude79 **Tip:** Zorg voor een goede ademhaling tijdens het roeien en gebruik je armen en benen synchroon voor maximaal rendement.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "11/11",
             "status": "Open"
         },
         {
