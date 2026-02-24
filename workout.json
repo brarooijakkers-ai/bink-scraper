@@ -1,8 +1,8 @@
 {
     "datum": "24-02-2026",
     "dag": "Dinsdag",
-    "workout": "for time\n1000/500m row\n100 double unders\n500/450m row\n100 double unders\n250/225m row\n100 double unders\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de roeimachine in de gaten, zodat je effici\u00ebnt blijft roeien en je spieren niet onnodig belast.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in sets, bijvoorbeeld 50-50 of 30-30-40, om jezelf niet te overspannen en vermoeidheid te beheersen.  \n\ud83e\ude79 **Tip:** Gebruik een lichte sprong en houd je polsen actief voor een soepelere uitvoering van de double unders; dit kan je helpen om minder snel moe te worden.",
+    "workout": "for time\n1000/900m row\n100 double unders\n500/450m row\n100 double unders\n250/225m row\n100 double unders\ntimecap 17min",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de roeimachine nauwkeurig en effici\u00ebnt om energiekosten te besparen.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in sets, bijvoorbeeld 50-50 of 30-30-40, zodat je de kans op fouten minimaliseert en je hartslag onder controle houdt.  \n\ud83e\ude79 **Tip:** Gebruik de overgang tussen de ronden om even je ademhaling te reguleren en je hartslag te laten zakken, zodat je fris aan de volgende set kunt beginnen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/12",
+            "deelnemers": "6/12",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
