@@ -2,7 +2,7 @@
     "datum": "24-02-2026",
     "dag": "Dinsdag",
     "workout": "for time\n1000/900m row\n100 double unders\n500/450m row\n100 double unders\n250/225m row\n100 double unders\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Blijf gedurende de hele workout consistent en behoud een goede techniek, vooral tijdens het roeien en de double unders.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; probeer bij elke roeisessie een steady pace aan te houden en neem korte pauzes tijdens de double unders om je hartslag onder controle te houden.  \n\ud83e\ude79 **Tip:** Als double unders een uitdaging zijn, overweeg dan om ze in sets van 20 of 25 te doen, zodat je minder snel vermoeid raakt en je techniek beter blijft.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je pacing goed in de gaten houdt tijdens de roeisessies, vooral in de lange stukken.  \n\ud83d\udca1 **Strategie:** Verdeel je double unders in manageable sets, bijvoorbeeld 50 per keer, om vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Blijf ontspannen en gefocust tijdens de roeifietsen; een goede techniek kan je helpen om je energie beter te sparen voor de double unders.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -169,14 +169,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "3/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
