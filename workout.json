@@ -2,7 +2,7 @@
     "datum": "25-02-2026",
     "dag": "Woensdag",
     "workout": "30-20-10\ncal row\nburpees over the erg\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je je ademhaling onder controle hebt, vooral tijdens de burpees.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roeimachine zodat je voldoende energie overhoudt voor de burpees.  \n\ud83e\ude79 **Tip:** Probeer de burpees in sets van 5 te doen om vermoeidheid te beheersen en effectiever te blijven bewegen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeeld voor de cal row en de burpees, zodat je in de laatste rondes niet stilvalt.  \n\ud83d\udca1 **Strategie:** Begin met een stevig maar beheersbaar tempo op de rower, en probeer 2-3 burpees per seconde te maken om jezelf in de race te houden.  \n\ud83e\ude79 **Tip:** Houd je rug recht tijdens de burpees en gebruik je benen om jezelf omhoog te duwen voor een effici\u00ebntere beweging.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -115,21 +115,21 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -171,14 +171,14 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -211,7 +211,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -323,7 +323,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
@@ -337,7 +337,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ]
