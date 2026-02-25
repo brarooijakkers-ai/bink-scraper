@@ -2,7 +2,7 @@
     "datum": "25-02-2026",
     "dag": "Woensdag",
     "workout": "30-20-10\ncal row\nburpees over the erg\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de roeimachine scherp en let op je ademhaling tijdens de burpees.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht gelijkmatig over de cal row en de burpees om vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Neem een korte pauze tussen de burpees door, zodat je met goede vorm blijft werken en niet inzakt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg dat je je ademhaling onder controle hebt, vooral tijdens de burpees.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roeimachine zodat je voldoende energie overhoudt voor de burpees.  \n\ud83e\ude79 **Tip:** Probeer de burpees in sets van 5 te doen om vermoeidheid te beheersen en effectiever te blijven bewegen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,14 +94,14 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -115,21 +115,21 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -171,7 +171,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -260,14 +260,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
