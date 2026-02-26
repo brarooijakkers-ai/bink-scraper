@@ -2,7 +2,7 @@
     "datum": "26-02-2026",
     "dag": "Donderdag",
     "workout": "4 rounds\n30 box jump overs\n400m run\n30 db snatches 1x db 22.5/15kg\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief springt bij de box jump overs, maar houd een constante en gecontroleerde landing.  \n\ud83d\udca1 **Strategie:** Verspreid je energie gelijkmatig over de 4 ronden en gebruik je ademhaling om je hartslag onder controle te houden tijdens de runs.  \n\ud83e\ude79 **Tip:** Bij de dumbbell snatches, probeer de beweging soepel en snel te houden - gebruik je heupen voor extra kracht en vermijd onnodige vermoeidheid in je armen.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in de gaten tijdens de box jump overs om blessures te voorkomen en je snelheid te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verspreid je energie gelijkmatig over de vier ronden; begin niet te snel om in het tweede deel van de WOD niet in te boeten op je prestaties.  \n\ud83e\ude79 **Tip:** Gebruik de overgang na de db snatches voor actieve herstel; neem een diepe ademhaling en bereid je voor op de volgende run.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -115,28 +115,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "0/6",
             "status": "Open"
         }
     ],
@@ -218,7 +218,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/16",
+            "deelnemers": "1/16",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
