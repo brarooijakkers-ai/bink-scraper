@@ -2,7 +2,7 @@
     "datum": "26-02-2026",
     "dag": "Donderdag",
     "workout": "4 rounds\n30 box jump overs\n400m run\n30 db snatches 1x db 22.5/15kg\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de box jump overs in orde is om blessures te voorkomen en je energie goed te beheren.  \n\ud83d\udca1 **Strategie:** Houd een constante snelheid aan tijdens de 400m run; het is beter om iets rustiger te starten en je energie te behouden voor de db snatches.  \n\ud83e\ude79 **Tip:** Gebruik de kracht van je heupen en benen bij de db snatches om de belasting op je schouders te minimaliseren en sneller door te kunnen gaan.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief springt bij de box jump overs, maar houd een constante en gecontroleerde landing.  \n\ud83d\udca1 **Strategie:** Verspreid je energie gelijkmatig over de 4 ronden en gebruik je ademhaling om je hartslag onder controle te houden tijdens de runs.  \n\ud83e\ude79 **Tip:** Bij de dumbbell snatches, probeer de beweging soepel en snel te houden - gebruik je heupen voor extra kracht en vermijd onnodige vermoeidheid in je armen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -52,21 +52,21 @@
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "11:00 - 12:45",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -80,7 +80,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
