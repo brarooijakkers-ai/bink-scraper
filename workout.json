@@ -2,7 +2,7 @@
     "datum": "27-02-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open WoD 26.1\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek en vorm optimaal blijven voor elke herhaling, vooral bij de zwaardere onderdelen.  \n\ud83d\udca1 **Strategie:** Plan je pauzes goed en verdeel je energie over de hele workout om zo het einde met goede kracht te kunnen blijven finishen.  \n\ud83e\ude79 **Tip:** Blijf constant ademen en gebruik opzwepende muziek om je motivatie op peil te houden tijdens de zwaardere sets.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek solide blijft, vooral bij de deadlifts en snatches, om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Plan je pauzes zorgvuldig en hou een constant tempo aan om je kracht gedurende de hele WOD te behouden.  \n\ud83e\ude79 **Tip:** Start niet te snel; geef jezelf de tijd om op te warmen en vind je ritme zodat je dit in het tweede deel van de workout kunt volhouden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
