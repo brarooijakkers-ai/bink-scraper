@@ -2,7 +2,7 @@
     "datum": "27-02-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open WoD 26.1\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bewaakt tijdens de zware lifts en het cardio-gedeelte om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en verhoog je intensiteit naarmate je verder in de workout komt, zodat je je energie goed verdeelt.  \n\ud83e\ude79 **Tip:** Neem een paar seconden de tijd om te herstellen tussen de sets, zodat je het maximale uit elke herhaling haalt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een sterke techniek behoudt gedurende de hele workout om blessures te voorkomen en je prestaties te maximaliseren.\n\n\ud83d\udca1 **Strategie:** Begin met een tempo dat je in staat stelt om je kracht te behouden voor de hele workout, en verhoog je intensiteit naarmate je verder komt, als je je goed voelt.\n\n\ud83e\ude79 **Tip:** Vergeet niet te hydrateren en voldoende op te warmen voor de workout; dit helpt je om je spieren optimaal voor te bereiden op de belasting.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -129,14 +129,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -150,14 +150,14 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         }
     ],
@@ -232,7 +232,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
