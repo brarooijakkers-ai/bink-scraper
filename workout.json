@@ -2,7 +2,7 @@
     "datum": "27-02-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open WoD 26.1\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek solide blijft, vooral bij de deadlifts en snatches, om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Plan je pauzes zorgvuldig en hou een constant tempo aan om je kracht gedurende de hele WOD te behouden.  \n\ud83e\ude79 **Tip:** Start niet te snel; geef jezelf de tijd om op te warmen en vind je ritme zodat je dit in het tweede deel van de workout kunt volhouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek blijft controleren, vooral tijdens het gewichtheffen. \n\n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de workouts, zodat je in staat bent om met een constante intensiteit te blijven werken tijdens het gehele WOD.\n\n\ud83e\ude79 **Tip:** Blijf goed hydrateren en luister naar je lichaam; pauzes kunnen cruciaal zijn voor je prestaties en herstel.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "8/8",
+            "deelnemers": "7/8",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
