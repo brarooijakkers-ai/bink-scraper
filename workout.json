@@ -2,7 +2,7 @@
     "datum": "27-02-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open WoD 26.1\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek blijft controleren, vooral tijdens het gewichtheffen. \n\n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de workouts, zodat je in staat bent om met een constante intensiteit te blijven werken tijdens het gehele WOD.\n\n\ud83e\ude79 **Tip:** Blijf goed hydrateren en luister naar je lichaam; pauzes kunnen cruciaal zijn voor je prestaties en herstel.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt, vooral tijdens de intensieve delen van de workout.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning gelijkmatig over de verschillende onderdelen, zodat je niet te vroeg vermoeit raakt.  \n\ud83e\ude79 **Tip:** Denk aan je techniek bij elke beweging; dit helpt je niet alleen om effici\u00ebnter te presteren, maar vermindert ook het risico op blessures.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/16",
+            "deelnemers": "1/16",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "4/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
