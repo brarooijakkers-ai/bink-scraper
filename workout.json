@@ -2,7 +2,7 @@
     "datum": "28-02-2026",
     "dag": "Zaterdag",
     "workout": "8 rounds\n5 deadlifts\n5 power cleans\n5 shoulder to overhead\n5 front squats\nrest 1min\nRX 60/45kg\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek gedegen is bij elke lift om blessures te voorkomen en de belasting goed aan te kunnen.  \n\ud83d\udca1 **Strategie:** Begin met een rustige pace; je hebt genoeg rondes dus houd je energie goed verdeeld over de 8 rondes.  \n\ud83e\ude79 **Tip:** Gebruik de rust van 1 minuut om goed te ademen en je mentale focus te herpakken voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op peil blijft tijdens de deadlifts en power cleans, zodat je geen onnodige blessures oploopt.  \n\ud83d\udca1 **Strategie:** Begin rustig en bouw je tempo op; het is beter om de eerste paar rondes conservatief te starten om energie te bewaren voor de latere rondes.  \n\ud83e\ude79 **Tip:** Neem je tijd om te ademen tussen de herhalingen, dat helpt je om geconcentreerd en krachtig te blijven tijdens de shoulder to overhead en front squats.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -96,7 +96,7 @@
         "ingeschreven": true,
         "tijd": "13:00 - 14:00",
         "type": "OPENGYM",
-        "deelnemers": "2/6",
+        "deelnemers": "3/6",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -106,7 +106,7 @@
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Jij bent Ingeschreven"
         }
     ]
