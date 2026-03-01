@@ -2,7 +2,7 @@
     "datum": "01-03-2026",
     "dag": "Zondag",
     "workout": "amrap 15min\n10 toes to bar\n16 line facing burpees",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de toes to bar optimaal is, zodat je effici\u00ebnt en veilig kunt bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; kies een tempo voor de burpees waar je de volledige 15 minuten mee kunt volhouden.  \n\ud83e\ude79 **Tip:** Neem korte pauzes als dat nodig is, vooral tussen de sets, zodat je je kracht behoudt voor de laatste minuten van de WOD.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede grip hebt en je core sterk is voor de toes to bar.  \n\ud83d\udca1 **Strategie:** Verdeel je burpees in sets van maximaal 4 om je intensiteit hoog te houden zonder te veel uitputting.  \n\ud83e\ude79 **Tip:** Blijf recht omhoog springen en kijk naar de bar om je beweging te optimaliseren en je energie te besparen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "13:00 - 14:00",
@@ -36,14 +36,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -92,7 +92,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/8",
+            "deelnemers": "2/8",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -155,14 +155,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
