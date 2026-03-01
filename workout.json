@@ -2,7 +2,7 @@
     "datum": "01-03-2026",
     "dag": "Zondag",
     "workout": "amrap 15min\n10 toes to bar\n16 line facing burpees",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt bij de toes to bar om blessures te voorkomen en effici\u00ebnt te blijven bewegen.  \n\ud83d\udca1 **Strategie:** Probeer de burpees in sets van 8 te doen, zodat je tussendoor even kunt op adem komen zonder te veel tijd te verliezen.  \n\ud83e\ude79 **Tip:** Gebruik een lichte kipping beweging bij de toes to bar om je spieren te ontlasten en de beweging vloeiender te maken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de toes to bar optimaal is, zodat je effici\u00ebnt en veilig kunt bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; kies een tempo voor de burpees waar je de volledige 15 minuten mee kunt volhouden.  \n\ud83e\ude79 **Tip:** Neem korte pauzes als dat nodig is, vooral tussen de sets, zodat je je kracht behoudt voor de laatste minuten van de WOD.  ",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "13:00 - 14:00",
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
