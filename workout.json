@@ -2,15 +2,15 @@
     "datum": "02-03-2026",
     "dag": "Maandag",
     "workout": "1-2-3-4-5-6-7-8-9-10\nthrusters 2x db 22.5/15kg\nshuttle runs\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede techniek bij de thrusters om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Probeer de thrusters in sets van 2-3 herhalingen te doen en haal voldoende rust tussendoor om je shuttle runs explosief uit te voeren.  \n\ud83e\ude79 **Tip:** Loop tijdens de shuttle runs in een vloeiende beweging en probeer je ademhaling onder controle te houden om je snelheid te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de thrusters solide blijft, vooral bij vermoeidheid.  \n\ud83d\udca1 **Strategie:** Verdeel je thrusters in kleinere sets om de techniek te waarborgen en vermijd totale uitputting.  \n\ud83e\ude79 **Tip:** Gebruik je shuttle runs om je hartslag te verlagen tussen de sets door even te joggen in plaats van sprinten.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
         "wachtlijst": true,
-        "wachtlijst_plek": "2",
-        "wachtlijst_totaal": "6"
+        "wachtlijst_plek": "1",
+        "wachtlijst_totaal": "5"
     },
     "rooster_vandaag": [
         {
@@ -57,7 +57,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
