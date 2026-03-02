@@ -2,7 +2,7 @@
     "datum": "02-03-2026",
     "dag": "Maandag",
     "workout": "1-2-3-4-5-6-7-8-9-10\nthrusters 2x db 22.5/15kg\nshuttle runs\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de thrusters optimaal is, vooral bij de hogere herhalingen.  \n\ud83d\udca1 **Strategie:** Pace je shuttle runs; start met een comfortabel tempo en verhoog het aan het einde als je nog energie over hebt.  \n\ud83e\ude79 **Tip:** Vergeet niet om voldoende rust te nemen tussen de sets als je dat nodig hebt; dit kan je helpen om je thrusters effici\u00ebnter te maken.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de thrusters scherp blijft, zodat je zoveel mogelijk gewicht kunt verplaatsen zonder je kracht te verliezen.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning zorgvuldig; begin met een steady tempo en verhoog dit indien mogelijk in de latere rondes.  \n\ud83e\ude79 **Tip:** Maak gebruik van je ademhaling tijdens de shuttle runs om snel te herstellen tussen de sets door.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,14 +108,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/12",
+            "deelnemers": "4/12",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
