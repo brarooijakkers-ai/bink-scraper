@@ -2,7 +2,7 @@
     "datum": "02-03-2026",
     "dag": "Maandag",
     "workout": "1-2-3-4-5-6-7-8-9-10\nthrusters 2x db 22.5/15kg\nshuttle runs\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de techniek van de thrusters goed uitvoert om blessures te voorkomen en je kracht optimaal te benutten.  \n\ud83d\udca1 **Strategie:** Probeer de herhalingen van de thrusters in sets te verdelen en neem voldoende pauze tussen de sets om je form te behouden.  \n\ud83e\ude79 **Tip:** Blijf tijdens de shuttle runs snel bewegen, maar gebruik een constante snelheid zodat je niet te veel energie verliest voor de volgende ronde van thrusters.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek scherp bij de thrusters om blessures te voorkomen en je effici\u00ebntie te vergroten.  \n\ud83d\udca1 **Strategie:** Probeer een steady tempo aan te houden en plan je rustmomenten tussen de sets om je energie op te sparen voor de shuttle runs.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je bij de shuttle runs elke keer met een sterke uitgangspositie start, zodat je sneller kunt accelereren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -204,7 +204,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/12",
+            "deelnemers": "5/12",
             "status": "Open"
         },
         {
@@ -309,14 +309,14 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
