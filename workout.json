@@ -2,7 +2,7 @@
     "datum": "03-03-2026",
     "dag": "Dinsdag",
     "workout": "4 rounds\n20 deadlifts 100/70kg\n1000m run\n15 ring push ups\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de deadlifts behoudt, vooral na de run wanneer je vermoeid bent.  \n\ud83d\udca1 **Strategie:** Verdeel je deadlifts in sets van 5 of 10 om je energie beter te beheren tijdens de workout.  \n\ud83e\ude79 **Tip:** Neem een paar seconden rust tussen de rondes om je hartslag te verlagen en je focus te herpakken voor de ring push-ups.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts goed blijft, vooral naarmate je moe wordt.\n\n\ud83d\udca1 **Strategie:** Begin de run in een comfortabel tempo zodat je voldoende energie hebt voor de ring push-ups.\n\n\ud83e\ude79 **Tip:** Als je moeite hebt met de ring push-ups, schakel dan over naar een andere variant om de beweging soepel te houden en jezelf niet te overbelasten.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
