@@ -2,7 +2,7 @@
     "datum": "03-03-2026",
     "dag": "Dinsdag",
     "workout": "4 rounds\n20 deadlifts 100/70kg\n1000m run\n15 ring push ups\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Richt je op een effici\u00ebnte techniek tijdens de deadlifts om je rug te beschermen en energie te besparen.  \n\ud83d\udca1 **Strategie:** Verdeel de deadlifts in sets van 5 of 10 zodat je genoeg rust kunt nemen tussen de reps en je kracht behoudt voor de run.  \n\ud83e\ude79 **Tip:** Begin je run met een rustig tempo en verhoog het tempo naarmate je meer ontspannen voelt; dit helpt om je uithoudingsvermogen te behouden voor de ring push-ups.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de deadlifts behoudt, vooral na de run wanneer je vermoeid bent.  \n\ud83d\udca1 **Strategie:** Verdeel je deadlifts in sets van 5 of 10 om je energie beter te beheren tijdens de workout.  \n\ud83e\ude79 **Tip:** Neem een paar seconden rust tussen de rondes om je hartslag te verlagen en je focus te herpakken voor de ring push-ups.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "11/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -169,7 +169,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
