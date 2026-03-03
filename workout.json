@@ -2,7 +2,7 @@
     "datum": "03-03-2026",
     "dag": "Dinsdag",
     "workout": "4 rounds\n20 deadlifts 100/70kg\n1000m run\n15 ring push ups\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts goed blijft, vooral naarmate je moe wordt.\n\n\ud83d\udca1 **Strategie:** Begin de run in een comfortabel tempo zodat je voldoende energie hebt voor de ring push-ups.\n\n\ud83e\ude79 **Tip:** Als je moeite hebt met de ring push-ups, schakel dan over naar een andere variant om de beweging soepel te houden en jezelf niet te overbelasten.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de deadlifts je techniek scherp houdt om blessures te voorkomen en effici\u00ebntie te verbeteren.  \n\ud83d\udca1 **Strategie:** Verdeeld je energie goed; begin met een steady tempo op de run en behoud je kracht voor de ring push-ups.  \n\ud83e\ude79 **Tip:** Neem na elke run een paar seconden om je ademhaling te herstellen voordat je aan de deadlifts begint, zodat je steeds gefocust blijft.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -143,14 +143,14 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "2/6",
             "status": "Open"
         }
     ],
@@ -197,7 +197,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
@@ -316,7 +316,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
