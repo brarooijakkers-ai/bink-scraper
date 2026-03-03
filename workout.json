@@ -2,7 +2,7 @@
     "datum": "03-03-2026",
     "dag": "Dinsdag",
     "workout": "4 rounds\n20 deadlifts 100/70kg\n1000m run\n15 ring push ups\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de deadlifts met een goede techniek uitvoert om blessures te voorkomen en je kracht optimaal te benutten.  \n\ud83d\udca1 **Strategie:** Houd een constante en beheerste snelheid aan tijdens de run, zodat je niet te veel energie verliest voor de ring push-ups.  \n\ud83e\ude79 **Tip:** Neem korte rustpauzes na elk setje ring push-ups om ervoor te zorgen dat je de juiste vorm behoudt en je spieren niet overbelast.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je deadlifts met een goede techniek uitvoert om blessures te voorkomen en energie goed te sparen.  \n\ud83d\udca1 **Strategie:** Verdeel de deadlifts in sets van 5 of 10 om je grip en uithoudingsvermogen te behouden tijdens de rondes.  \n\ud83e\ude79 **Tip:** Tijdens de running tussen de rondes, probeer een constant tempo aan te houden en kijk uit naar je ademhaling om de ring push-ups goed te kunnen uitvoeren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,28 +24,28 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/12",
+            "deelnemers": "3/12",
             "status": "Open"
         },
         {
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -80,7 +80,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
