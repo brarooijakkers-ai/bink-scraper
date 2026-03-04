@@ -2,7 +2,7 @@
     "datum": "04-03-2026",
     "dag": "Woensdag",
     "workout": "3 rounds\namrap 3min/rest 2min\n4 clean and jerks 60/45kg\n4 chest to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de clean and jerks goed is; dit helpt om blessures te voorkomen en je effici\u00ebntie te verbeteren.  \n\ud83d\udca1 **Strategie:** Plan je tempo zodat je voldoende energie hebt om de chest to bar met goede vorm te blijven doen.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling tijdens de rust, zodat je fris begint aan de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de clean and jerks nauwkeurig is, zodat je effici\u00ebnt kunt bewegen en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Plan je rust goed; binnen de 3 minuten geef je alles, maar gebruik die 2 minuten om je hartslag te laten dalen en jezelf voor te bereiden op de volgende ronde.  \n\ud83e\ude79 **Tip:** Houd de spanning in je core tijdens de chest to bar, dat helpt je om de beweging vloeiend uit te voeren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -171,7 +171,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -185,7 +185,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
