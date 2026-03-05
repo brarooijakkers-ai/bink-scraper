@@ -2,7 +2,7 @@
     "datum": "05-03-2026",
     "dag": "Donderdag",
     "workout": "for time\n5000/4500m row\ntimecap 23min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de roeimachine scherp om enerzijds effici\u00ebnt te blijven en anderzijds blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel het tempo in segmenten; begin rustig en verhoog je snelheid halverwege om de laatste kilometers krachtig af te sluiten.  \n\ud83e\ude79 **Tip:** Gebruik je benen optimaal bij elke haal en zorg ervoor dat je core goed aangespannen blijft om je kracht te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een steady en consistente snelheid aanhoudt om de afstand effici\u00ebnt te overbruggen.  \n\ud83d\udca1 **Strategie:** Begin rustig en bouw je tempo geleidelijk op, zodat je in de laatste minuten nog genoeg kracht over hebt om te versnellen.  \n\ud83e\ude79 **Tip:** Let op je techniek, vooral je ademhaling en je houding, om blessures te voorkomen en zo effici\u00ebnt mogelijk te roeien.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -190,7 +190,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
@@ -218,14 +218,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/8",
+            "deelnemers": "6/8",
             "status": "Open"
         },
         {
@@ -274,7 +274,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
