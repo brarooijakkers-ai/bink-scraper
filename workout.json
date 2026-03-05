@@ -2,7 +2,7 @@
     "datum": "05-03-2026",
     "dag": "Donderdag",
     "workout": "for time\n5000/4500m row\ntimecap 23min",
-    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling en het ritme van je roeislagen om je uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en verhoog geleidelijk je snelheid naarmate je verder in de workout komt.  \n\ud83e\ude79 **Tip:** Vergeet niet om je houding in de roeimachine goed te houden; houd je rug recht en je schouders naar achteren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante en haalbare snelheid aanhoudt om de volledige afstand zonder uitputting te voltooien.  \n\ud83d\udca1 **Strategie:** Verdeel de afstand in secties en focus op het vasthouden van een gelijkmatig tempo, vooral in de eerste helft van de workout.  \n\ud83e\ude79 **Tip:** Let op je ademhaling en techniek; een correcte houding helpt je om effici\u00ebnter te roeien en voorkomt blessures.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "4/16",
             "status": "Open"
         },
         {
@@ -218,14 +218,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "6/16",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "6/8",
+            "deelnemers": "8/8",
             "status": "Open"
         },
         {
