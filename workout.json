@@ -2,7 +2,7 @@
     "datum": "05-03-2026",
     "dag": "Donderdag",
     "workout": "for time\n5000/4500m row\ntimecap 23min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek tijdens het roeien goed behoudt om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de afstand in segmenten en hou een consistent tempo aan om de tijdcap te halen.  \n\ud83e\ude79 **Tip:** Neem elke 1000 meter een korte drinkpauze om gehydrateerd te blijven en je energie op peil te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling en het ritme van je roeislagen om je uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en verhoog geleidelijk je snelheid naarmate je verder in de workout komt.  \n\ud83e\ude79 **Tip:** Vergeet niet om je houding in de roeimachine goed te houden; houd je rug recht en je schouders naar achteren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/12",
+            "deelnemers": "5/12",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
