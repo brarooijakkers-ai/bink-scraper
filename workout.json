@@ -2,7 +2,7 @@
     "datum": "06-03-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open 26.2\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek hanteert tijdens alle bewegingen om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je sets en reps in beheersbare blokken, zodat je niet in \u00e9\u00e9n keer uitgeput raakt en je consistent kunt blijven presteren.  \n\ud83e\ude79 **Tip:** Blijf je ademhaling controleren en neem korte pauzes tussen de bewegingen om je kracht en uithoudingsvermogen te behouden tijdens de workout.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt, vooral tijdens de complexe bewegingen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en bouw je intensiteit op naarmate je verder in de workout komt.  \n\ud83e\ude79 **Tip:** Vergeet niet om voldoende rust te nemen tussen de rondes om je explosiviteit en vorm te behouden.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:15",
@@ -23,91 +23,21 @@
     ],
     "dag_morgen": "Zaterdag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "12:15 - 14:00",
+        "type": "OPENGYM",
+        "deelnemers": "3/10",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "09:15 - 10:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "7/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "5/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "2/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "3/10",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
