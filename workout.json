@@ -2,7 +2,7 @@
     "datum": "07-03-2026",
     "dag": "Zaterdag",
     "workout": "emom 21min\nmin 1: rope climbs\nmin 2: db bench press 2x db 22.5/15kg\nmin 3: double unders",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de rope climbs en de db bench press optimaal is om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Plan je rust goed in; gebruik het eerste gedeelte van elke minuut om bij te komen, zodat je de laatste paar seconden van elke minuut kunt benutten voor de volgende oefening.  \n\ud83e\ude79 **Tip:** Houd een steady ritme aan bij de double unders en probeer ze afwisselend met sprongetjes om de belasting op je kuiten te beperken.",
+    "coach": "\ud83d\udd25 **Focus:** Richt je op techniek tijdens de rope climbs om energie te besparen voor de andere oefeningen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de dumbbell bench press en concentreer je op een gecontroleerde beweging voor optimale krachtoverdracht.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je het touw goed vasthoudt en gebruik je benen tijdens de rope climbs voor effici\u00ebntie; dit bespaart je bovenlichaamspierkracht voor de rest van de workout.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
@@ -26,18 +26,18 @@
         "ingeschreven": true,
         "tijd": "09:15 - 10:15",
         "type": "WOD",
-        "deelnemers": "16/16",
-        "wachtlijst": true,
-        "wachtlijst_plek": "1",
-        "wachtlijst_totaal": "2"
+        "deelnemers": "15/16",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Jij staat op Wachtlijst"
+            "deelnemers": "15/16",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
