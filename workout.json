@@ -2,7 +2,7 @@
     "datum": "07-03-2026",
     "dag": "Zaterdag",
     "workout": "emom 21min\nmin 1: rope climbs\nmin 2: db bench press 2x db 22.5/15kg\nmin 3: double unders",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de rope climbs optimaal is, zodat je jezelf niet overbelast.  \n\ud83d\udca1 **Strategie:** Verdelen je energie goed over de 21 minuten; begin rustig en bouw je snelheid op naarmate je verder gaat.  \n\ud83e\ude79 **Tip:** Gebruik een touw met voldoende grip voor de rope climbs en zorg dat je de double unders in een soepel ritme uitvoert om vermoeidheid te minimaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de rope climbs optimaal is om blessures te voorkomen en je energie te sparen.  \n\ud83d\udca1 **Strategie:** Houd een gelijkmatig tempo aan bij de db bench press; dit helpt je om de volledige 21 minuten door te komen zonder te snel te vermoeien.  \n\ud83e\ude79 **Tip:** Gebruik de resttijd in elke minuut om je herstel te optimaliseren, zodat je fris en gefocust aan de volgende minuut kunt beginnen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
@@ -57,14 +57,14 @@
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -85,7 +85,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
