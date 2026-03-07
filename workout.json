@@ -2,7 +2,7 @@
     "datum": "07-03-2026",
     "dag": "Zaterdag",
     "workout": "emom 21min\nmin 1: rope climbs\nmin 2: db bench press 2x db 22.5/15kg\nmin 3: double unders",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de rope climbs en de dumbbell bench press goed is, zodat je blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Manage je energie goed; begin rustig aan met de rope climbs en bouw je tempo op naarmate de tijd vordert.  \n\ud83e\ude79 **Tip:** Als je moeite hebt met double unders, probeer dan de combinatie van singles en doubles om te blijven bewegen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de rope climbs nauwkeurig is, zodat je effici\u00ebnt en veilig klimt.  \n\ud83d\udca1 **Strategie:** Houd een constant tempo aan bij de db bench press en gun jezelf een paar seconden rust tussen de herhalingen om je kracht te maximaliseren.  \n\ud83e\ude79 **Tip:** Bij de double unders is het belangrijk om je polsen en enkelbewegingen te co\u00f6rdineren; oefen een constante sprongetjeshoogte voor een betere timing.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
@@ -23,98 +23,21 @@
     ],
     "dag_morgen": "Zondag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
+        "ingeschreven": true,
+        "tijd": "09:15 - 10:15",
+        "type": "WOD",
+        "deelnemers": "16/16",
+        "wachtlijst": true,
+        "wachtlijst_plek": "1",
+        "wachtlijst_totaal": "1"
     },
     "rooster_morgen": [
-        {
-            "tijd": "09:15 - 09:45",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "5/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "14/14",
-            "status": "Open"
-        },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:45 - 10:30",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "9/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:30 - 11:15",
-            "type": "TEENS",
-            "zaal": "Zaal 2",
-            "deelnemers": "1/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "5/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "HYROX",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "BASIC OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "4/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "1/6",
-            "status": "Open"
+            "status": "Jij staat op Wachtlijst"
         }
     ]
 }
