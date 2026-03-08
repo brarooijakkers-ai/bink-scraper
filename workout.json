@@ -2,12 +2,12 @@
     "datum": "08-03-2026",
     "dag": "Zondag",
     "workout": "4 rounds\n30 wallballs\n8 wallwalks\nrest 1min\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je core stevig en je techniek goed tijdens de wallballs om energie te besparen.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets van 10 om vermoeidheid te verminderen en de kwaliteit van je uitvoering hoog te houden.  \n\ud83e\ude79 **Tip:** Tijdens de wallwalks, zorg ervoor dat je gecontroleerd beweegt en je handen en voeten goed plaatst voor een effici\u00ebnte uitvoering.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de wallballs met een goede techniek uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets van 10 of 15 om je energie beter te managen en pauzes te minimaliseren.  \n\ud83e\ude79 **Tip:** Gebruik je benen krachtig bij de wallballs en focus op een gecontroleerde afdaling tijdens de wallwalks voor meer stabiliteit.  ",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:15",
         "type": "WOD",
-        "deelnemers": "10/16",
+        "deelnemers": "14/16",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/16",
+            "deelnemers": "14/16",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -92,7 +92,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/8",
+            "deelnemers": "2/8",
             "status": "Open"
         },
         {
@@ -127,7 +127,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
