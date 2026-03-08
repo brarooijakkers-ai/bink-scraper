@@ -2,12 +2,12 @@
     "datum": "08-03-2026",
     "dag": "Zondag",
     "workout": "4 rounds\n30 wallballs\n8 wallwalks\nrest 1min\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek solide tijdens de wallballs om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Verdeeld je wallballs in sets van 10 om je kracht en uithoudingsvermogen te maximaliseren.  \n\ud83e\ude79 **Tip:** Gebruik je rustmomenten goed en blijf actief door bijvoorbeeld rustig te wandelen of te rekken.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling tijdens de wallballs en wallwalks om vermoeidheid te verminderen.  \n\ud83d\udca1 **Strategie:** Begin rustig en gebruik de eerste ronde om je techniek aan te scherpen, zodat je in de latere rondes sneller en effici\u00ebnter kunt bewegen.  \n\ud83e\ude79 **Tip:** Gebruik je rustmomenten om je hartslag onder controle te krijgen en goed te hydrateren, zodat je weer fris aan de volgende ronde kunt beginnen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:15",
         "type": "WOD",
-        "deelnemers": "13/16",
+        "deelnemers": "12/16",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "12/16",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -176,21 +176,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
