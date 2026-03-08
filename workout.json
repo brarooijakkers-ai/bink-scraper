@@ -2,12 +2,12 @@
     "datum": "08-03-2026",
     "dag": "Zondag",
     "workout": "4 rounds\n30 wallballs\n8 wallwalks\nrest 1min\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de wallballs en wallwalks in de gaten houdt om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo, zodat je energie overhoudt voor de laatste rondes; het is belangrijk consistent te blijven.  \n\ud83e\ude79 **Tip:** Gebruik je armen en benen optimaal bij de wallwalks om je lichaam in een rechte lijn te houden, en maak gebruik van je ademhaling om in jezelf te blijven.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de wallballs en wallwalks optimaal is om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets als de 30 er te veel lijken, bijvoorbeeld 15-15 of 10-10-10, zodat je kracht en uithoudingsvermogen behoudt.  \n\ud83e\ude79 **Tip:** Neem elke minuut een moment voor ademhaling voordat je aan de volgende ronde begint; dit helpt je om fris te blijven tijdens de workout.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:15",
         "type": "WOD",
-        "deelnemers": "14/16",
+        "deelnemers": "15/16",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "15/16",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -36,7 +36,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
