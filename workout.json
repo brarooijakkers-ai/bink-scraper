@@ -2,7 +2,7 @@
     "datum": "08-03-2026",
     "dag": "Zondag",
     "workout": "4 rounds\n30 wallballs\n8 wallwalks\nrest 1min\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke wallball met een goede techniek uitvoert voor maximale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets van 10-15 om je uithoudingsvermogen optimaal te behouden.  \n\ud83e\ude79 **Tip:** Tijdens de wallwalks, neem je tijd aan de muur om je stabiliteit te verbeteren en blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke wallball met een goede techniek uitvoert om blessures te voorkomen en effici\u00ebntie te verhogen.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in kleinere sets als je merkt dat je vermoeid raakt, bijvoorbeeld 15-10 of 10-10-10.  \n\ud83e\ude79 **Tip:** Gebruik de restperiode van 1 minuut slim door goed te ademen en je hartslag te laten zakken voordat je aan de volgende ronde begint.  ",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:15",
@@ -85,7 +85,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
