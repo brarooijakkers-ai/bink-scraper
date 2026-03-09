@@ -2,7 +2,7 @@
     "datum": "09-03-2026",
     "dag": "Maandag",
     "workout": "amrap 15min\n12 db deadlifts\n9 db hang cleans\n6 db shoulder to overhead\n2x db 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek solide is, vooral bij de deadlifts en de hang cleans. Een goede vorm voorkomt blessures en zorgt voor een effici\u00ebntere uitvoering.  \n\ud83d\udca1 **Strategie:** Begin met een tempo dat je de hele 15 minuten kunt volhouden. Het is beter om consistent te blijven dan te snel te starten en later te moeten pauzeren.  \n\ud83e\ude79 **Tip:** Neem een korte maar kwaliteitsvolle ademhaling tussen de sets door, vooral v\u00f3\u00f3r de schouder to overhead, om je kracht en stabiliteit te optimaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede vorm bij elke beweging om blessures te voorkomen en je prestaties te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo en verhoog je snelheid naarmate de tijd vordert; dit helpt je om fris te blijven tijdens de AMRAP.  \n\ud83e\ude79 **Tip:** Houd je core actief en gebruik je benen effectief, vooral bij de deadlifts en hang cleans voor meer kracht en stabiliteit.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,7 +94,7 @@
             "tijd": "15:00 - 16:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -316,7 +316,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
