@@ -2,7 +2,7 @@
     "datum": "11-03-2026",
     "dag": "Woensdag",
     "workout": "emom 40min\nmin 1: farmers carry 2x 32/24kg\nmin 2: row for cal\nmin 3: double unders\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede houding aanneemt tijdens de farmers carry om blessures te voorkomen en je grip niet te verliezen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roeimachine, zodat je voldoende energie overhoudt voor de double unders in minuut drie.  \n\ud83e\ude79 **Tip:** Bij de double unders, focus op je spronghoogte en handbewegingen; dit helpt om je techniek te verbeteren en frustratie te voorkomen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een stevige grip hebt tijdens de farmers carry om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Plan je pacing voor de roeitraining, zodat je niet te snel begint en genoeg energie overhoudt voor de double unders.  \n\ud83e\ude79 **Tip:** Blijf ontspannen tijdens de double unders; focus op een constante spronghoogte en een gelijkmatige ritme om vermoeidheid te minimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -211,14 +211,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/12",
+            "deelnemers": "3/12",
             "status": "Open"
         },
         {
