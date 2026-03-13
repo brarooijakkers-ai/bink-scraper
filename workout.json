@@ -2,7 +2,7 @@
     "datum": "13-03-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open 26.3\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op elk onderdeel solide blijft, vooral bij de complexe bewegingen.  \n\ud83d\udca1 **Strategie:** Verdeel je energieniveaus gedurende de workout zodat je in elke ronde voldoende kracht en focus behoudt.  \n\ud83e\ude79 **Tip:** Neem korte pauzes wanneer nodig, maar laat je niet te lang afleiden, zodat je in een goede flow blijft.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek perfect onder controle hebt, vooral tijdens de complexe bewegingen.\n\n\ud83d\udca1 **Strategie:** Begin conservatief met je gewichten en verhoog ze geleidelijk, zodat je je energie gelijkmatig kunt verdelen over de hele workout.\n\n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling tijdens de herhalingen; dit helpt je om je kracht en uithoudingsvermogen te behouden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "5/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/16",
+            "deelnemers": "3/16",
             "status": "Open"
         },
         {
