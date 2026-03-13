@@ -2,7 +2,7 @@
     "datum": "13-03-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open 26.3\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek en vorm prioriteit krijgen bij elke herhaling, vooral tijdens de gewichtheffen.  \n\ud83d\udca1 **Strategie:** Verdeeld de herhalingen in beheersbare sets en plan korte rustpauzes om oververmoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Blijf gefocust en let op je ademhaling; dit kan je helpen om je energie beter te beheren tijdens de workout.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek en vorm behoudt, vooral bij de zware lifts en burpees.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de rounds; begin niet te snel en zorg ervoor dat je voldoende herstelt tussen de intensieve secties.  \n\ud83e\ude79 **Tip:** Gebruik een persoonlijke timer tussen de sets om je pacing in de gaten te houden en gefocust te blijven tijdens elke herhaling.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -183,7 +183,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
