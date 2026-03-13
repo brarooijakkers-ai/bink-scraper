@@ -2,7 +2,7 @@
     "datum": "13-03-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open 26.3\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op elk onderdeel scherp is, vooral tijdens de gewichten.  \n\n\ud83d\udca1 **Strategie:** Verdeel je energie en gebruik een pacing die haalbaar is, zodat je de laatste reps met maximale kracht kunt aanpakken.  \n\n\ud83e\ude79 **Tip:** Blijf gefocust tijdens transitions; gebruik ze om je lichaam even tot rust te laten komen voordat je aan de volgende oefening begint.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt, vooral bij de liften en de burpees, om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning in blokken; begin met een tempo dat haalbaar is en verhoog je snelheid naarmate je verder in de workout komt.  \n\ud83e\ude79 **Tip:** Houd je rustmomenten kort en effici\u00ebnt, zodat je snel weer aan de slag kunt zonder te veel tijd te verliezen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "1/11",
+            "deelnemers": "2/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
