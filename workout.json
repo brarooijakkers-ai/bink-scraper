@@ -2,7 +2,7 @@
     "datum": "13-03-2026",
     "dag": "Vrijdag",
     "workout": "CrossFit Open 26.3\ncheck the workout via this link: https://games.crossfit.com/workouts/open/2",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op iedere repetitie optimaal is, vooral bij de complexe bewegingen.  \n\ud83d\udca1 **Strategie:** Verdeel de herhalingen in beheersbare sets en neem korte pauzes tussen elke set om je energieniveau te behouden.  \n\ud83e\ude79 **Tip:** Blijf goed hydrateren en luister naar je lichaam; als je merkt dat je vorm begint te verslechteren, neem dan even de tijd om te herstellen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek precies is, vooral bij de deadlifts en de handstand push-ups, om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Begin met een beheersbaar tempo, vooral tijdens de burpees en deadlifts, zodat je voldoende energie overhoudt voor de handstand push-ups.  \n\ud83e\ude79 **Tip:** Blijf goed hydrateren en neem korte pauzes als dat nodig is; de tijd die je hier bespaart, kan je helpen om de workout consistent af te ronden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "3/11",
             "status": "Open"
         },
         {
