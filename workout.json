@@ -2,7 +2,7 @@
     "datum": "14-03-2026",
     "dag": "Zaterdag",
     "workout": "for time\n1000m run\n1000/900m row\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je tempo tijdens de run consistent en wees niet te agressief in het begin.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste 400m van de run om je ademhaling onder controle te krijgen en start daarna te versnellen.  \n\ud83e\ude79 **Tip:** Wees effici\u00ebnt met je hinder tijdens de roeitrainer; focus op een goede techniek en probeer je strokes per minute te optimaliseren voor een soepel tempo.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente pacing aanhoudt tijdens zowel de run als de row, om energie te besparen voor het einde van de workout.  \n\ud83d\udca1 **Strategie:** Begin rustig met de run en probeer je tempo gelijkmatig te houden; plan je overgang naar de roeimachine zodat je niet te veel tijd verliest.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en kies een techniek op de roeimachine die je effici\u00ebnt van kracht voorziet, waarbij je gebruik maakt van je benen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/16",
+            "deelnemers": "1/16",
             "status": "Open"
         },
         {
