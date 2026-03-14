@@ -2,7 +2,7 @@
     "datum": "14-03-2026",
     "dag": "Zaterdag",
     "workout": "for time\n1000m run\n1000/900m row\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente pacing aanhoudt tijdens zowel de run als de row, om energie te besparen voor het einde van de workout.  \n\ud83d\udca1 **Strategie:** Begin rustig met de run en probeer je tempo gelijkmatig te houden; plan je overgang naar de roeimachine zodat je niet te veel tijd verliest.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en kies een techniek op de roeimachine die je effici\u00ebnt van kracht voorziet, waarbij je gebruik maakt van je benen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je in een comfortabel tempo begint, zodat je energie overhoudt voor het roeien.  \n\ud83d\udca1 **Strategie:** Houd je hartslag onder controle tijdens de run, zodat je fris aan de roeitraining kunt beginnen.  \n\ud83e\ude79 **Tip:** Gebruik een goede roeitechniek om effici\u00ebnt te blijven, en probeer je pacing aan te passen op basis van hoe je je voelt na de run.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -45,14 +45,14 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
