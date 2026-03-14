@@ -2,93 +2,23 @@
     "datum": "14-03-2026",
     "dag": "Zaterdag",
     "workout": "for time\n1000m run\n1000/900m row\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je tempo goed in de gaten houdt tijdens de run, zodat je niet te snel start.  \n\ud83d\udca1 **Strategie:** Verdeel de roeisessie in twee delen; begin rustig om je uithoudingsvermogen te behouden en geef in de laatste 300m alles wat je hebt.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling en techniek, vooral tijdens het roeien, om je effici\u00ebntie te maximaliseren en je tijd te verbeteren.",
+    "coach": "\ud83d\udd25 **Focus:** Streef ernaar om een consistente en haalbare snelheid aan te houden tijdens zowel het hardlopen als het roeien.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde pace tijdens de run om je energie te sparen voor de roeisessie, maar zorg dat je sterk genoeg eindigt om een goede tijd neer te zetten.  \n\ud83e\ude79 **Tip:** Houd tijdens het roeien je techniek in de gaten; een goede stroke kan je helpen om sneller te roeien met minder inspanning.",
     "status_vandaag": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "12:15 - 14:00",
+        "type": "OPENGYM",
+        "deelnemers": "8/10",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_vandaag": [
         {
-            "tijd": "09:15 - 10:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "11/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "11/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "4/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "7/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "8/10",
+            "status": "Jij bent Ingeschreven"
         }
     ],
     "dag_morgen": "Zondag",
@@ -169,7 +99,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
