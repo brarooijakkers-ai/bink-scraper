@@ -2,7 +2,7 @@
     "datum": "14-03-2026",
     "dag": "Zaterdag",
     "workout": "for time\n1000m run\n1000/900m row\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de run en de row, zodat je sterk blijft tot het einde.  \n\ud83d\udca1 **Strategie:** Begin met een tempo tijdens de run dat je in staat stelt de volgende onderdelen met goede techniek te voltooien.  \n\ud83e\ude79 **Tip:** Hydrateer goed voorafgaand aan de workout en gebruik je ademhaling om je hartslag onder controle te houden tijdens de row.  ",
+    "coach": "\ud83d\udd25 **Focus:** Houd een constante snelheid aan tijdens de loop om je energie goed te verdelen.  \n\ud83d\udca1 **Strategie:** Start met een iets hogere snelheid op de loop en verlaag je tempo tijdens het roeien om je kracht te behouden.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je goed inademt en ademt uit tijdens het roeien; dit helpt je om je uithoudingsvermogen te maximaliseren.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
@@ -106,7 +106,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/16",
+            "deelnemers": "3/16",
             "status": "Open"
         },
         {
