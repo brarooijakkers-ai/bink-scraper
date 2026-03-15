@@ -2,7 +2,7 @@
     "datum": "15-03-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n12 airsquats\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Houd je core stevig tijdens de strict HSPU voor optimale stabiliteit.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht over de 20 minuten; begin met een gecontroleerd tempo en verhoog dit later als je nog energie over hebt.  \n\ud83e\ude79 **Tip:** Zorg voor een goede warming-up, vooral je schouders en benen, zodat je blessures kunt voorkomen en je prestaties kunt verbeteren.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikte handstandpush-ups met controle uitvoert; dit helpt je kracht en techniek te verbeteren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed tijdens de 20 minuten; begin met een gematigd tempo en verhoog dit als je je goed voelt.  \n\ud83e\ude79 **Tip:** Houd je ademhaling constant tijdens de airsquats en let op je vorm om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -31,7 +31,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
