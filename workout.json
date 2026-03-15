@@ -2,7 +2,7 @@
     "datum": "15-03-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n12 airsquats\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Hou een constante en stevige techniek aan tijdens de strict HSPU om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en probeer je energie goed te verdelen, zodat je ook de laatste minuten nog sterk kunt blijven.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je bij de airsquats je knie\u00ebn goed uitlijnt met je tenen en je heupen goed naar beneden brengt voor een optimale mobiliteit.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict handstand push-ups met controle uitvoert, zodat je kracht opbouwt en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Probeer je tempo tijdens de runs te beheren, zodat je voldoende energie overhoudt voor de andere oefeningen.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets van strict HSPU om je vorm scherp te houden en vermoeidheid te minimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,21 +38,21 @@
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -66,28 +66,28 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "3/16",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
