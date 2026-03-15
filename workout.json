@@ -2,7 +2,7 @@
     "datum": "15-03-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n12 airsquats\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikte handstandpush-ups met controle uitvoert; dit helpt je kracht en techniek te verbeteren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed tijdens de 20 minuten; begin met een gematigd tempo en verhoog dit als je je goed voelt.  \n\ud83e\ude79 **Tip:** Houd je ademhaling constant tijdens de airsquats en let op je vorm om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg dat je de strict handstand push-ups met goede techniek uitvoert, zodat je de juiste spieren activeert en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Werk in een steady ritme en probeer je runs consistent te houden; dit helpt je om je energie over de 20 minuten goed te verdelen.  \n\ud83e\ude79 **Tip:** Gebruik je ademhaling om jezelf tijdens de airsquats te stabiliseren; inademen bij de afgang en uitademen bij het omhoog komen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -31,7 +31,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/16",
+            "deelnemers": "9/16",
             "status": "Open"
         },
         {
@@ -52,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "3/6",
+            "deelnemers": "4/6",
             "status": "Open"
         }
     ],
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -169,7 +169,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/8",
+            "deelnemers": "1/8",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
