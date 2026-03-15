@@ -2,7 +2,7 @@
     "datum": "15-03-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n12 airsquats\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je de strict handstand push-ups met goede techniek uitvoert, zodat je de juiste spieren activeert en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Werk in een steady ritme en probeer je runs consistent te houden; dit helpt je om je energie over de 20 minuten goed te verdelen.  \n\ud83e\ude79 **Tip:** Gebruik je ademhaling om jezelf tijdens de airsquats te stabiliseren; inademen bij de afgang en uitademen bij het omhoog komen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict HSPU met goede techniek uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Probeer een constant tempo aan te houden tijdens de airsquats en de run, zodat je je energie goed verdeelt over de 20 minuten.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de rounds indien nodig, vooral na de HSPU, om jezelf scherp en gefocust te houden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,21 +24,21 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -52,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -80,14 +80,14 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -204,21 +204,21 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
