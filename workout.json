@@ -2,7 +2,7 @@
     "datum": "16-03-2026",
     "dag": "Maandag",
     "workout": "4 rounds\namrap 3min/rest 1min\n200m run\n20 db snatches 1x db 22.5/15kg\nmax chest to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je snelheid tijdens de runs optimaal benut om je hartslag hoog te houden voordat je naar de snatches gaat.  \n\ud83d\udca1 **Strategie:** Verdeel de db snatches in kleinere sets als dat nodig is, zodat je techniek scherp blijft en je niet te snel verzuurt.  \n\ud83e\ude79 **Tip:** Houd je schouders laag en gebruik je heupen om de db snatches effici\u00ebnt uit te voeren; dit helpt je om meer reps te maken tijdens de max chest to bar.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je run effici\u00ebnt uitvoert, zodat je fris aan de volgende bewegingen begint.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo tijdens de run, houd iets achter de hand voor de snatches en chest to bar.  \n\ud83e\ude79 **Tip:** Laat je ontspannen aan het einde van je snatches, zodat je direct door kunt naar de chest to bar met minimale rust.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/12",
+            "deelnemers": "2/12",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
