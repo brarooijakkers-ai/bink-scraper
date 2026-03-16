@@ -2,7 +2,7 @@
     "datum": "16-03-2026",
     "dag": "Maandag",
     "workout": "4 rounds\namrap 3min/rest 1min\n200m run\n20 db snatches 1x db 22.5/15kg\nmax chest to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je snelle runs maakt om je hartslag omhoog te krijgen voor maximalisatie van je werkcapaciteit.  \n\ud83d\udca1 **Strategie:** Plan je snatches in sets, zoals 10-10, om vermoeidheid te voorkomen en techniek zuiver te houden.  \n\ud83e\ude79 **Tip:** Gebruik de restperiodes om goed te hydrateren en je ademhaling te reguleren, zodat je fris aan de volgende ronde kunt beginnen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de run je ademhaling onder controle houdt, zodat je fris aan de snatches kunt beginnen.  \n\ud83d\udca1 **Strategie:** Plan je snatches in sets van 5 of 10 om de vermoeidheid te beheersen en je techniek scherp te houden.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiode goed om je hartslag te laten zakken en je voor te bereiden op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -211,7 +211,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
