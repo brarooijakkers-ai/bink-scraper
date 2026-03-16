@@ -2,7 +2,7 @@
     "datum": "16-03-2026",
     "dag": "Maandag",
     "workout": "4 rounds\namrap 3min/rest 1min\n200m run\n20 db snatches 1x db 22.5/15kg\nmax chest to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de vier ronden, zodat je consistent kunt presteren.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo tijdens de run, zodat je fris aan de DB snatches kunt beginnen.  \n\ud83e\ude79 **Tip:** Gebruik je heupen voor de DB snatches en houd je core stevig, zodat je effici\u00ebnt kunt bewegen en blessures voorkomt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je snelheid behoudt tijdens de 200m run en conserveer energie voor de snatches en chest to bar.  \n\ud83d\udca1 **Strategie:** Werk snel maar gecontroleerd aan je snatches, focus op techniek om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83e\ude79 **Tip:** Gebruik je rusttijd goed door je hartslag te laten zakken, zodat je fris aan de volgende ronde kunt beginnen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -171,7 +171,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -185,7 +185,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
