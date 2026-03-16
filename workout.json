@@ -2,7 +2,7 @@
     "datum": "16-03-2026",
     "dag": "Maandag",
     "workout": "4 rounds\namrap 3min/rest 1min\n200m run\n20 db snatches 1x db 22.5/15kg\nmax chest to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de runs effici\u00ebnt uitvoert, zodat je fris aan de snatches begint.  \n\ud83d\udca1 **Strategie:** Plan je snatches in sets zodat je consistent blijft en niet uitgeput raakt voordat je aan de chest to bar begint.  \n\ud83e\ude79 **Tip:** Blijf bij de chest to bar binnen je mogelijkheden; gebruik de eerste ronde om in je ritme te komen en verhoog je intensiteit in de volgende ronden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg dat je een constante snelheid aanhoudt tijdens de 200m run om je energie goed te beheren voor de rest van de ronde.  \n\ud83d\udca1 **Strategie:** Plan je tempo voor de dumbbell snatches; focus op techniek en controle om blessures te voorkomen en een soepelere overgang naar de chest to bar te garanderen.  \n\ud83e\ude79 **Tip:** Zet je grepen goed en blijf kalm tijdens de chest to bar, zodat je meer reps kunt maken binnen de 3 minuten.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
