@@ -2,7 +2,7 @@
     "datum": "17-03-2026",
     "dag": "Dinsdag",
     "workout": "15min work window\n20 thrusters 42.5/30kg\n20 hurdle jumps\n15 thrusters 60/45kg\n15 hurdle jumps\n10 thrusters 80/50kg\n10 hurdle jumps\nmax thrusters 90/60kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de thrusters consistent blijft, vooral bij de zwaardere gewichten.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de verschillende segmenten zodat je niet te vroeg uitgeput raakt, vooral bij de max thrusters.  \n\ud83e\ude79 **Tip:** Neem een korte pauze tussen de oefeningen om je ademhaling te herstellen en je concentratie te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt, vooral bij de zwaardere thrusters.  \n\ud83d\udca1 **Strategie:** Plan je rustmomenten goed in, vooral na de zware set, zodat je je kracht kunt herstellen voor de max thrusters.  \n\ud83e\ude79 **Tip:** Gebruik een krachtigere sprontechniek bij de hurdle jumps om je benen minder te belasten en je energie beter te verdelen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
