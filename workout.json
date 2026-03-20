@@ -2,7 +2,7 @@
     "datum": "20-03-2026",
     "dag": "Vrijdag",
     "workout": "5 rounds\n20/16 cal row\n20 wallballs 12/9\nrest 1min\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de roeimachine en bij de wallballs optimaal is om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning gelijkmatig over de 5 ronden, begin niet te snel zodat je de laatste ronden ook nog kunt afmaken.  \n\ud83e\ude79 **Tip:** Gebruik de restperiode van 1 minuut om goed te ademen en je hartslag te laten zakken voordat je aan de volgende ronde begint.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek op de rowing en wallballs goed behoudt, zodat je effici\u00ebnt blijft tijdens de hele workout.  \n\ud83d\udca1 **Strategie:** Verdeel de calorie\u00ebn op de rower in sterke intervallen en probeer je wallballs in sets van 10 te doen om de vermoeidheid te beheersen.  \n\ud83e\ude79 **Tip:** Blijf tijdens de rust 1 minuut actief met lichte beweging om je spieren los te houden en klaar te zijn voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
