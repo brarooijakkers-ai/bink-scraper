@@ -2,7 +2,7 @@
     "datum": "22-03-2026",
     "dag": "Zondag",
     "workout": "22-16-10\npull ups\ndb box step ups 2x db 22.5/15kg\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij elke pull-up een goede vorm behoudt voor maximale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Kijk naar je pacing; begin met een verstandige snelheid en behoud je energie voor de box step ups.  \n\ud83e\ude79 **Tip:** Gebruik je armen en benen effectief bij de step ups, en zorg voor een stevige grip en balans op de box.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de pull ups optimaal blijft, zelfs als je moe wordt.  \n\ud83d\udca1 **Strategie:** Verdeel je pull ups in kleinere sets om vermoeidheid te minimaliseren en rustpauzes effectief te beheren.  \n\ud83e\ude79 **Tip:** Gebruik een steady tempo bij de box step ups en houd je core aangespannen voor extra stabiliteit.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -52,14 +52,14 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -113,7 +113,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -211,7 +211,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -246,7 +246,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
