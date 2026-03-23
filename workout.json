@@ -2,7 +2,7 @@
     "datum": "23-03-2026",
     "dag": "Maandag",
     "workout": "10 rounds\n250/225m row\n200m run\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de roeisessies een constante, krachtige slag aanhoudt om je energie effici\u00ebnt te benutten.  \n\ud83d\udca1 **Strategie:** Probeer een ritme te vinden voor de overgang van roeien naar rennen, zodat je niet te veel tijd verliest bij de wissel.  \n\ud83e\ude79 **Tip:** Blijf tijdens het rennen ontspannen en adem diep in, zodat je in staat bent om je tempo gedurende de hele workout vol te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de roeimachine optimaal is, dit voorkomt blessures en maakt de roeislag effici\u00ebnter.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht gelijkmatig over de 10 rondes; start niet te snel, zodat je een consistent tempo kunt aanhouden.  \n\ud83e\ude79 **Tip:** Gebruik de overgang van het roeien naar de run om je hartslag onder controle te houden en je benen even te laten ontspannen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/8",
+            "deelnemers": "5/8",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
