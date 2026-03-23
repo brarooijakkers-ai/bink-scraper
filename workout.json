@@ -2,7 +2,7 @@
     "datum": "23-03-2026",
     "dag": "Maandag",
     "workout": "10 rounds\n250/225m row\n200m run\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante inspanning levert tijdens het roeien en rennen, zodat je niet te veel verliest in de latere rondes.  \n\ud83d\udca1 **Strategie:** Begin met een stevig maar beheersbaar tempo op de roeimachine en schakel over naar een iets snellere loop; het doel is om elke ronde consistent te blijven.  \n\ud83e\ude79 **Tip:** Houd je techniek in de gaten, vooral tijdens de laatste rondes; vermoeidheid kan leiden tot slechte vorm, wat blessures kan veroorzaken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente snelheid aanhoudt tijdens zowel de roeisessies als de hardlooprondes.  \n\ud83d\udca1 **Strategie:** Begin met een stevig maar beheersbaar tempo op de roeimachine, zodat je voldoende energie overhoudt voor de loopduur.  \n\ud83e\ude79 **Tip:** Let op je ademhaling en techniek tijdens de run; dit helpt je om effici\u00ebnt te blijven bewegen en voorkomt vermoeidheid.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -192,20 +192,20 @@
     "dag_morgen": "Dinsdag",
     "status_morgen": {
         "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
+        "tijd": "17:30 - 18:30",
         "type": "WOD",
-        "deelnemers": "14/14",
-        "wachtlijst": true,
-        "wachtlijst_plek": "10",
-        "wachtlijst_totaal": "10"
+        "deelnemers": "9/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "18:30 - 19:30",
+            "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
-            "status": "Jij staat op Wachtlijst"
+            "deelnemers": "9/14",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
