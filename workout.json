@@ -2,7 +2,7 @@
     "datum": "23-03-2026",
     "dag": "Maandag",
     "workout": "10 rounds\n250/225m row\n200m run\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je inspanning gelijkmatig verdeelt over de 10 rondes om verbranding te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roeimachine en bouw je snelheid op tijdens de run.  \n\ud83e\ude79 **Tip:** Gebruik je armen effectief bij het roeien en houd je ademhaling onder controle tijdens de runs voor betere uithoudingsvermogen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je inspanning goed verdeelt over de 10 rondes om te voorkomen dat je vroegtijdig uitgeput raakt.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roeimachine en probeer een consistent tempo aan te houden tijdens de loop.  \n\ud83e\ude79 **Tip:** Blijf tijdens de overgangen tussen roeien en rennen soepel bewegen, zodat je tijd bespaart en je lichaam niet teveel afkoelt.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
