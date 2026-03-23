@@ -2,7 +2,7 @@
     "datum": "23-03-2026",
     "dag": "Maandag",
     "workout": "10 rounds\n250/225m row\n200m run\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de roeimachine optimaal is, dit voorkomt blessures en maakt de roeislag effici\u00ebnter.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht gelijkmatig over de 10 rondes; start niet te snel, zodat je een consistent tempo kunt aanhouden.  \n\ud83e\ude79 **Tip:** Gebruik de overgang van het roeien naar de run om je hartslag onder controle te houden en je benen even te laten ontspannen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de 10 rondes om te voorkomen dat je te snel verbrandt.  \n\ud83d\udca1 **Strategie:** Begin rustig met de roeiboot en gebruik de eerste paar rondes om je ademhaling en ritme te stabiliseren.  \n\ud83e\ude79 **Tip:** Blijf effici\u00ebnt bij het overlopen van de transities, bijvoorbeeld door je schoenen al klaar te leggen voor de run.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/12",
+            "deelnemers": "1/12",
             "status": "Open"
         },
         {
