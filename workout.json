@@ -2,7 +2,7 @@
     "datum": "23-03-2026",
     "dag": "Maandag",
     "workout": "10 rounds\n250/225m row\n200m run\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke ronde consistent en effici\u00ebnt blijft roeien en rennen.  \n\ud83d\udca1 **Strategie:** Begin in een gematigd tempo om je energie te sparen voor het einde van de workout.  \n\ud83e\ude79 **Tip:** Blijf goed hydrateren en houd je ademhaling onder controle tijdens de overgangen tussen roeien en rennen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed indeelt over de 10 rondes, zodat je niet te snel uitgeput raakt.  \n\ud83d\udca1 **Strategie:** Begin met een rustig tempo tijdens het roeien en probeer je snelheid op de run geleidelijk op te voeren.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd tijdens de WOD en gebruik elke pauze om je hartslag onder controle te houden voordat je aan de volgende ronde begint.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,21 +101,21 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
