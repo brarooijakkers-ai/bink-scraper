@@ -2,7 +2,7 @@
     "datum": "24-03-2026",
     "dag": "Dinsdag",
     "workout": "8 rounds\n5 strict pull ups\n10 lunges\n15 sit-ups\n20 double unders\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de strict pull-ups nauwkeurig is om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Probeer je lunges met controle te doen, zodat je een goede houding behoudt en je energie behoudt voor de rest van de WOD.  \n\ud83e\ude79 **Tip:** Houd je sprongen voor de double unders consistent en gebruik je polsen om een ritme te vinden, dit maakt het makkelijker om door te gaan zonder te veel vermoeidheid.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict pull-ups met correcte techniek uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Probeer je pacing goed te plannen, zodat je de lunges en double unders helder en snel kunt blijven doen, zelfs na de pull-ups.  \n\ud83e\ude79 **Tip:** Gebruik je ademhaling effectief tijdens de sit-ups en probeer een constante cadans aan te houden om vermoeidheid te minimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
