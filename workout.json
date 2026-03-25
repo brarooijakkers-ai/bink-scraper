@@ -2,7 +2,7 @@
     "datum": "25-03-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n10 deadlifts 140/100kg\n15/11 cal row\n10 burpees over the erg\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke deadlift met een goede techniek uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning goed; begin rustig aan en bouw je tempo op naarmate je de rondes voortgang ziet.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de burpees en de roeimachine om je ademhaling te herstellen en je snelheid te behouden.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de deadlifts behoudt, dit is cruciaal om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin de eerste ronde met een gematigd tempo, zodat je voldoende energie overhoudt voor de laatste rondes.  \n\ud83e\ude79 **Tip:** Voor de burpees, maak gebruik van je heupen om over de erg te springen en bespaar zo kracht in je armen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -157,14 +157,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
