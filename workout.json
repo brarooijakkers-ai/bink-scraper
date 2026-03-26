@@ -2,7 +2,7 @@
     "datum": "26-03-2026",
     "dag": "Donderdag",
     "workout": "for time\n21-15-9\ndb snatches 2x db 22.5/15kg\nchest to bar\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt bij de dumbbell snatches om blessures te voorkomen en effici\u00ebnt te blijven bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je reps in sets, bijvoorbeeld 7-7-7 voor de 21, om vermoeidheid te beheersen en je tempo hoger te houden.  \n\ud83e\ude79 **Tip:** Herstel goed tussen de sets van chest to bar door even te ontspannen en je schouders los te schudden voordat je begint aan de volgende reeks.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de dumbbell snatches optimaal is voor maximale effici\u00ebntie en veiligheid.  \n\ud83d\udca1 **Strategie:** Verdeel je sets in kleinere chunks als je merkt dat de vermoeidheid toeneemt, bijvoorbeeld 7-7-7 of 5-5-5.  \n\ud83e\ude79 **Tip:** Blijf tijdens de chest to bar pull-ups geconcentreerd op je kipbeweging om energie te besparen en soepelere herhalingen te maken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -94,14 +94,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -115,28 +115,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/8",
+            "deelnemers": "8/8",
             "status": "Open"
         },
         {
