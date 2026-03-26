@@ -2,7 +2,7 @@
     "datum": "26-03-2026",
     "dag": "Donderdag",
     "workout": "for time\n21-15-9\ndb snatches 2x db 22.5/15kg\nchest to bar\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt bij de dumbbell snatches om blessures te voorkomen en je kracht optimaal in te zetten.  \n\ud83d\udca1 **Strategie:** Begin met een vlotte, gecontroleerde pace, zodat je de eerste ronde van 21 herhalingen niet te snel aanpakt en verzuurt voordat je de volgende rondes bereikt.  \n\ud83e\ude79 **Tip:** Gebruik een kipping beweging voor de chest to bar om je kracht effici\u00ebnter te benutten en sneller te kunnen wisselen tussen de oefeningen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de dumbbell snatches optimaal is om blessures te voorkomen en effici\u00ebntie te maximaliseren.\n\n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo en behoud een goede ademhaling, vooral bij de chest to bar, zodat je niet vroegtijdig vermoeid raakt.\n\n\ud83e\ude79 **Tip:** Gebruik een slapend tempo bij de transitions tussen de oefeningen; dit helpt je om je hartslag onder controle te houden en sneller terug op je oorspronkelijke ritme te komen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
