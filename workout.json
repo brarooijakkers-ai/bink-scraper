@@ -2,7 +2,7 @@
     "datum": "27-03-2026",
     "dag": "Vrijdag",
     "workout": "emom 40min\nmin 1: hang power cleans\nmin 2: front rack lunges\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek solide blijft bij elke oefening, vooral bij de hang power cleans en shoulder to overhead.  \n\ud83d\udca1 **Strategie:** Gebruik de rustminuten om goed te herstellen en je ademhaling te reguleren, zodat je in de volgende minuten optimaal kunt presteren.  \n\ud83e\ude79 **Tip:** Begin met een gewicht dat je comfortabel kunt hanteren en verhoog het geleidelijk als je je sterk voelt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke beweging met technische precisie uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Gebruik de restperiode goed om je ademhaling te herstellen en je voor te bereiden op de volgende minuut.  \n\ud83e\ude79 **Tip:** Kies een gewicht waarbij je de laatste paar herhalingen van elke minuut uitdaging maar haalbaar blijven, zonder je vorm te compromitteren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -115,21 +115,21 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -183,7 +183,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "11:15 - 12:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
