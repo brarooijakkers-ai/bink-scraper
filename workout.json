@@ -2,7 +2,7 @@
     "datum": "27-03-2026",
     "dag": "Vrijdag",
     "workout": "emom 40min\nmin 1: hang power cleans\nmin 2: front rack lunges\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de hang power cleans een goede explosieve beweging maakt om je gewicht effici\u00ebnt te tillen.  \n\ud83d\udca1 **Strategie:** Houd je longes gecontroleerd en houd je core aangespannen om stabiliteit te waarborgen tijdens de front rack lunges.  \n\ud83e\ude79 **Tip:** Vergeet niet om je schouders te ontspannen tijdens de shoulder to overhead, zodat je meer kracht uit je benen kunt halen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij elke oefening op de juiste manier wordt uitgevoerd om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 40 minuten; begin rustig zodat je aan het einde niet uitgeput bent.  \n\ud83e\ude79 **Tip:** Bij de hang power cleans kun je gebruik maken van een hogere heuppositie om kracht te genereren, en vergeet niet om je core aangespannen te houden tijdens de front rack lunges voor stabiliteit.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "13:00 - 15:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
