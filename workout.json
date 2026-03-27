@@ -2,7 +2,7 @@
     "datum": "27-03-2026",
     "dag": "Vrijdag",
     "workout": "emom 40min\nmin 1: hang power cleans\nmin 2: front rack lunges\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek solide is bij elke herhaling, vooral bij de hang power cleans en shoulder to overhead.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de 40 minuten, zodat je elke minuut met goede intensiteit kunt presteren zonder vroegtijdig vermoeid te raken.  \n\ud83e\ude79 **Tip:** Gebruik je rustmomenten om goed te ademen en je hartslag onder controle te houden, zodat je goed voorbereid aan de volgende minuut kunt beginnen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij elke oefening scherp blijft, vooral bij de hang power cleans en shoulder to overhead.  \n\ud83d\udca1 **Strategie:** Probeer je tempo in de minuten goed te timen, zodat je voldoende tijd hebt om je ademhaling te herstellen tijdens de restminuten.  \n\ud83e\ude79 **Tip:** Gebruik een gewicht waarmee je de techniek kunt behouden en focus op controle in plaats van snelheid, vooral bij de front rack lunges.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,14 +17,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "4/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
