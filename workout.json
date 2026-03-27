@@ -2,7 +2,7 @@
     "datum": "27-03-2026",
     "dag": "Vrijdag",
     "workout": "emom 40min\nmin 1: hang power cleans\nmin 2: front rack lunges\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de hang power cleans en shoulder to overhead op de eerste plaats komt, zodat je blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Begin met een gewichtsbelasting die je in staat stelt om de bewegingen telkens met goede vorm uit te voeren, zelfs als je moe wordt.  \n\ud83e\ude79 **Tip:** Gebruik de rust in minuut 4 om goed te hydrateren en je ademhaling te reguleren, zodat je fris aan de volgende ronde kunt beginnen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de hang power cleans en shoulder to overhead goed blijft, zelfs naarmate je vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Gebruik de rust in minuut 4 om je hartslag te verlagen en alvast voor te bereiden op de volgende ronde.  \n\ud83e\ude79 **Tip:** Blijf constant ademen en neem kleine slokjes water in je rustmomenten om gehydrateerd te blijven.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "7/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
