@@ -2,7 +2,7 @@
     "datum": "28-03-2026",
     "dag": "Zaterdag",
     "workout": "4 rounds\n2min amrap/2min rest\n24 box jump overs\nmax toes to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief en gefocust blijft tijdens de box jump overs om de energie voor de toes to bar te maximaliseren.  \n\ud83d\udca1 **Strategie:** Plan je pacing goed; geef jezelf een korte adempauze tussen de box jump overs en de toes to bar om je grip en kracht te behouden.  \n\ud83e\ude79 **Tip:** Gebruik een schone schommelbeweging bij de toes to bar, zodat je energie bespaart en effici\u00ebnt kunt bewegen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief bent bij de box jump overs om je hartslag omhoog te krijgen.  \n\ud83d\udca1 **Strategie:** Gebruik de 2 minuten pauze om goed te recoveren en je ademhaling onder controle te krijgen voordat je aan de max toes to bar begint.  \n\ud83e\ude79 **Tip:** Zorg voor een goede grip en activeer je schouders voordat je begint met de toes to bar voor meer effici\u00ebntie en minder kans op blessures.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -93,98 +93,21 @@
     ],
     "dag_morgen": "Zondag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
+        "ingeschreven": true,
+        "tijd": "10:15 - 11:15",
+        "type": "WOD",
+        "deelnemers": "16/16",
+        "wachtlijst": true,
+        "wachtlijst_plek": "7",
+        "wachtlijst_totaal": "7"
     },
     "rooster_morgen": [
-        {
-            "tijd": "09:15 - 09:45",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "3/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "14/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:45 - 10:30",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "3/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "3/14",
-            "status": "Open"
-        },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:30 - 11:15",
-            "type": "TEENS",
-            "zaal": "Zaal 2",
-            "deelnemers": "2/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "7/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "HYROX",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "BASIC OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "status": "Jij staat op Wachtlijst"
         }
     ]
 }
