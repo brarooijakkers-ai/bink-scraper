@@ -2,7 +2,7 @@
     "datum": "28-03-2026",
     "dag": "Zaterdag",
     "workout": "4 rounds\n2min amrap/2min rest\n24 box jump overs\nmax toes to bar",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt tijdens de box jump overs om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de box jump overs, zodat je voldoende energie overhoudt voor de toes to bar.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiodes om goed te hydrateren en je ademhaling te reguleren, zodat je klaar bent voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief springt tijdens de box jump overs om je energie effici\u00ebnt te benutten.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste twee minuten om goed in je ritme te komen en behoud een constante snelheid, zodat je voldoende tijd hebt voor je toes to bar.  \n\ud83e\ude79 **Tip:** Vergeet niet om je core goed aan te spannen tijdens de toes to bar; dit helpt je om controle te houden en meer herhalingen te behalen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,20 +94,20 @@
     "dag_morgen": "Zondag",
     "status_morgen": {
         "ingeschreven": true,
-        "tijd": "10:15 - 11:15",
-        "type": "WOD",
-        "deelnemers": "16/16",
-        "wachtlijst": true,
-        "wachtlijst_plek": "4",
-        "wachtlijst_totaal": "4"
+        "tijd": "09:15 - 10:00",
+        "type": "OUTSIDE WOD",
+        "deelnemers": "10/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Jij staat op Wachtlijst"
+            "tijd": "09:15 - 10:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "10/14",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
