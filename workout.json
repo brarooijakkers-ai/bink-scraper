@@ -2,12 +2,12 @@
     "datum": "29-03-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n400m run\n10 squat cleans 60/45kg\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede lichaamspositie behoudt tijdens de squat cleans om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie slim; loop niet te snel in het begin en behoud een constant tempo gedurende de rondes.  \n\ud83e\ude79 **Tip:** Gebruik een grip-switch of pauze tijdens de lift als je merkt dat je grip begint te verliezen, dit kan je helpen je squat cleans effici\u00ebnter uit te voeren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de squat cleans goed beheerst, vooral omdat je het gedurende meerdere ronden herhaalt.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de ronden; start iets langzamer en bouw je snelheid op naarmate de workout vordert.  \n\ud83e\ude79 **Tip:** Gebruik de loop als herstelmoment; controleer je ademhaling en blijf gefocust op je volgende set squat cleans.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:00",
         "type": "OUTSIDE WOD",
-        "deelnemers": "9/14",
+        "deelnemers": "11/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -36,14 +36,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
