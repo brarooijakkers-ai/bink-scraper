@@ -2,7 +2,7 @@
     "datum": "29-03-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n400m run\n10 squat cleans 60/45kg\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Richt je op een constante en duurzame looptempo gedurende de 400m, zodat je niet uitgeput raakt voor de squat cleans.  \n\ud83d\udca1 **Strategie:** Verdeel de squat cleans in kleinere sets als dat nodig is, bijvoorbeeld 5-5, om de techniek en snelheid te behouden.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je core goed actief is tijdens de squat cleans, zodat je stabiliteit hebt en blessures voorkomt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de squat cleans een goede vorm behoudt om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Split de squat cleans op in sets van 5 als je merkt dat je vorm begint te verslechteren.  \n\ud83e\ude79 **Tip:** Gebruik de hardlooprondes om je hartslag onder controle te houden; begin niet te snel!",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:00",
@@ -36,7 +36,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
@@ -92,7 +92,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/8",
+            "deelnemers": "2/8",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
