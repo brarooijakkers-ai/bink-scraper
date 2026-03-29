@@ -2,7 +2,7 @@
     "datum": "29-03-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n400m run\n10 squat cleans 60/45kg\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt tijdens de squat cleans om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie slim; pace je runs en hou je squat cleans effici\u00ebnt door ze in kleinere sets te doen als dat nodig is.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en zorg ervoor dat je goed opwarmt voor je aan de workout begint.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede lichaamspositie behoudt tijdens de squat cleans om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie slim; loop niet te snel in het begin en behoud een constant tempo gedurende de rondes.  \n\ud83e\ude79 **Tip:** Gebruik een grip-switch of pauze tijdens de lift als je merkt dat je grip begint te verliezen, dit kan je helpen je squat cleans effici\u00ebnter uit te voeren.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "09:15 - 10:00",
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -85,7 +85,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
