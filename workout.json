@@ -2,7 +2,7 @@
     "datum": "30-03-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n7 wallwalks\n35 double unders\n14 kb snatches 1x 24/16kg\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke wallwalk met een goede techniek uitvoert om blessures te voorkomen en energie te sparen.  \n\ud83d\udca1 **Strategie:** Verdeel je double unders in sets als je merkt dat je vermoeid raakt, en focus op een rustig ademritme.  \n\ud83e\ude79 **Tip:** Pak de kettlebell snatches in een vlotte beweging om tijd te besparen; gebruik je heupen om de gewichten omhoog te brengen.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je core stevig tijdens de wallwalks voor meer stabiliteit.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in sets van 10 of 15 om vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je de kettlebell snatches vanuit je heupen gebruikt voor een effici\u00ebnte beweging.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,28 +101,28 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/12",
+            "deelnemers": "3/12",
             "status": "Open"
         },
         {
