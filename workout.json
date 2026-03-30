@@ -2,7 +2,7 @@
     "datum": "30-03-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n7 wallwalks\n35 double unders\n14 kb snatches 1x 24/16kg\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je gecontroleerd en met goede techniek de wallwalks uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Split de double unders op in sets als je moeite hebt met continu doorgaan; denk aan 20-15-15 om je energie te verdelen.  \n\ud83e\ude79 **Tip:** Gebruik je heupen voor de kettlebell snatches, zodat je meer kracht genereert en minder vermoeid raakt in je armen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de wallwalks met een stevige basis uitvoert om je schouders te sparen voor de Kettlebell-snatches.  \n\ud83d\udca1 **Strategie:** Houd een gelijkmatig tempo aan tijdens de double unders; dit helpt om te vermijden dat je moe wordt en sneller fouten maakt.  \n\ud83e\ude79 **Tip:** Verdeel de kettlebell snatches in sets van 7 en 7, zodat je de belasting over de rounds kunt spreiden en je grip behoudt.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,14 +66,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/8",
+            "deelnemers": "4/8",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
