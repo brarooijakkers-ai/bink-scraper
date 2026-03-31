@@ -2,7 +2,7 @@
     "datum": "31-03-2026",
     "dag": "Dinsdag",
     "workout": "amrap 20min\n5 toes to bar\n10 barfacing burpees\n15 sumo deadlift high pull 42.5/30kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek goed blijft tijdens de toes to bar, zodat je de beweging effici\u00ebnt uitvoert en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Plan je rustmomenten slim; neem korte pauzes tussen de rondes om je uithoudingsvermogen te behouden.  \n\ud83e\ude79 **Tip:** Probeer de sumo deadlift high pulls in een vlotte, gestage cadans uit te voeren, zodat je het tempo in de WOD kunt volhouden.  ",
+    "coach": "\ud83d\udd25 **Focus:** Behoud een stevige core en gecontroleerde beweging bij de toes to bar om je energie effici\u00ebnt te gebruiken.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht tussen de burpees en de sumo deadlift high pulls; zoek naar een tempo dat je consistent kunt aanhouden zonder te veel te vermoeien.  \n\ud83e\ude79 **Tip:** Zorg voor een goede grip op de stang bij de sumo deadlift high pulls en gebruik je heupen om de beweging te ondersteunen; dat maakt het lichter en sneller!",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -59,14 +59,14 @@
             "tijd": "11:00 - 13:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
