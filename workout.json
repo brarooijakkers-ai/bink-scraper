@@ -2,7 +2,7 @@
     "datum": "01-04-2026",
     "dag": "Woensdag",
     "workout": "buddy wod\nyou go - I go\n2min work/2min rest\n6 rounds each (12 in total)\n100m run\nmax cal assault bike",
-    "coach": "\ud83d\udd25 **Focus:** Houd je tempo steady tijdens de 100m run om voldoende energie over te houden voor de assault bike.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste paar ronden om je effici\u00ebntie op de bike te optimaliseren en je cadans te vinden.  \n\ud83e\ude79 **Tip:** Zorg voor een goede afwisseling tussen hardlopen en fietsen; neem een paar seconden om je ademhaling te herstellen voor je weer aan de slag gaat.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je runs effici\u00ebnt uitvoert om je maximaal in te kunnen spannen op de Assault Bike.  \n\ud83d\udca1 **Strategie:** Probeer je snelheid en intensiteit in de runs te optimaliseren, zodat je fris aan de bike begint.  \n\ud83e\ude79 **Tip:** Houd tijdens de bike je lichaam ontspannen en gebruik een constante snelheid, zodat je meer calorie\u00ebn kunt verbranden zonder jezelf te overweldigen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 12:45",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -171,14 +171,14 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
