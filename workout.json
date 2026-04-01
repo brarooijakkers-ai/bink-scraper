@@ -2,7 +2,7 @@
     "datum": "01-04-2026",
     "dag": "Woensdag",
     "workout": "buddy wod\nyou go - I go\n2min work/2min rest\n6 rounds each (12 in total)\n100m run\nmax cal assault bike",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de run je ademhaling onder controle houdt, zodat je fris de Assault Bike op kunt stappen.  \n\ud83d\udca1 **Strategie:** Deel je kracht in op de Assault Bike, begin met een gematigd tempo en verhoog dit pas als je voelt dat je meer kunt geven.  \n\ud83e\ude79 **Tip:** Gebruik je rustperiodes effectief door goed te hydrateren en je spieren even te rekken.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling tijdens de run en de assault bike.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste paar ronden om een steady tempo op te bouwen, zodat je later in de workout de intensiteit kunt verhogen.  \n\ud83e\ude79 **Tip:** Houd je kuiten en hamstrings soepel tijdens de rustperiodes, zodat je voorbereid bent voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -302,7 +302,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -323,14 +323,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/11",
+            "deelnemers": "4/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
