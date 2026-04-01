@@ -2,7 +2,7 @@
     "datum": "01-04-2026",
     "dag": "Woensdag",
     "workout": "buddy wod\nyou go - I go\n2min work/2min rest\n6 rounds each (12 in total)\n100m run\nmax cal assault bike",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je runs effici\u00ebnt uitvoert om je maximaal in te kunnen spannen op de Assault Bike.  \n\ud83d\udca1 **Strategie:** Probeer je snelheid en intensiteit in de runs te optimaliseren, zodat je fris aan de bike begint.  \n\ud83e\ude79 **Tip:** Houd tijdens de bike je lichaam ontspannen en gebruik een constante snelheid, zodat je meer calorie\u00ebn kunt verbranden zonder jezelf te overweldigen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens je runs een constante snelheid aanhoudt om je energie goed in te delen.  \n\ud83d\udca1 **Strategie:** Gebruik je rustperiodes wijs; herstel je ademhaling en prepareer je voor maximale intensiteit op de assault bike.  \n\ud83e\ude79 **Tip:** Houd je techniek in de gaten op de assault bike; een goede houding en stuurtechniek zijn essentieel voor effici\u00ebntie en meer calorie\u00ebn.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,14 +94,14 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
