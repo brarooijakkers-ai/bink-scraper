@@ -2,7 +2,7 @@
     "datum": "02-04-2026",
     "dag": "Donderdag",
     "workout": "5 rounds\n30/24 cal row\n20 toes to bar\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de 5 ronden.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roei-ergometer om je spieren niet te snel te verzuuren.  \n\ud83e\ude79 **Tip:** Gebruik tijdens de toes to bar de kipping techniek om effici\u00ebnt energie te besparen en je snelheid te verbeteren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je tempo goed behoudt tijdens de roeisessies om energie te sparen voor de toes to bar.  \n\ud83d\udca1 **Strategie:** Probeer de toes to bar in sets te verdelen, bijvoorbeeld in sets van 5, om blessures te voorkomen en consistentie te behouden.  \n\ud83e\ude79 **Tip:** Trek je knie\u00ebn naar je borst tijdens de toes to bar om de beweging effici\u00ebnter te maken en je grip niet te snel te verkrampen.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
