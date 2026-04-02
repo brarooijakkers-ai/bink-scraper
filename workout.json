@@ -2,7 +2,7 @@
     "datum": "02-04-2026",
     "dag": "Donderdag",
     "workout": "5 rounds\n30/24 cal row\n20 toes to bar\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek voor de toes to bar goed beheerst om de kracht te maximaliseren en blessures te voorkomen.\n\n\ud83d\udca1 **Strategie:** Verdeel de calorie\u00ebn op de roeimachine in haalbare sets en plan je rustmomenten zodat je niet te vroeg uitgeput raakt.\n\n\ud83e\ude79 **Tip:** Gebruik een grip-techniek zoals de kipping swing bij de toes to bar om effici\u00ebnter te bewegen en sneller je reps te kunnen maken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg dat je constant blijft bewegen en niet te veel tijd verliest tijdens de transities tussen de oefeningen.  \n\ud83d\udca1 **Strategie:** Verdeeld de calorie\u00ebn op de roeimachine in 5-10 kcal stukjes, zodat je elke set goed kunt afronden zonder compleet uitgeput te raken.  \n\ud83e\ude79 **Tip:** Bij de toes to bar, focus op een gecontroleerde beweging en gebruik je schouders om swing te minimaliseren voor maximale effici\u00ebntie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,14 +94,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "2/11",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         }
     ],
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
