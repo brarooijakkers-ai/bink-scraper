@@ -2,7 +2,7 @@
     "datum": "03-04-2026",
     "dag": "Vrijdag",
     "workout": "QF wod 1\n10 shuttle runs\n20 overhead squats 52/36kg\n30 lateral burpees over the bar\nrest 1min\n30 lateral burpees over the bar\n20 ohs\n10 shuttle runs\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt bij de overhead squats om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Probeer tijdens de shuttle runs en burpees een constante snelheid te behouden, zodat je niet al je energie in het begin verbruikt.  \n\ud83e\ude79 **Tip:** Gebruik je ademhaling effici\u00ebnt, vooral tijdens de burpees, om je uithoudingsvermogen te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een consistente techniek tijdens de overhead squats om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een goed tempo op de shuttle runs en bewaar je kracht voor de burpees en squats.  \n\ud83e\ude79 **Tip:** Neem een paar seconden extra om je ademhaling te herstellen tussen de burpees en de overhead squats.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "13:00 - 15:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -122,14 +122,14 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
