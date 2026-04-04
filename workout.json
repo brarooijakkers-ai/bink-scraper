@@ -1,8 +1,8 @@
 {
-    "datum": "04-04-2026",
-    "dag": "Zaterdag",
-    "workout": "amrap 35min\n50 box jump overs\n50 KB swings 1x kb 24/16kg\n50 pull ups\n50 shoulder to overhead 1xkb 24/16kg",
-    "coach": "\ud83d\udd25 **Focus:** Houd een constante snelheid aan tijdens de box jumps om vermoeidheid te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de oefeningen in kleinere sets om sterker te blijven en je techniek te waarborgen.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets, vooral bij de pull-ups en shoulder to overhead, om je grip en kracht te behouden.",
+    "datum": "05-04-2026",
+    "dag": "Zondag",
+    "workout": "HAPPY EASTER DAY\nbox is closed today\nbut stay tuned for tomorrow's 12 days of Easter WoD",
+    "coach": "\ud83d\udd25 **Focus:** Blijf actief vandaag, zelfs zonder WOD, door een wandeling te maken of wat lichte oefeningen te doen.  \n\ud83d\udca1 **Strategie:** Gebruik deze tijd om je te concentreren op recovery en mobiliteitsoefeningen, zodat je fris aan de volgende training kunt beginnen.  \n\ud83e\ude79 **Tip:** Plan je maaltijd en zorg voor goede voeding vandaag, zodat je energieniveaus hoog blijven voor de komende dagen van training.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -12,72 +12,8 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_vandaag": [
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "13/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "3/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        }
-    ],
-    "dag_morgen": "Zondag",
+    "rooster_vandaag": [],
+    "dag_morgen": "Maandag",
     "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
@@ -87,5 +23,27 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": []
+    "rooster_morgen": [
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "3/40",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:30 - 11:30",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "0/40",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:45 - 12:45",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "0/40",
+            "status": "Open"
+        }
+    ]
 }
