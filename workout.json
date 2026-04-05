@@ -2,7 +2,7 @@
     "datum": "05-04-2026",
     "dag": "Zondag",
     "workout": "HAPPY EASTER DAY\nbox is closed today\nbut stay tuned for tomorrow's 12 days of Easter WoD",
-    "coach": "\ud83d\udd25 **Focus:** Vandaag is het belangrijk om je training op te splitsen in haalbare segmenten, zodat je niet overweldigd raakt.  \n\ud83d\udca1 **Strategie:** Denk aan de komende WOD en plan een actieve herstelactiviteit, zoals een korte buitenwandeling of mobility oefeningen.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en een gezonde snack te nemen om je energie op peil te houden voor de komende dagen!",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed herstelt vandaag, zodat je fris en energiek aan de WOD van morgen kunt beginnen.  \n\ud83d\udca1 **Strategie:** Bereid je voor op de \"12 days of Easter\" door je voor te stellen hoe je elke workout strategisch kunt aanpakken en je energie goed kunt verdelen.  \n\ud83e\ude79 **Tip:** Vergeet niet je voeding en hydratatie op peil te houden om je herstel te optimaliseren en je prestaties te ondersteunen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -42,7 +42,7 @@
             "tijd": "11:45 - 12:45",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/40",
+            "deelnemers": "14/40",
             "status": "Open"
         }
     ]
