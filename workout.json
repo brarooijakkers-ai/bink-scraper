@@ -2,7 +2,7 @@
     "datum": "06-04-2026",
     "dag": "Maandag",
     "workout": "12 days of Easter WoD\n1 burpee\n2 db lunges\n3 push ups\n4 db hang clean and jerk\n5 v-ups\n6 db hang snatches\n7 chest to bar\n8 devil presses\n9 toes to bar\n10 db squats\n11 hspu\n12 x 10m suitcase carry\n1x db 32.5/22.5kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij elke oefening optimaal is om blessures te voorkomen en je prestaties te maximaliseren.  \n\ud83d\udca1 **Strategie:** Werk in een steady tempo en probeer elke ronde consistent af te ronden zonder te veel rust, zodat je de flow van de workout behoudt.  \n\ud83e\ude79 **Tip:** Blijf goed hydrateren en luister naar je lichaam; als je merkt dat je uithoudingsvermogen decrease, neem dan een korte pauze om je energie op peil te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede vorm bij elke oefening om blessures te voorkomen en maximale effectiviteit te behalen.  \n\ud83d\udca1 **Strategie:** Begin rustig, werk in je eigen tempo en concentreer je op de juiste techniek voordat je snelheid of gewicht toevoegt.  \n\ud83e\ude79 **Tip:** Neem voldoende rust tussen de rondes door, vooral bij de zwaardere oefeningen zoals de db hang clean and jerk en devil presses.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -50,7 +50,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -78,7 +78,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -127,7 +127,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
