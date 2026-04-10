@@ -2,7 +2,7 @@
     "datum": "10-04-2026",
     "dag": "Vrijdag",
     "workout": "1000/900m row\n800m run\n500/450m row\n400m run\n250/225m row\n200m run\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je pacing beheert tijdens de roeisessies om je uithoudingsvermogen te behouden voor de runs.  \n\ud83d\udca1 **Strategie:** Begin rustig op de eerste roei- en loopsecties en bouw geleidelijk op naar een snellere snelheid naarmate je verder komt in de workout.  \n\ud83e\ude79 **Tip:** Gebruik de tussenpauzes om je ademhaling te reguleren en blijf gefocust; even goed hydrateren kan ook helpen!",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ritme behoudt tijdens zowel de roeisessies als de runs, zodat je je energie effici\u00ebnt verdeelt.  \n\ud83d\udca1 **Strategie:** Begin met een rustigere roeisnelheid op de lange afstanden om op de langere termijn je uithoudingsvermogen te behouden.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets, als dat nodig is, om je hartslag onder controle te houden en je focus te behouden voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,21 +94,21 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
