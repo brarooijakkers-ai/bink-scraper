@@ -2,7 +2,7 @@
     "datum": "10-04-2026",
     "dag": "Vrijdag",
     "workout": "1000/900m row\n800m run\n500/450m row\n400m run\n250/225m row\n200m run\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek tijdens het roeien in de gaten om blessures te vermijden en maximale effici\u00ebntie te behalen.  \n\ud83d\udca1 **Strategie:** Gebruik je loop- en roeisessies om elkaar te complimenteren; sprint tijdens de runs voor een goede afwisseling tussen inspanning en herstel.  \n\ud83e\ude79 **Tip:** Blijf hydrateren en zorg voor een goede ademhaling tijdens de overgangen tussen de oefeningen om je energieniveau op peil te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de roeisessies een constante en effici\u00ebnte techniek aanhoudt.  \n\ud83d\udca1 **Strategie:** Plan je tempo goed; begin niet te snel, zodat je voldoende energie overhoudt voor de latere ronden.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle tijdens de runs en herstel je hartslag effici\u00ebnt voor de volgende roeisessie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -225,14 +225,14 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "6/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ]
