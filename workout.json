@@ -2,7 +2,7 @@
     "datum": "10-04-2026",
     "dag": "Vrijdag",
     "workout": "1000/900m row\n800m run\n500/450m row\n400m run\n250/225m row\n200m run\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Blijf consistent met je ademhaling tijdens het roeien en hardlopen om je energie goed te beheren.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de roeimachine, zodat je voldoende energie hebt voor de runs.  \n\ud83e\ude79 **Tip:** Gebruik de kracht van je benen tijdens het roeien en focus op een effici\u00ebnte looptechniek om je snelheid te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste pacing houdt tijdens de roeien en hardlopen om de tijd binnen de cap te halen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde snelheid op de eerste 1000/900m row, zodat je niet vroeg te moe wordt voor de latere afstanden.  \n\ud83e\ude79 **Tip:** Gebruik je armen en benen effici\u00ebnt tijdens het roeien om je energie goed te verdelen en zorg ervoor dat je na de runs voldoende herstelt voor de volgende roeisessies.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -204,7 +204,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
