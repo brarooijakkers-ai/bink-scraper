@@ -2,12 +2,12 @@
     "datum": "10-04-2026",
     "dag": "Vrijdag",
     "workout": "1000/900m row\n800m run\n500/450m row\n400m run\n250/225m row\n200m run\ntimecap 17min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verspreidt over de hele workout om de tijd te halen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde snelheid op de roeimachine, zodat je de eerste 1000/900m effectief kunt afronden zonder te veel te verbruiken.  \n\ud83e\ude79 **Tip:** Gebruik de loopsecties om je ademhaling te reguleren en laat jezelf herstellen voor de volgende roeimachine.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je pacing goed in de gaten houdt, vooral bij de roei- en looponderdelen.  \n\ud83d\udca1 **Strategie:** Begin rustig aan en bouw je tempo op naarmate je verder in de WOD komt; houd een constante ritme aan tijdens zowel het roeien als het hardlopen.  \n\ud83e\ude79 **Tip:** Hydrateer goed voor de workout en gebruik je armen effici\u00ebnt tijdens het roeien om je benen te sparen voor de runs.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:30",
         "type": "WOD",
-        "deelnemers": "13/14",
+        "deelnemers": "11/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "11/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -99,7 +99,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
