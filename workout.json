@@ -2,7 +2,7 @@
     "datum": "11-04-2026",
     "dag": "Zaterdag",
     "workout": "QF wod 3\n3 rounds\n50 double unders\n10 deadlifts 102/70kg\ninto\n2 rounds\n50 double unders\n10 deadlifts 125/83kg\ninto\n1 rounds\n50 double unders\n10 deadlifts 143/102kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de deadlifts optimaal houdt, vooral naarmate het gewicht zwaarder wordt.  \n\ud83d\udca1 **Strategie:** Deel je energie goed in; begin met een duurzaam tempo op de double unders en ga vervolgens gefocust de deadlifts in.  \n\ud83e\ude79 **Tip:** Blijf geconcentreerd en vermijd frictie bij je double unders door je ellebogen dicht bij je lichaam te houden tijdens het springen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de double unders je ademhaling onder controle houdt om vermoeidheid te verminderen.  \n\ud83d\udca1 **Strategie:** Verdeel je deadlifts in sets van 5 als je voelt dat je vorm begint te verslechteren, zodat je kracht behoudt en blessures voorkomt.  \n\ud83e\ude79 **Tip:** Vergeet niet om goed te mobiliseren voor de deadlifts, vooral je hamstrings en onderrug, om de beste prestaties neer te zetten.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
