@@ -2,7 +2,7 @@
     "datum": "12-04-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: cal row\nmin 2: wallwalks\nmin 3: db hang squat cleans 2x db 22.5/15kg\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je je hartslag goed onder controle houdt tijdens de cal row, zodat je energie hebt voor de wallwalks.  \n\ud83d\udca1 **Strategie:** Begin met een redelijk tempo in de eerste minuten, zodat je niet te vermoeid raakt voor de db hang squat cleans.  \n\ud83e\ude79 **Tip:** Gebruik de rustminuut om goed te recupereren en aan je techniek te werken, vooral bij de wallwalks en de squat cleans.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de calorie\u00ebn op de roeimachine een constante en effici\u00ebnte roeislag aanhoudt.  \n\ud83d\udca1 **Strategie:** Plan je wallwalks zo dat je gecontroleerd en met een goede techniek omhoog en omlaag gaat, zodat je fatigued maar niet overbelast raakt.  \n\ud83e\ude79 **Tip:** Houd tijdens de dumbbell hang squat cleans je core sterk en gebruik de kracht van je benen om de gewichten soepel omhoog te trekken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -31,14 +31,14 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
@@ -80,14 +80,14 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/16",
+            "deelnemers": "6/16",
             "status": "Open"
         },
         {
@@ -113,14 +113,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -134,14 +134,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -232,14 +232,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,21 +253,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
