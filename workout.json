@@ -2,15 +2,15 @@
     "datum": "15-04-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n20 toes to rings\n20 box jump overs\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek hanteert bij de toes to rings om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Deel de box jump overs in sets van 10 op om je energie beter te verdelen en vermoeidheid te verminderen.  \n\ud83e\ude79 **Tip:** Neem tijdens de overgang tussen de oefeningen een paar seconden om je hartslag te verlagen en je focus weer terug te krijgen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek tijdens de toes to rings op orde is om blessures te voorkomen en je effici\u00ebntie te verhogen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een steady tempo en verhoog het waar mogelijk, vooral bij de box jump overs.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de rondes, maar blijf altijd in beweging om je spieren warm te houden en de doorstroming te bevorderen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
-        "wachtlijst": true,
-        "wachtlijst_plek": "1",
-        "wachtlijst_totaal": "1"
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_vandaag": [
         {
@@ -18,7 +18,7 @@
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "14/14",
-            "status": "Jij staat op Wachtlijst"
+            "status": "Jij bent Ingeschreven"
         }
     ],
     "dag_morgen": "Donderdag",
@@ -50,7 +50,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/12",
+            "deelnemers": "3/12",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -99,7 +99,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
