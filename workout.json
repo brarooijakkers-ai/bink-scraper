@@ -2,191 +2,23 @@
     "datum": "15-04-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n20 toes to rings\n20 box jump overs\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je core actief houdt tijdens de toes to rings om je stabiliteit te waarborgen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de rondes; begin steady en bouw je snelheid op naarmate je verder komt.  \n\ud83e\ude79 **Tip:** Gebruik je armen effectief tijdens de box jump overs om je benen te ontlasten en de sprongen vlotter te maken.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een sterke core en een goede techniek tijdens de toes to rings om effici\u00ebnt te blijven bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed en gebruik een steady tempo op de box jump overs om bij elke sprong in controle te blijven.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets als nodig, maar probeer in beweging te blijven om je hartslag op peil te houden.",
     "status_vandaag": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
+        "ingeschreven": true,
+        "tijd": "18:30 - 19:30",
+        "type": "WOD",
+        "deelnemers": "14/14",
+        "wachtlijst": true,
+        "wachtlijst_plek": "2",
+        "wachtlijst_totaal": "2"
     },
     "rooster_vandaag": [
-        {
-            "tijd": "07:00 - 09:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "07:15 - 08:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "12/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "08:15 - 09:15",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:00 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "1/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "9/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:30 - 11:45",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:00 - 12:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:00 - 12:45",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:00 - 13:00",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "1/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 15:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:15 - 15:15",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/13",
-            "status": "Open"
-        },
-        {
-            "tijd": "15:30 - 16:15",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "2/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "15:30 - 16:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "16:30 - 17:15",
-            "type": "HYROX FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "8/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "16:30 - 17:15",
-            "type": "TEENS",
-            "zaal": "Zaal 2",
-            "deelnemers": "6/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "6/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "14/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "19:30 - 20:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "19:30 - 20:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "6/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "20:30 - 21:30",
-            "type": "POWERLIFTING",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "20:30 - 21:30",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "status": "Jij staat op Wachtlijst"
         }
     ],
     "dag_morgen": "Donderdag",
