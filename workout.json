@@ -2,7 +2,7 @@
     "datum": "17-04-2026",
     "dag": "Vrijdag",
     "workout": "5 rounds\n50 double unders\n12 db snatches 1x 32.5/22.5kg\n6 bar muscle ups*\nrest 1min\ntimecap 22min\n*scale: chest to bar + push up",
-    "coach": "\ud83d\udd25 **Focus:** Houd je consistent tempo aan tijdens de double unders om overbelasting te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met de snatches op een gecontroleerde manier; focus op techniek om vermoeidheid te minimaliseren.  \n\ud83e\ude79 **Tip:** Als je moeite hebt met de bar muscle ups, werk dan aan je explosiviteit tijdens de chest to bar en zorg voor goede romprigiditeit bij de push ups.",
+    "coach": "\ud83d\udd25 **Focus:** Richt je op het behouden van je ademhaling tijdens de double unders om jezelf effici\u00ebnt te houden voor de snatches en muscle ups.  \n\ud83d\udca1 **Strategie:** Plan je transitions goed en gebruik je rustmomenten om je hartslag onder controle te houden, vooral na de bar muscle ups.  \n\ud83e\ude79 **Tip:** Zorg voor een goede grip op de dumbbells en probeer de snatches unbroken te doen als je dat kunt, anders splits ze op in sets van 6.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
@@ -136,21 +136,21 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/11",
+            "deelnemers": "2/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
