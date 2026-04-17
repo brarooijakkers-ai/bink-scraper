@@ -2,7 +2,7 @@
     "datum": "17-04-2026",
     "dag": "Vrijdag",
     "workout": "5 rounds\n50 double unders\n12 db snatches 1x 32.5/22.5kg\n6 bar muscle ups*\nrest 1min\ntimecap 22min\n*scale: chest to bar + push up",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt bij de double unders en snatches om effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de rounds; begin rustig aan en bouw je snelheid op naar de laatste ronde toe.  \n\ud83e\ude79 **Tip:** Neem voldoende tijd voor de rest momenten; gebruik deze minuten om je hartslag te laten zakken en je voor te bereiden op de volgende ronde.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante ademhaling tijdens de double unders om effici\u00ebntie te behouden.  \n\ud83d\udca1 **Strategie:** Verdeel je energie tijdens de snatches; focus op techniek zodat je geen kracht verspilt.  \n\ud83e\ude79 **Tip:** Neem de tijd bij de muscle ups; als je schuift naar chest to bar en push ups, zorg er dan voor dat je voldoende rust neemt tussen de sets om fouten te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -225,14 +225,14 @@
             "tijd": "11:15 - 12:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
