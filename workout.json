@@ -2,7 +2,7 @@
     "datum": "19-04-2026",
     "dag": "Zondag",
     "workout": "for time\n100 cal row\n400 double unders\ndivide as you want\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante en effici\u00ebnte roeisnelheid aanhoudt om de calorie\u00ebn snel te verbranden.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in haalbare sets en rust kort tussen de sets om je uithoudingsvermogen te behouden.  \n\ud83e\ude79 **Tip:** Voorkom frustratie met de double unders door je ademhaling op peil te houden en je polsen soepel te laten draaien.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente snelheid aanhoudt tijdens het roeien om de calorie\u00ebn effici\u00ebnt te verbranden.  \n\ud83d\udca1 **Strategie:** Verdeel je double unders in behapbare sets en neem korte pauzes om de techniek scherp te houden.  \n\ud83e\ude79 **Tip:** Als je merkt dat je vermoeid raakt, maak dan gebruik van de restperiodes om je hartslag te laten dalen voordat je weer van start gaat.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
@@ -52,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -80,7 +80,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -113,14 +113,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -211,14 +211,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,21 +253,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
