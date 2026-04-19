@@ -2,7 +2,7 @@
     "datum": "19-04-2026",
     "dag": "Zondag",
     "workout": "for time\n100 cal row\n400 double unders\ndivide as you want\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de roeimachine solide is om effici\u00ebnt calorie\u00ebn te verbranden.  \n\ud83d\udca1 **Strategie:** Verdeel de 100 calorie\u00ebn en 400 double unders in haalbare sets; denk aan kleinere intervallen om vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Rust voldoende tussen de sets double unders om blessures te voorkomen en je concentratie te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de kracht en techniek van het roeien goed benut om de calorie\u00ebn effici\u00ebnt te verbranden.  \n\ud83d\udca1 **Strategie:** Verdeel de dubbelunders in behapbare sets en rust kort tussen de sets om jezelf niet te veel uit te putten.  \n\ud83e\ude79 **Tip:** Gebruik de eerste helft van de workout om je te acclimatiseren en ga niet te snel van start; je hebt 14 minuten dus behoud je energie voor het tweede deel.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
