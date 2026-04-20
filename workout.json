@@ -2,23 +2,23 @@
     "datum": "20-04-2026",
     "dag": "Maandag",
     "workout": "amrap 30min\n2 strict hspu\n6 toes to bar\n10 walking lunge steps\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikte handstandpush-ups met controle uitvoert, zodat je techniek niet in gevaar komt.  \n\ud83d\udca1 **Strategie:** Verdeel de herhalingen over de rondes als je merkt dat je vermoeid raakt, zodat je consistent blijft werken gedurende de 30 minuten.  \n\ud83e\ude79 **Tip:** Houd een goed tempo aan tijdens de 200m run, zodat je voldoende energie hebt voor de overige oefeningen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de strict HSPU stevig is voor maximale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; start rustig met de bewegingen en houd een constant tempo tijdens de run.  \n\ud83e\ude79 **Tip:** Gebruik de ademhaling om je houvast te behouden en niet te veel te verzuipen, vooral tijdens de toes to bar en walking lunges.",
     "status_vandaag": {
         "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "type": "WOD",
-        "deelnemers": "14/14",
-        "wachtlijst": true,
-        "wachtlijst_plek": "3",
-        "wachtlijst_totaal": "4"
+        "tijd": "19:30 - 20:15",
+        "type": "FUNDAMENTALS",
+        "deelnemers": "7/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_vandaag": [
         {
-            "tijd": "18:30 - 19:30",
-            "type": "WOD",
+            "tijd": "19:30 - 20:15",
+            "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
-            "status": "Jij staat op Wachtlijst"
+            "deelnemers": "7/14",
+            "status": "Jij bent Ingeschreven"
         }
     ],
     "dag_morgen": "Dinsdag",
