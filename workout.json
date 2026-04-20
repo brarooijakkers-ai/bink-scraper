@@ -2,15 +2,15 @@
     "datum": "20-04-2026",
     "dag": "Maandag",
     "workout": "amrap 30min\n2 strict hspu\n6 toes to bar\n10 walking lunge steps\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de strict HSPU en toes to bar optimaal is; dit voorkomt blessures en maakt de bewegingen effici\u00ebnter.  \n\ud83d\udca1 **Strategie:** Plan je pacing goed, vooral tijdens de 200m run; begin iets rustiger zodat je gefocust blijft op de krachtonderdelen.  \n\ud83e\ude79 **Tip:** Neem tijdens de walking lunges een moment om je core te stabiliseren; dit helpt je balans en voorkomt dat je uitgeput raakt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict handstand push-ups met controle en kracht uitvoert, zodat je deze effici\u00ebnt kunt volhouden.  \n\ud83d\udca1 **Strategie:** Probeer tijdens de toes to bar je core goed aan te spannen en je bewegingen soepel te maken, zodat je minder energie verbruikt.  \n\ud83e\ude79 **Tip:** Gebruik je armswing bij de walking lunges om je balans te verbeteren en laat je ademhaling niet vergeten tijdens de 200m run; dit helpt je om je tempo vast te houden.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
         "wachtlijst": true,
-        "wachtlijst_plek": "7",
-        "wachtlijst_totaal": "7"
+        "wachtlijst_plek": "6",
+        "wachtlijst_totaal": "6"
     },
     "rooster_vandaag": [
         {
@@ -43,14 +43,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/12",
+            "deelnemers": "3/12",
             "status": "Open"
         },
         {
@@ -99,7 +99,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
