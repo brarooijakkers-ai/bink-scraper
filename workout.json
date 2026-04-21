@@ -2,7 +2,7 @@
     "datum": "21-04-2026",
     "dag": "Dinsdag",
     "workout": "4 rounds\n30 deadlifts 100/70kg\n20/16 cal row\n15 ring dips\nrest 1min\n20min timecap",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts goed is om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je deadlifts in sets van 10, zodat je je grip en kracht behoudt gedurende het hele blok.  \n\ud83e\ude79 **Tip:** Gebruik de restperiodes om goed te ademen en je hartslag onder controle te houden voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts klopt om blessures te voorkomen en om effici\u00ebnter te tillen.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht tijdens de rijen, zodat je met een constante snelheid blijft werken en niet te veel vermoeid raakt voor de ring dips.  \n\ud83e\ude79 **Tip:** Maak gebruik van korte rustpauzes tijdens de ring dips; als je merkt dat je moe begint te worden, neem dan een paar seconden extra om je te herpakken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,14 +17,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "4/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -38,7 +38,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
