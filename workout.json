@@ -2,7 +2,7 @@
     "datum": "21-04-2026",
     "dag": "Dinsdag",
     "workout": "4 rounds\n30 deadlifts 100/70kg\n20/16 cal row\n15 ring dips\nrest 1min\n20min timecap",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de deadlifts met een goede vorm uitvoert om blessures te voorkomen en energie te besparen voor de rest van de workout.  \n\ud83d\udca1 **Strategie:** Verdeel je deadlifts in sets als dat nodig is, bijvoorbeeld 10-15 reps per keer, en neem een korte pauze om je grip en kracht te behouden.  \n\ud83e\ude79 **Tip:** Gebruik de roei-machine als actieve rust; blijf een constante snelheid aanhouden, zodat je niet volledig uitgeput aan de ring dips begint.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de deadlifts een sterke vorm behoudt om blessures te voorkomen en effici\u00ebntie te maximaliseren.\n\n\ud83d\udca1 **Strategie:** Verdeel de deadlifts in kleinere sets (bijvoorbeeld 10-10) om je grip en energie beter te beheren, zodat je niet te snel vermoeid raakt.\n\n\ud83e\ude79 **Tip:** Gebruik de rustmomenten, vooral na de ring dips, om je ademhaling te stabiliseren en je hartslag omlaag te brengen voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -143,14 +143,14 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -274,7 +274,7 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
