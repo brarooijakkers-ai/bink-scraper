@@ -2,7 +2,7 @@
     "datum": "23-04-2026",
     "dag": "Donderdag",
     "workout": "heavy GRACE\n30 clean and jerks 80/55kg\ntimecap 10min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek scherp bij elke clean and jerk om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je set in kleine groepen, bijvoorbeeld 5x6 of 10x3, en neem korte pauzes om je kracht te behouden.  \n\ud83e\ude79 **Tip:** Zorg voor een goede grip en actieve schouders tijdens de overhead positie om de stabiliteit te waarborgen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke clean en jerk met een goede techniek uitvoert om blessures te voorkomen en kracht te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de reps in haalbare sets, zoals 5 sets van 6, en neem korte pauzes tussen de sets om je kracht te behouden.  \n\ud83e\ude79 **Tip:** Begin met een goed tempo en let vooral bij de jerks op je houding; gebruik je benen goed voor een explosieve beweging.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -122,14 +122,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
