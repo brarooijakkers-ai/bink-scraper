@@ -2,7 +2,7 @@
     "datum": "24-04-2026",
     "dag": "Vrijdag",
     "workout": "amrap 20min\n15 pull ups\n10 pistols\n5 wallwalks",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de pull-ups en pistols consistent blijft, zodat je de kracht en stabiliteit behoudt.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets als je merkt dat je meer dan 2-3 keer moet pauzeren; dit houdt je energie op peil voor de rest.  \n\ud83e\ude79 **Tip:** Voor de wallwalks, begin rustig en concentreer je op een vloeiende beweging om je hartslag onder controle te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je belasting op de bovenste hand vast tijdens de pull-ups voor maximale kracht en stabiliteit.\n\n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets, bijvoorbeeld 5-5-5, om vermoeidheid te voorkomen en je techniek scherp te houden.\n\n\ud83e\ude79 **Tip:** Gebruik een hoge ondersteuning voor je pistols; als je stabiliteit mist, gebruik dan een box of een lift voor extra hulp tijdens de beweging.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -183,7 +183,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -232,14 +232,14 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "5/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
