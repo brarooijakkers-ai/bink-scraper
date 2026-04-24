@@ -2,7 +2,7 @@
     "datum": "24-04-2026",
     "dag": "Vrijdag",
     "workout": "amrap 20min\n15 pull ups\n10 pistols\n5 wallwalks",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op een goede techniek bij elke oefening om blessures te voorkomen en de effici\u00ebntie te verbeteren.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets als je merkt dat je vorm verslechtert, zodat je de meeste herhalingen met een goede techniek kunt voltooien.  \n\ud83e\ude79 **Tip:** Bij de pistols kan het helpen om met je andere been op een verhoging te steunen om je balans te verbeteren, vooral als je nog niet volledig beheerst.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij elke oefening behoudt om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets die voor jou haalbaar zijn, zodat je niet oververmoeid raakt.  \n\ud83e\ude79 **Tip:** Bij de pistols, gebruik een ondersteunend voorwerp als dat nodig is om je balans en vorm te verbeteren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "5/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/16",
+            "deelnemers": "1/16",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -183,7 +183,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
