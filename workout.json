@@ -2,7 +2,7 @@
     "datum": "24-04-2026",
     "dag": "Vrijdag",
     "workout": "amrap 20min\n15 pull ups\n10 pistols\n5 wallwalks",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je vorm en techniek je hoogste prioriteit hebben, vooral bij de pull-ups en pistols.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets (bijvoorbeeld 5-5-5) om vermoeidheid te verminderen en zorg voor een goede hersteltijd tussen de sets.  \n\ud83e\ude79 **Tip:** Gebruik een muur voor stabiliteit bij de wallwalks, en focus op je kern om effici\u00ebnt omhoog te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt, vooral bij de pull-ups en pistols, om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de pull-ups in sets, bijvoorbeeld 5-5-5, en rust bij elke set om je kracht te behouden voor de pistols en wallwalks.  \n\ud83e\ude79 **Tip:** Gebruik een muur voor stabiliteit tijdens je pistols en focus op een goede balans, zodat je effici\u00ebnt kunt bewegen zonder vermoeidheid op te bouwen.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -122,14 +122,14 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -150,14 +150,14 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
@@ -218,7 +218,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
