@@ -2,7 +2,7 @@
     "datum": "24-04-2026",
     "dag": "Vrijdag",
     "workout": "amrap 20min\n15 pull ups\n10 pistols\n5 wallwalks",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij elke oefening behoudt om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets die voor jou haalbaar zijn, zodat je niet oververmoeid raakt.  \n\ud83e\ude79 **Tip:** Bij de pistols, gebruik een ondersteunend voorwerp als dat nodig is om je balans en vorm te verbeteren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede vorm behoudt tijdens elke oefening om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets om de vermoeidheid te beheersen en grijp de pistols aan met de juiste balans en flexibiliteit.  \n\ud83e\ude79 **Tip:** Neem de tijd om je ademhaling te controleren tijdens de wallwalks, zodat je je energie goed kunt verdelen gedurende de 20 minuten.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/8",
+            "deelnemers": "8/8",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
