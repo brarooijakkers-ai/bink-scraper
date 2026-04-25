@@ -2,7 +2,7 @@
     "datum": "25-04-2026",
     "dag": "Zaterdag",
     "workout": "5 rounds\n2min amrap/2min rest\n200m run\nmax devil presses 2x 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de vijf rondes, zodat je bij elke ronde fris blijft.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerde loop; een constant tempo helpt je om fris aan de devil presses te beginnen.  \n\ud83e\ude79 **Tip:** Let op je techniek bij de devil presses, zodat je effici\u00ebnt blijft en blessures voorkomt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je snelheid tijdens de runs goed managt, zodat je genoeg energie hebt voor de max devil presses.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste 100 meter van je run om je op te warmen, en versnel daarna voor de laatste 100 meter om je hartslag op te jagen.  \n\ud83e\ude79 **Tip:** Houd je devil presses gecontroleerd; focus op een goede techniek en ademhaling om blessures te voorkomen en blessures te minimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -38,14 +38,14 @@
             "tijd": "10:15 - 11:00",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/16",
+            "deelnemers": "10/16",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
