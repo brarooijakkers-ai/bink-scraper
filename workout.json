@@ -1,9 +1,28 @@
 {
-    "datum": "25-04-2026",
-    "dag": "Zaterdag",
-    "workout": "5 rounds\n2min amrap/2min rest\n200m run\nmax devil presses 2x 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeeld over de 5 rondes. \n\n\ud83d\udca1 **Strategie:** Begin je runs stevig maar beheerst, zodat je voldoende adem hebt voor de devil presses zodra je terugkomt.\n\n\ud83e\ude79 **Tip:** Leg de focus op je techniek tijdens de devil presses; het is beter om minder herhalingen met goede vorm te doen dan veel met slechte vorm.",
+    "datum": "26-04-2026",
+    "dag": "Zondag",
+    "workout": "5 rounds\n15 push ups\n60 double unders\n30 wallballs 9/6kg\ntimecap 18min",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je vorm bij de push-ups op de eerste ronde perfect is, dit voorkomt overbelasting.  \n\ud83d\udca1 **Strategie:** Probeer je dubbele unders in sets van 30 te doen om het beter beheersbaar te houden en vermijd frustratie.  \n\ud83e\ude79 **Tip:** Gebruik je benen voor de wallballs; dit maakt het lichter en helpt je meer reps vol te houden.",
     "status_vandaag": {
+        "ingeschreven": true,
+        "tijd": "12:15 - 13:15",
+        "type": "WOD",
+        "deelnemers": "6/16",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_vandaag": [
+        {
+            "tijd": "12:15 - 13:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "6/16",
+            "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "dag_morgen": "Maandag",
+    "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
         "type": "",
@@ -12,102 +31,41 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_vandaag": [
-        {
-            "tijd": "09:15 - 10:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
+    "rooster_morgen": [
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "1/6",
+            "deelnemers": "0/40",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "0/40",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "3/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        }
-    ],
-    "dag_morgen": "Zondag",
-    "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "12:15 - 13:15",
-        "type": "WOD",
-        "deelnemers": "5/16",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_morgen": [
-        {
-            "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
-            "status": "Jij bent Ingeschreven"
+            "deelnemers": "0/40",
+            "status": "Open"
+        },
+        {
+            "tijd": "17:30 - 18:15",
+            "type": "OPENGYM",
+            "zaal": "Buiten",
+            "deelnemers": "0/6",
+            "status": "Open"
+        },
+        {
+            "tijd": "18:30 - 19:15",
+            "type": "OPENGYM",
+            "zaal": "Buiten",
+            "deelnemers": "0/6",
+            "status": "Open"
         }
     ]
 }
