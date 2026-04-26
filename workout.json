@@ -2,7 +2,7 @@
     "datum": "26-04-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n15 push ups\n60 double unders\n30 wallballs 9/6kg\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de push-ups en wallballs behoudt, zodat je geen kracht verliest naarmate de rondes vorderen.  \n\ud83d\udca1 **Strategie:** Verdeel de push-ups in kleinere sets als je dat nodig hebt, en gebruik een rustig tempo voor de double unders om te voorkomen dat je in de knoop komt.  \n\ud83e\ude79 **Tip:** Maak gebruik van een goede ademhaling tijdens de wallballs; adem in bij het zakken en adem uit bij het omhoog stoten voor maximale kracht.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de push-ups behoudt om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Deel de wallballs op in sets (bijvoorbeeld 10 per keer) om de vermoeidheid te beheersen en je tempo hoog te houden.  \n\ud83e\ude79 **Tip:** Houd je touw tijdens de double unders snel en consistent; kijk naar een punt voor je om je focus te behouden.  ",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 13:15",
@@ -23,49 +23,21 @@
     ],
     "dag_morgen": "Maandag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "10:15 - 11:15",
+        "type": "WOD",
+        "deelnemers": "29/40",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "32/40",
-            "status": "Open"
-        },
-        {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "23/40",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "15/40",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "29/40",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
