@@ -2,7 +2,7 @@
     "datum": "28-04-2026",
     "dag": "Dinsdag",
     "workout": "10.000m row for time\nmake yourself proud!\ntimecap 50min",
-    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling en houd een constante kracht op de roeier.  \n\ud83d\udca1 **Strategie:** Verdeeld je inspanning over de distante; begin met een gematigd tempo en bouw langzaam op in de laatste 2000 meter.  \n\ud83e\ude79 **Tip:** Neem regelmatig korte drinkpauzes, maar verlies niet je ritme; hydrateer tijdens het roeien als dat kan.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in de gaten om energie te besparen en blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je roeisessies in intervallen, bijvoorbeeld 5x 2000m, en neem korte pauzes om je hartslag te laten zakken.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren v\u00f3\u00f3r en tijdens de WOD, en luister naar je lichaam om je tempo goed aan te passen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -267,14 +267,14 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
