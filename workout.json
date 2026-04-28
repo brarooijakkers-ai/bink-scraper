@@ -2,7 +2,7 @@
     "datum": "28-04-2026",
     "dag": "Dinsdag",
     "workout": "10.000m row for time\nmake yourself proud!\ntimecap 50min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in de gaten om energie te besparen en blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je roeisessies in intervallen, bijvoorbeeld 5x 2000m, en neem korte pauzes om je hartslag te laten zakken.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren v\u00f3\u00f3r en tijdens de WOD, en luister naar je lichaam om je tempo goed aan te passen.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in de gaten tijdens het roeien om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je roeisessies in segments; concentreer je op het voltooien van elke 1000 meter met een consistent tempo.  \n\ud83e\ude79 **Tip:** Vergeet niet voldoende te hydrateren en gebruik de laatste paar minuten om alles te geven; geloof in jezelf en als je voelt dat je kunt, geef dan een extra push!",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -59,14 +59,14 @@
             "tijd": "11:00 - 13:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -183,7 +183,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
