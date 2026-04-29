@@ -2,7 +2,7 @@
     "datum": "29-04-2026",
     "dag": "Woensdag",
     "workout": "800m run\nrest 1min\n40 burpee pull ups\nrest 1min\n800m run\nrest 1min\n40 box jump overs\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de runs en de oefeningen.  \n\ud83d\udca1 **Strategie:** Verdeel de burpee pull-ups en box jump overs in manageable sets om vermoeidheid te minimaliseren.  \n\ud83e\ude79 **Tip:** Neem de tijd om je in de runs goed te positioneren, zodat je de tweede run met frisse benen kunt aanvatten.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je hartslag onder controle tijdens de hardlopen, zodat je klaar bent voor de burpee pull-ups en box jump overs.  \n\ud83d\udca1 **Strategie:** Verdeel de burpee pull-ups en box jump overs in kleinere sets om vermoeidheid te minimaliseren.  \n\ud83e\ude79 **Tip:** Gebruik een explosieve techniek bij de box jump overs om tijd te besparen en je energie beter te gebruiken.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -108,7 +108,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -171,7 +171,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
