@@ -2,7 +2,7 @@
     "datum": "29-04-2026",
     "dag": "Woensdag",
     "workout": "800m run\nrest 1min\n40 burpee pull ups\nrest 1min\n800m run\nrest 1min\n40 box jump overs\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente snelheid aanhoudt tijdens de runs om je energie effici\u00ebnt te beheren.  \n\ud83d\udca1 **Strategie:** Verdeeld de burpee pull ups in sets van 10 of 5, zodat je niet te veel vermoeid raakt en je techniek behoudt.  \n\ud83e\ude79 **Tip:** Gebruik je armen bij de box jump overs om jezelf omhoog te helpen en focus op een zachte landing om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling goed onder controle houdt tijdens de runs en de oefeningen.  \n\ud83d\udca1 **Strategie:** Split de burpee pull-ups en box jump overs op in kleinere sets als je merkt dat je moe begint te worden, zodat je effici\u00ebnt blijft.  \n\ud83e\ude79 **Tip:** Voor de box jump overs, gebruik een stevig ritme en zorg ervoor dat je veilig en gecontroleerd springt.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,35 +94,35 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "6/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -150,14 +150,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -295,7 +295,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
