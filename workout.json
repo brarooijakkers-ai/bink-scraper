@@ -2,7 +2,7 @@
     "datum": "29-04-2026",
     "dag": "Woensdag",
     "workout": "800m run\nrest 1min\n40 burpee pull ups\nrest 1min\n800m run\nrest 1min\n40 box jump overs\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je gedurende de run een constante en effici\u00ebnte snelheid aanhoudt.  \n\ud83d\udca1 **Strategie:** Begin met de burpee pull-ups in een tempo dat je kunt volhouden, maar daag jezelf ook uit om niet te veel pauzes te nemen.  \n\ud83e\ude79 **Tip:** Bij de box jump overs is het belangrijk om goed te landen en je knie\u00ebn te beschermen; gebruik je armen om je momentum te helpen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed indeelt, vooral tijdens de hardlopen en de oefeningen erna.  \n\ud83d\udca1 **Strategie:** Begin met een rustige pace tijdens de eerste 800m run om je benen niet te vermoeien voor de burpee pull ups.  \n\ud83e\ude79 **Tip:** Bij de burpee pull ups, probeer de bewegingen soepel en gecontroleerd te houden; dit voorkomt onnodige uitputting en helpt je snelheid te behouden.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
@@ -36,14 +36,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
