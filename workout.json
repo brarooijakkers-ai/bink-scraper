@@ -2,7 +2,7 @@
     "datum": "29-04-2026",
     "dag": "Woensdag",
     "workout": "800m run\nrest 1min\n40 burpee pull ups\nrest 1min\n800m run\nrest 1min\n40 box jump overs\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je hartslag onder controle tijdens de hardlopen, zodat je klaar bent voor de burpee pull-ups en box jump overs.  \n\ud83d\udca1 **Strategie:** Verdeel de burpee pull-ups en box jump overs in kleinere sets om vermoeidheid te minimaliseren.  \n\ud83e\ude79 **Tip:** Gebruik een explosieve techniek bij de box jump overs om tijd te besparen en je energie beter te gebruiken.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente snelheid aanhoudt tijdens de runs om je energie effici\u00ebnt te beheren.  \n\ud83d\udca1 **Strategie:** Verdeeld de burpee pull ups in sets van 10 of 5, zodat je niet te veel vermoeid raakt en je techniek behoudt.  \n\ud83e\ude79 **Tip:** Gebruik je armen bij de box jump overs om jezelf omhoog te helpen en focus op een zachte landing om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -164,14 +164,14 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
