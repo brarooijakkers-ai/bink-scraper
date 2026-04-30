@@ -2,7 +2,7 @@
     "datum": "30-04-2026",
     "dag": "Donderdag",
     "workout": "QF wod 4\n1000m row\n30 clean and jerks 61/43kg\n1000m row\n30 strict hspu\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de clean and jerks en strict hspu solide blijft, vooral als je moe wordt.  \n\ud83d\udca1 **Strategie:** Verdeel je clean and jerks in sets van 5 of 10 om je uithoudingsvermogen beter te beheren en zo de snelheid te behouden.  \n\ud83e\ude79 **Tip:** Gebruik de eerste 1000m row als een warming-up; start met een gematigd tempo om je hartslag geleidelijk te verhogen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt tijdens de clean and jerks en strict hspu's, zodat je blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Begin de eerste roeironde met een gematigd tempo, zodat je frisser aan de clean and jerks kunt beginnen.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tijdens de hspu's om de spanning op je schouders te verminderen, en probeer in sets van 5 te werken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -94,14 +94,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -129,21 +129,21 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "6/16",
             "status": "Open"
         },
         {
