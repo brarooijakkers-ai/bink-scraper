@@ -2,7 +2,7 @@
     "datum": "30-04-2026",
     "dag": "Donderdag",
     "workout": "QF wod 4\n1000m row\n30 clean and jerks 61/43kg\n1000m row\n30 strict hspu\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede techniek bij de clean and jerks om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de 30 clean and jerks in sets (bijv. 10-10-10) en neem korte rustpauzes tussen de sets om je energie goed te beheren.  \n\ud83e\ude79 **Tip:** Gebruik de eerste 1000m roeien om je ademhaling en hartslag onder controle te krijgen, zodat je fris aan de clean and jerks kunt beginnen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de clean and jerks perfect is om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeeld de clean and jerks in slimme sets, bijvoorbeeld 5 per keer, om fatique te beheersen en je kracht behouden voor de strict hspu.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle tijdens de roeisessies; dit helpt je om sneller te herstellen tussen de oefeningen door.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,14 +108,14 @@
             "tijd": "18:30 - 19:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -129,14 +129,14 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
@@ -183,14 +183,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
@@ -295,7 +295,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
