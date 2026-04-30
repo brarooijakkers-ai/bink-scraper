@@ -2,7 +2,7 @@
     "datum": "30-04-2026",
     "dag": "Donderdag",
     "workout": "QF wod 4\n1000m row\n30 clean and jerks 61/43kg\n1000m row\n30 strict hspu\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de clean and jerks en strict handstand push-ups behoudt, zelfs als je moe begint te worden.  \n\ud83d\udca1 **Strategie:** Verdeel je clean and jerks in sets van 10 om een goede vorm te waarborgen en neem korte pauzes indien nodig.  \n\ud83e\ude79 **Tip:** Gebruik de eerste 1000m row om je hartslag geleidelijk omhoog te krijgen; begin met een steady pace en verhoog je tempo in de laatste 200m.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de roeisessies een constante en effici\u00ebnte slagfrequentie aanhoudt.  \n\ud83d\udca1 **Strategie:** Verdeel de clean and jerks in sets van 5 of 10 om rustpauzes te minimaliseren en houd je techniek scherp.  \n\ud83e\ude79 **Tip:** Voor de strict hspu, gebruik een muur als ondersteuning om stabiliteit te behouden en focus op je core om je lichaam recht omhoog te duwen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,14 +66,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
