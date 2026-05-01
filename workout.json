@@ -2,7 +2,7 @@
     "datum": "01-05-2026",
     "dag": "Vrijdag",
     "workout": "for time\n10-9-8-7-6-5-4-3-2-1\ntoes to bar\nthrusters 42.5/30kg\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt bij zowel de toes to bar als de thrusters voor optimale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en werk naar je kunnen toe om energie te besparen voor de laatste rondes.  \n\ud83e\ude79 **Tip:** Pauzeer tussen de sets als dat nodig is, vooral bij de toes to bar, om je schouders en grip niet te overbelasten.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt bij zowel toes to bar als thrusters om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een stevig, maar haalbaar tempo; probeer elke set toes to bar in \u00e9\u00e9n of twee sets te doen en plan je rustmomenten goed.  \n\ud83e\ude79 **Tip:** Vergeet niet om je core goed aan te spannen tijdens de toes to bar en gebruik je benen in plaats van alleen je armen bij de thrusters voor meer effici\u00ebntie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,7 +94,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -108,28 +108,28 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
