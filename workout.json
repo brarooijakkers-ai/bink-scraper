@@ -2,7 +2,7 @@
     "datum": "01-05-2026",
     "dag": "Vrijdag",
     "workout": "for time\n10-9-8-7-6-5-4-3-2-1\ntoes to bar\nthrusters 42.5/30kg\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt bij zowel toes to bar als thrusters om blessures te voorkomen en effici\u00ebntie te vergroten.  \n\ud83d\udca1 **Strategie:** Werk in sets van 3-5 reps bij de toes to bar en neem korte rustpauzes om je ritme erin te houden.  \n\ud83e\ude79 **Tip:** Blijf tijdens de thrusters gefocust op je ademhaling, gebruik je benen goed en zorg voor een stevige core om je balans te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante en gecontroleerde ademhaling houdt tijdens de hele workout om je uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met de toes to bar in een rustig tempo en gebruik een sterke krachtovergang naar de thrusters, zodat je niet vroeg in de workout moe wordt.  \n\ud83e\ude79 **Tip:** Neem een korte pauze tussen de sets van thrusters om je techniek op peil te houden en te voorkomen dat je vorm verslechtert.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "3/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -136,21 +136,21 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/11",
+            "deelnemers": "2/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
