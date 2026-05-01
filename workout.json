@@ -1,28 +1,9 @@
 {
-    "datum": "01-05-2026",
-    "dag": "Vrijdag",
-    "workout": "for time\n10-9-8-7-6-5-4-3-2-1\ntoes to bar\nthrusters 42.5/30kg\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij zowel de toes to bar als de thrusters nauwkeurig blijft, vooral naarmate je vermoeider wordt.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo, zodat je de eerste sets van beide oefeningen soepel kunt uitvoeren en later in de workout niet vastloopt.  \n\ud83e\ude79 **Tip:** Gebruik een grip dat voor jou comfortabel is voor de toes to bar en wissel indien nodig van grip om blessures te voorkomen.",
+    "datum": "02-05-2026",
+    "dag": "Zaterdag",
+    "workout": "amrap 20min\n6x 7.5m farmers carry 2x 32/24kg\n10 alt. db snatches 1x 32.5/22.5kg\n6x 7.5m farmers carry\n10 alt. db clean and jerks",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de farmers carry met een stevige grip en goede houding uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig over de 20 minuten en probeer een consistent tempo aan te houden, vooral tijdens de zware lifts.  \n\ud83e\ude79 **Tip:** Neem de tijd om je ademhaling te herstellen tussen de bewegingen door, vooral na de intensieve farmers carry's, zodat je genoeg kracht hebt voor de alternatieve lifts.  ",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "17:30 - 18:30",
-        "type": "WOD",
-        "deelnemers": "3/14",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "17:30 - 18:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "3/14",
-            "status": "Jij bent Ingeschreven"
-        }
-    ],
-    "dag_morgen": "Zaterdag",
-    "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
         "type": "",
@@ -31,7 +12,7 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "09:15 - 10:00",
             "type": "OPENGYM",
@@ -71,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -100,6 +81,102 @@
             "type": "OPENGYM",
             "zaal": "Zaal 1",
             "deelnemers": "1/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "13:00 - 14:00",
+            "type": "OPENGYM",
+            "zaal": "Zaal 2",
+            "deelnemers": "0/6",
+            "status": "Open"
+        }
+    ],
+    "dag_morgen": "Zondag",
+    "status_morgen": {
+        "ingeschreven": false,
+        "tijd": "",
+        "type": "",
+        "deelnemers": "",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_morgen": [
+        {
+            "tijd": "09:15 - 09:45",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "1/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "12/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:45 - 10:30",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "1/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "5/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:30 - 11:15",
+            "type": "TEENS",
+            "zaal": "Zaal 2",
+            "deelnemers": "1/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:00",
+            "type": "FUNDAMENTALS",
+            "zaal": "Zaal 1",
+            "deelnemers": "11/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:15",
+            "type": "HYROX",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:00",
+            "type": "BASIC OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "5/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
