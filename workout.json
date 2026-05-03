@@ -2,7 +2,7 @@
     "datum": "03-05-2026",
     "dag": "Zondag",
     "workout": "6 rounds\n12 chest to bar\n24 box jumps\n6 wallwaks\nrest 1min\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij de chest to bar een volledige beweging maakt voor optimale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Begin met een steady tempo op de box jumps zodat je niet uitgeput raakt voor de wall walks.  \n\ud83e\ude79 **Tip:** Gebruik je benen bij de wall walks om je lichaam omhoog te duwen, dit bespaart kracht in je schouders.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede techniek bij de chest to bar om effici\u00ebnt te kunnen blijven bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel de chest to bar in sets van 4 of 6 om vermoeidheid te minimaliseren en je grip te behouden.  \n\ud83e\ude79 **Tip:** Kies een box jump hoogte die je vertrouwt, zodat je snel en consistent kunt springen zonder te veel tijd te verliezen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -204,14 +204,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -274,7 +274,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
