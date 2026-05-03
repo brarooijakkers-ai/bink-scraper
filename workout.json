@@ -2,7 +2,7 @@
     "datum": "03-05-2026",
     "dag": "Zondag",
     "workout": "6 rounds\n12 chest to bar\n24 box jumps\n6 wallwaks\nrest 1min\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de chest to bar optimaal houdt om energie te besparen en blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de box jumps in sets van 8-12 per ronde om je explosiviteit te behouden en onnodige vermoeidheid te vermijden.  \n\ud83e\ude79 **Tip:** Neem een goede tijd voor de wall walks; focus op je stabiliteit en controle, zodat je effici\u00ebnt kunt bewegen en niet te veel energie verspilt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de chest to bar en wall walks nauwkeurig is om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je box jumps in sets van 12 om vermoeidheid te minimaliseren en je tempo te behouden.  \n\ud83e\ude79 **Tip:** Neem de tijd voor je rust van 1 minuut om je hartslag te laten dalen en je goed voor te bereiden op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -52,14 +52,14 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
@@ -80,14 +80,14 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -113,14 +113,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -232,14 +232,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -267,14 +267,14 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
