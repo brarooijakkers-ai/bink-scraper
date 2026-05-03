@@ -2,7 +2,7 @@
     "datum": "03-05-2026",
     "dag": "Zondag",
     "workout": "6 rounds\n12 chest to bar\n24 box jumps\n6 wallwaks\nrest 1min\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek goed is, vooral bij de chest to bar en wall walks.  \n\ud83d\udca1 **Strategie:** Verdeel je energie zodat je gedurende de hele workout constant kunt blijven bewegen en niet volledig uitgeput raakt.  \n\ud83e\ude79 **Tip:** Gebruik een stopwatch om je tijden per ronde bij te houden; hiermee kun je jezelf motiveren om je tempo te verhogen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de chest to bar optimaal houdt om energie te besparen en blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de box jumps in sets van 8-12 per ronde om je explosiviteit te behouden en onnodige vermoeidheid te vermijden.  \n\ud83e\ude79 **Tip:** Neem een goede tijd voor de wall walks; focus op je stabiliteit en controle, zodat je effici\u00ebnt kunt bewegen en niet te veel energie verspilt.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "11/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -45,14 +45,14 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -134,14 +134,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -232,14 +232,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
