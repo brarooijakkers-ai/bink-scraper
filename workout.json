@@ -2,7 +2,7 @@
     "datum": "03-05-2026",
     "dag": "Zondag",
     "workout": "6 rounds\n12 chest to bar\n24 box jumps\n6 wallwaks\nrest 1min\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een sterke en gecontroleerde houding behoudt tijdens de chest to bar, zodat je effici\u00ebnt blijft bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je box jumps in sets van 12 om vermoeidheid te beheersen en je snelheid omhoog te houden.  \n\ud83e\ude79 **Tip:** Voor de wall walks, gebruik een muur die je helpt om je voeten goed te plaatsen, zodat je niet te veel energie verliest bij elke rep.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek goed is, vooral bij de chest to bar en wall walks.  \n\ud83d\udca1 **Strategie:** Verdeel je energie zodat je gedurende de hele workout constant kunt blijven bewegen en niet volledig uitgeput raakt.  \n\ud83e\ude79 **Tip:** Gebruik een stopwatch om je tijden per ronde bij te houden; hiermee kun je jezelf motiveren om je tempo te verhogen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
