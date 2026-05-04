@@ -2,7 +2,7 @@
     "datum": "04-05-2026",
     "dag": "Maandag",
     "workout": "within a 15min work window\n2 scores\nscore 1:\n2000m row for time\nscore 2:\nfind your 3-rm TnG power clean",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je houding en techniek op de roeimachine optimaliseert voor maximale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo op de 2000m row en versnelt in de laatste 500 meter om je tijd te verbeteren.  \n\ud83e\ude79 **Tip:** Wanneer je je 3-rm TnG power clean probeert, zorg dan voor een sterke grip en explosieve heupactie om de gewichten gemakkelijk te verhogen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt tijdens het roeien en de power cleans voor de beste resultaten.  \n\ud83d\udca1 **Strategie:** Begin met een consistente roeisnelheid en bewaar kracht voor de power cleans door tempo te vari\u00ebren.  \n\ud83e\ude79 **Tip:** Gebruik een lichte nabijheid van je max gewicht bij de TnG power clean, zodat je veilig en gecontroleerd kunt liften zonder je techniek in gevaar te brengen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -59,21 +59,21 @@
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/8",
+            "deelnemers": "3/8",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
