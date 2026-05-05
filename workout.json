@@ -2,7 +2,7 @@
     "datum": "05-05-2026",
     "dag": "Dinsdag",
     "workout": "3 rounds\n100 double unders\n25 toes to bar\n25 USA kb swings 1x kb 24/16kg\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek goed is bij de toes to bar, zodat je effici\u00ebnt en snel kunt bewegen zonder overmatig te vermoeien.  \n\ud83d\udca1 **Strategie:** Verdeel je double unders in sets als je merkt dat je vermoeid raakt; het is beter om meerdere korte sets te doen dan \u00e9\u00e9n lange die je uitput.  \n\ud83e\ude79 **Tip:** Neem een paar seconden rust tussen de kettlebell swings door om je grip te herstellen en je lichaam voor te bereiden op de volgende beweging.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt, vooral tijdens de double unders en toes to bar.  \n\ud83d\udca1 **Strategie:** Verdeel de toes to bar in sets van 5 of 10 om vermoeidheid te minimaliseren en je techniek te behouden.  \n\ud83e\ude79 **Tip:** Gebruik een kettlebell swing techniek met een sterke heupbeweging om de 24/16kg goed te laten voelen en je energie effici\u00ebnt te gebruiken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -59,28 +59,28 @@
             "tijd": "11:00 - 13:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -94,14 +94,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -115,28 +115,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -274,7 +274,7 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
