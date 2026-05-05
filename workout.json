@@ -2,7 +2,7 @@
     "datum": "05-05-2026",
     "dag": "Dinsdag",
     "workout": "3 rounds\n100 double unders\n25 toes to bar\n25 USA kb swings 1x kb 24/16kg\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de toes to bar optimaal is om vermoeidheid te minimaliseren.  \n\ud83d\udca1 **Strategie:** Verdeeld de double unders in segmenten, bijvoorbeeld 50-50 of 30-30-40, om je focus en uithoudingsvermogen te behouden.  \n\ud83e\ude79 **Tip:** Houd je kettlebell swings boven het heupniveau en gebruik je heupen om de zwaartekracht te optimaliseren voor maximale effici\u00ebntie.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de toes to bar goed is, zodat je energie bespaart voor de andere oefeningen.  \n\ud83d\udca1 **Strategie:** Split je double unders in sets als dat nodig is, bijvoorbeeld 50-50, om je techniek en uithoudingsvermogen te behouden.  \n\ud83e\ude79 **Tip:** Neem een paar seconden rust tussen de oefeningen, vooral bij de kettlebell swings, om ervoor te zorgen dat je form en kracht optimaal blijven.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,21 +17,21 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/12",
+            "deelnemers": "4/12",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
