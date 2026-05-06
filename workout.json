@@ -2,7 +2,7 @@
     "datum": "06-05-2026",
     "dag": "Woensdag",
     "workout": "emom 40min\nmin 1: hang power clean\nmin 2: lateral burpees\nmin 3: shoulder to overhead\nmin 4: rest\nRX 50/35kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke beweging met de juiste techniek uitvoert om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Deel je energie gelijkmatig over de EMOM op, zodat je elke minuut met een stevige, maar haalbare intensiteit kunt trainen.  \n\ud83e\ude79 **Tip:** Neem tijdens je rustminuten de tijd om goed te recupereren en je ademhaling te reguleren, zodat je fris bent voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek scherp, vooral bij de hang power cleans en shoulder to overhead.  \n\n\ud83d\udca1 **Strategie:** Begin rustig en bouw je snelheid op naarmate je warm wordt, zodat je je energie gedurende de EMOM goed kunt verdelen.  \n\n\ud83e\ude79 **Tip:** Zorg ervoor dat je tussen de burpees door goed herstelt en je ademhaling onder controle houdt, zodat je niet te veel vermoeid raakt.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -157,14 +157,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
