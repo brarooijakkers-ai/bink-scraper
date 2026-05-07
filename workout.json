@@ -2,7 +2,7 @@
     "datum": "07-05-2026",
     "dag": "Donderdag",
     "workout": "buddy wod\n10 rounds in total\n2min work/2min rest\nyou go/I go\ncal assault bike\n(5 rounds each)",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de Assault Bike in de gaten om effici\u00ebntie te behouden en blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd, maar uitdagend tempo en probeer je kracht en snelheid in de tweede helft van elk blok te verhogen.  \n\ud83e\ude79 **Tip:** Gebruik je armen en core om je benen te ontlasten, zodat je explosiever kunt blijven trappen tijdens de werkperiodes.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling en behoud een constante ritme tijdens de cal assault bike.  \n\ud83d\udca1 **Strategie:** Gebruik het eerste deel van je werkperiode om je snelheid op te bouwen en de laatste 30 seconden in te zetten voor een krachtige finish.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je je rust goed benut; hydrateer en bereid je voor op de volgende ronde door even te rekken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,14 +108,14 @@
             "tijd": "18:30 - 19:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
