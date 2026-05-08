@@ -2,7 +2,7 @@
     "datum": "08-05-2026",
     "dag": "Vrijdag",
     "workout": "for time\n50 strict hspu\n100 cal row\ndivide as you want\ntimecap 15min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je strikte handstand push-ups met een goede techniek uitvoert om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Verdeel je HSPU in kleine sets met korte rustpauzes om verzuring te minimaliseren en consistent te blijven.  \n\ud83e\ude79 **Tip:** Bij het roeien, houd een steady tempo aan en focus op je ademhaling om je energie goed te beheren voor de volgende uitdaging, de calorie\u00ebn.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je strikte handstandpush-ups met een goede techniek uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de handstandpush-ups in haalbare sets en neem korte pauzes tussen de sets om je kracht te behouden voor de roeimachine.  \n\ud83e\ude79 **Tip:** Blijf gedurende de roeisessies regelmatig ademen en probeer een consistent tempo aan te houden om de calorie\u00ebn effici\u00ebnt te verbranden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,14 +94,14 @@
             "tijd": "15:00 - 16:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -183,7 +183,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
