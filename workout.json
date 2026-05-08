@@ -2,7 +2,7 @@
     "datum": "08-05-2026",
     "dag": "Vrijdag",
     "workout": "for time\n50 strict hspu\n100 cal row\ndivide as you want\ntimecap 15min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict handstand push-ups met de juiste techniek uitvoert om blessures te voorkomen en de effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de handstand push-ups in kleinere sets om vermoeidheid te beheersen en je voordeel te doen met de calorie\u00ebn op de roeimachine.  \n\ud83e\ude79 **Tip:** Neem een korte pauze na elke set handstand push-ups, zodat je fris aan de roeitraining begint en je totale tijd kunt optimaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de strict HSPU een goede vorm behoudt om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je repen in haalbare sets, bijvoorbeeld 10 of 15 per keer, zodat je niet te snel uitgeput raakt.  \n\ud83e\ude79 **Tip:** Neem voldoende tijd voor je ademhaling tussen de sets, vooral na de HSPU, voordat je begint met de cal row.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -204,7 +204,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -225,14 +225,14 @@
             "tijd": "11:15 - 12:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
