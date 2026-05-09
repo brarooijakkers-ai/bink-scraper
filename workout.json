@@ -2,7 +2,7 @@
     "datum": "09-05-2026",
     "dag": "Zaterdag",
     "workout": "2 rounds\n200m run\n30 chest to bar\n40 wallballs 9/6kg\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de twee rondes, vooral bij de chest to bar en wallballs.  \n\ud83d\udca1 **Strategie:** Begin je run in een tempo dat je in staat stelt om snel over te schakelen naar de volgende oefeningen zonder te veel vermoeidheid.  \n\ud83e\ude79 **Tip:** Gebruik een goede techniek bij de chest to bar, zodat je minder kracht verspilt en sneller naar de volgende oefening kunt gaan.",
+    "coach": "\ud83d\udd25 **Focus:** Concentreer je op je ademhaling tijdens de runs en de moeilijke oefeningen.  \n\ud83d\udca1 **Strategie:** Begin rustig aan met de runs, zodat je voldoende energie hebt voor de chest to bars en wallballs.  \n\ud83e\ude79 **Tip:** Gebruik een nuchtere grip voor de chest to bars en zorg ervoor dat je je lichaam in \u00e9\u00e9n lijn houdt voor een effici\u00ebnte beweging.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -52,14 +52,14 @@
             "tijd": "10:15 - 11:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -73,14 +73,14 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "0/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -113,7 +113,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "14/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/16",
+            "deelnemers": "1/16",
             "status": "Open"
         },
         {
