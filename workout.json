@@ -2,7 +2,7 @@
     "datum": "14-05-2026",
     "dag": "Donderdag",
     "workout": "BOX is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je volledig concentreert op je bewegingstechniek voor een optimale uitvoering.  \n\ud83d\udca1 **Strategie:** Begin met een stevig opwarm-schema om je spieren voor te bereiden op intensieve inspanning.  \n\ud83e\ude79 **Tip:** Houd je rusttijden kort, maar effectief, zodat je de intensiteit hoog houdt zonder je vorm te verliezen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek in elke beweging optimaal uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en bouw geleidelijk op naar je maximale inspanning naarmate je sterker voelt.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en neem voldoende rust tussen de rondes om je prestaties te maximaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -43,7 +43,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "5/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "4/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
