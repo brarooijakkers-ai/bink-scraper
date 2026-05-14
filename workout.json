@@ -2,7 +2,7 @@
     "datum": "14-05-2026",
     "dag": "Donderdag",
     "workout": "BOX is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt in elke beweging om blessures te voorkomen en je prestaties te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en bouw je snelheid geleidelijk op naarmate de workout vordert, zodat je consistent kunt blijven.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren voor en na de WOD, en neem voldoende tijd om je spieren op te warmen en af te koelen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek beheerst, vooral tijdens zware lifts.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig over de workout, begin niet te snel en bewaar wat kracht voor de laatste herhalingen.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en neem een paar seconden rust na moeilijke sets om je hartslag te verlagen voordat je verder gaat.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -57,7 +57,7 @@
             "tijd": "08:15 - 09:15",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
@@ -92,7 +92,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
