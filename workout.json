@@ -2,7 +2,7 @@
     "datum": "14-05-2026",
     "dag": "Donderdag",
     "workout": "BOX is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek de topprioriteit geeft tijdens de training.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de workout en gebruik ademhalingsmomenten strategisch tussen de intervallen.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en zorg voor een goede warming-up om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek goed beheerst, zelfs als de intensiteit omhoog gaat.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de workout; begin met een haalbare intensiteit om de laatste herhalingen nog sterk te kunnen voltooien.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling, dit helpt je om de controle te behouden en voorkomt vroegtijdige vermoeidheid.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -50,7 +50,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "10/16",
             "status": "Open"
         },
         {
@@ -99,7 +99,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "8/8",
+            "deelnemers": "7/8",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
