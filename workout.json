@@ -2,7 +2,7 @@
     "datum": "14-05-2026",
     "dag": "Donderdag",
     "workout": "BOX is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek altijd op de eerste plaats komt, vooral bij zware lifts.  \n\ud83d\udca1 **Strategie:** Begin met een rustig tempo en bouw geleidelijk op naarmate je meer vertrouwen krijgt in je kracht en uithoudingsvermogen.  \n\ud83e\ude79 **Tip:** Vergeet niet om je herstel goed in de gaten te houden; hydrateer voldoende en neem de tijd voor stretching na de training!",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek de topprioriteit geeft tijdens de training.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de workout en gebruik ademhalingsmomenten strategisch tussen de intervallen.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en zorg voor een goede warming-up om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -43,7 +43,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "4/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
