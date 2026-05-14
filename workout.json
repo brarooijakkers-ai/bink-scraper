@@ -2,7 +2,7 @@
     "datum": "14-05-2026",
     "dag": "Donderdag",
     "workout": "BOX is closed",
-    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je vorm en techniek, zelfs als de intensiteit toeneemt.  \n\ud83d\udca1 **Strategie:** Verdeel je energie en kies een verstandig tempo om ervoor te zorgen dat je het hele workout kunt voltooien zonder je uit te putten.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets om je hartslag te reguleren en herstel je ademhaling voordat je doorgaat.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je volledig concentreert op je bewegingstechniek voor een optimale uitvoering.  \n\ud83d\udca1 **Strategie:** Begin met een stevig opwarm-schema om je spieren voor te bereiden op intensieve inspanning.  \n\ud83e\ude79 **Tip:** Houd je rusttijden kort, maar effectief, zodat je de intensiteit hoog houdt zonder je vorm te verliezen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -50,7 +50,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/16",
+            "deelnemers": "9/16",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
