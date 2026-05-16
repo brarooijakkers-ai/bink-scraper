@@ -2,7 +2,7 @@
     "datum": "16-05-2026",
     "dag": "Zaterdag",
     "workout": "3 rounds\n100 double unders\n1000/900m row\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Concentratie tijdens de double unders is essentieel om de tijd optimaal te benutten.  \n\ud83d\udca1 **Strategie:** Probeer de double unders in sets van 25 te doen om vermoeidheid te beheersen en je techniek te behouden.  \n\ud83e\ude79 **Tip:** Neem een paar seconden om je ademhaling te herstellen voordat je aan de roeitraining begint; dit kan je helpen om sneller op gang te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je hartslag onder controle houdt, vooral tijdens de roeibewegingen.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in sets als dat helpt om ze effici\u00ebnter en met minder vermoeidheid uit te voeren.  \n\ud83e\ude79 **Tip:** Vergeet niet om goed te ademen tijdens het roeien; houd je techniek in de gaten om je energie optimaal te benutten.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "1/12",
+            "deelnemers": "2/12",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
