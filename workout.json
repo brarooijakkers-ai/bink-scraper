@@ -2,7 +2,7 @@
     "datum": "18-05-2026",
     "dag": "Maandag",
     "workout": "amrap 20min\n5 deadlifts 120/80kg\n10 toes to bar\n20/16 cal row",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een stevige techniek tijdens de deadlifts om blessures te voorkomen en je kracht te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een beheerst tempo en vind je ritme voor de toes to bar; gebruik de zwengel van je benen om de beweging soepel te maken.  \n\ud83e\ude79 **Tip:** Houd de calorie\u00ebn op de roeimachine consistent, maar wees niet bang om je inspanning aan te passen op basis van hoe je je voelt gedurende de WOD.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de deadlifts met een goede techniek uitvoert om blessures te voorkomen en je kracht te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gedurende de 20 minuten; begin met een iets langzamere tempo en bouw het op naarmate je verder komt.  \n\ud83e\ude79 **Tip:** Gebruik je benen goed tijdens de toes to bar en probeer elke rep in een vloeiende beweging uit te voeren voor een effici\u00ebntere workout.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,7 +38,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -108,14 +108,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -157,14 +157,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -253,21 +253,21 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
