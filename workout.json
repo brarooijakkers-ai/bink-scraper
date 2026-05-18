@@ -2,7 +2,7 @@
     "datum": "18-05-2026",
     "dag": "Maandag",
     "workout": "amrap 20min\n5 deadlifts 120/80kg\n10 toes to bar\n20/16 cal row",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts solide blijft om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht over de workout en begin met een gelijkmatig tempo, zodat je voldoende energie hebt voor de toes to bar en roeien.  \n\ud83e\ude79 **Tip:** Neem een paar seconden extra rust tussen de rondes om je hartslag omlaag te brengen voordat je weer begint.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts scherp blijft, vooral bij zwaardere gewichten.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed en maak gebruik van korte pauzes tussen de oefeningen om je intensiteit hoog te houden.  \n\ud83e\ude79 **Tip:** Houd je core aangespannen tijdens de toes to bar en gebruik je schouders goed om de beweging soepel te maken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,14 +108,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -164,21 +164,21 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
