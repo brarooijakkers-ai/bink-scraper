@@ -2,7 +2,7 @@
     "datum": "18-05-2026",
     "dag": "Maandag",
     "workout": "amrap 20min\n5 deadlifts 120/80kg\n10 toes to bar\n20/16 cal row",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts hoog blijft, vooral met het gewicht dat je gebruikt.  \n\ud83d\udca1 **Strategie:** Verdeel je herhalingen in blokken, bijvoorbeeld 2 sets van 2 deadlifts, om je kracht en uithoudingsvermogen te maximaliseren.  \n\ud83e\ude79 **Tip:** Tijdens de toes to bar, gebruik een sterke kipbeweging om energie te besparen en consistentie te waarborgen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt bij de deadlifts om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeeld de calorie\u00ebn op de row in stukken zodat je effici\u00ebnt kunt sprinten en herstellen tussen de sets.  \n\ud83e\ude79 **Tip:** Gebruik je schouders om de terugweg van de toes to bar te beheersen en vermijd een te snelle beweging naar beneden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -225,7 +225,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
