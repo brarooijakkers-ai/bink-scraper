@@ -2,7 +2,7 @@
     "datum": "19-05-2026",
     "dag": "Dinsdag",
     "workout": "3 rounds\namrap 4min/rest 2min\n7 snatches 35/25kg\n7 pull ups",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een solide vorm behoudt tijdens de snatches om blessures te voorkomen en de effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Plan je tempo goed; probeer de eerste ronde iets sneller te gaan, maar houd genoeg energie over voor de latere rondes.  \n\ud83e\ude79 **Tip:** Tijdens de pull-ups, gebruik een kipping-techniek als je die beheerst, om de herhalingen sneller en met minder moeite te maken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches optimaal is, zodat je effici\u00ebnt en veilig kunt bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning strategisch over de rondes; begin met een tempo dat je kunt volhouden zonder vroegtijdige vermoeidheid.  \n\ud83e\ude79 **Tip:** Gebruik eventueel een band of verlaat een halve repetitie als je bij de pull-ups moeite hebt, zodat je de intensiteit kunt behouden zonder teveel tijd te verliezen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/12",
+            "deelnemers": "4/12",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -80,7 +80,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
