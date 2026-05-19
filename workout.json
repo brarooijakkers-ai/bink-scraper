@@ -2,7 +2,7 @@
     "datum": "19-05-2026",
     "dag": "Dinsdag",
     "workout": "3 rounds\namrap 4min/rest 2min\n7 snatches 35/25kg\n7 pull ups",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches optimaal is, zodat je effici\u00ebnt en veilig kunt bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning strategisch over de rondes; begin met een tempo dat je kunt volhouden zonder vroegtijdige vermoeidheid.  \n\ud83e\ude79 **Tip:** Gebruik eventueel een band of verlaat een halve repetitie als je bij de pull-ups moeite hebt, zodat je de intensiteit kunt behouden zonder teveel tijd te verliezen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches optimaal is, zodat je effici\u00ebnt en veilig blijft bewegen.  \n\ud83d\udca1 **Strategie:** Blijf de eerste twee ronden rustig en beheerst om je energie te sparen voor de laatste ronde.  \n\ud83e\ude79 **Tip:** Gebruik kipping voor de pull-ups als je dat kunt, dit kan je helpen om sneller door te stoten.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,14 +66,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -94,14 +94,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
