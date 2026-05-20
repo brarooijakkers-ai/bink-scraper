@@ -2,7 +2,7 @@
     "datum": "20-05-2026",
     "dag": "Woensdag",
     "workout": "emom 15min\nmin 1: db hang clean and jerk\nmin 2: db squats\nmin 3: rest\nRX: 2x db 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede techniek tijdens de hang clean and jerk om blessures te voorkomen en je kracht te maximaliseren.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste minuten om je snelheid en techniek op te bouwen, zodat je de laatste minuten nog met kracht en controle kunt uitvoeren.  \n\ud83e\ude79 **Tip:** Blijf tijdens de squats goed op je ademhaling letten en gebruik je core voor extra stabiliteit.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de hang clean and jerk optimaal is om blessures te voorkomen en maximale kracht te genereren.  \n\ud83d\udca1 **Strategie:** Begin de eerste minuten met een gecontroleerd tempo en verhoog de intensiteit geleidelijk naarmate je je comfortabeler voelt.  \n\ud83e\ude79 **Tip:** Vergeet niet om je knie\u00ebn naar buiten te duwen tijdens de squats en houd je core aangespannen voor betere stabiliteit.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,14 +17,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "3/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -108,21 +108,21 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -164,21 +164,21 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
