@@ -2,7 +2,7 @@
     "datum": "20-05-2026",
     "dag": "Woensdag",
     "workout": "emom 15min\nmin 1: db hang clean and jerk\nmin 2: db squats\nmin 3: rest\nRX: 2x db 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op het behouden van een goede techniek tijdens de hang clean and jerk om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Zorg dat je met de squats een gecontroleerd ritme aanhoudt, zodat je in de restminuten kunt herstellen.  \n\ud83e\ude79 **Tip:** Gebruik je ademhaling om jezelf tijdens de oefeningen te kalmeren; adem diep in voor de krachtige bewegingen en zelfbewust uit bij de squats.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de hang clean and jerk je heupen en schouders goed synchroniseert voor maximale kracht.  \n\ud83d\udca1 **Strategie:** Probeer bij de squats een consistent tempo aan te houden; dit helpt je om meer herhalingen te maken zonder te veel energie te verspillen.  \n\ud83e\ude79 **Tip:** Gebruik de rust in de derde minuut om je ademhaling te herstellen en je lichaam voor te bereiden op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,14 +94,14 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "8/10",
+            "deelnemers": "10/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -171,7 +171,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -302,21 +302,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
