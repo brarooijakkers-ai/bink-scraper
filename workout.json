@@ -2,7 +2,7 @@
     "datum": "22-05-2026",
     "dag": "Vrijdag",
     "workout": "emom 40min\nmin 1: cal assault bike\nmin 2: db box step ups\nmin 3: shuttle runs\nmin 4: rest\nRX: 1x db 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante snelheid op de assault bike om je energie goed te verdelen.  \n\ud83d\udca1 **Strategie:** Begin de db box step ups op een gematigd tempo en verhoog dit geleidelijk naarmate je meer gewend raakt aan het volume.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle tijdens shuttle runs; dit helpt je om sneller te herstellen tijdens de restminuten.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je consistent blijft met je cal assault bike, want een goede start legt de basis voor de hele EMOM.  \n\ud83d\udca1 **Strategie:** Probeer je intensiteit te verhogen, maar behoud controle over je ademhaling, vooral tijdens de shuttle runs.  \n\ud83e\ude79 **Tip:** Gebruik de rustminuut om goed te hydrateren en je spieren te ontspannen, zodat je fris aan de volgende ronde kunt beginnen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,21 +94,21 @@
             "tijd": "15:00 - 16:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
@@ -129,14 +129,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
