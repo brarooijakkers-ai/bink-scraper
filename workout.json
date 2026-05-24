@@ -2,7 +2,7 @@
     "datum": "24-05-2026",
     "dag": "Zondag",
     "workout": "box is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek altijd voorop staat om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je oefeningen in haalbare sets, zodat je de intensiteit kunt volhouden.  \n\ud83e\ude79 **Tip:** Blijf tijdens je WOD goed hydrateren en luister naar je lichaam; neem een korte pauze indien nodig.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bewaakt, vooral bij complexe bewegingen.  \n\ud83d\udca1 **Strategie:** Verdeel de WOD in haalbare segmenten en neem korte pauzes om zo je evenwicht te bewaren.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en luister naar je lichaam; als iets niet goed voelt, neem dan een stapje terug.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -28,21 +28,21 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/40",
+            "deelnemers": "35/40",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/40",
+            "deelnemers": "8/40",
             "status": "Open"
         },
         {
             "tijd": "11:45 - 12:45",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/40",
+            "deelnemers": "2/40",
             "status": "Open"
         },
         {
