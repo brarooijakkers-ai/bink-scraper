@@ -2,7 +2,7 @@
     "datum": "24-05-2026",
     "dag": "Zondag",
     "workout": "box is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek en vorm prioriteit geeft boven snelheid.  \n\ud83d\udca1 **Strategie:** Werk in sets en rust voldoende tussen de herhalingen om je prestaties te maximaliseren.  \n\ud83e\ude79 **Tip:** Blijf hydrateren en luister naar je lichaam; als je moe bent, neem dan een kortere pauze om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in elk onderdeel scherp om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Behoud een constante intensiteit en verdeel je energie gelijkmatig over de workout.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je voldoende hydrateert en eet voor je aan de WOD begint, zodat je optimaal presteert.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -35,14 +35,14 @@
             "tijd": "10:30 - 11:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "34/40",
+            "deelnemers": "36/40",
             "status": "Open"
         },
         {
             "tijd": "11:45 - 12:45",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/40",
+            "deelnemers": "3/40",
             "status": "Open"
         },
         {
