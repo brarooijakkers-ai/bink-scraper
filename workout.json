@@ -2,7 +2,7 @@
     "datum": "24-05-2026",
     "dag": "Zondag",
     "workout": "box is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek blijft prioriteren, zelfs als de intensiteit stijgt.  \n\ud83d\udca1 **Strategie:** Verdeel de herhalingen in haalbare sets om je energie goed te verdelen en vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en een goede warming-up te doen om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede warming-up om je spieren voor te bereiden op de workout.  \n\ud83d\udca1 **Strategie:** Kies een tempo dat je kunt volhouden, zodat je kracht en techniek niet in het gedrang komen tijdens de workout.  \n\ud83e\ude79 **Tip:** Hydrateer goed v\u00f3\u00f3r en na de training om je prestaties en herstel te optimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -35,14 +35,14 @@
             "tijd": "10:30 - 11:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "28/40",
+            "deelnemers": "32/40",
             "status": "Open"
         },
         {
             "tijd": "11:45 - 12:45",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/40",
+            "deelnemers": "4/40",
             "status": "Open"
         },
         {
