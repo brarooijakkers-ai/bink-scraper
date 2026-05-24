@@ -2,7 +2,7 @@
     "datum": "24-05-2026",
     "dag": "Zondag",
     "workout": "box is closed",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek strak en blijf gefocust op je vorm om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeeld je belasting over de hele workout, speel in op je energielevels en neem voldoende rust tussen de sets.  \n\ud83e\ude79 **Tip:** Luister naar je lichaam; als je voelt dat je uit vermoeidheid slechter gaat bewegen, neem dan een korte pauze om te herstellen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek blijft prioriteren, zelfs als de intensiteit stijgt.  \n\ud83d\udca1 **Strategie:** Verdeel de herhalingen in haalbare sets om je energie goed te verdelen en vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en een goede warming-up te doen om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -35,7 +35,7 @@
             "tijd": "10:30 - 11:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "21/40",
+            "deelnemers": "28/40",
             "status": "Open"
         },
         {
