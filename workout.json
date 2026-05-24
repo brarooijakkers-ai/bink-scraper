@@ -2,7 +2,7 @@
     "datum": "24-05-2026",
     "dag": "Zondag",
     "workout": "box is closed",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek en ademhaling onder controle houdt tijdens de workout.  \n\ud83d\udca1 **Strategie:** Verdeel je sets in manageable chunks, zodat je constant kunt blijven bewegen en vermoeidheid voorkomt.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en neem korte pauzes tussen de sets om je energieniveau op peil te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek en vorm prioriteit geeft boven snelheid.  \n\ud83d\udca1 **Strategie:** Werk in sets en rust voldoende tussen de herhalingen om je prestaties te maximaliseren.  \n\ud83e\ude79 **Tip:** Blijf hydrateren en luister naar je lichaam; als je moe bent, neem dan een kortere pauze om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -35,7 +35,7 @@
             "tijd": "10:30 - 11:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "33/40",
+            "deelnemers": "34/40",
             "status": "Open"
         },
         {
