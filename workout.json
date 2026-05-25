@@ -2,12 +2,12 @@
     "datum": "25-05-2026",
     "dag": "Maandag",
     "workout": "HERO WOD MURPH\n1600m run\n100 pull ups\n200 push ups\n300 airsquats\n1600m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je alle bewegingen in een goed tempo uitvoert, zodat je je kracht kunt behouden voor de lange afstand en het volume.  \n\ud83d\udca1 **Strategie:** Verdeel de pull-ups, push-ups en air squats in behapbare sets om vermoeidheid te voorkomen. Bijvoorbeeld, 5 pull-ups, 10 push-ups en 15 air squats.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en luister naar je lichaam; als je merkt dat je vorm sneuvelt, neem dan even de tijd om op adem te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij elke oefening behouden blijft, vooral bij de pull-ups en push-ups.  \n\ud83d\udca1 **Strategie:** Verdeel de pull-ups en push-ups in haalbare sets om spieren te sparen, bijvoorbeeld 5-10 herhalingen per keer.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en neem voldoende tijd om te recupereren tussen de running en de andere oefeningen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "10:30 - 11:30",
         "type": "WOD",
-        "deelnemers": "39/40",
+        "deelnemers": "37/40",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "10:30 - 11:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "39/40",
+            "deelnemers": "37/40",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -99,7 +99,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -155,14 +155,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "11/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
