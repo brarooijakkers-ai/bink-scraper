@@ -2,7 +2,7 @@
     "datum": "25-05-2026",
     "dag": "Maandag",
     "workout": "HERO WOD MURPH\n1600m run\n100 pull ups\n200 push ups\n300 airsquats\n1600m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistent tempo aanhoudt tijdens de runs om je energie goed te verdelen.  \n\ud83d\udca1 **Strategie:** Split de pull ups, push ups en air squats in behapbare sets om vermoeidheid te voorkomen; bijvoorbeeld 5-10 pull ups per keer.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en let op je ademhaling; dit helpt je om gefocust te blijven en effici\u00ebnt te bewegen door de hele workout heen.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je pacing tijdens de runs constant en rustig, vooral in het begin.  \n\ud83d\udca1 **Strategie:** Verdeel de pull-ups, push-ups en air squats in effici\u00ebnte sets om vermoeidheid te minimaliseren.  \n\ud83e\ude79 **Tip:** Gebruik een foam roller of doe een goede warm-up om je spieren voor te bereiden en blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "10:30 - 11:30",
@@ -85,14 +85,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
