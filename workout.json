@@ -2,7 +2,7 @@
     "datum": "25-05-2026",
     "dag": "Maandag",
     "workout": "HERO WOD MURPH\n1600m run\n100 pull ups\n200 push ups\n300 airsquats\n1600m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je pace behoudt tijdens de runs om je energie goed te verspreiden over de hele workout.  \n\ud83d\udca1 **Strategie:** Verdeel de pull ups, push ups en airsquats in haalbare sets om vermoeidheid te voorkomen en je techniek te behouden.  \n\ud83e\ude79 **Tip:** Vergeet niet te hydrateren en gebruik tijdens de workout een riem of iets voor de handgrepen als je dat helpt bij de pull ups.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je tempo goed in de gaten houdt, vooral tijdens de runs. \n\n\ud83d\udca1 **Strategie:** Verdeel de pull ups, push ups en air squats in haalbare sets om vermoeidheid te beheersen en je techniek te behouden.\n\n\ud83e\ude79 **Tip:** Blijf gehydrateerd en zorg voor een goede warming-up om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "10:30 - 11:30",
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -113,7 +113,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -148,7 +148,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
