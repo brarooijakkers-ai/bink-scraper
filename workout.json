@@ -2,7 +2,7 @@
     "datum": "27-05-2026",
     "dag": "Woensdag",
     "workout": "4 rounds\n400m run\n20 hurdle jumps\n10 thrusters 60/45kg\nrest 1min\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de 400m run, zodat je fris aan de volgende oefeningen begint.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning over de rondes; probeer een consistent tempo te houden tijdens het rennen en de hurdle jumps.  \n\ud83e\ude79 **Tip:** Bij de thrusters, focus op een goede techniek om blessures te voorkomen en effici\u00ebntie te maximaliseren; gebruik je benen om de gewichten omhoog te duwen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je snelheid en techniek behoudt tijdens de run en de thrusters.  \n\ud83d\udca1 **Strategie:** Begin met een beheersbaar tempo op de 400m runs zodat je voldoende energie hebt voor de hurdle jumps en thrusters.  \n\ud83e\ude79 **Tip:** Tijdens de thrusters, houd je core strak en zorg voor een goede ademhaling om je kracht te optimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -87,21 +87,21 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -150,21 +150,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -197,14 +197,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
