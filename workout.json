@@ -2,12 +2,12 @@
     "datum": "28-05-2026",
     "dag": "Donderdag",
     "workout": "amrap 14min\n5 deadlifts 60/45kg\n5 cleans\n5 shoulder to overhead\n5 barfacing burpees",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts en cleans altijd goed is, zodat je blessures voorkomt en effici\u00ebnt blijft bewegen.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste paar minuten om in je ritme te komen en probeer consistent te blijven in het aantal rondes dat je per minuut kunt voltooien.  \n\ud83e\ude79 **Tip:** Neem even de tijd om te recupereren na de burpees, zodat je energie hebt voor de volgende ronde en je explosiviteit behoudt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede vorm bij elke oefening om blessures te voorkomen en effici\u00ebnt te blijven bewegen.  \n\ud83d\udca1 **Strategie:** Werk in een steady tempo en kijk je eigen snelheid aan; ga niet te hard van stapel, zodat je de hele 14 minuten kunt blijven knallen.  \n\ud83e\ude79 **Tip:** Gebruik een grip of band voor de deadlifts om je grip te sparen voor de cleans en shoulder to overhead.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "19:30 - 20:30",
         "type": "FUNCTIONALBODYBUILDING",
-        "deelnemers": "4/11",
+        "deelnemers": "3/11",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "3/11",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -85,7 +85,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "8/8",
+            "deelnemers": "7/8",
             "status": "Open"
         },
         {
