@@ -1,28 +1,9 @@
 {
-    "datum": "28-05-2026",
-    "dag": "Donderdag",
-    "workout": "amrap 14min\n5 deadlifts 60/45kg\n5 cleans\n5 shoulder to overhead\n5 barfacing burpees",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek scherp, vooral bij de deadlifts en cleans; zorg dat je je rug recht houdt.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin rustig en verhoog je tempo naarmate je verder in de workout komt.  \n\ud83e\ude79 **Tip:** Maak gebruik van een lage hurkpositie tijdens de bar-facing burpees om ze effici\u00ebnter uit te voeren.",
+    "datum": "29-05-2026",
+    "dag": "Vrijdag",
+    "workout": "KROON\n2 deadlifts 130/100kg\n20 hspu\n2 deadlifts\n30 sit-ups\n2 deadlifts\n40 USA kb swings 32/24kg\n2 deadlifts\n30 sit-ups\n2 deadlifts\n20 hspu\n2 deadlifts",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts solid is, zodat je blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Verdeel je energieschema goed; wissel kracht- en conditie-elementen af, zodat je uitgerust blijft tijdens de workout.  \n\ud83e\ude79 **Tip:** Neem korte rustpauzes tussen de sets van deadlifts en de andere oefeningen om je prestaties hoog te houden.",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "19:30 - 20:30",
-        "type": "FUNCTIONALBODYBUILDING",
-        "deelnemers": "4/11",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "19:30 - 20:30",
-            "type": "FUNCTIONALBODYBUILDING",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/11",
-            "status": "Jij bent Ingeschreven"
-        }
-    ],
-    "dag_morgen": "Vrijdag",
-    "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
         "type": "",
@@ -31,7 +12,7 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
@@ -43,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
@@ -57,7 +38,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -78,14 +59,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "4/16",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/8",
+            "deelnemers": "8/8",
             "status": "Open"
         },
         {
@@ -141,21 +122,21 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
@@ -171,6 +152,25 @@
             "zaal": "Zaal 2",
             "deelnemers": "1/6",
             "status": "Open"
+        }
+    ],
+    "dag_morgen": "Zaterdag",
+    "status_morgen": {
+        "ingeschreven": true,
+        "tijd": "11:15 - 12:15",
+        "type": "OLY LIFTING",
+        "deelnemers": "9/9",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_morgen": [
+        {
+            "tijd": "11:15 - 12:15",
+            "type": "OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
