@@ -2,7 +2,7 @@
     "datum": "29-05-2026",
     "dag": "Vrijdag",
     "workout": "KROON\n2 deadlifts 130/100kg\n20 hspu\n2 deadlifts\n30 sit-ups\n2 deadlifts\n40 USA kb swings 32/24kg\n2 deadlifts\n30 sit-ups\n2 deadlifts\n20 hspu\n2 deadlifts",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts en handstand push-ups in topvorm is om blessures te voorkomen en effici\u00ebnt te bewegen.  \n\ud83d\udca1 **Strategie:** Plan je rustmomenten strategisch; vooral na de hspu's en de sit-ups om je kracht in de deadlifts te behouden.  \n\ud83e\ude79 **Tip:** Gebruik de kettlebell swings als een actieve rustperiode; focus op een goede heupexplosie voor maximale bewegingsefficiency.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts perfect blijft, zelfs als je moe wordt.  \n\ud83d\udca1 **Strategie:** Verdeelt de herhalingen van de HSPU en sit-ups in kleine sets om overbelasting te voorkomen.  \n\ud83e\ude79 **Tip:** Blijf goed hydratatie nemen en luister naar je lichaam; neem indien nodig een korte pauze tussen de zware sets.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,35 +94,35 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
@@ -159,7 +159,7 @@
         "ingeschreven": true,
         "tijd": "11:15 - 12:15",
         "type": "OLY LIFTING",
-        "deelnemers": "8/9",
+        "deelnemers": "9/9",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -169,7 +169,7 @@
             "tijd": "11:15 - 12:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Jij bent Ingeschreven"
         }
     ]
