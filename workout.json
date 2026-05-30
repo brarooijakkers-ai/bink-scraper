@@ -2,7 +2,7 @@
     "datum": "30-05-2026",
     "dag": "Zaterdag",
     "workout": "amrap 30min\n40 box jumps\n40 toes to bar\n40 burpees\n40 airsquats",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek scherp, vooral bij de toes to bar en box jumps, om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de reps in kleinere sets (bijvoorbeeld 10 of 15) en neem korte pauzes zodat je energie behoudt voor de hele 30 minuten.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je je ademhaling onder controle houdt, vooral tijdens de burpees, om vermoeidheid te verminderen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de box jumps en toes to bar op de eerste plaats komt, om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je effort in intervallen; begin met een consistent tempo en verhoog dat pas als je je goed voelt.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de oefeningen om uitputting te voorkomen, vooral tijdens de burpees en airsquats.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "11:15 - 12:15",
@@ -85,14 +85,14 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -106,7 +106,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
