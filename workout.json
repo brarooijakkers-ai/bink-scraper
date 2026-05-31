@@ -2,7 +2,7 @@
     "datum": "31-05-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n2min work/2min rest\n200m run\nmax deadlifts 100/70kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je form bij de deadlifts in de gaten houdt, vooral als je moe wordt.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste paar ronden om je tempo voor de runs en deadlifts goed aan te voelen, zodat je je later in de workout niet overbelast.  \n\ud83e\ude79 **Tip:** Neem tijdens de rust goed de tijd om te herstellen; hydrateer en bereid je mentaal voor op de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de deadlifts de juiste techniek aanhoudt om blessures te voorkomen en je maximale aantal herhalingen te optimaliseren.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste 2 minuten van elke ronde om een gelijkmatige snelheid te houden tijdens de run, zodat je fris begint aan je deadlifts.  \n\ud83e\ude79 **Tip:** Blijf goed hydrateren tussen de rondes en probeer je ademhaling te beheersen voordat je aan de deadlifts begint voor betere prestaties.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -100,189 +100,21 @@
     ],
     "dag_morgen": "Maandag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "17:30 - 18:30",
+        "type": "WOD",
+        "deelnemers": "8/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "07:00 - 09:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "2/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "07:15 - 08:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "5/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "08:15 - 09:15",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:00 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "6/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:30 - 11:45",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:00 - 12:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:00 - 13:00",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:00 - 13:00",
-            "type": "GYMNASTICS",
-            "zaal": "Zaal 2",
-            "deelnemers": "3/8",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 15:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:15 - 15:15",
-            "type": "OPENGYM",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/13",
-            "status": "Open"
-        },
-        {
-            "tijd": "15:00 - 16:15",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "15:30 - 16:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "0/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "16:30 - 17:15",
-            "type": "TEENS",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "16:30 - 17:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "1/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "14/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "19:30 - 20:15",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "19:30 - 20:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "20:30 - 21:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "20:30 - 21:30",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "8/14",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
