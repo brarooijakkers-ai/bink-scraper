@@ -2,7 +2,7 @@
     "datum": "31-05-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n2min work/2min rest\n200m run\nmax deadlifts 100/70kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt tijdens de deadlifts; dit helpt blessures te voorkomen en je prestaties te verbeteren.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning op de 200m run en gebruik de rust om goed te herstellen voor de deadlifts, zodat je elke ronde maximaal kunt presteren.  \n\ud83e\ude79 **Tip:** Houd je grip en houding stevig, en probeer je ademhaling te reguleren om effici\u00ebntie te waarborgen tijdens de deadlifts.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je form bij de deadlifts in de gaten houdt, vooral als je moe wordt.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste paar ronden om je tempo voor de runs en deadlifts goed aan te voelen, zodat je je later in de workout niet overbelast.  \n\ud83e\ude79 **Tip:** Neem tijdens de rust goed de tijd om te herstellen; hydrateer en bereid je mentaal voor op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
