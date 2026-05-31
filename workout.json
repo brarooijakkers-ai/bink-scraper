@@ -2,7 +2,7 @@
     "datum": "31-05-2026",
     "dag": "Zondag",
     "workout": "5 rounds\n2min work/2min rest\n200m run\nmax deadlifts 100/70kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens het rennen een consistent tempo aanhoudt om je uithoudingsvermogen te behouden.  \n\ud83d\udca1 **Strategie:** Begin met een aantal deadlifts dat je comfortabel kunt voltooien binnen de tijd en verhoog dit geleidelijk naarmate de ronden vorderen.  \n\ud83e\ude79 **Tip:** Let op je techniek bij de deadlifts; een goede vorm is cruciaal om blessures te voorkomen, vooral als je vermoeid raakt.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je pacing goed in de gaten houdt tijdens de 200m run, zodat je genoeg energie overhoudt voor de deadlifts.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo voor je runs en probeer je deadlifts in sets te doen, dit helpt om gewoon te blijven ademen en je spieren niet te overbelasten.  \n\ud83e\ude79 **Tip:** Vergeet niet om je grip te controleren tijdens de deadlifts; gebruik eventueel chalk voor een betere grip en voorkom vermoeidheid in je handen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "9/10",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -66,7 +66,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -87,7 +87,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "4/16",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
