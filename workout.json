@@ -2,12 +2,12 @@
     "datum": "01-06-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n30 pull ups\n50/40 cal row\n30 wallballs\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de pull-ups correct is om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in kleinere sets (bijvoorbeeld 5 of 10) om te voorkomen dat je helemaal uitput.  \n\ud83e\ude79 **Tip:** Blijf tijdens de roeitraining ontspannen en gebruik je benen om kracht te genereren, zodat je energie overhoudt voor de wallballs.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede vorm behoudt tijdens elke oefening om blessures te voorkomen en je effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in sets van 5-10, zodat je niet te snel vermoeid raakt en een constante output behoudt.  \n\ud83e\ude79 **Tip:** Tijdens het roeien, houd je tempo gelijkmatig en let op je techniek, zodat je niet te veel energie verspilt.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:30",
         "type": "WOD",
-        "deelnemers": "9/14",
+        "deelnemers": "14/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "14/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -57,7 +57,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "4/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -71,7 +71,7 @@
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -113,7 +113,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
