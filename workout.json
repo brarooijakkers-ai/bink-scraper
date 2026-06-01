@@ -2,7 +2,7 @@
     "datum": "01-06-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n30 pull ups\n50/40 cal row\n30 wallballs\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de pull-ups optimaal is om energie te besparen en blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Maak gebruik van een gedegen pacing tijdens de roeisessies om je calorie\u00ebn effici\u00ebnt te verbranden zonder te veel uit te putten.  \n\ud83e\ude79 **Tip:** Breek de wallballs op in kleinere sets als je merkt dat je snelheid en kracht afnemen; dit helpt je om door te gaan zonder uitputting.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de pull-ups correct is om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je pull-ups in kleinere sets (bijvoorbeeld 5 of 10) om te voorkomen dat je helemaal uitput.  \n\ud83e\ude79 **Tip:** Blijf tijdens de roeitraining ontspannen en gebruik je benen om kracht te genereren, zodat je energie overhoudt voor de wallballs.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:30",
@@ -50,7 +50,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/12",
+            "deelnemers": "1/12",
             "status": "Open"
         },
         {
@@ -99,7 +99,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -113,7 +113,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
