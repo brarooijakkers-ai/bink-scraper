@@ -2,15 +2,15 @@
     "datum": "02-06-2026",
     "dag": "Dinsdag",
     "workout": "Elizabeth\n21-15-9\ncleans 60/45kg\nring dips\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op een goede techniek tijdens zowel de cleans als de ring dips om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo en kies een gewicht dat je in de eerste set met gemak kunt tillen, zodat je consistent blijft gedurende de hele workout.  \n\ud83e\ude79 **Tip:** Plan korte pauzes om je armen en bijvoorbeeld je grip te herstellen, maar laat de rust niet te lang duren om in je ritme te blijven.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de cleans in orde is, vooral omdat je met een verhoogd gewicht werkt.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo en plan je rustpauzes totdat je de ring dips aanpakt, zodat je energie kunt behouden voor de laatste ronde.  \n\ud83e\ude79 **Tip:** Gebruik je benen goed bij de cleans en probeer \u201ckippen\u201d in je ring dips om energie te besparen en sneller door de herhalingen te komen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
-        "wachtlijst": true,
-        "wachtlijst_plek": "1",
-        "wachtlijst_totaal": "2"
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_vandaag": [
         {
@@ -18,7 +18,7 @@
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "14/14",
-            "status": "Jij staat op Wachtlijst"
+            "status": "Jij bent Ingeschreven"
         }
     ],
     "dag_morgen": "Woensdag",
