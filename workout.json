@@ -2,15 +2,15 @@
     "datum": "02-06-2026",
     "dag": "Dinsdag",
     "workout": "Elizabeth\n21-15-9\ncleans 60/45kg\nring dips\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de cleans scherp is, vooral naarmate de repetities toenemen.  \n\ud83d\udca1 **Strategie:** Begin snel met de 21, maar behoud een constante snelheid, zodat je niet uitgeput raakt voor de ring dips.  \n\ud83e\ude79 **Tip:** Gebruik je benen goed bij de cleans en probeer de ring dips in sets te doen, bijvoorbeeld 5-5-5, om je kracht te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Concentreer je op een goede techniek bij de cleans om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Breek de reps op als je merkt dat je moe begint te worden; bijvoorbeeld in sets van 5 voor de cleans en 3-2 voor de ring dips.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je je schouders goed activeert bij de ring dips; gebruik een gecontroleerde beweging om je kracht te sparen voor de hele workout.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
         "wachtlijst": true,
-        "wachtlijst_plek": "3",
-        "wachtlijst_totaal": "4"
+        "wachtlijst_plek": "2",
+        "wachtlijst_totaal": "3"
     },
     "rooster_vandaag": [
         {
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -85,7 +85,7 @@
             "tijd": "12:00 - 12:45",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
