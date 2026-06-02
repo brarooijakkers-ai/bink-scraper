@@ -2,14 +2,14 @@
     "datum": "02-06-2026",
     "dag": "Dinsdag",
     "workout": "Elizabeth\n21-15-9\ncleans 60/45kg\nring dips\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de cleans prioriteit heeft boven snelheid om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je reps in kleine sets, bijvoorbeeld 7-7-7 voor de cleans, zodat je frisse benen houdt voor de ring dips.  \n\ud83e\ude79 **Tip:** Vergeet niet om je schouders te activeren en je lichaam recht te houden tijdens de ring dips; kijk naar je handen voor extra stabiliteit.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de cleans scherp is, vooral naarmate de repetities toenemen.  \n\ud83d\udca1 **Strategie:** Begin snel met de 21, maar behoud een constante snelheid, zodat je niet uitgeput raakt voor de ring dips.  \n\ud83e\ude79 **Tip:** Gebruik je benen goed bij de cleans en probeer de ring dips in sets te doen, bijvoorbeeld 5-5-5, om je kracht te behouden.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
         "wachtlijst": true,
-        "wachtlijst_plek": "4",
+        "wachtlijst_plek": "3",
         "wachtlijst_totaal": "4"
     },
     "rooster_vandaag": [
@@ -92,7 +92,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
