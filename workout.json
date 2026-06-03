@@ -2,7 +2,7 @@
     "datum": "03-06-2026",
     "dag": "Woensdag",
     "workout": "3 rounds\n1000m run\n1000/900m row\ntimecap 32min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling goed onder controle houdt tijdens de runs en de roeisessies.  \n\ud83d\udca1 **Strategie:** Begin je eerste run in een tempo dat je gedurende de hele workout kunt volhouden, zodat je niet te vroeg uitgeput raakt.  \n\ud83e\ude79 **Tip:** Gebruik de roeimachine om je intensiteit te vari\u00ebren; haal je snelheid omhoog waar mogelijk, maar houd ook rekening met je herstel.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je snelheid constant gedurende de runs en rows om ervoor te zorgen dat je niet vroegtijdig verzuurd raakt.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de 1000m run, zodat je fris aan de row kunt beginnen, en zorg ervoor dat je uitrustmomenten kort zijn.  \n\ud83e\ude79 **Tip:** Zorg voor een goede ademhaling tijdens het roeien; gebruik je benen voor kracht en houd je bovenlichaam stabiel voor effici\u00ebntie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -52,7 +52,7 @@
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
@@ -108,28 +108,28 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -157,28 +157,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -260,14 +260,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
