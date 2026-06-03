@@ -2,7 +2,7 @@
     "datum": "03-06-2026",
     "dag": "Woensdag",
     "workout": "3 rounds\n1000m run\n1000/900m row\ntimecap 32min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistent tempo aanhoudt, zodat je niet te snel moe bent geworden in de eerste ronde.  \n\ud83d\udca1 **Strategie:** Begin met een ontspannen en gecontroleerd tempo tijdens de run en de row, zodat je de energie behoudt voor de laatste ronde.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en zorg ervoor dat je je ademhaling onder controle houdt tijdens de overgangen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling goed onder controle houdt tijdens de runs en de roeisessies.  \n\ud83d\udca1 **Strategie:** Begin je eerste run in een tempo dat je gedurende de hele workout kunt volhouden, zodat je niet te vroeg uitgeput raakt.  \n\ud83e\ude79 **Tip:** Gebruik de roeimachine om je intensiteit te vari\u00ebren; haal je snelheid omhoog waar mogelijk, maar houd ook rekening met je herstel.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,14 +17,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
@@ -171,7 +171,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
