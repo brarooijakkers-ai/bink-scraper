@@ -2,7 +2,7 @@
     "datum": "04-06-2026",
     "dag": "Donderdag",
     "workout": "4 rounds\n20 box jumps\n20 toes to bar\n60 double unders\n15m handstand walk (2x 7.5m)\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief en gecontroleerd bent tijdens de box jumps om blessures te voorkomen en effici\u00ebnt te blijven.\n\n\ud83d\udca1 **Strategie:** Break de toes to bar op in sets van 5 of 10 om je grip en energie beter te behouden gedurende de 4 rondes.\n\n\ud83e\ude79 **Tip:** Houd je schouders actief en gebruik je core tijdens de handstand walk voor meer stabiliteit en om sneller vooruit te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief de box op springt voor maximale hoogte en effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Verdeel je energie tijdens de toes to bar; als je merkt dat je moe wordt, neem dan een korte pauze om je grip en techniek op peil te houden.  \n\ud83e\ude79 **Tip:** Voor de double unders, concentreer je op een constante spronghoogte en houd je polsen snel en soepel.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -66,7 +66,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -80,7 +80,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -115,21 +115,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
