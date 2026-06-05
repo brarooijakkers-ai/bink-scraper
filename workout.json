@@ -2,7 +2,7 @@
     "datum": "05-06-2026",
     "dag": "Vrijdag",
     "workout": "amrap 15min\n10 lateral burpees over the db\n200m run\n10 hang db squat cleans 2x db 22.5/15kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante snelheid houdt tijdens de run om je uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de burpees en squat cleans in tempo dat haalbaar maar uitdagend is, zodat je niet verliest in je volledige verhaal.  \n\ud83e\ude79 **Tip:** Gebruik een explosieve beweging bij de hang DB squat cleans om de belasting op je schouders en onderrug te minimaliseren.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosiviteit behoudt tijdens de lateral burpees en de hang DB squat cleans.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; pace je run en luister naar je lichaam om te voorkomen dat je te snel moe wordt.  \n\ud83e\ude79 **Tip:** Gebruik de transition tijd tussen oefeningen om je ademhaling te reguleren en te hydrateren waar nodig.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,21 +101,21 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/11",
+            "deelnemers": "4/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -166,7 +166,7 @@
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
         "type": "OPENGYM",
-        "deelnemers": "4/10",
+        "deelnemers": "5/10",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -176,7 +176,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Jij bent Ingeschreven"
         }
     ]
