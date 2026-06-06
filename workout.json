@@ -2,7 +2,7 @@
     "datum": "06-06-2026",
     "dag": "Zaterdag",
     "workout": "10-9-8-7-6-5-4-3-2-1\nstrict hspu\nsumo deadlift high pulls 60/45kg\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikt handstandpush-ups met controle uitvoert; kwaliteit boven kwantiteit.  \n\ud83d\udca1 **Strategie:** Begin met een steady pacing, vooral bij de sumo deadlift high pulls, om vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Adem goed in tijdens de daling van de HSPU en houd je core gespannen voor optimale stabiliteit.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de strict handstand push-ups consistent blijft om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Plan je pauzes in; na elke set van strict hspu kun je even ademhalen voordat je aan de sumo deadlift high pulls begint.  \n\ud83e\ude79 **Tip:** Houd je rug recht en gebruik je benen voor de sumo deadlift high pulls om de belasting op je schouders te verlichten.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
@@ -28,7 +28,7 @@
         "type": "WOD",
         "deelnemers": "16/16",
         "wachtlijst": true,
-        "wachtlijst_plek": "4",
+        "wachtlijst_plek": "3",
         "wachtlijst_totaal": "6"
     },
     "rooster_morgen": [
