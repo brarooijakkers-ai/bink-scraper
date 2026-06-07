@@ -2,7 +2,7 @@
     "datum": "07-06-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: snatches\nmin 2: backsquats\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek altijd voorop staat, vooral bij de snatches en shoulder to overhead.  \n\ud83d\udca1 **Strategie:** Begin met een gewicht dat je comfortabel kunt beheersen en verhoog indien mogelijk naarmate de minuten vorderen.  \n\ud83e\ude79 **Tip:** Gebruik de rustminute wijs door je hartslag te laten dalen en je voor te bereiden op de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de snatches en shoulder to overhead je techniek niet verliest, vooral bij vermoeidheid.  \n\ud83d\udca1 **Strategie:** Begin met een lichtgewicht om je techniek op peil te houden en bouw geleidelijk op, zodat je elke minuut echt kunt aanpakken.  \n\ud83e\ude79 **Tip:** Gebruik de rustminute goed om je hartslag te laten zakken en jezelf voor te bereiden op de volgende oefening.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "9/10",
+            "deelnemers": "10/10",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -211,14 +211,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -232,14 +232,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
