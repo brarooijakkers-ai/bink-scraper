@@ -2,7 +2,7 @@
     "datum": "07-06-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: snatches\nmin 2: backsquats\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij de snatches en shoulder to overhead je techniek goed uitvoert; dat is essentieel voor je kracht en veiligheid.  \n\ud83d\udca1 **Strategie:** Werk met een gecontroleerd tempo, vooral in de eerste minuten, zodat je energie kunt sparen voor de latere rondes.  \n\ud83e\ude79 **Tip:** Neem tijdens je rustmoment de tijd om goed te ademen en je hartslag te laten dalen, zodat je voorbereid bent voor de volgende beweging.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek altijd voorop staat, vooral bij de snatches en shoulder to overhead.  \n\ud83d\udca1 **Strategie:** Begin met een gewicht dat je comfortabel kunt beheersen en verhoog indien mogelijk naarmate de minuten vorderen.  \n\ud83e\ude79 **Tip:** Gebruik de rustminute wijs door je hartslag te laten dalen en je voor te bereiden op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
