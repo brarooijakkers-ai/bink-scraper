@@ -2,7 +2,7 @@
     "datum": "07-06-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: snatches\nmin 2: backsquats\nmin 3: shoulder to overhead\nmin 4: rest\nRX 35/25kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches en shoulder to overhead op de eerste plaats komt, vooral bij een hoger gewicht.  \n\ud83d\udca1 **Strategie:** Plan je gewichten vooraf en kies een gewicht dat je in de eerste minuten kunt volhouden zonder je vorm te verliezen.  \n\ud83e\ude79 **Tip:** Neem je rust serieus in minuut 4; gebruik deze tijd om je spieren te laten herstellen en mentaal voor te bereiden op de volgende ronde.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches en shoulder to overhead goed blijft, ook als de vermoeidheid toeneemt.  \n\ud83d\udca1 **Strategie:** Houd je aan een consistent tempo, zodat je voldoende rust behoudt tijdens het EMOM, vooral in de rustminuten.  \n\ud83e\ude79 **Tip:** Vergeet niet je ademhaling te beheersen, dit helpt je om krachtiger en effici\u00ebnter te blijven tijdens de bewegingen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,21 +80,21 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
