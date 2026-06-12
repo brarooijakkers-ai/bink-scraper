@@ -2,7 +2,7 @@
     "datum": "12-06-2026",
     "dag": "Vrijdag",
     "workout": "buddy wod\n10 rounds in total (5 each)\nyou go - I go\n2min work/2min rest\n200m run\nmax cal assault bike",
-    "coach": "\ud83d\udd25 **Focus:** Houd je tempo constant tijdens de 200 meter run om energie te sparen voor de Assault Bike.  \n\ud83d\udca1 **Strategie:** Gebruik je maximale tijd op de bike effici\u00ebnt; begin stevig maar behoud een ritme dat je de hele 2 minuten vol kunt houden.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je na iedere run goed herstelt tijdens je rustperiode, zodat je fris aan je volgende set kunt beginnen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeeld over de 2 minuten werk.  \n\ud83d\udca1 **Strategie:** Begin met een sterke, maar beheerste run en houdt het tempo op de Assault Bike consistent om zoveel mogelijk calorie\u00ebn te verbranden.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiodes om goed te hydrateren en je hartslag onder controle te krijgen voor de volgende ronde.  ",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:15",
@@ -23,91 +23,21 @@
     ],
     "dag_morgen": "Zaterdag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "12:15 - 14:00",
+        "type": "OPENGYM",
+        "deelnemers": "3/10",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "09:15 - 10:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "9/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/9",
-            "status": "Open"
-        },
-        {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "2/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "3/10",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
