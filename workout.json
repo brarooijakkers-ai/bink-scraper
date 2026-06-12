@@ -1,28 +1,9 @@
 {
-    "datum": "12-06-2026",
-    "dag": "Vrijdag",
-    "workout": "buddy wod\n10 rounds in total (5 each)\nyou go - I go\n2min work/2min rest\n200m run\nmax cal assault bike",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeeld over de 2 minuten werk.  \n\ud83d\udca1 **Strategie:** Begin met een sterke, maar beheerste run en houdt het tempo op de Assault Bike consistent om zoveel mogelijk calorie\u00ebn te verbranden.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiodes om goed te hydrateren en je hartslag onder controle te krijgen voor de volgende ronde.  ",
+    "datum": "13-06-2026",
+    "dag": "Zaterdag",
+    "workout": "amrap 16min\n6 wallwalks\n10 chest to bar\n70 double unders",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de wallwalks een goede controle en stabiliteit behoudt, zodat je snel en effici\u00ebnt kunt bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een stevig maar beheersbaar tempo voor de eerste paar ronden en pas aan indien nodig.  \n\ud83e\ude79 **Tip:** Voor de double unders is het handig om je polsen te gebruiken en laag bij de grond te blijven, dit helpt om je sprongen effici\u00ebnter te houden.",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "17:30 - 18:15",
-        "type": "METCON",
-        "deelnemers": "8/9",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/9",
-            "status": "Jij bent Ingeschreven"
-        }
-    ],
-    "dag_morgen": "Zaterdag",
-    "status_morgen": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
         "type": "OPENGYM",
@@ -31,13 +12,32 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
             "deelnemers": "3/10",
             "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "dag_morgen": "Zondag",
+    "status_morgen": {
+        "ingeschreven": true,
+        "tijd": "10:15 - 11:15",
+        "type": "WOD",
+        "deelnemers": "16/16",
+        "wachtlijst": true,
+        "wachtlijst_plek": "6",
+        "wachtlijst_totaal": "6"
+    },
+    "rooster_morgen": [
+        {
+            "tijd": "10:15 - 11:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Jij staat op Wachtlijst"
         }
     ]
 }
