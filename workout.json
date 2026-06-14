@@ -2,7 +2,7 @@
     "datum": "14-06-2026",
     "dag": "Zondag",
     "workout": "for time\n60 db shoulder to overhead 2x db 22.5/15kg\n60 cal row\n60 toes to ring\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij de dumbbell shoulder to overhead techniek en controle behoudt.  \n\ud83d\udca1 **Strategie:** Verdeel je reps in clusters (bijv. sets van 10) om je uithoudingsvermogen te sparen en je vorm te behouden.  \n\ud83e\ude79 **Tip:** Neem tijd om je restperiodes te plannen, vooral na de cal row en toes to ring, zodat je fris blijft voor de volgende bewegingen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede techniek bij de dumbbell shoulder to overhead om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je sets in behapbare chunks, bijvoorbeeld 10 herhalingen per keer, zodat je niet uitgeput raakt en de uitvoering scherp blijft.  \n\ud83e\ude79 **Tip:** Neem een paar seconden om je ademhaling te reguleren tussen de verschillende onderdelen, vooral na de calorie\u00ebn op de rower, om je hartslag onder controle te houden voor de toes to ring.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -113,7 +113,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
@@ -211,7 +211,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -232,14 +232,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
