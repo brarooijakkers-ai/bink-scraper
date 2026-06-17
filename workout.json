@@ -2,7 +2,7 @@
     "datum": "17-06-2026",
     "dag": "Woensdag",
     "workout": "emom 15min\nmin 1: burpee box jump overs\nmin 2: sit-ups\nmin 3: bar muscle ups",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek altijd prioriteit heeft, vooral bij de bar muscle ups.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste minuten om je ademhaling te kalibreren en je kracht te spreiden, zodat je niet te snel moe wordt.  \n\ud83e\ude79 **Tip:** Denk eraan om bij burpee box jump overs je landing te controleren en je sit-ups dynamisch te houden voor een betere doorstroom.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke oefening met een goede techniek uitvoert om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Plan je snelheid en intensiteit, start rustig aan bij de burpee box jump overs en verhoog je tempo naarmate je verder komt in de EMOM.  \n\ud83e\ude79 **Tip:** Neem tijdens de sit-ups een kort moment om je ademhaling te reguleren, zodat je uitgerust aan de bar muscle ups begint.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -164,21 +164,21 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -211,7 +211,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
