@@ -2,12 +2,12 @@
     "datum": "18-06-2026",
     "dag": "Donderdag",
     "workout": "5 rounds\n60 double unders\n15 thrusters 42.5/30kg\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante ritme tijdens de double unders om onnodige frustratie te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel de thrusters in sets van 5-7 om vermoeidheid te beheersen en behoud je techniek.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle en gebruik je benen optimaal om de kracht te genereren voor overhead tijdens de thrusters.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de double unders om vermoeidheid te minimaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je thrusters in manageable sets (bijvoorbeeld 5 + 5 + 5) om de kracht in je benen en schouders te behouden.  \n\ud83e\ude79 **Tip:** Oefen je techniek voor de double unders; een goede sprongetje en timing zijn cruciaal voor effici\u00ebntie.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "19:30 - 20:15",
         "type": "FUNDAMENTALS",
-        "deelnemers": "3/14",
+        "deelnemers": "5/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -148,7 +148,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
