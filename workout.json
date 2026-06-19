@@ -1,28 +1,9 @@
 {
-    "datum": "19-06-2026",
-    "dag": "Vrijdag",
-    "workout": "amrap 20min\n4 snatches 60/45kg\n8 toes to bar\n12 cal row",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je effici\u00ebnt blijft bewegen, vooral bij de snatches en toes to bar, om je kracht en uithoudingsvermogen over de 20 minuten te behouden.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo en verhoog dit geleidelijk naarmate je jezelf opwarmt en je techniek op de snatches en toes to bar verbetert.  \n\ud83e\ude79 **Tip:** Blijf ademhalen tijdens de oefeningen en gebruik de roeimachine als een kans om je hartslag op peil te houden zonder jezelf te overbelasten.",
+    "datum": "20-06-2026",
+    "dag": "Zaterdag",
+    "workout": "5 rounds\n16 burpees over the sandbag\n8 sandbag over shoulder\nrest 1min",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief bent bij de burpees om tijd te winnen over het zandzakje.  \n\ud83d\udca1 **Strategie:** Houd een constante snelheid aan tijdens de sandbag over shoulder; dit helpt je uithoudingsvermogen te behouden voor alle rondes.  \n\ud83e\ude79 **Tip:** Denk aan je ademhaling, vooral tijdens het tillen van de zandzak; dit kan je helpen bij het behouden van kracht en stabiliteit.  ",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "17:30 - 18:30",
-        "type": "WOD",
-        "deelnemers": "6/14",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "17:30 - 18:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "6/14",
-            "status": "Jij bent Ingeschreven"
-        }
-    ],
-    "dag_morgen": "Zaterdag",
-    "status_morgen": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
         "type": "OPENGYM",
@@ -31,13 +12,109 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
             "deelnemers": "3/10",
             "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "dag_morgen": "Zondag",
+    "status_morgen": {
+        "ingeschreven": false,
+        "tijd": "",
+        "type": "",
+        "deelnemers": "",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_morgen": [
+        {
+            "tijd": "09:15 - 09:45",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "3/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "13/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:45 - 10:30",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "2/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "3/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:30 - 11:15",
+            "type": "TEENS",
+            "zaal": "Zaal 2",
+            "deelnemers": "3/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:00",
+            "type": "FUNDAMENTALS",
+            "zaal": "Zaal 1",
+            "deelnemers": "2/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:15",
+            "type": "HYROX",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:00",
+            "type": "BASIC OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "5/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "13:00 - 14:00",
+            "type": "OPENGYM",
+            "zaal": "Zaal 2",
+            "deelnemers": "0/6",
+            "status": "Open"
         }
     ]
 }
