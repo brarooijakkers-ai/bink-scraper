@@ -2,7 +2,7 @@
     "datum": "19-06-2026",
     "dag": "Vrijdag",
     "workout": "amrap 20min\n4 snatches 60/45kg\n8 toes to bar\n12 cal row",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek met de snatches nauwkeurig is, zodat je effici\u00ebnt en veilig kunt liften.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed: begin met een tempo dat je voor 20 minuten vol kunt houden en verhoog indien mogelijk je snelheid naarmate de tijd vordert.  \n\ud83e\ude79 **Tip:** Gebruik je benen en heupen goed bij de snatches om de belasting van je schouders te verminderen en zorg voor een gecontroleerde terugkeer na de toes to bar, zodat je klaar bent voor de volgende herhaling.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches optimaal is; dit is cruciaal voor je snelheid en effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de 20 minuten en probeer een constant tempo aan te houden, vooral bij de toes to bar.  \n\ud83e\ude79 **Tip:** Gebruik de roeimachine als een actieve herstelplek; blijf in beweging maar verspil geen onnodige energie.  ",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "17:30 - 18:30",
@@ -23,91 +23,21 @@
     ],
     "dag_morgen": "Zaterdag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "12:15 - 14:00",
+        "type": "OPENGYM",
+        "deelnemers": "3/10",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "09:15 - 10:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "15/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "14/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "7/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "7/9",
-            "status": "Open"
-        },
-        {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "2/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "3/10",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
