@@ -2,7 +2,7 @@
     "datum": "21-06-2026",
     "dag": "Zondag",
     "workout": "3 rounds\n100 double unders\n1000/900m row\ntimecap 19min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de double unders solide is, focus op een constante spronhoogte en het tempo van je polsen.  \n\ud83d\udca1 **Strategie:** Deel de double unders op in beheersbare sets, bijvoorbeeld in series van 25, om jezelf niet te verliezen in de belasting.  \n\ud83e\ude79 **Tip:** Tijdens het roeien, blijf ontspannen en houd je ademhaling regelmatig; kijk naar een tempo dat je kunt volhouden zonder je volledig uit te putten.  ",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek bij de double unders goed in de gaten om vermoeidheid te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; start met een rustig tempo op de roeimachine en bouw dit op naarmate je verder komt in de ronde.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de double unders en het roeien als dat nodig is, maar blaas niet te veel uit.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,28 +17,28 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "11/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
@@ -52,35 +52,35 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "9/10",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -113,14 +113,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -204,42 +204,42 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -253,21 +253,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
