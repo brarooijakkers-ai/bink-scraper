@@ -2,7 +2,7 @@
     "datum": "22-06-2026",
     "dag": "Maandag",
     "workout": "21-15-9\nstrict hspu\nrun 400m after each round\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de strict handstand push-ups solide is, zodat je blessures voorkomt en de effici\u00ebntie verhoogt.  \n\ud83d\udca1 **Strategie:** Breek de strict HSPU's op in kleinere sets als je merkt dat je kracht afneemt, en neem tussendoor korte pauzes om je energie op peil te houden.  \n\ud83e\ude79 **Tip:** Vergeet niet om je benen te gebruiken voor stabiliteit tijdens het rennen; een goede looptechniek helpt je om sneller te recupereren voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikte handstandpush-ups met controle uitvoert, zodat je niet onnodig energie verliest.  \n\ud83d\udca1 **Strategie:** Plan je runs goed en gebruik ze om je hartslag te herstellen, maar blijf in een stevig tempo lopen.  \n\ud83e\ude79 **Tip:** Vergeet niet om voldoende ruimte te hebben voor je handstandpush-ups en gebruik eventueel een variatie als je moe wordt, zoals het doen van kipping HSPU of een andere oefening.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,14 +108,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -164,21 +164,21 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
