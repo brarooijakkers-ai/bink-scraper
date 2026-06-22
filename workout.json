@@ -2,7 +2,7 @@
     "datum": "22-06-2026",
     "dag": "Maandag",
     "workout": "21-15-9\nstrict hspu\nrun 400m after each round\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikte handstandpush-ups met controle uitvoert, zodat je niet onnodig energie verliest.  \n\ud83d\udca1 **Strategie:** Plan je runs goed en gebruik ze om je hartslag te herstellen, maar blijf in een stevig tempo lopen.  \n\ud83e\ude79 **Tip:** Vergeet niet om voldoende ruimte te hebben voor je handstandpush-ups en gebruik eventueel een variatie als je moe wordt, zoals het doen van kipping HSPU of een andere oefening.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de strict HSPU optimaal is om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Pace je runs zodat je fris blijft voor de volgende set HSPU; zoek een ritme dat je volhoudt.  \n\ud83e\ude79 **Tip:** Neem een korte adempauze na elke set HSPU voordat je aan de run begint; dit helpt je om je energie beter te beheren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
