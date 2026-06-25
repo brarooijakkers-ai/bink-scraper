@@ -2,7 +2,7 @@
     "datum": "25-06-2026",
     "dag": "Donderdag",
     "workout": "emom 20min\nmin 1: suitcase carry\nmin 2: kb deadlift\nmin 3: goblet squat\nmin 4: rest\n1 kb 24/16kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste houding en techniek behoudt tijdens elke oefening om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Kies een gewicht dat je in staat stelt om de techniek correct te houden, vooral tijdens de suitcase carry en de goblet squat.  \n\ud83e\ude79 **Tip:** Blijf gedurende de EMOM goed ademen en gebruik je rustmomenten om je hartslag te laten dalen en je voor te bereiden op de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je positie en techniek behoudt tijdens de suitcase carry en deadlifts om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste twee minuten om je techniek in de suitcase carry en deadlift goed neer te zetten; houd je tempo gelijkmatig.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je je core goed aanspant en je ademhaling controleert, vooral tijdens de goblet squats, om je stabiliteit te verbeteren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "0/9",
             "status": "Open"
         },
         {
@@ -115,21 +115,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "2/11",
+            "deelnemers": "3/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -225,7 +225,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "6/8",
+            "deelnemers": "5/8",
             "status": "Open"
         },
         {
