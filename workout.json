@@ -2,7 +2,7 @@
     "datum": "26-06-2026",
     "dag": "Vrijdag",
     "workout": "Anniversary wod CrossFit Bink 36\nBlack & Blue\ncheck the workout here:\nhttps://www.instagram.com/p/DaAwYVro2yW/?igsh=MWRpbDVmdW1xY25vbQ==",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de eerste plaats komt, vooral bij de zware lifts.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de verschillende onderdelen; probeer een steady pace aan te houden in de metcon.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets, zodat je kracht en explosiviteit kunt behouden voor de moeilijkste oefeningen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie gelijkmatig over de workout verspreidt, zodat je later in de ronde nog voldoende kracht hebt.  \n\ud83d\udca1 **Strategie:** Begin rustig met de eerste paar rondes om je techniek goed te behouden, en verhoog je tempo naarmate je verder komt.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en let op je ademhaling, vooral tijdens de intensievere delen van de workout.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "3/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -66,14 +66,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/16",
+            "deelnemers": "0/0",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/8",
+            "deelnemers": "0/0",
             "status": "Open"
         },
         {
@@ -129,21 +129,21 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/11",
+            "deelnemers": "1/11",
             "status": "Open"
         },
         {
