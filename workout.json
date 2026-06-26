@@ -2,7 +2,7 @@
     "datum": "26-06-2026",
     "dag": "Vrijdag",
     "workout": "Anniversary wod CrossFit Bink 36\nBlack & Blue\ncheck the workout here:\nhttps://www.instagram.com/p/DaAwYVro2yW/?igsh=MWRpbDVmdW1xY25vbQ==",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie gelijkmatig over de workout verspreidt, zodat je later in de ronde nog voldoende kracht hebt.  \n\ud83d\udca1 **Strategie:** Begin rustig met de eerste paar rondes om je techniek goed te behouden, en verhoog je tempo naarmate je verder komt.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en let op je ademhaling, vooral tijdens de intensievere delen van de workout.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je bevoorrading en hydratatie goed in de gaten houdt tijdens de workout, vooral bij langere of intensieve intervallen.\n\n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo zodat je je energie kunt sparen voor de latere gedeelten van de workout. \n\n\ud83e\ude79 **Tip:** Vergeet niet om je techniek in de gaten te houden, dit vermindert het risico op blessures en verbetert je prestaties.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "1/11",
+            "deelnemers": "0/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
