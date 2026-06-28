@@ -2,7 +2,7 @@
     "datum": "28-06-2026",
     "dag": "Zondag",
     "workout": "Battle of Bink 2026 kicks off today at 09u00\nCome and cheer on our Binkies",
-    "coach": "\ud83d\udd25 **Focus:** Blijf geconcentreerd op je techniek en ademhaling tijdens het uitvoeren van de oefeningen.  \n\ud83d\udca1 **Strategie:** Werk in intervals en zorg ervoor dat je je energie goed verdeelt om je prestaties gedurende de WOD te optimaliseren.  \n\ud83e\ude79 **Tip:** Vergeet niet om regelmatig water te drinken en luister naar je lichaam; neem korte pauzes indien nodig.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je techniek en ademhaling tijdens de workouts.  \n\ud83d\udca1 **Strategie:** Zorg ervoor dat je je energie goed verdeeld, zodat je sterker kunt eindigen.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de oefeningen om je hartslag onder controle te houden en je kracht te behouden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -28,14 +28,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -56,7 +56,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -77,14 +77,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/8",
+            "deelnemers": "2/8",
             "status": "Open"
         },
         {
@@ -119,7 +119,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -147,14 +147,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -168,7 +168,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -182,7 +182,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
