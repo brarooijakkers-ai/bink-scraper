@@ -2,7 +2,7 @@
     "datum": "28-06-2026",
     "dag": "Zondag",
     "workout": "Battle of Bink 2026 kicks off today at 09u00\nCome and cheer on our Binkies",
-    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling en tempo tijdens de workouts.  \n\ud83d\udca1 **Strategie:** Gebruik je kracht en techniek om de prestaties te optimaliseren, vooral bij de zware lifts.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je goed hydrateert en energie opdoet voor de start om je maximale performantie te waarborgen.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf gefocust op je ademhaling en techniek gedurende de hele WOD.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de workout; begin sterk maar zorg ervoor dat je niet te snel gaat.  \n\ud83e\ude79 **Tip:** Neem even de tijd om tussen de sets door adempauzes te nemen, zodat je weer volledig kunt knallen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -56,7 +56,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -182,7 +182,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
