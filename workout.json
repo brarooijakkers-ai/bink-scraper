@@ -2,7 +2,7 @@
     "datum": "29-06-2026",
     "dag": "Maandag",
     "workout": "amrap 18min\n4 strict pull ups\n8 db squats 1x 22.5/15kg\n12 burpees over the db",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een gecontroleerde beweging tijdens de strict pull-ups om maximale kracht te behouden.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een gematigd tempo en bouw dit op naarmate de tijd vordert.  \n\ud83e\ude79 **Tip:** Maak gebruik van het momentum van je schouders bij de burpees om effici\u00ebnter te springen en tijd te besparen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij elke strict pull-up de juiste techniek behoudt voor een optimale uitvoering.  \n\ud83d\udca1 **Strategie:** Verdeeld je energie goed over de 18 minuten; ga niet te snel van start, maar blijf ook niet te langzaam.  \n\ud83e\ude79 **Tip:** Houd je core actief tijdens de db squats en burpees om je stabiliteit te verbeteren en blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -157,28 +157,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
