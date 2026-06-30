@@ -1,9 +1,28 @@
 {
-    "datum": "30-06-2026",
-    "dag": "Dinsdag",
-    "workout": "amrap 12min\n40 fat rope double unders\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de fat rope double unders goed in de gaten houdt voor maximale effici\u00ebntie.\n\ud83d\udca1 **Strategie:** Verdeel je 40 double unders in kleinere sets als je merkt dat je moeite hebt, en neem een kort moment om op adem te komen voor je de 200 meter run begint.\n\ud83e\ude79 **Tip:** Houd een steady tempo tijdens je run en gebruik je ademhaling om je hartslag onder controle te houden.",
+    "datum": "01-07-2026",
+    "dag": "Woensdag",
+    "workout": "amrap 30min\n400m run\n30 toes to bar\n500/450m row\n30 airsquats",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de bewegingen met goede vorm uitvoert om blessures te voorkomen en effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 30 minuten; start in een steady tempo en verhoog indien mogelijk je snelheid naarmate je verder in de workout komt.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de oefeningen als dat nodig is, maar blijf in beweging om je hartslag op peil te houden.",
     "status_vandaag": {
+        "ingeschreven": true,
+        "tijd": "18:30 - 19:30",
+        "type": "WOD",
+        "deelnemers": "14/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_vandaag": [
+        {
+            "tijd": "18:30 - 19:30",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "14/14",
+            "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "dag_morgen": "Donderdag",
+    "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
         "type": "",
@@ -12,40 +31,40 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_vandaag": [
+    "rooster_morgen": [
         {
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/12",
+            "deelnemers": "1/12",
             "status": "Open"
         },
         {
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -56,7 +75,7 @@
             "status": "Open"
         },
         {
-            "tijd": "11:00 - 13:00",
+            "tijd": "11:00 - 12:45",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
             "deelnemers": "0/6",
@@ -66,14 +85,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
-            "tijd": "16:30 - 17:15",
-            "type": "FUNDAMENTALS",
+            "tijd": "16:30 - 17:30",
+            "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
@@ -94,7 +113,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -115,35 +134,35 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
-            "type": "OLY LIFTING",
+            "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
-            "tijd": "19:30 - 20:30",
-            "type": "WOD",
+            "tijd": "19:30 - 20:15",
+            "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "1/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -152,25 +171,6 @@
             "zaal": "Zaal 2",
             "deelnemers": "0/6",
             "status": "Open"
-        }
-    ],
-    "dag_morgen": "Woensdag",
-    "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "type": "WOD",
-        "deelnemers": "14/14",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_morgen": [
-        {
-            "tijd": "18:30 - 19:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "14/14",
-            "status": "Jij bent Ingeschreven"
         }
     ]
 }
