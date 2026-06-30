@@ -2,7 +2,7 @@
     "datum": "30-06-2026",
     "dag": "Dinsdag",
     "workout": "amrap 12min\n40 fat rope double unders\n200m run",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je soepel en gecontroleerd blijft tijdens de fat rope double unders om energie te besparen.  \n\ud83d\udca1 **Strategie:** Verdeel je dubbele sprongen in sets, bijvoorbeeld 10-20 per keer, en neem tijdens de WOD korte pauzes als dat nodig is.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle tijdens de run; dit helpt je om sneller te herstellen voor de volgende set van double unders.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de technische uitvoering van de fat rope double unders beheerst om vermoeidheid te minimaliseren.  \n\ud83d\udca1 **Strategie:** Gebruik de eerste paar minuten om een steady ritme te vinden, zodat je niet te snel start en later in de workout in de problemen komt.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren voor de workout, en pak na elke keten van double unders even een korte reset om je hartslag onder controle te houden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -160,9 +160,9 @@
         "tijd": "18:30 - 19:30",
         "type": "WOD",
         "deelnemers": "14/14",
-        "wachtlijst": true,
-        "wachtlijst_plek": "1",
-        "wachtlijst_totaal": "1"
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
@@ -170,7 +170,7 @@
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "14/14",
-            "status": "Jij staat op Wachtlijst"
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
