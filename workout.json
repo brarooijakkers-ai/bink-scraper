@@ -2,7 +2,7 @@
     "datum": "01-07-2026",
     "dag": "Woensdag",
     "workout": "amrap 30min\n400m run\n30 toes to bar\n500/450m row\n30 airsquats",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente snelheid aanhoudt tijdens de 400m run en de rowing, zodat je genoeg energie overhoudt voor de andere oefeningen.  \n\ud83d\udca1 **Strategie:** Verdeel je sets van toes to bar en airsquats in kleinere stukken om overbelasting te voorkomen en je techniek optimaal te houden.  \n\ud83e\ude79 **Tip:** Maak gebruik van een goede ademhalingstechniek; adem in tijdens de rust tussen de oefeningen en uit tijdens de herhalingen voor maximale effici\u00ebntie.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt, zodat je de hele 30 minuten volhoudt.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo tijdens de runs en de rowing, zodat je voldoende kracht overhoudt voor de toes to bar en squats.  \n\ud83e\ude79 **Tip:** Gebruik een ruime grip bij de toes to bar en werk in sets, bijvoorbeeld 15 per keer, om jezelf scherp te houden en krachtafname te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -73,14 +73,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "13:00 - 15:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -94,35 +94,35 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -171,7 +171,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -253,14 +253,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
