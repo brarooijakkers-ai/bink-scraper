@@ -1,9 +1,28 @@
 {
-    "datum": "01-07-2026",
-    "dag": "Woensdag",
-    "workout": "amrap 30min\n400m run\n30 toes to bar\n500/450m row\n30 airsquats",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeeld over de hele 30 minuten.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo tijdens de run, zodat je voldoende kracht overhoudt voor de toes to bar en de squats.  \n\ud83e\ude79 **Tip:** Maak gebruik van korte pauzes tussen de sets om je techniek te waarborgen, vooral bij de toes to bar.",
+    "datum": "02-07-2026",
+    "dag": "Donderdag",
+    "workout": "5 rounds\n16 hang db clean and jerks 2x db 22.5/15kg\n50 double unders\n6 wallwalks\nrest 1min\ntimecap 22min",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een stevige grip en een goede houding tijdens de hang dumbbell clean and jerks om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Plan je dubbele sprongetjes en wall walks zodat je maximaal kunt herstellen tussen de herhalingen; zuurstof is cruciaal!  \n\ud83e\ude79 **Tip:** Gebruik een rustmoment van 1 minuut om even je ademhaling te reguleren en ervoor te zorgen dat je fris bent voor de volgende ronde.",
     "status_vandaag": {
+        "ingeschreven": true,
+        "tijd": "18:30 - 19:30",
+        "type": "WOD",
+        "deelnemers": "8/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_vandaag": [
+        {
+            "tijd": "18:30 - 19:30",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "8/14",
+            "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "dag_morgen": "Vrijdag",
+    "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
         "type": "",
@@ -12,19 +31,19 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_vandaag": [
+    "rooster_morgen": [
         {
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -38,14 +57,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "10/16",
             "status": "Open"
         },
         {
@@ -59,153 +78,106 @@
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:00 - 12:45",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "0/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:00 - 13:00",
+            "type": "GYMNASTICS",
+            "zaal": "Zaal 2",
+            "deelnemers": "7/8",
             "status": "Open"
         },
         {
             "tijd": "13:00 - 15:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "13:15 - 15:15",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "1/13",
+            "deelnemers": "0/13",
             "status": "Open"
         },
         {
-            "tijd": "15:30 - 16:15",
-            "type": "KIDS",
+            "tijd": "15:00 - 16:15",
+            "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
-            "type": "HYROX FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "13/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "16:30 - 17:15",
-            "type": "TEENS",
+            "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "6/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
-            "tijd": "17:30 - 18:15",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "2/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "9/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "17:30 - 18:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "METCON",
-            "zaal": "Zaal 2",
-            "deelnemers": "7/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:15",
-            "type": "OPENGYM",
-            "zaal": "Buiten",
-            "deelnemers": "0/6",
-            "status": "Open"
-        },
-        {
-            "tijd": "18:30 - 19:30",
+            "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
-            "tijd": "19:30 - 20:15",
+            "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
-            "tijd": "19:30 - 20:30",
+            "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
             "deelnemers": "6/14",
             "status": "Open"
         },
         {
-            "tijd": "20:30 - 21:30",
-            "type": "POWERLIFTING",
+            "tijd": "18:30 - 19:15",
+            "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
-            "tijd": "20:30 - 21:30",
+            "tijd": "18:30 - 19:30",
+            "type": "FUNCTIONALBODYBUILDING",
+            "zaal": "Zaal 2",
+            "deelnemers": "8/11",
+            "status": "Open"
+        },
+        {
+            "tijd": "19:30 - 20:15",
+            "type": "HYROX FUNDAMENTALS",
+            "zaal": "Zaal 1",
+            "deelnemers": "2/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
-        }
-    ],
-    "dag_morgen": "Donderdag",
-    "status_morgen": {
-        "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "type": "WOD",
-        "deelnemers": "8/14",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_morgen": [
-        {
-            "tijd": "18:30 - 19:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "8/14",
-            "status": "Jij bent Ingeschreven"
         }
     ]
 }
