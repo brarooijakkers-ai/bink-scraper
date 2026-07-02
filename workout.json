@@ -2,7 +2,7 @@
     "datum": "02-07-2026",
     "dag": "Donderdag",
     "workout": "5 rounds\n16 hang db clean and jerks 2x db 22.5/15kg\n50 double unders\n6 wallwalks\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede techniek behoudt tijdens de hang dumbbell clean and jerks om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeeld je kracht en tempo gelijkmatig over de 5 rondes, vooral bij de double unders, zodat je energiek blijft voor de wallwalks.  \n\ud83e\ude79 **Tip:** Gebruik een korte pauze na elke set wallwalks om je ademhaling te reguleren voordat je aan de volgende oefening begint.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de hang db clean and jerks goed behoudt, om blessures te voorkomen en effici\u00ebntie te verhogen.\n\n\ud83d\udca1 **Strategie:** Deel je double unders in sets van 25 of minder om vermoeidheid te beheersen en de kans op fouten te verkleinen.\n\n\ud83e\ude79 **Tip:** Neem de tijd voor je wallwalks; een gecontroleerde en stabiele beweging is essentieel voor een goede uitvoering en om energie te besparen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "10/16",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
