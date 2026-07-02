@@ -2,12 +2,12 @@
     "datum": "02-07-2026",
     "dag": "Donderdag",
     "workout": "5 rounds\n16 hang db clean and jerks 2x db 22.5/15kg\n50 double unders\n6 wallwalks\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek behoudt tijdens de hang db clean and jerks om energie te besparen.  \n\ud83d\udca1 **Strategie:** Verdeel je double unders in sets als je merkt dat ze je vermoeidheid geven, zodat je niet te veel tijd verliest door te vallen.  \n\ud83e\ude79 **Tip:** Gebruik je benen en core goed tijdens de wallwalks om ze effici\u00ebnter en gecontroleerder te maken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede techniek bij de hang db clean and jerks om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de rondes; begin rustig en verhoog je tempo als je je sterk voelt.  \n\ud83e\ude79 **Tip:** Gebruik een touw voor je double unders dat goed past bij je lengte; dit maakt het makkelijker om de juiste timing te behouden.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
-        "deelnemers": "8/14",
+        "deelnemers": "7/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -43,7 +43,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
@@ -57,7 +57,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "5/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
