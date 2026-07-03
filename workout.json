@@ -2,7 +2,7 @@
     "datum": "03-07-2026",
     "dag": "Vrijdag",
     "workout": "for time\n50-40-30-20-10\nthrusters 20/15kg\n25-20-15-10-5\npull ups\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de thrusters optimaal is, dit helpt je om effici\u00ebnt en snel te blijven werken.  \n\ud83d\udca1 **Strategie:** Verdeel de thrusters in kleinere sets om je uithoudingsvermogen te behouden, vooral bij de hogere aantallen.  \n\ud83e\ude79 **Tip:** Swing rustig door naar de pull-ups; gebruik de kipping techniek als dat je helpt om sneller van de bar af te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de thrusters behoudt, vooral naarmate je moe wordt.  \n\ud83d\udca1 **Strategie:** Verdeel je herhalingen in sets die voor jou haalbaar zijn, vooral bij de pull-ups; dit voorkomt dat je helemaal uitgeput raakt.  \n\ud83e\ude79 **Tip:** Gebruik een lichte band voor ondersteuning bij de pull-ups als je merkt dat je niet meer goed kunt aantrekken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -87,7 +87,7 @@
             "tijd": "13:15 - 15:15",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/13",
+            "deelnemers": "2/13",
             "status": "Open"
         },
         {
@@ -101,35 +101,35 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "1/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "0/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
