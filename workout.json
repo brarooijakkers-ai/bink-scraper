@@ -2,7 +2,7 @@
     "datum": "03-07-2026",
     "dag": "Vrijdag",
     "workout": "for time\n50-40-30-20-10\nthrusters 20/15kg\n25-20-15-10-5\npull ups\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de thrusters solide blijft, vooral wanneer de vermoeidheid toeneemt.  \n\ud83d\udca1 **Strategie:** Werk in een steady-tempo voor de thrusters en stel hierbij een aantal setjes vast om te voorkomen dat je te veel verliest tijdens de pull-ups.  \n\ud83e\ude79 **Tip:** Gebruik een kipping techniek voor de pull-ups als dat mogelijk is, dit kan je helpen om energie te besparen en sneller door de sets heen te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek bij de thrusters in de gaten, vooral als je vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Werk in sets aan de thrusters om je energie goed te verdelen en gebruik korte pauzes.  \n\ud83e\ude79 **Tip:** Kies een grip voor de pull-ups die je comfortabel vindt, en overweeg kipping of jumping pull-ups als dat helpt om sneller door de herhalingen te komen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,14 +17,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "5/6",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/16",
+            "deelnemers": "9/16",
             "status": "Open"
         },
         {
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "6/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "8/8",
+            "deelnemers": "6/8",
             "status": "Open"
         },
         {
@@ -101,21 +101,21 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
