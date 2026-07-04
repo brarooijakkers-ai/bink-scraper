@@ -2,7 +2,7 @@
     "datum": "04-07-2026",
     "dag": "Zaterdag",
     "workout": "amrap 10min\n10 cleans 60/45kg\n10 kb snatches 24/16kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de cleans en snatches perfect is, dit helpt bij effici\u00ebntie en vermindert het risico op blessures.  \n\ud83d\udca1 **Strategie:** Start rustig en bouw je snelheid op; controleer je ademhaling en neem de tijd voor herstel tussen de sets.  \n\ud83e\ude79 **Tip:** Gebruik ook je benen en heupen bij de snatches voor meer kracht en minder belasting op je schouders.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke clean met een goede techniek uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig; begin met een gematigd tempo en bouw op naarmate je verder komt in de WOD.  \n\ud83e\ude79 **Tip:** Blijf tijdens de kettlebell snatches geconcentreerd en gebruik je heupen om de gewichten omhoog te stoten voor meer kracht.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -59,7 +59,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -73,14 +73,14 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "4/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -169,7 +169,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -183,7 +183,7 @@
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ]
