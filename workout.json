@@ -2,7 +2,7 @@
     "datum": "05-07-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n8 sit-ups\n16 lunges",
-    "coach": "\ud83d\udd25 **Focus:** Houd je lichaam in een rechte lijn tijdens de strict HSPU voor maximale effectiviteit.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een rustiger tempo en verhoog dit als je je comfortabel voelt.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je knie\u00ebn tijdens de lunges niet voorbij je tenen komen voor een goede vorm.",
+    "coach": "\ud83d\udd25 **Focus:** Concentreer je op de juiste techniek bij de strict handstand push-ups om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een tempo dat je gedurende de 20 minuten kunt volhouden.  \n\ud83e\ude79 **Tip:** Gebruik een matje of een kussen onder je hoofd bij de sit-ups om extra comfort te bieden en je core beter te activeren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -52,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -73,14 +73,14 @@
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -113,7 +113,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
