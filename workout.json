@@ -2,7 +2,7 @@
     "datum": "05-07-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n8 sit-ups\n16 lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een goede spanning in je lichaam tijdens de strict HSPU om effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig over de 20 minuten; begin rustig en verhoog je tempo naarmate je verder komt in de ronde.  \n\ud83e\ude79 **Tip:** Gebruik de lunges om je hartslag te reguleren, houd een constante pas en zorg voor een goede houding om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict HSPU met de juiste techniek uitvoert voor maximale effectiviteit en veiligheid.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig over de 20 minuten en laat je niet te snel verleiden om alle slagen achter elkaar te doen, neem indien nodig korte pauzes.  \n\ud83e\ude79 **Tip:** Houd je core strak tijdens de sit-ups en lunges om de juiste stabiliteit te behouden en blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
