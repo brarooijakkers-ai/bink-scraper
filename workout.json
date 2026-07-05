@@ -2,7 +2,7 @@
     "datum": "05-07-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n8 sit-ups\n16 lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict handstand push-ups met een goede techniek uitvoert voor optimale kracht en veiligheid.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de tijd; neem korte pauzes tussen de sets om overbelasting te voorkomen.  \n\ud83e\ude79 **Tip:** Houd je core strak tijdens de sit-ups en lunges voor betere stabiliteit en effici\u00ebntie.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strict handstand push-ups met juiste vorm uitvoert voor optimale kracht en stabiliteit.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 20 minuten en probeer een consistent tempo te vinden voor elke ronde.  \n\ud83e\ude79 **Tip:** Gebruik een mat of kussen voor je sit-ups om je onderrug te ondersteunen en focus op een gecontroleerde beweging naar boven.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
