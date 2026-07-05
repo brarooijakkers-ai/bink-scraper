@@ -2,7 +2,7 @@
     "datum": "05-07-2026",
     "dag": "Zondag",
     "workout": "amrap 20min\n4 strict hspu\n8 sit-ups\n16 lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede vorm behoudt bij de strict HSPU zodat je blessures voorkomt en effectiviteit maximaliseert.  \n\ud83d\udca1 **Strategie:** Verdeelt je energie goed over de 20 minuten door een constant tempo aan te houden, vooral bij de lunges en sit-ups.  \n\ud83e\ude79 **Tip:** Gebruik een matje of een zachte ondergrond voor je sit-ups om ongemak te verminderen en je focus te houden op de beweging.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de strikte handstandpush-ups met controle uitvoert voor optimale techniek.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin niet te snel, zodat je aan het einde van de 20 minuten nog steeds sterk kunt presteren.  \n\ud83e\ude79 **Tip:** Gebruik een matje onder je hoofd bij de handstandpush-ups voor extra comfort en veiligheid.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -52,21 +52,21 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -87,7 +87,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -253,14 +253,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
