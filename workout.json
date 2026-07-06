@@ -2,7 +2,7 @@
     "datum": "06-07-2026",
     "dag": "Maandag",
     "workout": "4 rounds\n2min on/2min off\n200m run\nmax snatches 60/45kg",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de snatches je techniek behoudt, vooral als je vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Gebruik je rustperiodes effectief om te herstellen; adem diep in en uit voordat je weer aan de slag gaat.  \n\ud83e\ude79 **Tip:** Start met een gewicht dat je comfortabel kan tillen, maar daag jezelf uit om te verhogen in de volgende rondes als je je sterk voelt.",
+    "coach": "\ud83d\udd25 **Focus:** Houd tijdens de runs een consistent, snel tempo aan om je hartslag op peil te houden.  \n\ud83d\udca1 **Strategie:** Plan je snatches goed; ga voor het maximum aantal herhalingen in de tijd die je hebt, maar start met een gewicht waarmee je comfortabel kunt werken.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je tussen de rondes voldoende herstelt, neem de tijd om je ademhaling weer onder controle te krijgen voordat je aan de volgende ronde begint.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -150,7 +150,7 @@
             "tijd": "18:30 - 19:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
@@ -164,21 +164,21 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
