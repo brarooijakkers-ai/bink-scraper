@@ -2,12 +2,12 @@
     "datum": "07-07-2026",
     "dag": "Dinsdag",
     "workout": "2 rounds\n1000/900m row\n15 devil presses 2x 22.5/15kg\n30 toes to bar\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek nauwkeurig, vooral bij de devil presses en toes to bar, om blessures te voorkomen en effici\u00ebnt te blijven werken.  \n\ud83d\udca1 **Strategie:** Verdeel je rijas en probeer de 1000m row in een stevig, maar consistent tempo te roeien; ga niet te snel van start.  \n\ud83e\ude79 **Tip:** Neem korte pauzes bij de devil presses en toes to bar als dat nodig is, zodat je energie kunt besparen voor de tweede ronde.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens het roeien een constante en effici\u00ebnte techniek aanhoudt om energie te sparen voor de devil presses en toes to bar.\n\n\ud83d\udca1 **Strategie:** Verdeel je kracht over de devil presses en kies een tempo dat je in staat stelt om de 15 herhalingen zonder veel pauzes uit te voeren.\n\n\ud83e\ude79 **Tip:** Houd je core actief tijdens de toes to bar, zodat je meer controle hebt over je beweging en je sneller kunt doorgaan tussen de herhalingen.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "19:30 - 20:30",
         "type": "WOD",
-        "deelnemers": "10/14",
+        "deelnemers": "12/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "12/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -36,14 +36,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -127,7 +127,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
