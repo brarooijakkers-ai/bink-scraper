@@ -2,7 +2,7 @@
     "datum": "08-07-2026",
     "dag": "Woensdag",
     "workout": "21-15-9\nfront squats 70/50kg\nburpee pull ups\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de front squats een goede houding behoudt om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning tijdens de burpee pull-ups, zodat je consistent blijft bewegen zonder te veel rust te nemen.  \n\ud83e\ude79 **Tip:** Gebruik een krachtige heupstart bij de burpees om energie te besparen tijdens de pull-ups.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de front squats optimaal is, dit helpt je kracht en uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin met een stevig maar haalbaar tempo en houd een gelijkmatige ademhaling aan tijdens de burpee pull-ups.  \n\ud83e\ude79 **Tip:** Gebruik je benen en heupen voor de burpee pull-ups om de explosiviteit te verhogen en de belasting op je armen te verlichten.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -101,14 +101,14 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
