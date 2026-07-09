@@ -2,7 +2,7 @@
     "datum": "09-07-2026",
     "dag": "Donderdag",
     "workout": "for time\n1600m run\n5000m row\ntimecap 34min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens zowel de 1600m run als de 5000m row.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de run, zodat je voldoende energie overhoudt voor de roeisessie.  \n\ud83e\ude79 **Tip:** Neem tijdens het roeien korte pauzes als je dat nodig hebt om je techniek en kracht productie te optimaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante en uniforme ademhaling tijdens het lopen en roeien om je uithoudingsvermogen te behouden.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de 1600m run en houd daarna een steady pace aan tijdens het roeien; probeer gelijkmatig te rowen met korte rustpauzes als dat nodig is.  \n\ud83e\ude79 **Tip:** Vergeet niet om je core goed aan te spannen tijdens het roeien voor maximale kracht en effici\u00ebntie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/12",
+            "deelnemers": "2/12",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -94,35 +94,35 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/11",
+            "deelnemers": "1/11",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/16",
+            "deelnemers": "2/16",
             "status": "Open"
         },
         {
