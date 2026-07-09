@@ -2,7 +2,7 @@
     "datum": "09-07-2026",
     "dag": "Donderdag",
     "workout": "for time\n1600m run\n5000m row\ntimecap 34min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt, vooral tijdens de run en het roeien.  \n\ud83d\udca1 **Strategie:** Verdeel de 5000m row in secties; kijk bijvoorbeeld naar het roeien in vier delen van 1250m om mentaal gefocust te blijven.  \n\ud83e\ude79 **Tip:** Hydrateer goed v\u00f3\u00f3r de workout en luister naar je lichaam; als je moe bent, neem dan een korte pauze om op adem te komen.",
+    "coach": "\ud83d\udd25 **Focus:** Begin met een steady pace op je 1600m run om je energie goed te benutten voor de row.  \n\ud83d\udca1 **Strategie:** Verdeel de 5000m row in segmenten; focus op een consistente slagfrequentie en neem korte pauzes als dat nodig is om je techniek te behouden.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je goed hydrateert voor de workout en neem een paar minuten de tijd om je spieren goed op te warmen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "4/16",
             "status": "Open"
         },
         {
