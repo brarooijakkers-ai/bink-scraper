@@ -2,7 +2,7 @@
     "datum": "09-07-2026",
     "dag": "Donderdag",
     "workout": "for time\n1600m run\n5000m row\ntimecap 34min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling beheerst door steady pacing te houden tijdens de run en row.  \n\ud83d\udca1 **Strategie:** Begin de 1600m run op een tempo dat je comfortabel aanvoelt en houd rekening met de energie die je nodig hebt voor de row.  \n\ud83e\ude79 **Tip:** Neem regelmatig korte pauzes tijdens het roeien om je techniek te controleren en vermoeidheid te verminderen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens zowel de 1600m run als de 5000m row.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de run, zodat je voldoende energie overhoudt voor de roeisessie.  \n\ud83e\ude79 **Tip:** Neem tijdens het roeien korte pauzes als je dat nodig hebt om je techniek en kracht productie te optimaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -136,14 +136,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "3/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
