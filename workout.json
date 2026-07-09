@@ -2,7 +2,7 @@
     "datum": "09-07-2026",
     "dag": "Donderdag",
     "workout": "for time\n1600m run\n5000m row\ntimecap 34min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling goed onder controle houdt tijdens zowel de run als de row.  \n\ud83d\udca1 **Strategie:** Begin je run in een comfortabel tempo en verhoog het tempo geleidelijk naarmate je verder komt, zodat je energie overhoudt voor de row.  \n\ud83e\ude79 **Tip:** Blijf tijdens het roeien focussen op je techniek; maak gebruik van je benen en houd je bovenlichaam stabiel voor een effici\u00ebnte beweging.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een steady pace aanhoudt tijdens de loop om energie te sparen voor de roeipunten.  \n\ud83d\udca1 **Strategie:** Begin je run rustig en bouw tijdens de laatste 400m op om je snelheid te verhogen; dit helpt je om fris aan de roeier te beginnen.  \n\ud83e\ude79 **Tip:** Neem tijdens het roeien korte pauzes als je dat nodig hebt, maar probeer je hartslag laag te houden en blijf gefocust op een constante slagfrequentie.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
