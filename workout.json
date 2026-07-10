@@ -2,7 +2,7 @@
     "datum": "10-07-2026",
     "dag": "Vrijdag",
     "workout": "5 rounds\n5 wallwalks\n10 pistol squats\n15 sit-ups\n30 double unders\nrest 1min\ntimecap 23min",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op het behouden van een goede techniek, vooral tijdens de wallwalks en pistol squats.  \n\ud83d\udca1 **Strategie:** Verdeel je sets van wat mogelijk is; als 10 pistol squats te veel is, probeer dan 5 per keer met korte pauzes.  \n\ud83e\ude79 **Tip:** Gebruik je armen tijdens de wallwalks om meer stabiliteit te cre\u00ebren en probeer je tempo consistent te houden met de double unders.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je bij de wallwalks een gecontroleerde beweging maakt, zodat je niet te veel energie verspilt.\n\n\ud83d\udca1 **Strategie:** Verdeel je pistol squats en sit-ups in sets met korte pauzes, zodat je de explosiviteit kunt behouden.\n\n\ud83e\ude79 **Tip:** Houd je voeten bij de double unders dicht bij elkaar en gebruik je polsen voor de sprongen om effici\u00ebntie te maximaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -87,7 +87,7 @@
             "tijd": "13:15 - 15:15",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/13",
+            "deelnemers": "1/13",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -143,21 +143,21 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         }
     ],
