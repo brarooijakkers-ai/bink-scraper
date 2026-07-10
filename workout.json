@@ -2,7 +2,7 @@
     "datum": "10-07-2026",
     "dag": "Vrijdag",
     "workout": "5 rounds\n5 wallwalks\n10 pistol squats\n15 sit-ups\n30 double unders\nrest 1min\ntimecap 23min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de wallwalks en pistol squats solide is, zodat je blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de rounds; gebruik niet te veel kracht in de eerste twee rondes om frictie te voorkomen.  \n\ud83e\ude79 **Tip:** Bij de double unders, als je moe begint te worden, ga dan over op singles om je tijd te behouden zonder je vorm te verliezen.",
+    "coach": "\ud83d\udd25 **Focus:** Concentreer je op het behouden van een goede techniek, vooral tijdens de wallwalks en pistol squats.  \n\ud83d\udca1 **Strategie:** Verdeel je sets van wat mogelijk is; als 10 pistol squats te veel is, probeer dan 5 per keer met korte pauzes.  \n\ud83e\ude79 **Tip:** Gebruik je armen tijdens de wallwalks om meer stabiliteit te cre\u00ebren en probeer je tempo consistent te houden met de double unders.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,14 +45,14 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/8",
+            "deelnemers": "4/8",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -122,14 +122,14 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
