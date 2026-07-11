@@ -2,7 +2,7 @@
     "datum": "11-07-2026",
     "dag": "Zaterdag",
     "workout": "emom 15min\nmin 1: cal assault bike\nmin 2: db bench presses\nmin 3: toes to bar",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in de gaten tijdens de db bench presses om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo op de cal assault bike om je energie goed te verdelen over de 15 minuten.  \n\ud83e\ude79 **Tip:** Werk aan je grip en schouderstabiliteit tijdens de toes to bar voor een effici\u00ebntere beweging.",
+    "coach": "\ud83d\udd25 **Focus:** Richt je op consistente prestaties gedurende de EMOM, zodat je elke minuut goed kunt presteren.  \n\ud83d\udca1 **Strategie:** Begin met een uitdagende, maar haalbare hoeveelheid calorie\u00ebn op de assault bike en pas je tempo aan op basis van hoeveel tijd je nodig hebt voor de andere oefeningen.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je bij de dumbbell bench presses en toes to bar een goede techniek behoudt, zodat je blessures voorkomt en effici\u00ebnt blijft bewegen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -120,7 +120,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -148,21 +148,21 @@
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
