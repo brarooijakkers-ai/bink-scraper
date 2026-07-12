@@ -2,7 +2,7 @@
     "datum": "12-07-2026",
     "dag": "Zondag",
     "workout": "10-9-8-7-6-5-4-3-2-1\ncleans 60/45kg\nburpees over the bar\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Richt je op een stevige en gecontroleerde vorm tijdens de cleans om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Probeer het tempo steady te houden; elk aantal reps moet beheersbaar blijven, zodat je niet te snel verbrand.  \n\ud83e\ude79 **Tip:** Gebruik de burpees om je hartslag onder controle te houden; spring met beide voeten naar de zijkant van de bar voor effici\u00ebntie.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je krachtig en gecontroleerd kunt tillen zodat je systeem niet overbelast raakt.  \n\ud83d\udca1 **Strategie:** Probeer bij elke ronde de lifts en burpees in een constant tempo te doen, zonder te veel pauzes.  \n\ud83e\ude79 **Tip:** Breek de cleans op in kleinere sets als je voelt dat je vorm begint te verliezen, en maak gebruik van de burpees om je ademhaling weer onder controle te krijgen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
@@ -31,28 +31,28 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -66,14 +66,14 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -204,21 +204,21 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
