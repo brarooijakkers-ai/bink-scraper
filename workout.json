@@ -2,7 +2,7 @@
     "datum": "13-07-2026",
     "dag": "Maandag",
     "workout": "amrap 20min\n10 deadlifts 100/70kg\n15 wallballs\n10x farmers carry 2x32/24kg",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek bij de deadlifts goed in de gaten om blessures te voorkomen en je kracht optimaal te benutten.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning in de AMRAP en probeer de eerste ronde niet te snel te starten, zodat je kracht behoudt voor de laatste minuten.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je de juiste romp stabiliteit behoudt tijdens de farmers carry om je gripkracht en balans te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts en wallballs solide is om blessures te voorkomen en effici\u00ebnt te blijven bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed; begin niet te snel en gebruik de eerste paar rondes om je ritme te vinden.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de oefeningen om je grip en kracht tijdens de farmers carry te behouden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -59,21 +59,21 @@
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/8",
+            "deelnemers": "4/8",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
