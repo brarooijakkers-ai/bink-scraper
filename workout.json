@@ -2,7 +2,7 @@
     "datum": "13-07-2026",
     "dag": "Maandag",
     "workout": "amrap 20min\n10 deadlifts 100/70kg\n15 wallballs\n10x farmers carry 2x32/24kg",
-    "coach": "\ud83d\udd25 **Focus:** Houd een consistente snelheid aan om het maximale uit deze 20 minuten te halen.  \n\ud83d\udca1 **Strategie:** Begin met een comfortabele deadlift snelheid en verhoog je tempo bij de wallballs en farmers carry als je je goed voelt.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je tijdens de farmers carry je houding recht houdt en de gewichten dicht bij je lichaam houdt voor optimale stabiliteit.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de deadlifts scherp blijft, vooral naarmate de vermoeidheid toeneemt.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed, begin met een gematigd tempo en verhoog dit als je je sterk voelt tijdens de WOD.  \n\ud83e\ude79 **Tip:** Neem kortere pauzes tussen de onderdelen om je hartslag onder controle te houden en de flow erin te houden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,14 +108,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/12",
+            "deelnemers": "2/12",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -316,7 +316,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
