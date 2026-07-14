@@ -2,7 +2,7 @@
     "datum": "14-07-2026",
     "dag": "Dinsdag",
     "workout": "5 rounds\n20 box jump overs\n15 chest to bar\n10 strict hspu\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een krachtige start en houd een constante snelheid aan gedurende de WOD.  \n\ud83d\udca1 **Strategie:** Begin met de box jump overs en ga soepel van de ene naar de andere oefening om je hartslag onder controle te houden.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je bij de strict HSPU je compleet uitstrekt en een goede techniek hanteert om blessures te voorkomen en je energie effici\u00ebnt te gebruiken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosief bent bij de box jump overs om energie te besparen voor de andere oefeningen.  \n\ud83d\udca1 **Strategie:** Verdeel de chest to bar pull-ups in kleine sets om zelfvertrouwen te behouden en falen te voorkomen.  \n\ud83e\ude79 **Tip:** Bij de strict handstand push-ups, zoek een stabiele positie en gebruik een muur voor extra ondersteuning indien nodig.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,21 +17,21 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "3/6",
+            "deelnemers": "4/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/12",
+            "deelnemers": "4/12",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:00 - 13:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
