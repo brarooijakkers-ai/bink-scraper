@@ -2,7 +2,7 @@
     "datum": "15-07-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n400m run\n10 clean and jerk 60/45kg\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de runs, zodat je fris aan de clean and jerks begint.  \n\ud83d\udca1 **Strategie:** Verdeel je clean and jerks in sets van 5 als je merkt dat je moe wordt, zodat je techniek niet in gevaar komt.  \n\ud83e\ude79 **Tip:** Gebruik een goede opwarmroutine om je schouders en benen voor te bereiden op de clean and jerks; dit helpt blessures te voorkomen en zorgt voor een betere performance.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de runs om voldoende energie te hebben voor de clean and jerks.  \n\ud83d\udca1 **Strategie:** Verdeel je clean and jerks in sets van 5-5 of 6-4 om vermoeidheid te minimaliseren en je techniek scherp te houden.  \n\ud83e\ude79 **Tip:** Neem een korte rust tussen de sets door om je grip en kracht te herstellen, zodat je snel en effici\u00ebnt kunt blijven bewegen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,14 +94,14 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "6/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/12",
+            "deelnemers": "5/12",
             "status": "Open"
         },
         {
