@@ -2,12 +2,12 @@
     "datum": "15-07-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n400m run\n10 clean and jerk 60/45kg\ntimecap 18min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente snelheid behoudt tijdens de 400 meter runs, zodat je niet te veel energie verspilt voor de gewichtheffen.  \n\ud83d\udca1 **Strategie:** Verdeeld de clean and jerks in sets van 5 om je techniek scherp te houden en vermoeidheid te verminderen.  \n\ud83e\ude79 **Tip:** Vergeet niet om goed te ademen tijdens de clean and jerk; een sterke core houdt je stabiel en helpt bij het liften.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens het rennen een constant tempo aanhoudt om je energie te sparen voor de clean and jerks.  \n\ud83d\udca1 **Strategie:** Verdeel je clean and jerks in sets van 5 als dat helpt om je techniek zuiver te houden en vermoeidheid te minimaliseren.  \n\ud83e\ude79 **Tip:** Vergeet niet om je strekking en ademhaling onder controle te houden; dit helpt niet alleen bij je lifts, maar ook bij het herstel tussen de runs.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
-        "deelnemers": "12/14",
+        "deelnemers": "13/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "13/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -43,14 +43,14 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/12",
+            "deelnemers": "4/12",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
