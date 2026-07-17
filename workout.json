@@ -2,7 +2,7 @@
     "datum": "17-07-2026",
     "dag": "Vrijdag",
     "workout": "emom 40min\nmin 1: linefacing burpees\nmin 2: kb snatches 24/16kg\nmin 3: rope climbs\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosiviteit behoudt tijdens de linefacing burpees om je hartslag onder controle te houden.  \n\ud83d\udca1 **Strategie:** Plan je kettlebell snatches goed, gebruik de kracht uit je heupen voor een effici\u00ebnte beweging en vermijd overbelasting van je schouders.  \n\ud83e\ude79 **Tip:** Bij de rope climbs kun je de kracht van je benen gebruiken door je onderbenen goed te activeren en effici\u00ebnt te klimmen om energie te besparen voor de volgende rondes.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de kettlebell snatches solide is, zodat je effici\u00ebnt werkt en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Probeer de burpees en snatches met een steady tempo te doen, zodat je niet te snel moe raakt voor de rope climbs.  \n\ud83e\ude79 **Tip:** Gebruik de restminuten goed om je hartslag omlaag te brengen en je ademhaling te reguleren, zodat je beter voorbereid bent op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -129,21 +129,21 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         }
     ],
