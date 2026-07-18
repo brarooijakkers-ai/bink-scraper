@@ -2,7 +2,7 @@
     "datum": "18-07-2026",
     "dag": "Zaterdag",
     "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the 5 slowest rounds",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de actieve minuten een constante pace aanhoudt, zodat je uitdelen en behouden kunt blijven.  \n\ud83d\udca1 **Strategie:** Begin met een tempo dat iets onder je gemiddeld vermogen ligt, zodat je niet te veel verzuurt in de eerste rondes.  \n\ud83e\ude79 **Tip:** Gebruik de inactiviteitsminuten om je ademhaling te herstellen en je spieren goed te rekken, zodat je klaar bent voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elk rondje consistent en met de juiste intensiteit het aantal meters haalt.  \n\ud83d\udca1 **Strategie:** Begin met een stevig tempo in de eerste rondes, maar houd een oogje op je vermoeidheid zodat je in de latere rondes niet te veel inboet.  \n\ud83e\ude79 **Tip:** Gebruik de pauzes om goed te herstellen; adem rustig en bereid je voor op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -162,7 +162,7 @@
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
