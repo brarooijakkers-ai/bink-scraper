@@ -1,8 +1,8 @@
 {
     "datum": "18-07-2026",
     "dag": "Zaterdag",
-    "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the 5 slowest rounds",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je in elke ronde consistent presteert, ook als je vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Begin met een tempo dat je in staat stelt om gedurende de hele workout krachtig te blijven.  \n\ud83e\ude79 **Tip:** Houd je techniek in de gaten, vooral als je moe wordt; een goede techniek helpt je om effici\u00ebnter te blijven roeien.",
+    "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the slowest round",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de 1 minuut dat je aan het roeien bent, je maximale inspanning levert.  \n\ud83d\udca1 **Strategie:** Behoud een constante snelheid en vermijd dat je in het begin te veel uitput; je wilt ervoor zorgen dat je de energie hebt om de full minute vol te maken.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle en focus op een sterke techniek; dit zal je helpen om effici\u00ebnter te roeien en meer meters te maken in je langzaamste ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/16",
+            "deelnemers": "5/16",
             "status": "Open"
         },
         {
