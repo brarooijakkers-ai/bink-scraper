@@ -2,7 +2,7 @@
     "datum": "18-07-2026",
     "dag": "Zaterdag",
     "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the slowest round",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de roeimachine in de gaten, vooral tijdens de intensieve rondes.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo in de eerste paar rondes om je energie te sparen voor de latere rondes.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiodes om je ademhaling te herstellen en je hartslag te verlagen, zodat je klaar bent voor de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek constant tijdens de actieve minuten om effici\u00ebntie te waarborgen.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde snelheid om je energie te sparen voor de latere rondes en probeer deze consistent te houden.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiode om goed te herstellen, adem diep in en uit, en bereid je voor op de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -155,7 +155,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -169,7 +169,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
