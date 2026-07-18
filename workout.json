@@ -2,7 +2,7 @@
     "datum": "18-07-2026",
     "dag": "Zaterdag",
     "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the slowest round",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de 1 minuut dat je aan het roeien bent, je maximale inspanning levert.  \n\ud83d\udca1 **Strategie:** Behoud een constante snelheid en vermijd dat je in het begin te veel uitput; je wilt ervoor zorgen dat je de energie hebt om de full minute vol te maken.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle en focus op een sterke techniek; dit zal je helpen om effici\u00ebnter te roeien en meer meters te maken in je langzaamste ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante en effici\u00ebnte roeibeweging om je snelheid te maximaliseren tijdens de werkperiode.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde intensiteit in de eerste ronden; dit helpt je om energie te sparen voor de latere ronden.  \n\ud83e\ude79 **Tip:** Houd je techniek in de gaten; een goede houding en een vloeiende beweging kunnen je helpen om je meters te verhogen, zelfs als de vermoeidheid toeneemt.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -38,7 +38,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -59,7 +59,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "6/16",
             "status": "Open"
         },
         {
