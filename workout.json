@@ -2,7 +2,7 @@
     "datum": "18-07-2026",
     "dag": "Zaterdag",
     "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the slowest round",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante en effici\u00ebnte roeibeweging om je snelheid te maximaliseren tijdens de werkperiode.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde intensiteit in de eerste ronden; dit helpt je om energie te sparen voor de latere ronden.  \n\ud83e\ude79 **Tip:** Houd je techniek in de gaten; een goede houding en een vloeiende beweging kunnen je helpen om je meters te verhogen, zelfs als de vermoeidheid toeneemt.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek op de roeimachine in de gaten, vooral tijdens de intensieve rondes.  \n\ud83d\udca1 **Strategie:** Begin met een gematigd tempo in de eerste paar rondes om je energie te sparen voor de latere rondes.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiodes om je ademhaling te herstellen en je hartslag te verlagen, zodat je klaar bent voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -127,7 +127,7 @@
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
