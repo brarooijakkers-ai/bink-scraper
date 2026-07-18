@@ -2,7 +2,7 @@
     "datum": "18-07-2026",
     "dag": "Zaterdag",
     "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the 5 slowest rounds",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je elke ronde met een consistente snelheid roept, zodat je jezelf niet te veel uitput in de eerste ronden.  \n\ud83d\udca1 **Strategie:** Begin met een gematigde intensiteit en bouw de snelheid geleidelijk op, zodat je sterker eindigt in de laatste ronden.  \n\ud83e\ude79 **Tip:** Let op je techniek en houd je vorm goed in de gaten om blessures te voorkomen en effici\u00ebntie te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je in elke ronde consistent presteert, ook als je vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Begin met een tempo dat je in staat stelt om gedurende de hele workout krachtig te blijven.  \n\ud83e\ude79 **Tip:** Houd je techniek in de gaten, vooral als je moe wordt; een goede techniek helpt je om effici\u00ebnter te blijven roeien.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,14 +24,14 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "10/16",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
