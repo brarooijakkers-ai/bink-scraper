@@ -2,7 +2,7 @@
     "datum": "18-07-2026",
     "dag": "Zaterdag",
     "workout": "row for meters\n10 rounds\n1min on/1min off\nscore= meters of the slowest round",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed je ademhaling beheert tijdens het intensieve deel van de ronde.  \n\ud83d\udca1 **Strategie:** Probeer een consistent tempo aan te houden, zodat je niet te veel verliest in de latere rondes.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiode om je hartslag te laten zakken en je voor te bereiden op de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je tempo tijdens de \u00e9\u00e9n minuut aanhoudt, zodat je niet te veel vermoeid raakt voor de volgende ronden.  \n\ud83d\udca1 **Strategie:** Begin met een haalbare snelheid die je in de eerste ronden kunt volhouden, en probeer deze consistent te houden.  \n\ud83e\ude79 **Tip:** Let op je ademhaling en gebruik de rustfase om je hartslag te verlagen en je voor te bereiden op de volgende ronde.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -134,7 +134,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
