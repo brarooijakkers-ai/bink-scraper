@@ -2,7 +2,7 @@
     "datum": "19-07-2026",
     "dag": "Zondag",
     "workout": "emom 14min\nmin 1: fat rope double unders\nmin 2: bar muscle ups",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je met je fat rope double unders de juiste timing en co\u00f6rdinatie behoudt om effici\u00ebnte herhalingen te maken.  \n\ud83d\udca1 **Strategie:** Begin rustig met je bar muscle ups en concentreer je op een goede techniek, zodat je tussentijds kunt herstellen.  \n\ud83e\ude79 **Tip:** Blijf tijdens de EMOM goed op je ademhaling letten; dit helpt je om gefocust te blijven en je prestaties te verbeteren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je consistent blijft bij de fat rope double unders, zodat je niet in de problemen komt met de rest van de EMOM.  \n\ud83d\udca1 **Strategie:** Begin met een tempo dat je gedurende de 14 minuten kunt volhouden, en verhoog pas het tempo als je je comfortabel voelt.  \n\ud83e\ude79 **Tip:** Gebruik het momentum van je heupen voor de double unders en focus op een stabiele grip voor de bar muscle ups om effici\u00ebntie te maximaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -120,7 +120,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -211,14 +211,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
