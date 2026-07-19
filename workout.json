@@ -2,7 +2,7 @@
     "datum": "19-07-2026",
     "dag": "Zondag",
     "workout": "emom 14min\nmin 1: fat rope double unders\nmin 2: bar muscle ups",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je consistent blijft bij de fat rope double unders, zodat je niet in de problemen komt met de rest van de EMOM.  \n\ud83d\udca1 **Strategie:** Begin met een tempo dat je gedurende de 14 minuten kunt volhouden, en verhoog pas het tempo als je je comfortabel voelt.  \n\ud83e\ude79 **Tip:** Gebruik het momentum van je heupen voor de double unders en focus op een stabiele grip voor de bar muscle ups om effici\u00ebntie te maximaliseren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de timing van je dubbele onderdoor in de eerste minuut goed beheerst, zodat je niet te veel tijd verliest.  \n\ud83d\udca1 **Strategie:** Begin met een rustig tempo bij de fat rope double unders en bouw op naar een effici\u00ebnte snelheid, zodat je in staat bent om nog kracht over te hebben voor de bar muscle ups.  \n\ud83e\ude79 **Tip:** Gebruik de volle minuut van elke ronde om je explosiviteit en techniek voor de bar muscle ups te verbeteren; als je laat je niet te veel drukken door de tijd.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
@@ -45,21 +45,21 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/16",
+            "deelnemers": "6/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
@@ -73,21 +73,21 @@
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "12:15 - 13:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -113,14 +113,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
