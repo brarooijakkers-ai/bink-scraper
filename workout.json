@@ -2,7 +2,7 @@
     "datum": "20-07-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n24 chest to bar\n400m run\n18 db shoulder to overhead 2x db 22.5/15kg\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op een goede techniek bij de chest to bar, zodat je energie bespaart voor de daaropvolgende oefeningen.\n\n\ud83d\udca1 **Strategie:** Pace je run op de 400m; loop snel genoeg om je hartslag omhoog te krijgen, maar niet zo snel dat je je tijdens de volgende ronde moet terugtrekken.\n\n\ud83e\ude79 **Tip:** Split de dumbbell shoulder to overhead in sets van 6 of 8 om vermoeidheid te minimaliseren en je techniek te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je explosiviteit gebruikt bij de chest to bar, zodat je soepel door de herhalingen gaat.  \n\ud83d\udca1 **Strategie:** Verdeel je kracht over de drie rondes; blijf je pacing in de gaten houden, vooral tijdens de run.  \n\ud83e\ude79 **Tip:** Houd je ellebogen laag en vermijd een te hoge belasting op je schouders bij de dumbbell shoulder to overhead.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -52,7 +52,7 @@
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
@@ -157,21 +157,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -323,7 +323,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "7/11",
             "status": "Open"
         },
         {
