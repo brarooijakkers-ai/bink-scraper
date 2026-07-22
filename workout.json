@@ -2,7 +2,7 @@
     "datum": "22-07-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n30 wallballs\n15 snatches 42.5/30kg\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches altijd prioriteit heeft, zodat je blessures voorkomt en effici\u00ebnt werkt.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets van 10/20 om vermoeidheid te beperken en te zorgen voor een goede techniek tijdens de hele workout.  \n\ud83e\ude79 **Tip:** Gebruik de rustmomenten om je hartslag onder controle te krijgen en je ademhaling te reguleren, zodat je fris aan de volgende ronde kunt beginnen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de wallballs en snatches scherp is, dat helpt je om effici\u00ebnter te bewegen en energie te sparen.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets van 10 en neem een korte pauze om je grip en explosiviteit te behouden voor de snatches.  \n\ud83e\ude79 **Tip:** Blijf gehydrateerd en maak gebruik van je rustmomenten; adem diep in en uit om je hartslag te verlagen voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -164,21 +164,21 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -323,14 +323,14 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
