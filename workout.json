@@ -2,7 +2,7 @@
     "datum": "22-07-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n30 wallballs\n15 snatches 42.5/30kg\nrest 1min\ntimecap 22min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de wallballs je techniek behoudt voor een effici\u00ebnte beweging.  \n\ud83d\udca1 **Strategie:** Verdeel je snatches in sets van 5 om vermoeidheid te voorkomen en je techniek scherp te houden.  \n\ud83e\ude79 **Tip:** Neem de tijd om je grip en posities goed aan te passen tussen de oefeningen om blessures te voorkomen.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij zowel de wallballs als de snatches optimaal is, zodat je blessures voorkomt en effici\u00ebnter kunt bewegen.  \n\ud83d\udca1 **Strategie:** Verdeel je wallballs in sets van 10 om een korte rust te nemen, en kies een behouden tempo voor de snatches om de belasting op je spieren te managen.  \n\ud83e\ude79 **Tip:** Gebruik de 1 minuut rust tussen de rondes om goed te hydrateren en je ademhaling weer onder controle te krijgen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "13:00 - 15:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -94,21 +94,21 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -122,14 +122,14 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -157,14 +157,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -316,7 +316,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
