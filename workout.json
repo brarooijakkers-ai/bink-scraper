@@ -2,7 +2,7 @@
     "datum": "23-07-2026",
     "dag": "Donderdag",
     "workout": "amrap 15min\n1 wallwalk\n2 push ups\n3 box jumps\n4 lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens de wallwalks een stabiele en gecontroleerde positie aanneemt.  \n\ud83d\udca1 **Strategie:** Verdeel je energie gelijkmatig over de tijd, zodat je niet te vroeg moe bent en je form blijft behouden.  \n\ud83e\ude79 **Tip:** Gebruik een lichte sprong bij de box jumps om je landing te verzachten en blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de wallwalks en push-ups optimaal is, zodat je blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Begin met een steady tempo en verhoog je snelheid naarmate je comfortabeler wordt met de herhalingen.  \n\ud83e\ude79 **Tip:** Vergeet niet om bij de lunges je knie\u00ebn achter je tenen te houden voor een betere uitvoering.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -38,14 +38,14 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
@@ -122,14 +122,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/11",
+            "deelnemers": "10/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "7/16",
             "status": "Open"
         },
         {
@@ -197,7 +197,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
