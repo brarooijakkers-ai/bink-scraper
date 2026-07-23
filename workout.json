@@ -2,7 +2,7 @@
     "datum": "23-07-2026",
     "dag": "Donderdag",
     "workout": "amrap 15min\n1 wallwalk\n2 push ups\n3 box jumps\n4 lunges",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je je techniek en controle behoudt tijdens de wall walks om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin rustig en bouw je tempo op naarmate je vertrouwd raakt met de bewegingen.  \n\ud83e\ude79 **Tip:** Gebruik een stevige landing bij de box jumps en houd je core aangespannen tijdens de lunges voor stabiliteit.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de wallwalks correct is, zodat je je schouders en core activeert.  \n\ud83d\udca1 **Strategie:** Begin rustig en concentreer je op een goede ademhaling en gecontroleerde bewegingen, vooral bij de push-ups en lunges.  \n\ud83e\ude79 **Tip:** Houd de rustmomenten kort, maar wel voldoende om je herstel te waarborgen tussen de bewegingen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -122,7 +122,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "3/11",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/16",
+            "deelnemers": "6/16",
             "status": "Open"
         },
         {
@@ -190,7 +190,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
