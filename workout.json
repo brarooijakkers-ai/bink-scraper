@@ -1,8 +1,8 @@
 {
     "datum": "24-07-2026",
     "dag": "Vrijdag",
-    "workout": "for time\n30-20-10\ncal row\n15-10-5\ndevil presses 1x db 22.5/15kg\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg voor een constante en snelle peddelslag op de roeimachine om je calorie\u00ebn effici\u00ebnt te verbranden.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de herhalingen, begin met een snellere pace op de eerste 30 cal row, en houd een steady tempo aan voor de daaropvolgende rondes.  \n\ud83e\ude79 **Tip:** Gebruik je heupen bij de devil presses om de belasting op je schouders te verminderen en de beweging soepeler te laten verlopen.",
+    "workout": "for time\n30-20-10\ncal row\n15-10-5\ndevil presses 2 x db 22.5/15kg\ntimecap 12min",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de devil presses goed is om blessures te voorkomen en effici\u00ebnt te blijven bewegen.  \n\ud83d\udca1 **Strategie:** Probeer je calorie\u00ebn op de roeimachine in een stevige maar duurzame pace te doen, zodat je voldoende energie overhoudt voor de devil presses.  \n\ud83e\ude79 **Tip:** Verdeel je sets op de devil presses in kleinere stukjes als je merkt dat je vermoeid raakt, zodat je consistentie behoudt en je reps met goede vorm kunt uitvoeren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,14 +17,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "6/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/16",
+            "deelnemers": "10/16",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
