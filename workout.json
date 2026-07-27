@@ -2,7 +2,7 @@
     "datum": "27-07-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n1000/900m row\n100 double unders\ntimecap 19min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een consistente kracht en snelheid op de roeimachine aanhoudt om je tijd te optimaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel je dubbele unders in sets van 25 of 50 om vermoeidheid te vermijden en je techniek te behouden.  \n\ud83e\ude79 **Tip:** Vergeet niet om goed te ademen tijdens de roeisessie en probeer je schouders ontspannen te houden, zodat je effici\u00ebnt blijft bewegen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed je ademhaling beheerst tijdens het roeien en de double unders, zodat je energie behoudt voor de hele workout.  \n\ud83d\udca1 **Strategie:** Begin het roeien met een gematigd tempo, zodat je niet te snel verzuurt en hou een constant ritme aan voor de double unders.  \n\ud83e\ude79 **Tip:** Als je moeite hebt met de double unders, probeer ze dan in sets van 20 of 25 te splitsen met korte pauzes om jezelf niet te frustreren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,7 +101,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/12",
+            "deelnemers": "1/12",
             "status": "Open"
         },
         {
