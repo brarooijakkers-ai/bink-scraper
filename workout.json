@@ -2,7 +2,7 @@
     "datum": "27-07-2026",
     "dag": "Maandag",
     "workout": "3 rounds\n1000/900m row\n100 double unders\ntimecap 19min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je tijdens het roeien een constant tempo aanhoudt en je ademhaling onder controle houdt.  \n\ud83d\udca1 **Strategie:** Verdeel de double unders in sets van 25 of 10 om vermoeidheid te minimaliseren en je techniek scherp te houden.  \n\ud83e\ude79 **Tip:** Vergeet niet te stretchen na de workout; dit helpt bij het herstel van je benen en schouders!",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je energie goed verdeelt over de drie rondes.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo op de rower en bewaar je kracht voor de double unders.  \n\ud83e\ude79 **Tip:** Als je bij de double unders moeite hebt, probeer dan sets van 20 of 50 met korte pauzes om de techniek scherp te houden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -24,7 +24,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -323,7 +323,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "11/11",
             "status": "Open"
         },
         {
