@@ -2,7 +2,7 @@
     "datum": "28-07-2026",
     "dag": "Dinsdag",
     "workout": "3 rounds\n400m run\n10x gym combo (1 pull up + 1 toes to bar)\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de 400m runs, zodat je niet te snel vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Verdeel je inspanning gelijkmatig over de drie rondes; begin met een pace die je vol kunt houden en verhoog dit als je je sterk voelt.  \n\ud83e\ude79 **Tip:** Voor de gym combo, probeer de pull-ups en toes to bar met korte, gecontroleerde bewegingen te doen om effici\u00ebntie te maximaliseren en blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens het hardlopen en de gym combo.  \n\ud83d\udca1 **Strategie:** Begin met een constant looptempo en houd je energie voor de gym combo's, zodat je ze effici\u00ebnt kunt uitvoeren.  \n\ud83e\ude79 **Tip:** Gebruik een kipping techniek bij de pull-ups om je energie te sparen en focus op de kracht in je buikspieren bij de toes to bar om ze soepel te maken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -94,14 +94,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
