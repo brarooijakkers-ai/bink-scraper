@@ -2,7 +2,7 @@
     "datum": "28-07-2026",
     "dag": "Dinsdag",
     "workout": "3 rounds\n400m run\n10x gym combo (1 pull up + 1 toes to bar)\ntimecap 12min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de ronden om effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Begin de eerste ronde sterk, maar behoud een gelijkmatig tempo zodat je niet verzuurt in de laatste ronden.  \n\ud83e\ude79 **Tip:** Gebruik een kipping-techniek voor de pull-ups en toes to bar om energie te besparen en sneller te bewegen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je pacing goed in de gaten houdt tijdens de run om voldoende energie te houden voor de gym combo.  \n\ud83d\udca1 **Strategie:** Begin de eerste run rustig en verhoog je tempo in de tweede en derde ronde als je je sterk voelt.  \n\ud83e\ude79 **Tip:** Voor de gym combo, gebruik een gecontroleerde beweging en focus op techniek; dit helpt je om effici\u00ebnt te blijven en voorkomt vermoeidheid.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -129,7 +129,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
