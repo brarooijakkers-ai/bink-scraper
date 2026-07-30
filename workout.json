@@ -2,7 +2,7 @@
     "datum": "30-07-2026",
     "dag": "Donderdag",
     "workout": "amrap 5min\n5 snatches 35/25kg\n5 burpees over the bar\nrest 2min\nrepeat",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatch scherp blijft, zelfs bij vermoeidheid.  \n\ud83d\udca1 **Strategie:** Werk aan een constante pacing: begin iets langzamer om later meer controle te hebben.  \n\ud83e\ude79 **Tip:** Houd je ademhaling onder controle tijdens de burpees, zodat je energie behoudt voor de snatches.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de snatches optimaal is, zodat je geen energie verspilt en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Houd een consistent tempo aan bij de burpees, zodat je snel weer kunt overschakelen naar de snatches.  \n\ud83e\ude79 **Tip:** Gebruik je benen bij de snatch om de barbell effici\u00ebnt omhoog te krijgen en zorg voor een goede landing in een stevige squat.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
