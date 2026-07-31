@@ -2,7 +2,7 @@
     "datum": "31-07-2026",
     "dag": "Vrijdag",
     "workout": "6 rounds\n20 db box step ups\n10 devil presses\n1x db 22.5/15kg\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Concentreer je op een goede techniek tijdens de box step ups en devil presses om blessures te voorkomen en effici\u00ebntie te waarborgen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie over de rondes en blijf een constant tempo houden, vooral tijdens de devil presses, zodat je niet te snel vermoeid raakt.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je de dumbbells goed opvangt bij de devil presses en gebruik je benen om de kracht te genereren, zodat je schouders minder belast worden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je gecontroleerd en veilig de box step-ups uitvoert om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 6 rondes; begin met een haalbare snelheid die je gedurende de hele workout kunt aanhouden.  \n\ud83e\ude79 **Tip:** Gebruik bij de devil presses je benen en heupen om de dumbbells omhoog te duwen, zodat je schouders niet te snel vermoeid raken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,7 +94,7 @@
             "tijd": "15:00 - 16:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
@@ -115,14 +115,14 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/11",
+            "deelnemers": "7/11",
             "status": "Open"
         },
         {
@@ -204,7 +204,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "4/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
