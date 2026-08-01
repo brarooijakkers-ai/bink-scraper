@@ -2,7 +2,7 @@
     "datum": "01-08-2026",
     "dag": "Zaterdag",
     "workout": "3 rounds\n20 toes to bar\n20 pistols\n5 wallwalks\ntimecap 14min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je core goed activeert bij de toes to bar voor maximale effici\u00ebntie.  \n\ud83d\udca1 **Strategie:** Denk aan je evenwicht en techniek tijdens de pistols; gebruik een box of een muur voor extra ondersteuning als dat nodig is.  \n\ud83e\ude79 **Tip:** Bij de wallwalks, neem de tijd om je ademhaling te controleren; dit helpt je om je spieren beter te beheersen en voorkomt onnodige vermoeidheid.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een sterke en gecontroleerde core hebt tijdens de toes to bar om effici\u00ebnt te kunnen bewegen.  \n\ud83d\udca1 **Strategie:** Doe de pistols in sets van 5 of 10 per been om vermoeidheid te beheersen en je balans te behouden.  \n\ud83e\ude79 **Tip:** Bij de wallwalks, gebruik je benen om jezelf omhoog te duwen en houd je blik op de muur gericht voor stabiliteit.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -59,7 +59,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -73,7 +73,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -93,98 +93,21 @@
     ],
     "dag_morgen": "Zondag",
     "status_morgen": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
+        "ingeschreven": true,
+        "tijd": "10:15 - 11:15",
+        "type": "WOD",
+        "deelnemers": "16/16",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_morgen": [
         {
-            "tijd": "09:15 - 09:45",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "13/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:45 - 10:30",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "0/14",
-            "status": "Open"
-        },
-        {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:30 - 11:15",
-            "type": "TEENS",
-            "zaal": "Zaal 2",
-            "deelnemers": "1/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "7/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "HYROX",
-            "zaal": "Zaal 2",
-            "deelnemers": "7/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "BASIC OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "5/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "3/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "0/6",
-            "status": "Open"
+            "deelnemers": "16/16",
+            "status": "Jij bent Ingeschreven"
         }
     ]
 }
