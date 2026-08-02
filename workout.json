@@ -2,12 +2,12 @@
     "datum": "02-08-2026",
     "dag": "Zondag",
     "workout": "emom 40min\nmin 1: kb snatches 1x kb 24/16kg\nmin 2: goblet squats\nmin 3: fat rope double unders\nmin 4: rest",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de KB snatches en goblet squats solide is, zodat je blessures voorkomt en effici\u00ebnter kunt werken.  \n\ud83d\udca1 **Strategie:** Probeer je kracht en uithoudingsvermogen in de eerste minuten goed te doseren, zodat je de intensiteit gedurende de 40 minuten kunt volhouden.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiode verstandig; adem diep en herstel goed om voorbereid te zijn op de volgende ronde.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de kettlebell snatches op orde is om blessures te voorkomen en de effici\u00ebntie te verhogen.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd ritme, vooral bij de goblet squats, en verhoog de intensiteit geleidelijk in de laatste minuten.  \n\ud83e\ude79 **Tip:** Gebruik de rustperiodes goed; adem diep en herstel je hartslag voor de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "10:15 - 11:15",
         "type": "WOD",
-        "deelnemers": "9/16",
+        "deelnemers": "10/16",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/16",
+            "deelnemers": "10/16",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -162,7 +162,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
