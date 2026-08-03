@@ -2,12 +2,12 @@
     "datum": "03-08-2026",
     "dag": "Maandag",
     "workout": "event 1 \"2007 hopper\"\n1000m row\ninto\n5 rounds\n25 pull ups\n7 push jerks 60/40kg\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt bij de push jerks om blessures te voorkomen en je energie effici\u00ebnt te gebruiken.  \n\ud83d\udca1 **Strategie:** Begin met een snelle roeisessie om je hartslag omhoog te krijgen, maar bewaar voldoende energie voor de pull-ups en push jerks.  \n\ud83e\ude79 **Tip:** Verdeel de pull-ups in sets van 5 of zelfs 3 als je merkt dat de opbouw van vermoeidheid je snelheid be\u00efnvloedt; herstel tussen de sets is cruciaal.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste techniek gebruikt, vooral bij de push jerks, om blessures te voorkomen.  \n\ud83d\udca1 **Strategie:** Begin met een uitdagend, maar haalbaar tempo tijdens de roeitraining, zodat je fris aan de pull-ups en push jerks kunt beginnen.  \n\ud83e\ude79 **Tip:** Gebruik een kipbeweging bij de pull-ups om effici\u00ebnter te bewegen en energie te besparen voor de daaropvolgende rondes.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
-        "deelnemers": "9/14",
+        "deelnemers": "11/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -64,7 +64,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -134,7 +134,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -148,7 +148,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
