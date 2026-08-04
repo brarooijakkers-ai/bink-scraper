@@ -2,7 +2,7 @@
     "datum": "04-08-2026",
     "dag": "Dinsdag",
     "workout": "Event 2\n7200m run\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt om je uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de afstand in blokken, bijvoorbeeld 3 x 2400m, en neem bij elk blok een korte mentale pauze om je tempo te evalueren.  \n\ud83e\ude79 **Tip:** Blijf hydrateren en luister naar je lichaam; als je voelt dat je te hard gaat, pas dan je tempo aan om niets te forceren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je vanaf het begin een constant tempo aanhoudt, zodat je niet vroegtijdig uitgeput raakt.  \n\ud83d\udca1 **Strategie:** Verdeel de afstand in stukken, bijvoorbeeld 3 x 2400m, en neem na elke sectie een korte mentale pauze om jezelf op te laden.  \n\ud83e\ude79 **Tip:** Hydrateer goed voor je start en overweeg om een kleine energiereep of gel mee te nemen voor extra brandstof halverwege de run.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,14 +73,14 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -108,28 +108,28 @@
             "tijd": "18:30 - 19:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "2/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -143,14 +143,14 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
