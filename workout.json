@@ -2,7 +2,7 @@
     "datum": "04-08-2026",
     "dag": "Dinsdag",
     "workout": "Event 2\n7200m run\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Houd een consistent tempo aan om de hele 7200 meter af te leggen binnen de tijdslimiet.  \n\ud83d\udca1 **Strategie:** Begin rustig en bouw je snelheid toenemend op naarmate je verder in de run komt.  \n\ud83e\ude79 **Tip:** Zorg voor voldoende hydratatie en houd rekening met je ademhaling tijdens de run.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je tempo goed in de gaten houdt, vooral in het begin van de run.  \n\ud83d\udca1 **Strategie:** Verdeel de afstand in segmenten en neem regelmatig korte momenten om je ademhaling te controleren en jezelf te hergroeperen.  \n\ud83e\ude79 **Tip:** Hydrateer goed voor de run, en als je onderweg een waterpost tegenkomt, neem dan de tijd om even te drinken.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "12:00 - 12:45",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -295,7 +295,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
