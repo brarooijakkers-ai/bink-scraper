@@ -2,7 +2,7 @@
     "datum": "04-08-2026",
     "dag": "Dinsdag",
     "workout": "Event 2\n7200m run\ntimecap 40min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een constante snelheid aanhoudt gedurende de hele run.  \n\ud83d\udca1 **Strategie:** Begin rustig en bouw je tempo op naarmate je verder komt in de run.  \n\ud83e\ude79 **Tip:** Vergeet niet goed te hydrateren en neem een paar slokjes water bij de pauzes als dat mogelijk is.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt om je uithoudingsvermogen te maximaliseren.  \n\ud83d\udca1 **Strategie:** Verdeel de afstand in blokken, bijvoorbeeld 3 x 2400m, en neem bij elk blok een korte mentale pauze om je tempo te evalueren.  \n\ud83e\ude79 **Tip:** Blijf hydrateren en luister naar je lichaam; als je voelt dat je te hard gaat, pas dan je tempo aan om niets te forceren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -80,7 +80,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -176,7 +176,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -281,7 +281,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
