@@ -2,7 +2,7 @@
     "datum": "05-08-2026",
     "dag": "Woensdag",
     "workout": "Event 3 \"CrossFit Total\"\n1-rm backsquat (10min)\n1-rm strict press (10min)\n1-rm deadlift (10min)",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed opwarmt en de juiste techniek toepast voor elk van de lifts.  \n\ud83d\udca1 **Strategie:** Verdeel je tijd slim over de 10 minuten; begin met een aantal lichte sets om jezelf op te warmen voordat je naar je maximale pogingen gaat.  \n\ud83e\ude79 **Tip:** Neem voldoende rust tussen de pogingen om je energie op peil te houden en te recupereren voor de volgende lift.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek perfect is bij elke lift om blessures te voorkomen en je prestaties te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een goed opwarmingsschema om je spieren voor te bereiden en test je kracht progressief met lichte gewichten voordat je naar je maximale gewichten gaat.  \n\ud83e\ude79 **Tip:** Neem voldoende rust tussen de lifts om je energie en kracht te herstellen, maar blijf actief bewegend om je spieren warm te houden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -94,7 +94,7 @@
             "tijd": "15:30 - 16:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
@@ -108,7 +108,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -157,7 +157,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -204,14 +204,14 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "2/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -316,7 +316,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
