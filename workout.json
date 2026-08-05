@@ -2,7 +2,7 @@
     "datum": "05-08-2026",
     "dag": "Woensdag",
     "workout": "Event 3 \"CrossFit Total\"\n1-rm backsquat (10min)\n1-rm strict press (10min)\n1-rm deadlift (10min)",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede warming-up doet om je spieren voor te bereiden op de zware lifts.  \n\ud83d\udca1 **Strategie:** Neem voldoende tijd tussen de pogingen om je kracht terug te winnen en de techniek te optimaliseren.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling; dit helpt je om je stabiliteit en kracht tijdens de lifts te behouden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek perfect is bij elke lift om blessures te voorkomen en je maximale kracht te benutten.  \n\ud83d\udca1 **Strategie:** Begin met een goed opgewarmde staat en werk met uitdagen gewicht, waarbij je je eerste poging conservatief aanpakt om te kijken hoe je je voelt.  \n\ud83e\ude79 **Tip:** Houd tijdens de lifts je ademhaling onder controle en zorg voor een goede stabiliteit in je core om je kracht te maximaliseren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -204,7 +204,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
