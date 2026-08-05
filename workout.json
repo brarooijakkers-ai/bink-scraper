@@ -2,7 +2,7 @@
     "datum": "05-08-2026",
     "dag": "Woensdag",
     "workout": "Event 3 \"CrossFit Total\"\n1-rm backsquat (10min)\n1-rm strict press (10min)\n1-rm deadlift (10min)",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede warming-up doet om je spieren voor te bereiden op de zware lifts.  \n\ud83d\udca1 **Strategie:** Werk eerst aan je techniek voordat je je focus legt op het maximaliseren van je gewicht; dit helpt blessures te voorkomen.  \n\ud83e\ude79 **Tip:** Neem voldoende rust tussen je pogingen door, zodat je volledig herstelt voor elke lift.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede warming-up doet om je spieren voor te bereiden op de zware lifts.  \n\ud83d\udca1 **Strategie:** Neem voldoende tijd tussen de pogingen om je kracht terug te winnen en de techniek te optimaliseren.  \n\ud83e\ude79 **Tip:** Blijf gefocust op je ademhaling; dit helpt je om je stabiliteit en kracht tijdens de lifts te behouden.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
@@ -288,7 +288,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
