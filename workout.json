@@ -2,7 +2,7 @@
     "datum": "05-08-2026",
     "dag": "Woensdag",
     "workout": "Event 3 \"CrossFit Total\"\n1-rm backsquat (10min)\n1-rm strict press (10min)\n1-rm deadlift (10min)",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek perfect is bij elke lift om blessures te voorkomen en je prestaties te maximaliseren.  \n\ud83d\udca1 **Strategie:** Begin met een goed opwarmingsschema om je spieren voor te bereiden en test je kracht progressief met lichte gewichten voordat je naar je maximale gewichten gaat.  \n\ud83e\ude79 **Tip:** Neem voldoende rust tussen de lifts om je energie en kracht te herstellen, maar blijf actief bewegend om je spieren warm te houden.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede warming-up doet om je spieren voor te bereiden op de zware lifts.  \n\ud83d\udca1 **Strategie:** Werk eerst aan je techniek voordat je je focus legt op het maximaliseren van je gewicht; dit helpt blessures te voorkomen.  \n\ud83e\ude79 **Tip:** Neem voldoende rust tussen je pogingen door, zodat je volledig herstelt voor elke lift.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -108,28 +108,28 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -157,28 +157,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -232,7 +232,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -323,7 +323,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
