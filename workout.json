@@ -2,7 +2,7 @@
     "datum": "06-08-2026",
     "dag": "Donderdag",
     "workout": "Event 10\n4 rounds\n660m run\n10 hang squat cleans 100/70kg (or 80/55kg)\ntimecap 25min",
-    "coach": "\ud83d\udd25 **Focus:** Houd een gelijkmatige tempo aan tijdens de runs om je uithoudingsvermogen te sparen voor de hang squat cleans.  \n\ud83d\udca1 **Strategie:** Verdeel de hang squat cleans in setjes; bijvoorbeeld 5-5 of 3-3-4, zodat je niet in \u00e9\u00e9n keer te veel doet en je techniek behoudt.  \n\ud83e\ude79 **Tip:** Vergeet niet je ademhaling te beheersen en gebruik je benen om de bar tijdens de cleans omhoog te brengen, zodat je minder kracht uit je rug haalt.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je looptempo constant, zodat je fris aan de hang squat cleans kunt beginnen.  \n\ud83d\udca1 **Strategie:** Verdeel je hang squat cleans in sets van 5, zodat je niet te moe raakt en je techniek behoudt.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je niet te snel uit de startblokken gaat; conserveer energie voor de laatste ronden.  ",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -73,7 +73,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -101,7 +101,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -115,7 +115,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -136,7 +136,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
@@ -274,7 +274,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
