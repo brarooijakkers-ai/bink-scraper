@@ -1,28 +1,9 @@
 {
-    "datum": "07-08-2026",
-    "dag": "Vrijdag",
-    "workout": "Event 12\nThe Hopper 2026\n3 rounds\n21 toes to bar\n7 unbroken power snatches 42.5/30kg\n7 unbroken hang snatches\n7 unbroken squat snatches\ntimecap 16min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede grip en controle hebt tijdens de toes to bar, zodat je effici\u00ebnt kunt blijven bewegen.  \n\ud83d\udca1 **Strategie:** Plan je power snatches en switch snel tussen de verschillende varianten om ze unbroken te houden; gebruik een stevige, veilige grip.  \n\ud83e\ude79 **Tip:** Neem een korte pauze tussen de oefeningen om je hartslag te verlagen en je concentratie te behouden, vooral bij de squat snatches, zodat je de techniek niet verwaarloost.",
+    "datum": "08-08-2026",
+    "dag": "Zaterdag",
+    "workout": "Event 14\nTripple PIG\n10 bar muscle ups\n15 medball sit-ups\n20 tripple unders*\n1 deadlift 140/100kg\n15 bar muscle ups\n20 medball sit-ups\n25 tripple unders*\n2 deadlifts 140/100kg\n20 bar muscle ups\n25 medball sit-ups\n30 tripple unders*\n3 deadlifts 140/100kg\n* scale for the tripple unders:\n20 tripple unders = 60 double unders\n25 tripple unders = 75 double under\n30 tripple unders = 90 double underrs\ntimecap 24min",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek op de bar muscle ups nauwlettend in de gaten houdt, want de combinatie van reps kan je snel vermoeien.  \n\ud83d\udca1 **Strategie:** Begin met een steady tempo en wees niet bang om te rusten tussen de sets. Dit helpt je om je techniek en kracht te behouden gedurende de workout.  \n\ud83e\ude79 **Tip:** Als je moeite hebt met de triple unders, besteed dan wat extra tijd aan je doubles tijdens de training; dit zal je ook helpen om te herstellen en je hartslag onder controle te houden.  ",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "16:30 - 17:30",
-        "type": "WOD",
-        "deelnemers": "5/14",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "16:30 - 17:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "5/14",
-            "status": "Jij bent Ingeschreven"
-        }
-    ],
-    "dag_morgen": "Zaterdag",
-    "status_morgen": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
         "type": "OPENGYM",
@@ -31,13 +12,109 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
             "deelnemers": "4/10",
             "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "dag_morgen": "Zondag",
+    "status_morgen": {
+        "ingeschreven": false,
+        "tijd": "",
+        "type": "",
+        "deelnemers": "",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_morgen": [
+        {
+            "tijd": "09:15 - 09:45",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "3/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "14/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:45 - 10:30",
+            "type": "KIDS",
+            "zaal": "Zaal 2",
+            "deelnemers": "3/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:00",
+            "type": "OUTSIDE WOD",
+            "zaal": "Buiten",
+            "deelnemers": "0/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:30 - 11:15",
+            "type": "TEENS",
+            "zaal": "Zaal 2",
+            "deelnemers": "3/10",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:00",
+            "type": "FUNDAMENTALS",
+            "zaal": "Zaal 1",
+            "deelnemers": "3/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:15",
+            "type": "HYROX",
+            "zaal": "Zaal 2",
+            "deelnemers": "7/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:00",
+            "type": "BASIC OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "5/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "1/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "13:00 - 14:00",
+            "type": "OPENGYM",
+            "zaal": "Zaal 2",
+            "deelnemers": "0/6",
+            "status": "Open"
         }
     ]
 }
