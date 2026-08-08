@@ -2,7 +2,7 @@
     "datum": "08-08-2026",
     "dag": "Zaterdag",
     "workout": "Event 14\nTripple PIG\n10 bar muscle ups\n15 medball sit-ups\n20 tripple unders*\n1 deadlift 140/100kg\n15 bar muscle ups\n20 medball sit-ups\n25 tripple unders*\n2 deadlifts 140/100kg\n20 bar muscle ups\n25 medball sit-ups\n30 tripple unders*\n3 deadlifts 140/100kg\n* scale for the tripple unders:\n20 tripple unders = 60 double unders\n25 tripple unders = 75 double under\n30 tripple unders = 90 double underrs\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je techniek bij de bar muscle ups en deadlifts optimaal is, zodat je effici\u00ebnt kunt bewegen en blessures voorkomt.  \n\ud83d\udca1 **Strategie:** Begin met een gecontroleerd tempo voor de bar muscle ups; behoud je kracht voor de latere sets. Vergeet niet goed te ademen tijdens de medball sit-ups en tripple unders.  \n\ud83e\ude79 **Tip:** Als je nog niet vertrouwd bent met triple unders, gebruik de scaling optie en focus op je consistentie met de double unders.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek bij de bar muscle ups en deadlifts behoudt, vooral als je vermoeid raakt.  \n\ud83d\udca1 **Strategie:** Begin rustig aan met de tripple unders en gebruik de schaalopties om jezelf onderweg niet te veel uit te putten.  \n\ud83e\ude79 **Tip:** Als je vastloopt bij de bar muscle ups, neem dan een korte pauze; het is beter om hersteld aan te raken dan oververmoeid door te gaan.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
@@ -99,7 +99,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
