@@ -2,12 +2,12 @@
     "datum": "08-08-2026",
     "dag": "Zaterdag",
     "workout": "Event 14\nTripple PIG\n10 bar muscle ups\n15 medball sit-ups\n20 tripple unders*\n1 deadlift 140/100kg\n15 bar muscle ups\n20 medball sit-ups\n25 tripple unders*\n2 deadlifts 140/100kg\n20 bar muscle ups\n25 medball sit-ups\n30 tripple unders*\n3 deadlifts 140/100kg\n* scale for the tripple unders:\n20 tripple unders = 60 double unders\n25 tripple unders = 75 double under\n30 tripple unders = 90 double underrs\ntimecap 24min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede balans vindt tussen kracht en uithoudingsvermogen, vooral bij de bar muscle-ups en deadlifts.  \n\ud83d\udca1 **Strategie:** Verdeel de bar muscle-ups in haalbare sets en neem korte pauzes om vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Gebruik de scaling optie voor de triple unders als je merkt dat ze je tempo te veel vertragen; dubbel onderen is een goede vervanger om je scherp te houden.  ",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je consistent blijft in je techniek gedurende de hele workout, vooral bij de bar muscle-ups en de deadlifts.  \n\ud83d\udca1 **Strategie:** Begin met de bar muscle-ups en medball sit-ups in een tempo dat je in staat stelt om de hele workout door te gaan zonder uitputting, en kies je scaling voor de triple unders zodat je niet te veel tijd verliest.  \n\ud83e\ude79 **Tip:** Vergeet niet om op tijd te hydrateren en te ademen tijdens de zware lifts!",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "12:15 - 14:00",
         "type": "OPENGYM",
-        "deelnemers": "4/10",
+        "deelnemers": "3/10",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "4/10",
+            "deelnemers": "3/10",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -92,7 +92,7 @@
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
