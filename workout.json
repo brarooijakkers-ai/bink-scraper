@@ -2,7 +2,7 @@
     "datum": "09-08-2026",
     "dag": "Zondag",
     "workout": "Event 16\nbuddy style\ndevide as you want\n42-36-30\nassault bike\nthrusters*\n* weight round 42: 50/37.5kg\nweight round 36: 60/42.5kg\nweight round 30: 70/47.5kg\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je ademhaling onder controle houdt tijdens de Assault Bike om effici\u00ebnt te blijven.  \n\ud83d\udca1 **Strategie:** Deel de thrusters in effectieve sets, zodat je veelvoorkomende faalpunten kunt vermijden en je kracht conserveert voor de laatste ronde.  \n\ud83e\ude79 **Tip:** Blijf uitwisselen met je buddy op tijdstippen die voor jullie beiden werken, zodat je optimaal kunt recupereren zonder stilstand.",
+    "coach": "\ud83d\udd25 **Focus:** Blijf constant en beheers je ademhaling tijdens de Assault Bike, dit helpt je om energie te besparen voor de thrusters.  \n\ud83d\udca1 **Strategie:** Werk samen met je buddy om de belasting van de thrusters optimaal te verdelen, zodat je niet te moe wordt in de hogere rondes.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je je techniek op de thrusters goed onder controle hebt, vooral wanneer het gewicht toeneemt; focus op een sterke stijging en een stabiele landing in de squat.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -52,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/16",
+            "deelnemers": "11/16",
             "status": "Open"
         },
         {
@@ -80,7 +80,7 @@
             "tijd": "12:15 - 13:00",
             "type": "BASIC OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
