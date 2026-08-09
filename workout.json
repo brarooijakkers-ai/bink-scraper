@@ -2,7 +2,7 @@
     "datum": "09-08-2026",
     "dag": "Zondag",
     "workout": "Event 16\nbuddy style\ndevide as you want\n42-36-30\nassault bike\nthrusters*\n* weight round 42: 50/37.5kg\nweight round 36: 60/42.5kg\nweight round 30: 70/47.5kg\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Blijf constant en beheers je ademhaling tijdens de Assault Bike, dit helpt je om energie te besparen voor de thrusters.  \n\ud83d\udca1 **Strategie:** Werk samen met je buddy om de belasting van de thrusters optimaal te verdelen, zodat je niet te moe wordt in de hogere rondes.  \n\ud83e\ude79 **Tip:** Zorg ervoor dat je je techniek op de thrusters goed onder controle hebt, vooral wanneer het gewicht toeneemt; focus op een sterke stijging en een stabiele landing in de squat.",
+    "coach": "\ud83d\udd25 **Focus:** Houd je techniek in de gaten bij de thrusters, vooral na de Assault Bike.  \n\ud83d\udca1 **Strategie:** Verdeel de Assault Bike en thrusters strategisch met je buddy om overmatige vermoeidheid te voorkomen.  \n\ud83e\ude79 **Tip:** Neem korte pauzes tussen de sets, blijf goed hydrateren en luister naar je lichaam om blessures te voorkomen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/10",
+            "deelnemers": "4/10",
             "status": "Open"
         },
         {
@@ -52,7 +52,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "11/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -141,7 +141,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -218,7 +218,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -253,7 +253,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
