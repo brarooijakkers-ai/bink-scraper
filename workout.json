@@ -2,7 +2,7 @@
     "datum": "09-08-2026",
     "dag": "Zondag",
     "workout": "Event 16\nbuddy style\ndevide as you want\n42-36-30\nassault bike\nthrusters*\n* weight round 42: 50/37.5kg\nweight round 36: 60/42.5kg\nweight round 30: 70/47.5kg\ntimecap 20min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je een goede pacing vindt op de assault bike, zodat je genoeg energie overhoudt voor de thrusters.  \n\ud83d\udca1 **Strategie:** Werk samen met je buddy om de reps te verdelen op een manier die voor jullie beiden haalbaar is, vooral tijdens de uitdagendere gewichten.  \n\ud83e\ude79 **Tip:** Vergeet niet je techniek te controleren bij de thrusters; kwaliteit is belangrijker dan snelheid om blessures te voorkomen.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je goed je ademhaling beheert tijdens de assault bike en de thrusters, vooral bij de hogere gewichten.  \n\ud83d\udca1 **Strategie:** Verdeeld de takken gelijkmatig met je buddy, zodat je samen de intensiteit kunt reguleren en elkaar kunt ondersteunen.  \n\ud83e\ude79 **Tip:** Begin met een krachtig tempo op de assault bike, maar behoud een constante snelheid om niet vroegtijdig te verslappen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -17,7 +17,7 @@
             "tijd": "09:15 - 09:45",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "4/10",
+            "deelnemers": "5/10",
             "status": "Open"
         },
         {
@@ -45,7 +45,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "3/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -66,14 +66,14 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -94,7 +94,7 @@
             "tijd": "13:00 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "2/6",
             "status": "Open"
         }
     ],
@@ -113,7 +113,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -211,7 +211,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -239,7 +239,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -253,21 +253,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
