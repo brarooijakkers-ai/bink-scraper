@@ -2,12 +2,12 @@
     "datum": "10-08-2026",
     "dag": "Maandag",
     "workout": "5 rounds\n2min work/2min rest\n10 clean and jerks 42.5/30kg\n10 lateral burpees\nmax cal row",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de clean and jerks solide is om blessures te voorkomen en effici\u00ebntie te maximaliseren.  \n\ud83d\udca1 **Strategie:** Gebruik de rustperiodes om je hartslag te verlagen en je ademhaling onder controle te krijgen, zodat je de maximale kracht en snelheid behoudt tijdens de werkperiodes.  \n\ud83e\ude79 **Tip:** Probeer de burpees zo vloeiend mogelijk te maken en houd je tempo constant, zodat je niet teveel tijd verliest in de overgang naar de roeimachine.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek bij de clean and jerks optimaal is, zodat je blessures voorkomt en je effici\u00ebnt kunt werken.  \n\ud83d\udca1 **Strategie:** Verdeel je energie goed over de 2 minuten; ga voor een steady tempo in de clean and jerks en burpees, zodat je voor het roeien genoeg kracht overhoudt.  \n\ud83e\ude79 **Tip:** Gebruik je rustperiodes om goed te hydrateren en je ademhaling te reguleren; dit helpt je om fris te beginnen met de volgende ronde.",
     "status_vandaag": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
-        "deelnemers": "10/14",
+        "deelnemers": "12/14",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -17,7 +17,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "10/14",
+            "deelnemers": "12/14",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -50,7 +50,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/12",
+            "deelnemers": "1/12",
             "status": "Open"
         },
         {
@@ -120,7 +120,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
