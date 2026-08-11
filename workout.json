@@ -2,7 +2,7 @@
     "datum": "11-08-2026",
     "dag": "Dinsdag",
     "workout": "amrap 15min\n1-2-3-4-5-6-etc.\nsquat snatch 50/35kg\nbar musle up",
-    "coach": "\ud83d\udd25 **Focus:** Houd je techniek scherp bij de squat snatch, vooral naarmate het aantal reps toeneemt.  \n\ud83d\udca1 **Strategie:** Start met een gecontroleerd tempo en behoud je energie voor de bar muscle-ups, zodat je niet te vroeg vermoeid raakt.  \n\ud83e\ude79 **Tip:** Gebruik een brede grip tijdens de bar muscle-ups om je schouderkracht te maximaliseren en je probeert een vloeiende overgang te maken.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je techniek op de squat snatch altijd prioriteit heeft, vooral bij het optrekken.  \n\ud83d\udca1 **Strategie:** Begin met een gewicht waarbij je comfortabel kunt starten en bouw op naarmate je verder gaat, maar zonder je vorm op het spel te zetten.  \n\ud83e\ude79 **Tip:** Neem een paar seconden extra rust tussen de sets als dat nodig is, zodat je de bar muscle-ups met goede controle kunt uitvoeren.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -274,14 +274,14 @@
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -295,7 +295,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "7/9",
             "status": "Open"
         },
         {
@@ -309,7 +309,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
