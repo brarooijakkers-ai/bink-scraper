@@ -2,7 +2,7 @@
     "datum": "12-08-2026",
     "dag": "Woensdag",
     "workout": "5 rounds\n300/275m row\n50 double unders\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg dat je je ademhaling onder controle houdt tijdens de roeisessies en de double unders.  \n\ud83d\udca1 **Strategie:** Begin elke ronde met een steady tempo op de roeimachine en bouw vervolgens je snelheid op richting het einde.  \n\ud83e\ude79 **Tip:** Gebruik een lichte bounce in je sprongen bij de double unders om de belasting op je benen te verminderen en je timing te verbeteren.",
+    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je je techniek op de roeimachine optimaliseert om effici\u00ebnt te roeien.\n\n\ud83d\udca1 **Strategie:** Verdeel je energie over de vijf rondes; begin niet te snel om jezelf voor de laatste rondes niet op te branden.\n\n\ud83e\ude79 **Tip:** Bij de double unders, gebruik een constante houding en houd je polsen strak; dat helpt je om sneller en consistenter te springen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -101,14 +101,14 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -129,7 +129,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "6/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -143,7 +143,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
@@ -164,7 +164,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "0/9",
             "status": "Open"
         },
         {
@@ -178,7 +178,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -260,7 +260,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
