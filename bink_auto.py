@@ -46,6 +46,26 @@ def lees_workout_json():
         pass
     return {}
 
+def schoon_wod_tekst(tekst):
+    """Maakt de ruwe kaart-tekst netjes: verwijdert de 'Share'-knop, de losse
+    kaarttitel 'WOD' bovenaan, en klapt dubbele lege regels in."""
+    if not tekst:
+        return ""
+    if "Share this Workout" in tekst:
+        tekst = tekst.split("Share this Workout")[0]
+    regels = [r.strip() for r in tekst.split("\n")]
+    # Losse kaarttitel "WOD" en lege regels bovenaan weghalen
+    while regels and regels[0] in ("", "WOD"):
+        regels.pop(0)
+    resultaat = []
+    for r in regels:
+        if r == "" and (not resultaat or resultaat[-1] == ""):
+            continue
+        resultaat.append(r)
+    while resultaat and resultaat[-1] == "":
+        resultaat.pop()
+    return "\n".join(resultaat)
+
 def update_history_csv(datum, dag, workout, coach):
     file_name = "history.csv"
     file_exists = os.path.isfile(file_name)
@@ -238,10 +258,17 @@ async def scrape_once():
             print("WOD checken...")
             await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded", timeout=45000)
             try:
-                await page.wait_for_selector(".wod-list", timeout=8000)
-                container = page.locator(".wod-list").first.locator("xpath=..")
-                full_text = await container.inner_text()
-                if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
+                await page.wait_for_selector(".wod-card, .wod-list", timeout=8000)
+                # De hele les-kaart (.wod-card) bevat naast het metcon-blok (.wod-list)
+                # ook Strength/Techniek/Accessory, die BUITEN .wod-list staan.
+                # Daarom pakken we de hele kaart i.p.v. alleen het eerste .wod-list.
+                if await page.locator(".wod-card").count() > 0:
+                    ruwe_tekst = await page.locator(".wod-card").first.inner_text()
+                else:
+                    ruwe_tekst = await page.locator(".wod-list").first.locator("xpath=..").inner_text()
+                full_text = schoon_wod_tekst(ruwe_tekst)
+                if not full_text:
+                    full_text = "Geen WOD tekst gevonden."
             except: full_text = "Geen WOD tekst gevonden."
 
             print("Naar Rooster voor status vandaag & morgen (Inclusief Compleet Rooster)...")
