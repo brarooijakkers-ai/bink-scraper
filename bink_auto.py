@@ -7,7 +7,6 @@ import urllib.parse
 import csv
 from playwright.async_api import async_playwright
 from datetime import datetime, timedelta
-from openai import OpenAI
 
 os.environ['TZ'] = 'Europe/Amsterdam'
 try: time.tzset()
@@ -17,7 +16,6 @@ EMAIL = os.environ.get("BINK_EMAIL")
 PASSWORD = os.environ.get("BINK_PASSWORD")
 TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
-API_KEY = os.environ.get("OPENAI_API_KEY")
 
 # Hoeveel keer proberen we de hele scrape voordat we opgeven?
 MAX_POGINGEN = 3
@@ -66,28 +64,87 @@ def schoon_wod_tekst(tekst):
         resultaat.pop()
     return "\n".join(resultaat)
 
-def update_history_csv(datum, dag, workout, coach):
+def update_history_csv(datum, dag, workout, coach=""):
     file_name = "history.csv"
     file_exists = os.path.isfile(file_name)
     with open(file_name, mode='a', newline='', encoding='utf-8') as file:
         writer = csv.writer(file)
         if not file_exists: writer.writerow(["Datum", "Dag", "Workout", "AI Coach Advies"])
-        writer.writerow([datum, dag, workout.replace("\n", " | "), coach.replace("\n", " ")])
+        writer.writerow([datum, dag, workout.replace("\n", " | "), (coach or "").replace("\n", " ")])
 
-def get_ai_coach_advice(wod_text):
-    if not API_KEY: return "Geen AI Key."
+async def extract_les(les, zaal_naam):
+    """Leest 1 les-blokje uit tot een dict, of None bij een fout."""
     try:
-        client = OpenAI(api_key=API_KEY)
-        prompt = (f"Hier is de WOD van vandaag:\n\n{wod_text}\n\n"
-                  "Geef mij (de atleet) kort advies. Namen in de tekst verwijzen naar workouts, niet personen! "
-                  "Praat niet over namen als mensen. Spreek mij direct aan met 'je'.\n"
-                  "Format:\n🔥 **Focus:** [zin]\n💡 **Strategie:** [zin]\n🩹 **Tip:** [zin]")
-        response = client.chat.completions.create(
-            model="gpt-4o-mini",
-            messages=[{"role": "system", "content": "Je bent een CrossFit coach."}, {"role": "user", "content": prompt}]
-        )
-        return response.choices[0].message.content
-    except: return "AI Error."
+        les_tijd = (await les.locator(".event-date").first.inner_text()).strip()
+        les_type = (await les.locator(".event-name").first.inner_text()).strip()
+
+        les_deelnemers = ""
+        try: les_deelnemers = (await les.locator(".event-registrations").first.inner_text()).strip()
+        except: pass
+
+        les_class = await les.get_attribute("class") or ""
+        les_status = "Open"
+        if "full" in les_class: les_status = "Vol (Wachtlijst)"
+        if "signedup" in les_class or "booked" in les_class: les_status = "Jij bent Ingeschreven"
+        if "on-waiting-list" in les_class: les_status = "Jij staat op Wachtlijst"
+
+        return {
+            "tijd": les_tijd,
+            "type": les_type,
+            "zaal": zaal_naam,
+            "deelnemers": les_deelnemers,
+            "status": les_status,
+        }
+    except:
+        return None
+
+# Zalen + roosterpagina's (1 pagina toont een hele week per zaal).
+ZALEN = {
+    "Zaal 1": "https://www.crossfitbink36.nl/rooster",
+    "Zaal 2": "https://www.crossfitbink36.nl/rooster?hall=Zaal%202",
+    "Buiten": "https://www.crossfitbink36.nl/rooster?hall=Buiten",
+}
+
+DAGEN_NL = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
+DAGEN_EN = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+async def scrape_week_rooster(page):
+    """Scrapet het volledige rooster van AANKOMENDE week (week=next): per dag
+    een lijst lessen. Elke dag krijgt dag/dag_en/datum/week mee zodat de widget
+    er direct voor kan in-/uitschrijven."""
+    now = datetime.now()
+    maandag_deze_week = now - timedelta(days=now.weekday())
+    maandag_volgende = maandag_deze_week + timedelta(days=7)
+
+    dag_objs = {}
+    for i, (nl, en) in enumerate(zip(DAGEN_NL, DAGEN_EN)):
+        dag_objs[en] = {
+            "dag": nl,
+            "dag_en": en,
+            "datum": (maandag_volgende + timedelta(days=i)).strftime("%d-%m-%Y"),
+            "week": "next",
+            "lessen": [],
+        }
+
+    for zaal_naam, zaal_url in ZALEN.items():
+        url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
+        await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        try:
+            await page.wait_for_selector("li[data-remodal-target]", timeout=8000)
+        except:
+            pass
+
+        for en in DAGEN_EN:
+            elementen = await page.locator(f"li[data-remodal-target*='{en}']").all()
+            for les in elementen:
+                d = await extract_les(les, zaal_naam)
+                if d:
+                    dag_objs[en]["lessen"].append(d)
+
+    for en in DAGEN_EN:
+        dag_objs[en]["lessen"] = sorted(dag_objs[en]["lessen"], key=lambda x: x["tijd"])
+
+    return [dag_objs[en] for en in DAGEN_EN]
 
 async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
     status = {
@@ -275,7 +332,8 @@ async def scrape_once():
             status_vandaag, rooster_vandaag = await check_dag_status_en_rooster(page, dag_en_vandaag, is_volgende_week=False)
             status_morgen, rooster_morgen = await check_dag_status_en_rooster(page, dag_en_morgen, is_volgende_week=morgen_is_volgende_week)
 
-            ai_advies = get_ai_coach_advice(full_text)
+            print("Volledig rooster van aankomende week scrapen...")
+            rooster_week = await scrape_week_rooster(page)
 
             oud_data = lees_workout_json()
             bestaande_post_workout = None
@@ -286,12 +344,12 @@ async def scrape_once():
                 "datum": datum_vandaag_str,
                 "dag": dag_nl_vandaag,
                 "workout": full_text.strip(),
-                "coach": ai_advies,
                 "status_vandaag": status_vandaag,
                 "rooster_vandaag": rooster_vandaag,
                 "dag_morgen": dag_nl_morgen,
                 "status_morgen": status_morgen,
                 "rooster_morgen": rooster_morgen,
+                "rooster_week": rooster_week,
                 "last_success": now.isoformat(timespec="seconds"),
             }
             if bestaande_post_workout: data["post_workout"] = bestaande_post_workout
@@ -302,7 +360,7 @@ async def scrape_once():
                 json.dump(data, f, indent=4)
 
             if len(full_text) > 10:
-                update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip(), ai_advies)
+                update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip())
             print("✅ Succesvol!")
         finally:
             await browser.close()

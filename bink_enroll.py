@@ -29,22 +29,30 @@ async def run():
     with open(event_path, "r") as f:
         payload = json.load(f).get("client_payload", {})
     
-    doel_dag = payload.get("dag")       
-    doel_tijd = payload.get("tijd")     
-    doel_zaal = payload.get("zaal")     
-    actie = payload.get("actie")        
+    doel_dag = payload.get("dag")
+    doel_tijd = payload.get("tijd")
+    doel_zaal = payload.get("zaal")
+    actie = payload.get("actie")
+    payload_dag_en = payload.get("dag_en")   # bv. "monday" (nieuw: week-lessen)
+    payload_week = payload.get("week")        # "next" of "current" (nieuw)
 
     if not doel_tijd or not actie:
         print("Commando incompleet!")
         return
 
     now = datetime.now()
-    is_morgen = (doel_dag == "Morgen")
-    target_date = now + timedelta(days=1) if is_morgen else now
-    
     days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-    dag_en = days_en[target_date.weekday()]
-    morgen_is_volgende_week = (now.weekday() == 6 and is_morgen)
+
+    if payload_dag_en:
+        # Nieuwe stijl: widget geeft de exacte weekdag + welke week door.
+        dag_en = payload_dag_en
+        is_volgende_week = (payload_week == "next")
+    else:
+        # Oude stijl (Vandaag/Morgen) — blijft werken.
+        is_morgen = (doel_dag == "Morgen")
+        target_date = now + timedelta(days=1) if is_morgen else now
+        dag_en = days_en[target_date.weekday()]
+        is_volgende_week = (now.weekday() == 6 and is_morgen)
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
@@ -72,7 +80,7 @@ async def run():
                 "Buiten": "https://www.crossfitbink36.nl/rooster?hall=Buiten"
             }
             url = zalen.get(doel_zaal, zalen["Zaal 1"])
-            if morgen_is_volgende_week:
+            if is_volgende_week:
                 url = f"{url}&week=next" if "?" in url else f"{url}?week=next"
 
             await page.goto(url, wait_until="domcontentloaded", timeout=45000)

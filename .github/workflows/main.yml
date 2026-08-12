@@ -23,7 +23,7 @@ jobs:
 
       - name: Bibliotheken installeren
         run: |
-          pip install playwright openai
+          pip install playwright
           playwright install chromium
 
       - name: Script draaien

@@ -17,7 +17,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install playwright openai
+          pip install playwright
           playwright install chromium
 
       - name: Run Enrollment Script
