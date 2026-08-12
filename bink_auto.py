@@ -109,43 +109,72 @@ ZALEN = {
 DAGEN_NL = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
 DAGEN_EN = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
 
-async def scrape_week_rooster(page):
-    """Scrapet het volledige rooster van AANKOMENDE week (week=next): per dag
-    een lijst lessen. Elke dag krijgt dag/dag_en/datum/week mee zodat de widget
-    er direct voor kan in-/uitschrijven."""
-    now = datetime.now()
-    maandag_deze_week = now - timedelta(days=now.weekday())
-    maandag_volgende = maandag_deze_week + timedelta(days=7)
-
+async def scrape_rooster_dagen(page, doel_dagen, week_param):
+    """Scrapet de lessen voor een set dagen op één roosterweek.
+    - doel_dagen: lijst van (datum_obj, dag_nl, dag_en)
+    - week_param: None voor de huidige week, 'next' voor volgende week.
+    Elke dag krijgt dag/dag_en/datum/week + lessen mee zodat de widget er direct
+    voor kan in-/uitschrijven."""
+    week_label = "next" if week_param == "next" else "current"
     dag_objs = {}
-    for i, (nl, en) in enumerate(zip(DAGEN_NL, DAGEN_EN)):
+    volgorde = []
+    for datum_obj, nl, en in doel_dagen:
         dag_objs[en] = {
             "dag": nl,
             "dag_en": en,
-            "datum": (maandag_volgende + timedelta(days=i)).strftime("%d-%m-%Y"),
-            "week": "next",
+            "datum": datum_obj.strftime("%d-%m-%Y"),
+            "week": week_label,
             "lessen": [],
         }
+        volgorde.append(en)
+
+    if not volgorde:
+        return []
 
     for zaal_naam, zaal_url in ZALEN.items():
-        url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
+        if week_param == "next":
+            url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
+        else:
+            url = zaal_url
         await page.goto(url, wait_until="domcontentloaded", timeout=45000)
         try:
             await page.wait_for_selector("li[data-remodal-target]", timeout=8000)
         except:
             pass
 
-        for en in DAGEN_EN:
+        for en in volgorde:
             elementen = await page.locator(f"li[data-remodal-target*='{en}']").all()
             for les in elementen:
                 d = await extract_les(les, zaal_naam)
                 if d:
                     dag_objs[en]["lessen"].append(d)
 
-    for en in DAGEN_EN:
+    for en in volgorde:
         dag_objs[en]["lessen"] = sorted(dag_objs[en]["lessen"], key=lambda x: x["tijd"])
 
-    return [dag_objs[en] for en in DAGEN_EN]
+    return [dag_objs[en] for en in volgorde]
+
+async def scrape_deze_week_rooster(page):
+    """Resterende dagen van de HUIDIGE week: vanaf overmorgen t/m zondag.
+    (Vandaag en morgen hebben al hun eigen status/rooster.)"""
+    now = datetime.now()
+    dagen = []
+    for offset in range(2, 7 - now.weekday()):  # overmorgen .. zondag deze week
+        datum_obj = now + timedelta(days=offset)
+        wd = datum_obj.weekday()
+        dagen.append((datum_obj, DAGEN_NL[wd], DAGEN_EN[wd]))
+    return await scrape_rooster_dagen(page, dagen, week_param=None)
+
+async def scrape_week_rooster(page):
+    """Volledige AANKOMENDE week (week=next), alle 7 dagen."""
+    now = datetime.now()
+    maandag_deze_week = now - timedelta(days=now.weekday())
+    maandag_volgende = maandag_deze_week + timedelta(days=7)
+    dagen = []
+    for i in range(7):
+        datum_obj = maandag_volgende + timedelta(days=i)
+        dagen.append((datum_obj, DAGEN_NL[i], DAGEN_EN[i]))
+    return await scrape_rooster_dagen(page, dagen, week_param="next")
 
 async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
     status = {
@@ -333,6 +362,9 @@ async def scrape_once():
             status_vandaag, rooster_vandaag = await check_dag_status_en_rooster(page, dag_en_vandaag, is_volgende_week=False)
             status_morgen, rooster_morgen = await check_dag_status_en_rooster(page, dag_en_morgen, is_volgende_week=morgen_is_volgende_week)
 
+            print("Rooster resterende dagen huidige week scrapen...")
+            rooster_deze_week = await scrape_deze_week_rooster(page)
+
             print("Volledig rooster van aankomende week scrapen...")
             rooster_week = await scrape_week_rooster(page)
 
@@ -350,6 +382,7 @@ async def scrape_once():
                 "dag_morgen": dag_nl_morgen,
                 "status_morgen": status_morgen,
                 "rooster_morgen": rooster_morgen,
+                "rooster_deze_week": rooster_deze_week,
                 "rooster_week": rooster_week,
                 "last_success": now.isoformat(timespec="seconds"),
             }
