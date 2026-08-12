@@ -2,7 +2,6 @@
     "datum": "12-08-2026",
     "dag": "Woensdag",
     "workout": "Fundamentals\nStrength:\n\nfloor press: 5 sets of 5 reps\n\nWOD:\n5 rounds\n300/275m row\n50 double unders\ntimecap 13min",
-    "coach": "\ud83d\udd25 **Focus:** Zorg ervoor dat je de juiste vorm behoudt tijdens de floor press om blessures te voorkomen en kracht effectief op te bouwen.  \n\ud83d\udca1 **Strategie:** Deel je energie goed in tijdens de WOD; begin rustig met de roeibeurt en behoud een constante pace voor de double unders.  \n\ud83e\ude79 **Tip:** Als je moeite hebt met double unders, probeer dan de beweging langzamer te maken en focus op een goede spronghoogte en timing van je slagen.",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -208,5 +207,56 @@
             "status": "Jij bent Ingeschreven"
         }
     ],
-    "last_success": "2026-08-12T23:26:06"
+    "rooster_week": [
+        {
+            "dag": "Maandag",
+            "dag_en": "monday",
+            "datum": "17-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Dinsdag",
+            "dag_en": "tuesday",
+            "datum": "18-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Woensdag",
+            "dag_en": "wednesday",
+            "datum": "19-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Donderdag",
+            "dag_en": "thursday",
+            "datum": "20-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Vrijdag",
+            "dag_en": "friday",
+            "datum": "21-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Zaterdag",
+            "dag_en": "saturday",
+            "datum": "22-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Zondag",
+            "dag_en": "sunday",
+            "datum": "23-08-2026",
+            "week": "next",
+            "lessen": []
+        }
+    ],
+    "last_success": "2026-08-12T23:31:36"
 }
