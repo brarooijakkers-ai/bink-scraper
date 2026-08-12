@@ -2,8 +2,8 @@ name: Haal WOD op
 
 on:
   schedule:
-    # Elk half uur (veilig voor limieten)
-    - cron: '*/30 * * * *'
+    # Elk heel uur (halveert het aantal runs t.o.v. elk half uur)
+    - cron: '0 * * * *'
   workflow_dispatch: # Knop om handmatig te testen
 
 jobs:

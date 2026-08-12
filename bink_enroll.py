@@ -50,81 +50,93 @@ async def run():
         browser = await p.chromium.launch(headless=True)
         page = await browser.new_page()
 
-        print("Inloggen...")
-        # --- ROBUUSTE LOGIN VANUIT bink_auto.py ---
-        await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
-        try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-        except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-        await page.wait_for_timeout(2000)
-        
-        await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
-        await page.locator("input[name*='pass']").first.fill(PASSWORD)
-        await page.locator("button[type='submit'], input[type='submit']").first.click()
-        await page.wait_for_timeout(4000)
-        # ------------------------------------------
+        try:
+            page.set_default_timeout(20000)
+            print("Inloggen...")
+            # --- ROBUUSTE LOGIN VANUIT bink_auto.py ---
+            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded", timeout=45000)
+            try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
+            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded", timeout=45000)
+            await page.wait_for_timeout(2000)
 
-        print(f"Navigeren naar {doel_zaal}...")
-        zalen = {
-            "Zaal 1": "https://www.crossfitbink36.nl/rooster", 
-            "Zaal 2": "https://www.crossfitbink36.nl/rooster?hall=Zaal%202", 
-            "Buiten": "https://www.crossfitbink36.nl/rooster?hall=Buiten"
-        }
-        url = zalen.get(doel_zaal, zalen["Zaal 1"])
-        if morgen_is_volgende_week:
-            url = f"{url}&week=next" if "?" in url else f"{url}?week=next"
+            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
+            await page.locator("input[name*='pass']").first.fill(PASSWORD)
+            await page.locator("button[type='submit'], input[type='submit']").first.click()
+            await page.wait_for_timeout(4000)
+            # ------------------------------------------
 
-        await page.goto(url, wait_until="networkidle")
-        await page.wait_for_timeout(1500)
+            print(f"Navigeren naar {doel_zaal}...")
+            zalen = {
+                "Zaal 1": "https://www.crossfitbink36.nl/rooster",
+                "Zaal 2": "https://www.crossfitbink36.nl/rooster?hall=Zaal%202",
+                "Buiten": "https://www.crossfitbink36.nl/rooster?hall=Buiten"
+            }
+            url = zalen.get(doel_zaal, zalen["Zaal 1"])
+            if morgen_is_volgende_week:
+                url = f"{url}&week=next" if "?" in url else f"{url}?week=next"
 
-        # Zoek het juiste blokje
-        selector = f"li[data-remodal-target*='{dag_en}']"
-        lessen = await page.locator(selector).all()
-        target_les = None
-        for les in lessen:
+            await page.goto(url, wait_until="domcontentloaded", timeout=45000)
             try:
-                tijd_text = (await les.locator(".event-date").first.inner_text()).strip()
-                if doel_tijd in tijd_text:
-                    target_les = les
-                    break
-            except: pass
-        
-        if not target_les:
-            stuur_telegram(f"❌ *Fout:* Kon de les van {doel_tijd} ({doel_zaal}) niet vinden in het rooster.")
-            return
+                await page.wait_for_selector("li[data-remodal-target]", timeout=10000)
+            except:
+                pass
+            await page.wait_for_timeout(1000)
 
-        print("Les gevonden! Klikken...")
-        await target_les.click()
-        await page.wait_for_selector(".remodal-is-opened", timeout=5000)
-        await page.wait_for_timeout(1500)
+            # Zoek het juiste blokje
+            selector = f"li[data-remodal-target*='{dag_en}']"
+            lessen = await page.locator(selector).all()
+            target_les = None
+            for les in lessen:
+                try:
+                    tijd_text = (await les.locator(".event-date").first.inner_text()).strip()
+                    if doel_tijd in tijd_text:
+                        target_les = les
+                        break
+                except: pass
 
-        modal = page.locator(".remodal-is-opened")
-        
-        # --- KLIK OP DE JUISTE KNOP ---
-        if actie == "inschrijven":
-            knop = modal.locator("button, a").filter(has_text="Inschrijven").first
-            if await knop.count() == 0:
-                knop = modal.locator("button, a").filter(has_text="wachtlijst").first
-            
-            if await knop.count() > 0:
-                await knop.click()
-                await page.wait_for_timeout(2000)
-                stuur_telegram(f"✅ *Actie geslaagd!* Je bent zojuist via je widget INGESCHREVEN voor de les van *{doel_tijd}* in *{doel_zaal}*!")
-            else:
-                stuur_telegram(f"⚠️ *Mislukt:* Kon niet inschrijven voor {doel_tijd}. Zat je er al in, of is de wachtlijst óók helemaal vol?")
+            if not target_les:
+                stuur_telegram(f"❌ *Fout:* Kon de les van {doel_tijd} ({doel_zaal}) niet vinden in het rooster.")
+                return
 
-        elif actie == "uitschrijven":
-            knop = modal.locator("button, a").filter(has_text="Uitschrijven").first
-            if await knop.count() == 0:
-                knop = modal.locator("button, a").filter(has_text="Afmelden").first
-            
-            if await knop.count() > 0:
-                await knop.click()
-                await page.wait_for_timeout(2000)
-                stuur_telegram(f"🗑️ *Actie geslaagd!* Je bent succesvol UITGESCHREVEN voor de les van *{doel_tijd}* in *{doel_zaal}*.")
-            else:
-                stuur_telegram(f"⚠️ *Mislukt:* Kon je niet uitschrijven voor {doel_tijd}. Zat je er wel in?")
+            print("Les gevonden! Klikken...")
+            await target_les.click()
+            await page.wait_for_selector(".remodal-is-opened", timeout=5000)
+            await page.wait_for_timeout(1500)
 
-        await browser.close()
+            modal = page.locator(".remodal-is-opened")
+
+            # --- KLIK OP DE JUISTE KNOP ---
+            if actie == "inschrijven":
+                knop = modal.locator("button, a").filter(has_text="Inschrijven").first
+                if await knop.count() == 0:
+                    knop = modal.locator("button, a").filter(has_text="wachtlijst").first
+
+                if await knop.count() > 0:
+                    await knop.click()
+                    await page.wait_for_timeout(2000)
+                    stuur_telegram(f"✅ *Actie geslaagd!* Je bent zojuist via je widget INGESCHREVEN voor de les van *{doel_tijd}* in *{doel_zaal}*!")
+                else:
+                    stuur_telegram(f"⚠️ *Mislukt:* Kon niet inschrijven voor {doel_tijd}. Zat je er al in, of is de wachtlijst óók helemaal vol?")
+
+            elif actie == "uitschrijven":
+                knop = modal.locator("button, a").filter(has_text="Uitschrijven").first
+                if await knop.count() == 0:
+                    knop = modal.locator("button, a").filter(has_text="Afmelden").first
+
+                if await knop.count() > 0:
+                    await knop.click()
+                    await page.wait_for_timeout(2000)
+                    stuur_telegram(f"🗑️ *Actie geslaagd!* Je bent succesvol UITGESCHREVEN voor de les van *{doel_tijd}* in *{doel_zaal}*.")
+                else:
+                    stuur_telegram(f"⚠️ *Mislukt:* Kon je niet uitschrijven voor {doel_tijd}. Zat je er wel in?")
+
+        except Exception as e:
+            # Fout melden via Telegram, maar netjes afsluiten (exit 0) zodat GitHub
+            # geen failure-mail stuurt.
+            stuur_telegram(f"🚨 *Widget-actie mislukt* voor {doel_tijd} ({doel_zaal}):\n{str(e)}")
+            print(f"CRITICAL: {e}")
+        finally:
+            await browser.close()
 
 if __name__ == "__main__":
     asyncio.run(run())

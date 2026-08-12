@@ -68,7 +68,11 @@ async def sign_up():
 
             target_url = "https://www.crossfitbink36.nl/rooster?week=next&hall=Zaal-2"
             print(f"Naar rooster: {target_url}")
-            await page.goto(target_url, wait_until="networkidle")
+            await page.goto(target_url, wait_until="domcontentloaded", timeout=45000)
+            try:
+                await page.wait_for_selector("li[data-remodal-target]", timeout=10000)
+            except:
+                pass
             
             # --- INSCHRIJF FUNCTIE (NU MET WACHTLIJST) ---
             async def schrijf_in(zoek_id, beschrijving):
@@ -121,7 +125,7 @@ async def sign_up():
                             print("❌ Geen opties gevonden")
                         
                         # Pagina verversen om pop-up veilig te sluiten
-                        await page.reload(wait_until="networkidle")
+                        await page.reload(wait_until="domcontentloaded", timeout=45000)
                         
                     else:
                         messages.append(f"❌ Les niet gevonden: {beschrijving}")
@@ -140,10 +144,11 @@ async def sign_up():
             stuur_telegram(eind_bericht)
 
         except Exception as e:
+            # We melden de fout via Telegram, maar sluiten netjes af (exit 0) zodat
+            # GitHub Actions niet ook nog een failure-mail stuurt.
             fout_bericht = f"🚨 *ERROR:*\nScript gecrasht!\n{str(e)}"
             stuur_telegram(fout_bericht)
             print(f"CRITICAL: {e}")
-            exit(1)
         
         await browser.close()
 

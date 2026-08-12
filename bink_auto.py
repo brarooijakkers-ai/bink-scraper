@@ -19,6 +19,33 @@ TG_TOKEN = os.environ.get("TELEGRAM_TOKEN")
 TG_CHAT_ID = os.environ.get("TELEGRAM_CHAT_ID")
 API_KEY = os.environ.get("OPENAI_API_KEY")
 
+# Hoeveel keer proberen we de hele scrape voordat we opgeven?
+MAX_POGINGEN = 3
+# Minimaal aantal uur tussen twee "het blijft falen"-alerts (throttle).
+ALERT_THROTTLE_UUR = 3
+
+def stuur_telegram(bericht):
+    if not TG_TOKEN or not TG_CHAT_ID:
+        print("⚠️ Geen Telegram gegevens, bericht niet verstuurd.")
+        return
+    print(f"📨 Telegram: {bericht}")
+    url = f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage"
+    data = urllib.parse.urlencode({"chat_id": TG_CHAT_ID, "text": bericht}).encode("utf-8")
+    try:
+        req = urllib.request.Request(url, data=data)
+        urllib.request.urlopen(req, timeout=15)
+    except Exception as e:
+        print(f"❌ Telegram fout: {e}")
+
+def lees_workout_json():
+    try:
+        if os.path.exists("workout.json"):
+            with open("workout.json", "r", encoding="utf-8") as f:
+                return json.load(f)
+    except Exception:
+        pass
+    return {}
+
 def update_history_csv(datum, dag, workout, coach):
     file_name = "history.csv"
     file_exists = os.path.isfile(file_name)
@@ -52,45 +79,50 @@ async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     }
-    
-    volledig_rooster = [] # <-- NIEUW: Hier slaan we alle lessen van de dag in op
-    
+
+    volledig_rooster = [] # <-- Hier slaan we alle lessen van de dag in op
+
     zalen = {
-        "Zaal 1": "https://www.crossfitbink36.nl/rooster", 
-        "Zaal 2": "https://www.crossfitbink36.nl/rooster?hall=Zaal%202", 
+        "Zaal 1": "https://www.crossfitbink36.nl/rooster",
+        "Zaal 2": "https://www.crossfitbink36.nl/rooster?hall=Zaal%202",
         "Buiten": "https://www.crossfitbink36.nl/rooster?hall=Buiten"
     }
-    
+
     for zaal_naam, zaal_url in zalen.items():
         if is_volgende_week:
             url = f"{zaal_url}&week=next" if "?" in zaal_url else f"{zaal_url}?week=next"
         else:
             url = zaal_url
 
-        await page.goto(url, wait_until="networkidle")
-        await page.wait_for_timeout(1000)
-        
-        # --- NIEUW: ALLE LESSEN VAN DEZE DAG IN DEZE ZAAL SCRAPEN ---
+        # domcontentloaded i.p.v. networkidle (networkidle timeout't vaak in Actions).
+        await page.goto(url, wait_until="domcontentloaded", timeout=45000)
+        # Wacht kort op het rooster; ontbreken mag (lege dag/zaal), dan gaan we door.
+        try:
+            await page.wait_for_selector("li[data-remodal-target]", timeout=8000)
+        except:
+            pass
+
+        # --- ALLE LESSEN VAN DEZE DAG IN DEZE ZAAL SCRAPEN ---
         selector_alle_lessen = f"li[data-remodal-target*='{dag_en}']"
         alle_lessen_elementen = await page.locator(selector_alle_lessen).all()
-        
+
         for les in alle_lessen_elementen:
             try:
                 les_tijd = (await les.locator(".event-date").first.inner_text()).strip()
                 les_type = (await les.locator(".event-name").first.inner_text()).strip()
-                
+
                 # Probeer het aantal deelnemers (bijv. 14/16) direct van het blokje te lezen
                 les_deelnemers = ""
                 try: les_deelnemers = (await les.locator(".event-registrations").first.inner_text()).strip()
                 except: pass
-                
+
                 # Bepaal of de les vol is
                 les_class = await les.get_attribute("class") or ""
                 les_status = "Open"
                 if "full" in les_class: les_status = "Vol (Wachtlijst)"
                 if "signedup" in les_class or "booked" in les_class: les_status = "Jij bent Ingeschreven"
                 if "on-waiting-list" in les_class: les_status = "Jij staat op Wachtlijst"
-                
+
                 volledig_rooster.append({
                     "tijd": les_tijd,
                     "type": les_type,
@@ -103,7 +135,7 @@ async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
         # --- JOUW PERSOONLIJKE INSCHRIJVING CHECK (Wachtlijst) ---
         selector_wachtlijst = f"li.on-waiting-list[data-remodal-target*='{dag_en}']"
         les_wachtlijst = page.locator(selector_wachtlijst).first
-        
+
         if not status["ingeschreven"] and await les_wachtlijst.count() > 0:
             status["ingeschreven"] = True
             status["wachtlijst"] = True
@@ -111,11 +143,11 @@ async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
             except: pass
             try: status["type"] = (await les_wachtlijst.locator(".event-name").first.inner_text()).strip()
             except: pass
-            
+
             await les_wachtlijst.click()
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
-                await page.wait_for_timeout(1500) 
+                await page.wait_for_timeout(1500)
                 modal_data = await page.evaluate('''() => {
                     let res = {};
                     let cols = Array.from(document.querySelectorAll('.remodal-is-opened .grid .col'));
@@ -137,14 +169,14 @@ async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
         # --- JOUW PERSOONLIJKE INSCHRIJVING CHECK (Normaal) ---
         selector_ingeschreven = f"li.workout-signedup[data-remodal-target*='{dag_en}'], li[class*='signed'][data-remodal-target*='{dag_en}'], li[class*='booked'][data-remodal-target*='{dag_en}']"
         les_ingeschreven = page.locator(selector_ingeschreven).first
-        
+
         if not status["ingeschreven"] and await les_ingeschreven.count() > 0:
             status["ingeschreven"] = True
             try: status["tijd"] = (await les_ingeschreven.locator(".event-date").first.inner_text()).strip()
             except: pass
             try: status["type"] = (await les_ingeschreven.locator(".event-name").first.inner_text()).strip()
             except: pass
-            
+
             await les_ingeschreven.click()
             try:
                 await page.wait_for_selector(".remodal-is-opened", timeout=5000)
@@ -164,46 +196,49 @@ async def check_dag_status_en_rooster(page, dag_en, is_volgende_week=False):
 
     # Sorteer het rooster netjes op tijdstip
     volledig_rooster = sorted(volledig_rooster, key=lambda x: x['tijd'])
-    
+
     return status, volledig_rooster
 
-async def get_workout():
+async def scrape_once():
+    """Doet 1 volledige scrape. Schrijft bij succes workout.json + history.csv.
+    Gooit een exception als er iets misgaat (zodat de retry-lus opnieuw kan proberen)."""
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=True)
         context = await browser.new_context()
         page = await context.new_page()
-
-        days_nl = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
-        days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
-        
-        now = datetime.now()
-        tomorrow = now + timedelta(days=1)
-        
-        dag_nl_vandaag = days_nl[now.weekday()]
-        dag_en_vandaag = days_en[now.weekday()]
-        datum_vandaag_str = now.strftime("%d-%m-%Y")
-        
-        dag_nl_morgen = days_nl[tomorrow.weekday()]
-        dag_en_morgen = days_en[tomorrow.weekday()]
-
-        morgen_is_volgende_week = (now.weekday() == 6)
+        page.set_default_timeout(20000)
 
         try:
+            days_nl = ["Maandag", "Dinsdag", "Woensdag", "Donderdag", "Vrijdag", "Zaterdag", "Zondag"]
+            days_en = ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"]
+
+            now = datetime.now()
+            tomorrow = now + timedelta(days=1)
+
+            dag_nl_vandaag = days_nl[now.weekday()]
+            dag_en_vandaag = days_en[now.weekday()]
+            datum_vandaag_str = now.strftime("%d-%m-%Y")
+
+            dag_nl_morgen = days_nl[tomorrow.weekday()]
+            dag_en_morgen = days_en[tomorrow.weekday()]
+
+            morgen_is_volgende_week = (now.weekday() == 6)
+
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/", wait_until="networkidle")
+            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded", timeout=45000)
             try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
-            await page.wait_for_timeout(2000) 
-            
+            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded", timeout=45000)
+            await page.wait_for_timeout(2000)
+
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()
             await page.wait_for_timeout(4000)
 
             print("WOD checken...")
-            await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded")
+            await page.goto("https://www.crossfitbink36.nl/?workout=wod", wait_until="domcontentloaded", timeout=45000)
             try:
-                await page.wait_for_selector(".wod-list", timeout=5000)
+                await page.wait_for_selector(".wod-list", timeout=8000)
                 container = page.locator(".wod-list").first.locator("xpath=..")
                 full_text = await container.inner_text()
                 if "Share this Workout" in full_text: full_text = full_text.split("Share this Workout")[0]
@@ -215,14 +250,10 @@ async def get_workout():
 
             ai_advies = get_ai_coach_advice(full_text)
 
+            oud_data = lees_workout_json()
             bestaande_post_workout = None
-            try:
-                if os.path.exists("workout.json"):
-                    with open("workout.json", "r", encoding="utf-8") as f:
-                        oud_data = json.load(f)
-                        if oud_data.get("datum") == datum_vandaag_str:
-                            bestaande_post_workout = oud_data.get("post_workout")
-            except: pass
+            if oud_data.get("datum") == datum_vandaag_str:
+                bestaande_post_workout = oud_data.get("post_workout")
 
             data = {
                 "datum": datum_vandaag_str,
@@ -230,25 +261,74 @@ async def get_workout():
                 "workout": full_text.strip(),
                 "coach": ai_advies,
                 "status_vandaag": status_vandaag,
-                "rooster_vandaag": rooster_vandaag, # <-- NIEUW
+                "rooster_vandaag": rooster_vandaag,
                 "dag_morgen": dag_nl_morgen,
                 "status_morgen": status_morgen,
-                "rooster_morgen": rooster_morgen    # <-- NIEUW
+                "rooster_morgen": rooster_morgen,
+                "last_success": now.isoformat(timespec="seconds"),
             }
             if bestaande_post_workout: data["post_workout"] = bestaande_post_workout
-            
+            # Bij succes eventuele oude storings-markering wissen.
+            data.pop("last_alert", None)
+
             with open("workout.json", "w", encoding="utf-8") as f:
                 json.dump(data, f, indent=4)
 
             if len(full_text) > 10:
                 update_history_csv(datum_vandaag_str, dag_nl_vandaag, full_text.strip(), ai_advies)
             print("✅ Succesvol!")
-
-        except Exception as e:
-            print(f"❌ FOUT: {e}")
-            exit(1)
         finally:
             await browser.close()
 
+def meld_storing_indien_nodig(laatste_fout):
+    """Stuurt hooguit 1 Telegram-melding per ALERT_THROTTLE_UUR uur, zodat je bij
+    een langere storing niet bij elke run een ping krijgt."""
+    data = lees_workout_json()
+    now = datetime.now()
+
+    mag_alerten = True
+    vorige = data.get("last_alert")
+    if vorige:
+        try:
+            if now - datetime.fromisoformat(vorige) < timedelta(hours=ALERT_THROTTLE_UUR):
+                mag_alerten = False
+        except Exception:
+            pass
+
+    if not mag_alerten:
+        print("⏳ Storing, maar recent al gemeld — geen nieuwe Telegram-ping.")
+        return
+
+    stuur_telegram(
+        "🚨 Bink WOD-scraper faalt herhaaldelijk.\n"
+        f"Laatste fout: {laatste_fout}\n"
+        "De widget-data wordt tijdelijk niet ververst."
+    )
+    # Markeer dat we net gealerteerd hebben (throttle onthouden).
+    data["last_alert"] = now.isoformat(timespec="seconds")
+    try:
+        with open("workout.json", "w", encoding="utf-8") as f:
+            json.dump(data, f, indent=4)
+    except Exception as e:
+        print(f"Kon last_alert niet opslaan: {e}")
+
+async def main():
+    laatste_fout = None
+    for poging in range(1, MAX_POGINGEN + 1):
+        try:
+            print(f"--- Poging {poging}/{MAX_POGINGEN} ---")
+            await scrape_once()
+            return  # Succes -> exit 0, geen mail/ping.
+        except Exception as e:
+            laatste_fout = str(e)
+            print(f"❌ Poging {poging} mislukt: {e}")
+            if poging < MAX_POGINGEN:
+                await asyncio.sleep(10)
+
+    # Alle pogingen mislukt: throttled Telegram-melding, maar GEEN exit(1)
+    # (anders stuurt GitHub Actions alsnog een failure-mail).
+    print(f"❌ Alle {MAX_POGINGEN} pogingen mislukt. Laatste fout: {laatste_fout}")
+    meld_storing_indien_nodig(laatste_fout)
+
 if __name__ == "__main__":
-    asyncio.run(get_workout())
+    asyncio.run(main())
