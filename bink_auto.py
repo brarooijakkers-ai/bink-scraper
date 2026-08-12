@@ -46,17 +46,18 @@ def lees_workout_json():
 
 def schoon_wod_tekst(tekst):
     """Maakt de ruwe kaart-tekst netjes: verwijdert de 'Share'-knop, de losse
-    kaarttitel 'WOD' bovenaan, en klapt dubbele lege regels in."""
+    kaarttitel 'WOD', het label 'Fundamentals', en klapt dubbele lege regels in."""
     if not tekst:
         return ""
     if "Share this Workout" in tekst:
         tekst = tekst.split("Share this Workout")[0]
+    # Losse label-regels die we nooit willen tonen.
+    overbodige_labels = {"wod", "fundamentals"}
     regels = [r.strip() for r in tekst.split("\n")]
-    # Losse kaarttitel "WOD" en lege regels bovenaan weghalen
-    while regels and regels[0] in ("", "WOD"):
-        regels.pop(0)
     resultaat = []
     for r in regels:
+        if r.lower() in overbodige_labels:
+            continue
         if r == "" and (not resultaat or resultaat[-1] == ""):
             continue
         resultaat.append(r)
