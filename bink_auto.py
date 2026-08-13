@@ -5,6 +5,7 @@ import time
 import urllib.request
 import urllib.parse
 import csv
+import difflib
 from playwright.async_api import async_playwright
 from datetime import datetime, timedelta
 
@@ -64,6 +65,65 @@ def schoon_wod_tekst(tekst):
     while resultaat and resultaat[-1] == "":
         resultaat.pop()
     return "\n".join(resultaat)
+
+def _normaliseer_wod(tekst):
+    """Maakt een WOD-tekst vergelijkbaar: kleine letters, leestekens weg,
+    scheidingstekens ('|', nieuwe regels) naar spaties, dubbele spaties inklappen."""
+    if not tekst:
+        return ""
+    t = tekst.lower().replace("|", " ").replace("\n", " ")
+    t = "".join(ch if (ch.isalnum() or ch.isspace()) else " " for ch in t)
+    return " ".join(t.split())
+
+def _parse_dmy(datum):
+    try:
+        return datetime.strptime(datum, "%d-%m-%Y")
+    except Exception:
+        return None
+
+def bereken_deja_vu(vandaag_workout, datum_vandaag, history_file="history.csv"):
+    """Zoekt in history.csv de meest gelijkende WOD van een EERDERE datum.
+    Retourneert {'datum','gelijkenis','soort'} of None. Groepeert per datum
+    (history bevat dezelfde WOD meerdere keren door de uurlijkse runs)."""
+    doel = _normaliseer_wod(vandaag_workout)
+    if len(doel) < 15:
+        return None
+
+    per_datum = {}
+    try:
+        with open(history_file, newline="", encoding="utf-8") as f:
+            reader = csv.reader(f)
+            next(reader, None)  # header overslaan
+            for rij in reader:
+                if len(rij) < 3:
+                    continue
+                datum, workout = rij[0], rij[2]
+                if not datum or datum == datum_vandaag:
+                    continue
+                n = _normaliseer_wod(workout)
+                if len(n) >= 15:
+                    per_datum[datum] = n  # zelfde datum = zelfde WOD, laatste wint
+    except FileNotFoundError:
+        return None
+
+    beste_datum, beste_ratio = None, 0.0
+    for datum, n in per_datum.items():
+        ratio = difflib.SequenceMatcher(None, doel, n).ratio()
+        if ratio > beste_ratio:
+            beste_datum, beste_ratio = datum, ratio
+        elif ratio == beste_ratio and beste_datum:
+            # Gelijke score: kies de meest recente datum.
+            d_new, d_old = _parse_dmy(datum), _parse_dmy(beste_datum)
+            if d_new and d_old and d_new > d_old:
+                beste_datum = datum
+
+    if not beste_datum or beste_ratio < 0.55:
+        return None
+    return {
+        "datum": beste_datum,
+        "gelijkenis": round(beste_ratio * 100),
+        "soort": "identiek" if beste_ratio >= 0.9 else "lijkt op",
+    }
 
 def update_history_csv(datum, dag, workout, coach=""):
     file_name = "history.csv"
@@ -387,6 +447,12 @@ async def scrape_once():
                 "last_success": now.isoformat(timespec="seconds"),
             }
             if bestaande_post_workout: data["post_workout"] = bestaande_post_workout
+
+            # Déjà vu: lijkt de WOD van vandaag op een eerdere uit history.csv?
+            deja = bereken_deja_vu(full_text, datum_vandaag_str)
+            if deja:
+                data["deja_vu"] = deja
+
             # Bij succes eventuele oude storings-markering wissen.
             data.pop("last_alert", None)
 

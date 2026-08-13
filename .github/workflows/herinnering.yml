@@ -1,0 +1,47 @@
+name: Lesherinnering
+
+on:
+  schedule:
+    # Elke 30 minuten: fijn genoeg voor een herinnering ~3u van tevoren.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+
+jobs:
+  remind:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Code ophalen
+        uses: actions/checkout@v5
+
+      - name: Python installeren
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Script draaien
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python bink_herinnering.py
+
+      - name: Herinner-status opslaan
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          # Alleen reminders.json kan gewijzigd zijn (script schrijft niets anders).
+          git add reminders.json || true
+          git commit -m "Update reminders [skip ci]" || exit 0
+          # Botsbestendig pushen: de uurlijkse scraper pusht ook naar main.
+          for i in 1 2 3; do
+            git fetch origin main
+            if git rebase origin/main && git push origin main; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            sleep 5
+          done
+          echo "Push na 3 pogingen niet gelukt (niet fataal)."
+          exit 0
