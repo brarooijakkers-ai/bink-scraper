@@ -113,30 +113,78 @@ async def run():
 
             modal = page.locator(".remodal-is-opened")
 
+            # De knoppen in de pop-up zijn <input value="INSCHRIJVEN/UITSCHRIJVEN">
+            # (niet altijd <button>/<a>). We dekken daarom álle varianten af,
+            # gelijk aan het bewezen werkende bink_inschrijven.py. De oude versie
+            # zocht alleen op zichtbare tekst en miste zo de <input>-knoppen,
+            # waardoor uit-/inschrijven stil faalde.
+            INSCHRIJF_SEL = ("input[value*='INSCHRIJVEN' i]:not([value*='UITSCHRIJVEN' i]), "
+                             "button:has-text('Inschrijven'), a:has-text('Inschrijven')")
+            WACHTLIJST_SEL = ("input[value*='WACHTLIJST' i], "
+                              "button:has-text('Wachtlijst'), a:has-text('Wachtlijst')")
+            UITSCHRIJF_SEL = ("input[value*='UITSCHRIJVEN' i], input[value*='Afmelden' i], "
+                              "button:has-text('Uitschrijven'), a:has-text('Uitschrijven'), "
+                              "button:has-text('Afmelden'), a:has-text('Afmelden')")
+
+            async def klik_knop(selector):
+                """Klikt de eerste zichtbare/enabled knop die matcht. Geeft True bij klik."""
+                knop = modal.locator(selector).first
+                if await knop.count() > 0:
+                    try:
+                        await knop.scroll_into_view_if_needed()
+                    except:
+                        pass
+                    await knop.click(force=True)
+                    await page.wait_for_timeout(2500)
+                    return True
+                return False
+
+            async def is_nog_ingeschreven():
+                """Herlaadt het rooster en checkt de class van deze les. True als je
+                nog steeds ingeschreven/op de wachtlijst staat."""
+                try:
+                    await page.reload(wait_until="domcontentloaded", timeout=45000)
+                    await page.wait_for_selector("li[data-remodal-target]", timeout=10000)
+                except:
+                    pass
+                for les in await page.locator(selector).all():
+                    try:
+                        tijd_text = (await les.locator(".event-date").first.inner_text()).strip()
+                        if doel_tijd in tijd_text:
+                            cls = (await les.get_attribute("class") or "").lower()
+                            return any(k in cls for k in ("signedup", "signed", "booked", "on-waiting-list"))
+                    except:
+                        pass
+                return None  # les niet teruggevonden -> onbekend
+
             # --- KLIK OP DE JUISTE KNOP ---
             if actie == "inschrijven":
-                knop = modal.locator("button, a").filter(has_text="Inschrijven").first
-                if await knop.count() == 0:
-                    knop = modal.locator("button, a").filter(has_text="wachtlijst").first
+                geklikt = await klik_knop(INSCHRIJF_SEL) or await klik_knop(WACHTLIJST_SEL)
 
-                if await knop.count() > 0:
-                    await knop.click()
-                    await page.wait_for_timeout(2000)
-                    stuur_telegram(f"✅ *Actie geslaagd!* Je bent zojuist via je widget INGESCHREVEN voor de les van *{doel_tijd}* in *{doel_zaal}*!")
+                if geklikt:
+                    nog_in = await is_nog_ingeschreven()
+                    if nog_in is True:
+                        stuur_telegram(f"✅ *Ingeschreven* voor de les van *{doel_tijd}* in *{doel_zaal}* (of op de wachtlijst).")
+                    elif nog_in is False:
+                        stuur_telegram(f"⚠️ *Let op:* inschrijfknop geklikt voor {doel_tijd} ({doel_zaal}), maar je staat er (nog) niet in. Check het rooster.")
+                    else:
+                        stuur_telegram(f"✅ *Inschrijf-actie uitgevoerd* voor *{doel_tijd}* in *{doel_zaal}*.")
                 else:
-                    stuur_telegram(f"⚠️ *Mislukt:* Kon niet inschrijven voor {doel_tijd}. Zat je er al in, of is de wachtlijst óók helemaal vol?")
+                    stuur_telegram(f"⚠️ *Mislukt:* geen inschrijfknop gevonden voor {doel_tijd}. Zat je er al in, of is de wachtlijst óók vol?")
 
             elif actie == "uitschrijven":
-                knop = modal.locator("button, a").filter(has_text="Uitschrijven").first
-                if await knop.count() == 0:
-                    knop = modal.locator("button, a").filter(has_text="Afmelden").first
+                geklikt = await klik_knop(UITSCHRIJF_SEL)
 
-                if await knop.count() > 0:
-                    await knop.click()
-                    await page.wait_for_timeout(2000)
-                    stuur_telegram(f"🗑️ *Actie geslaagd!* Je bent succesvol UITGESCHREVEN voor de les van *{doel_tijd}* in *{doel_zaal}*.")
+                if geklikt:
+                    nog_in = await is_nog_ingeschreven()
+                    if nog_in is False:
+                        stuur_telegram(f"🗑️ *Uitgeschreven* voor de les van *{doel_tijd}* in *{doel_zaal}*.")
+                    elif nog_in is True:
+                        stuur_telegram(f"⚠️ *Let op:* uitschrijfknop geklikt voor {doel_tijd} ({doel_zaal}), maar je staat er NOG steeds in. De actie is niet doorgekomen.")
+                    else:
+                        stuur_telegram(f"🗑️ *Uitschrijf-actie uitgevoerd* voor *{doel_tijd}* in *{doel_zaal}*.")
                 else:
-                    stuur_telegram(f"⚠️ *Mislukt:* Kon je niet uitschrijven voor {doel_tijd}. Zat je er wel in?")
+                    stuur_telegram(f"⚠️ *Mislukt:* geen uitschrijfknop gevonden voor {doel_tijd}. Zat je er wel in?")
 
         except Exception as e:
             # Fout melden via Telegram, maar netjes afsluiten (exit 0) zodat GitHub
