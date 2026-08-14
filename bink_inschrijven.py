@@ -56,11 +56,13 @@ async def sign_up():
 
         try:
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded")
+            # '/login' is een 404; de echte loginpagina is '/inloggen-voor-leden'.
+            await page.goto("https://www.crossfitbink36.nl/inloggen-voor-leden", wait_until="domcontentloaded")
 
             if not EMAIL or not PASSWORD:
                 raise Exception("Geen inloggegevens!")
 
+            await page.wait_for_selector("input[name*='user'], input[name*='email']", timeout=25000)
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)
             await page.locator("button[type='submit'], input[type='submit']").first.click()

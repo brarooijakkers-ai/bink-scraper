@@ -392,10 +392,9 @@ async def scrape_once():
             morgen_is_volgende_week = (now.weekday() == 6)
 
             print("Inloggen...")
-            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded", timeout=45000)
-            try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded", timeout=45000)
-            await page.wait_for_timeout(2000)
+            # '/login' is een 404; de echte loginpagina is '/inloggen-voor-leden'.
+            await page.goto("https://www.crossfitbink36.nl/inloggen-voor-leden", wait_until="domcontentloaded", timeout=45000)
+            await page.wait_for_selector("input[name*='user'], input[name*='email']", timeout=25000)
 
             await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
             await page.locator("input[name*='pass']").first.fill(PASSWORD)

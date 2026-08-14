@@ -42,12 +42,9 @@ async def robuuste_login(page):
     for poging in range(1, 4):
         try:
             print(f"Login poging {poging}/3...")
-            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded", timeout=45000)
-            await klik_cookies_weg(page)
-            try:
-                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-            except:
-                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded", timeout=45000)
+            # Direct naar de echte login-pagina. LET OP: '/login' is nu een 404;
+            # de loginpagina is '/inloggen-voor-leden' (velden: useremail/userpassword).
+            await page.goto("https://www.crossfitbink36.nl/inloggen-voor-leden", wait_until="domcontentloaded", timeout=45000)
             await klik_cookies_weg(page)
             # Wacht expliciet tot het e-mailveld er is i.p.v. blind te fillen.
             await page.wait_for_selector("input[name*='user'], input[name*='email']", timeout=25000)
