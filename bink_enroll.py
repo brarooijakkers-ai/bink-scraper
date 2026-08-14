@@ -18,6 +18,50 @@ def stuur_telegram(bericht):
     try: urllib.request.urlopen(urllib.request.Request(url, data=data))
     except: pass
 
+async def klik_cookies_weg(page):
+    """Klikt een eventuele cookie-/consent-melding weg (best effort, faalt stil)."""
+    for sel in [
+        "#onetrust-accept-btn-handler",
+        "button:has-text('Accepteren')", "button:has-text('Akkoord')",
+        "button:has-text('Accepteer')", "button:has-text('Alles accepteren')",
+    ]:
+        try:
+            knop = page.locator(sel).first
+            if await knop.count() > 0 and await knop.is_visible():
+                await knop.click(timeout=2000)
+                await page.wait_for_timeout(500)
+                return
+        except:
+            pass
+
+async def robuuste_login(page):
+    """Logt in met 3 pogingen. De site is soms traag met het loginformulier;
+    bink_auto.py overleeft dat via zijn eigen retry-lus, deze robot had die niet
+    (vandaar de 'input[name*=user]' timeouts bij het inschrijven)."""
+    laatste = None
+    for poging in range(1, 4):
+        try:
+            print(f"Login poging {poging}/3...")
+            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded", timeout=45000)
+            await klik_cookies_weg(page)
+            try:
+                await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
+            except:
+                await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded", timeout=45000)
+            await klik_cookies_weg(page)
+            # Wacht expliciet tot het e-mailveld er is i.p.v. blind te fillen.
+            await page.wait_for_selector("input[name*='user'], input[name*='email']", timeout=25000)
+            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
+            await page.locator("input[name*='pass']").first.fill(PASSWORD)
+            await page.locator("button[type='submit'], input[type='submit']").first.click()
+            await page.wait_for_timeout(4000)
+            return
+        except Exception as e:
+            laatste = str(e)
+            print(f"Login poging {poging}/3 mislukt: {e}")
+            await page.wait_for_timeout(3000)
+    raise Exception(f"Inloggen mislukt na 3 pogingen: {laatste}")
+
 async def run():
     print("Inschrijf-robot gestart!")
     
@@ -61,17 +105,7 @@ async def run():
         try:
             page.set_default_timeout(20000)
             print("Inloggen...")
-            # --- ROBUUSTE LOGIN VANUIT bink_auto.py ---
-            await page.goto("https://www.crossfitbink36.nl/", wait_until="domcontentloaded", timeout=45000)
-            try: await page.get_by_role("link", name="Inloggen").first.click(timeout=5000)
-            except: await page.goto("https://www.crossfitbink36.nl/login", wait_until="domcontentloaded", timeout=45000)
-            await page.wait_for_timeout(2000)
-
-            await page.locator("input[name*='user'], input[name*='email']").first.fill(EMAIL)
-            await page.locator("input[name*='pass']").first.fill(PASSWORD)
-            await page.locator("button[type='submit'], input[type='submit']").first.click()
-            await page.wait_for_timeout(4000)
-            # ------------------------------------------
+            await robuuste_login(page)
 
             print(f"Navigeren naar {doel_zaal}...")
             zalen = {
