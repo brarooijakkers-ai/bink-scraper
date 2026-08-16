@@ -63,7 +63,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -154,7 +154,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -247,7 +247,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "7/14",
+                    "deelnemers": "8/14",
                     "status": "Open"
                 },
                 {
@@ -338,7 +338,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -494,7 +494,7 @@
                     "tijd": "15:30 - 16:15",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/10",
+                    "deelnemers": "1/10",
                     "status": "Open"
                 },
                 {
@@ -515,7 +515,7 @@
                     "tijd": "16:30 - 17:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/10",
+                    "deelnemers": "1/10",
                     "status": "Open"
                 },
                 {
@@ -557,7 +557,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "10/14",
+                    "deelnemers": "12/14",
                     "status": "Open"
                 },
                 {
@@ -628,7 +628,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "4/14",
+                    "deelnemers": "5/14",
                     "status": "Open"
                 },
                 {
@@ -698,7 +698,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "6/14",
+                    "deelnemers": "7/14",
                     "status": "Open"
                 },
                 {
@@ -748,7 +748,7 @@
                     "tijd": "07:00 - 09:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "4/6",
+                    "deelnemers": "5/6",
                     "status": "Open"
                 },
                 {
@@ -776,7 +776,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "10/16",
+                    "deelnemers": "11/16",
                     "status": "Open"
                 },
                 {
@@ -839,7 +839,7 @@
                     "tijd": "16:30 - 17:15",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/10",
+                    "deelnemers": "4/10",
                     "status": "Open"
                 },
                 {
@@ -918,7 +918,7 @@
                     "tijd": "09:15 - 09:45",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "3/10",
+                    "deelnemers": "4/10",
                     "status": "Open"
                 },
                 {
@@ -953,14 +953,14 @@
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "8/16",
+                    "deelnemers": "9/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:30 - 11:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/10",
+                    "deelnemers": "1/10",
                     "status": "Open"
                 },
                 {
@@ -1001,5 +1001,5 @@
             ]
         }
     ],
-    "last_success": "2026-08-16T14:42:49"
+    "last_success": "2026-08-16T15:33:08"
 }
