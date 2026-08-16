@@ -91,7 +91,7 @@
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "3/8",
+            "deelnemers": "4/8",
             "status": "Open"
         },
         {
@@ -175,7 +175,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -275,7 +275,7 @@
                     "tijd": "12:00 - 13:00",
                     "type": "GYMNASTICS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "3/8",
+                    "deelnemers": "4/8",
                     "status": "Open"
                 },
                 {
@@ -359,7 +359,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "8/14",
+                    "deelnemers": "9/14",
                     "status": "Open"
                 },
                 {
@@ -557,7 +557,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "12/14",
+                    "deelnemers": "13/14",
                     "status": "Open"
                 },
                 {
@@ -748,7 +748,7 @@
                     "tijd": "07:00 - 09:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "5/6",
+                    "deelnemers": "6/6",
                     "status": "Open"
                 },
                 {
@@ -953,7 +953,7 @@
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "9/16",
+                    "deelnemers": "10/16",
                     "status": "Open"
                 },
                 {
@@ -1001,5 +1001,5 @@
             ]
         }
     ],
-    "last_success": "2026-08-16T15:33:08"
+    "last_success": "2026-08-16T16:25:40"
 }
