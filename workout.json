@@ -776,7 +776,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "11/16",
+                    "deelnemers": "12/16",
                     "status": "Open"
                 },
                 {
@@ -1001,5 +1001,5 @@
             ]
         }
     ],
-    "last_success": "2026-08-16T19:21:44"
+    "last_success": "2026-08-16T20:32:15"
 }
