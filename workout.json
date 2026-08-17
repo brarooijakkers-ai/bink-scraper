@@ -44,7 +44,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -65,14 +65,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/8",
+            "deelnemers": "6/8",
             "status": "Open"
         },
         {
@@ -135,7 +135,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -170,7 +170,7 @@
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
@@ -267,7 +267,7 @@
                     "tijd": "12:00 - 12:45",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/9",
+                    "deelnemers": "1/9",
                     "status": "Open"
                 },
                 {
@@ -302,7 +302,7 @@
                     "tijd": "15:30 - 16:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "0/14",
+                    "deelnemers": "1/14",
                     "status": "Open"
                 },
                 {
@@ -330,7 +330,7 @@
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/9",
+                    "deelnemers": "8/9",
                     "status": "Open"
                 },
                 {
@@ -520,7 +520,7 @@
                     "tijd": "19:30 - 20:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/11",
+                    "deelnemers": "3/11",
                     "status": "Open"
                 },
                 {
@@ -577,7 +577,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "13/16",
+                    "deelnemers": "14/16",
                     "status": "Open"
                 },
                 {
@@ -726,7 +726,7 @@
                     "tijd": "09:15 - 10:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "13/14",
+                    "deelnemers": "14/14",
                     "status": "Open"
                 },
                 {
@@ -853,7 +853,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-17T07:37:02",
+    "last_success": "2026-08-17T08:59:48",
     "deja_vu": {
         "datum": "16-02-2026",
         "gelijkenis": 69,
