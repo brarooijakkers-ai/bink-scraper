@@ -63,7 +63,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -126,7 +126,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -670,7 +670,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-18T21:29:34",
+    "last_success": "2026-08-18T22:26:50",
     "deja_vu": {
         "datum": "23-05-2026",
         "gelijkenis": 58,
