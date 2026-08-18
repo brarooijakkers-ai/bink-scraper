@@ -84,7 +84,7 @@
             "tijd": "12:00 - 12:45",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -126,7 +126,7 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -246,7 +246,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/14",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
@@ -373,7 +373,7 @@
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/16",
+                    "deelnemers": "6/16",
                     "status": "Open"
                 },
                 {
@@ -670,11 +670,10 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-18T10:39:37",
+    "last_success": "2026-08-18T12:30:49",
     "deja_vu": {
         "datum": "23-05-2026",
         "gelijkenis": 58,
         "soort": "lijkt op"
-    },
-    "last_alert": "2026-08-18T11:38:10"
+    }
 }
