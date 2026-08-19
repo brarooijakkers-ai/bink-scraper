@@ -142,7 +142,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -156,7 +156,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -177,7 +177,7 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -210,7 +210,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -231,7 +231,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -287,7 +287,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "3/9",
             "status": "Open"
         },
         {
@@ -655,5 +655,5 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-19T17:33:49"
+    "last_success": "2026-08-19T18:34:05"
 }
