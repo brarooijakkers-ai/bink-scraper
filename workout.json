@@ -177,14 +177,14 @@
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
@@ -210,7 +210,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -301,7 +301,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -358,7 +358,7 @@
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "7/16",
+                    "deelnemers": "9/16",
                     "status": "Open"
                 },
                 {
@@ -577,7 +577,7 @@
                     "tijd": "11:15 - 12:15",
                     "type": "HYROX",
                     "zaal": "Zaal 2",
-                    "deelnemers": "8/9",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 },
                 {
@@ -655,5 +655,5 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-19T19:28:47"
+    "last_success": "2026-08-19T20:38:23"
 }
