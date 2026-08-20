@@ -1,27 +1,8 @@
 {
-    "datum": "20-08-2026",
-    "dag": "Donderdag",
-    "workout": "Strength:\n\nweighted pull ups: emom 10min: 2 reps\n\nWOD:\n3 rounds\n20 barfacing burpees\n20 thrusters 42.5/30kg\ntimecap 13min",
+    "datum": "21-08-2026",
+    "dag": "Vrijdag",
+    "workout": "Skill(s):\n\nrowing\n\nWOD:\nfor time\n7200m row\ntimecap 40min",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "18:30 - 19:30",
-        "type": "WOD",
-        "deelnemers": "13/14",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "18:30 - 19:30",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "13/14",
-            "status": "Jij bent Ingeschreven"
-        }
-    ],
-    "dag_morgen": "Vrijdag",
-    "status_morgen": {
         "ingeschreven": false,
         "tijd": "",
         "type": "",
@@ -30,7 +11,7 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
@@ -63,7 +44,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "12/16",
             "status": "Open"
         },
         {
@@ -179,22 +160,26 @@
             "status": "Open"
         }
     ],
-    "rooster_deze_week": [
+    "dag_morgen": "Zaterdag",
+    "status_morgen": {
+        "ingeschreven": true,
+        "tijd": "11:15 - 12:15",
+        "type": "OLY LIFTING",
+        "deelnemers": "5/9",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_morgen": [
         {
-            "dag": "Zaterdag",
-            "dag_en": "saturday",
-            "datum": "22-08-2026",
-            "week": "current",
-            "lessen": [
-                {
-                    "tijd": "11:15 - 12:15",
-                    "type": "OLY LIFTING",
-                    "zaal": "Zaal 2",
-                    "deelnemers": "5/9",
-                    "status": "Jij bent Ingeschreven"
-                }
-            ]
-        },
+            "tijd": "11:15 - 12:15",
+            "type": "OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "5/9",
+            "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "rooster_deze_week": [
         {
             "dag": "Zondag",
             "dag_en": "sunday",
@@ -339,10 +324,10 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-20T23:30:52",
+    "last_success": "2026-08-21T00:29:55",
     "deja_vu": {
-        "datum": "12-08-2026",
-        "gelijkenis": 56,
+        "datum": "05-03-2026",
+        "gelijkenis": 64,
         "soort": "lijkt op"
     }
 }
