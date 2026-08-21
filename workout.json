@@ -37,7 +37,7 @@
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "4/6",
+            "deelnemers": "5/6",
             "status": "Open"
         },
         {
@@ -65,7 +65,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/16",
+            "deelnemers": "2/16",
             "status": "Open"
         },
         {
@@ -128,7 +128,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -324,7 +324,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-21T07:35:11",
+    "last_success": "2026-08-21T08:51:24",
     "deja_vu": {
         "datum": "05-03-2026",
         "gelijkenis": 64,
