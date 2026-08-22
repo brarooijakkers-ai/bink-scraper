@@ -51,7 +51,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -72,7 +72,7 @@
             "tijd": "11:15 - 12:15",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -1281,7 +1281,7 @@
             ]
         }
     ],
-    "last_success": "2026-08-23T00:24:23",
+    "last_success": "2026-08-23T01:23:21",
     "deja_vu": {
         "datum": "13-04-2026",
         "gelijkenis": 58,
