@@ -44,7 +44,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -72,7 +72,7 @@
             "tijd": "12:15 - 13:00",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -238,11 +238,10 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-22T05:46:12",
+    "last_success": "2026-08-22T07:29:49",
     "deja_vu": {
         "datum": "18-08-2026",
         "gelijkenis": 56,
         "soort": "lijkt op"
-    },
-    "last_alert": "2026-08-22T06:36:47"
+    }
 }
