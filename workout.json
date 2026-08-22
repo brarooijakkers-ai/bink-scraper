@@ -133,14 +133,14 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -1183,7 +1183,7 @@
             ]
         }
     ],
-    "last_success": "2026-08-22T17:23:51",
+    "last_success": "2026-08-22T18:27:09",
     "deja_vu": {
         "datum": "18-08-2026",
         "gelijkenis": 56,
