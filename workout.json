@@ -1,104 +1,8 @@
 {
-    "datum": "23-08-2026",
-    "dag": "Zondag",
-    "workout": "Strength:\n\nemom 7min: bar muscle ups\n\nWOD:\nemom 15min\nmin 1: toes to bar\nmin 2: cal assault bike\nmin 3: sumo deadlift high pull 50/35kg",
+    "datum": "24-08-2026",
+    "dag": "Maandag",
+    "workout": "Strength:\n\nbanded deadlifts: 6 sets of 2 reps\n\nWOD:\n21-15-9\ndeadlifts 120/80kg\n9-6-3\nwallwalks\ntimecap 12min",
     "status_vandaag": {
-        "ingeschreven": false,
-        "tijd": "",
-        "type": "",
-        "deelnemers": "",
-        "wachtlijst": false,
-        "wachtlijst_plek": "?",
-        "wachtlijst_totaal": "?"
-    },
-    "rooster_vandaag": [
-        {
-            "tijd": "09:15 - 09:45",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "14/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:15 - 10:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "16/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "09:45 - 10:30",
-            "type": "KIDS",
-            "zaal": "Zaal 2",
-            "deelnemers": "4/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:00",
-            "type": "OUTSIDE WOD",
-            "zaal": "Buiten",
-            "deelnemers": "8/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:15 - 11:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "14/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "10:30 - 11:15",
-            "type": "TEENS",
-            "zaal": "Zaal 2",
-            "deelnemers": "3/10",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:00",
-            "type": "FUNDAMENTALS",
-            "zaal": "Zaal 1",
-            "deelnemers": "8/14",
-            "status": "Open"
-        },
-        {
-            "tijd": "11:15 - 12:15",
-            "type": "HYROX",
-            "zaal": "Zaal 2",
-            "deelnemers": "8/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:00",
-            "type": "BASIC OLY LIFTING",
-            "zaal": "Zaal 2",
-            "deelnemers": "5/9",
-            "status": "Open"
-        },
-        {
-            "tijd": "12:15 - 13:15",
-            "type": "WOD",
-            "zaal": "Zaal 1",
-            "deelnemers": "10/16",
-            "status": "Open"
-        },
-        {
-            "tijd": "13:00 - 14:00",
-            "type": "OPENGYM",
-            "zaal": "Zaal 2",
-            "deelnemers": "2/6",
-            "status": "Open"
-        }
-    ],
-    "dag_morgen": "Maandag",
-    "status_morgen": {
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
@@ -107,7 +11,7 @@
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
-    "rooster_morgen": [
+    "rooster_vandaag": [
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
@@ -116,43 +20,31 @@
             "status": "Jij bent Ingeschreven"
         }
     ],
-    "rooster_deze_week": [],
-    "rooster_week": [
+    "dag_morgen": "Dinsdag",
+    "status_morgen": {
+        "ingeschreven": true,
+        "tijd": "18:30 - 19:30",
+        "type": "OLY LIFTING",
+        "deelnemers": "5/9",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
+    },
+    "rooster_morgen": [
         {
-            "dag": "Maandag",
-            "dag_en": "monday",
-            "datum": "24-08-2026",
-            "week": "next",
-            "lessen": [
-                {
-                    "tijd": "18:30 - 19:30",
-                    "type": "WOD",
-                    "zaal": "Zaal 1",
-                    "deelnemers": "14/14",
-                    "status": "Jij bent Ingeschreven"
-                }
-            ]
-        },
-        {
-            "dag": "Dinsdag",
-            "dag_en": "tuesday",
-            "datum": "25-08-2026",
-            "week": "next",
-            "lessen": [
-                {
-                    "tijd": "18:30 - 19:30",
-                    "type": "OLY LIFTING",
-                    "zaal": "Zaal 2",
-                    "deelnemers": "5/9",
-                    "status": "Jij bent Ingeschreven"
-                }
-            ]
-        },
+            "tijd": "18:30 - 19:30",
+            "type": "OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "5/9",
+            "status": "Jij bent Ingeschreven"
+        }
+    ],
+    "rooster_deze_week": [
         {
             "dag": "Woensdag",
             "dag_en": "wednesday",
             "datum": "26-08-2026",
-            "week": "next",
+            "week": "current",
             "lessen": [
                 {
                     "tijd": "07:00 - 09:00",
@@ -335,7 +227,7 @@
             "dag": "Donderdag",
             "dag_en": "thursday",
             "datum": "27-08-2026",
-            "week": "next",
+            "week": "current",
             "lessen": [
                 {
                     "tijd": "07:00 - 09:00",
@@ -369,7 +261,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -483,7 +375,7 @@
             "dag": "Vrijdag",
             "dag_en": "friday",
             "datum": "28-08-2026",
-            "week": "next",
+            "week": "current",
             "lessen": [
                 {
                     "tijd": "07:00 - 09:00",
@@ -517,7 +409,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "15/16",
+                    "deelnemers": "16/16",
                     "status": "Open"
                 },
                 {
@@ -638,7 +530,7 @@
             "dag": "Zaterdag",
             "dag_en": "saturday",
             "datum": "29-08-2026",
-            "week": "next",
+            "week": "current",
             "lessen": [
                 {
                     "tijd": "11:15 - 12:15",
@@ -653,7 +545,7 @@
             "dag": "Zondag",
             "dag_en": "sunday",
             "datum": "30-08-2026",
-            "week": "next",
+            "week": "current",
             "lessen": [
                 {
                     "tijd": "09:15 - 09:45",
@@ -742,10 +634,56 @@
             ]
         }
     ],
-    "last_success": "2026-08-23T23:23:54",
-    "deja_vu": {
-        "datum": "13-04-2026",
-        "gelijkenis": 58,
-        "soort": "lijkt op"
-    }
+    "rooster_week": [
+        {
+            "dag": "Maandag",
+            "dag_en": "monday",
+            "datum": "31-08-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Dinsdag",
+            "dag_en": "tuesday",
+            "datum": "01-09-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Woensdag",
+            "dag_en": "wednesday",
+            "datum": "02-09-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Donderdag",
+            "dag_en": "thursday",
+            "datum": "03-09-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Vrijdag",
+            "dag_en": "friday",
+            "datum": "04-09-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Zaterdag",
+            "dag_en": "saturday",
+            "datum": "05-09-2026",
+            "week": "next",
+            "lessen": []
+        },
+        {
+            "dag": "Zondag",
+            "dag_en": "sunday",
+            "datum": "06-09-2026",
+            "week": "next",
+            "lessen": []
+        }
+    ],
+    "last_success": "2026-08-24T00:24:28"
 }
