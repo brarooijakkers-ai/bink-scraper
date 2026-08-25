@@ -72,7 +72,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -93,14 +93,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -135,7 +135,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "6/11",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
@@ -456,7 +456,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "5/11",
+                    "deelnemers": "6/11",
                     "status": "Open"
                 },
                 {
@@ -873,7 +873,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-25T14:51:47",
+    "last_success": "2026-08-25T15:52:24",
     "deja_vu": {
         "datum": "27-03-2026",
         "gelijkenis": 80,
