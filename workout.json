@@ -135,7 +135,7 @@
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
@@ -774,7 +774,7 @@
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "13/16",
+                    "deelnemers": "12/16",
                     "status": "Open"
                 },
                 {
@@ -809,7 +809,7 @@
                     "tijd": "12:15 - 13:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "7/16",
+                    "deelnemers": "8/16",
                     "status": "Open"
                 },
                 {
@@ -873,7 +873,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-25T13:30:20",
+    "last_success": "2026-08-25T14:51:47",
     "deja_vu": {
         "datum": "27-03-2026",
         "gelijkenis": 80,
