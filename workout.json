@@ -450,7 +450,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "HYROX",
                     "zaal": "Zaal 2",
-                    "deelnemers": "3/9",
+                    "deelnemers": "4/9",
                     "status": "Open"
                 },
                 {
@@ -803,7 +803,7 @@
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -888,7 +888,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-31T00:29:57",
+    "last_success": "2026-08-31T03:11:05",
     "deja_vu": {
         "datum": "15-08-2026",
         "gelijkenis": 63,
