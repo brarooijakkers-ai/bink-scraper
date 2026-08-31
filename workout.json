@@ -42,7 +42,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -63,7 +63,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -84,7 +84,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -140,7 +140,7 @@
             "tijd": "18:30 - 19:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
@@ -211,7 +211,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "7/14",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
@@ -281,7 +281,7 @@
                     "tijd": "16:30 - 17:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/10",
+                    "deelnemers": "4/10",
                     "status": "Open"
                 },
                 {
@@ -605,7 +605,7 @@
                     "tijd": "16:30 - 17:15",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/10",
+                    "deelnemers": "1/10",
                     "status": "Open"
                 },
                 {
@@ -697,7 +697,7 @@
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "13/16",
+                    "deelnemers": "15/16",
                     "status": "Open"
                 },
                 {
@@ -775,14 +775,14 @@
                     "tijd": "09:45 - 10:30",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/10",
+                    "deelnemers": "1/10",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "0/14",
+                    "deelnemers": "1/14",
                     "status": "Open"
                 },
                 {
@@ -796,7 +796,7 @@
                     "tijd": "10:30 - 11:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "1/10",
+                    "deelnemers": "3/10",
                     "status": "Open"
                 },
                 {
@@ -888,7 +888,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-08-31T18:50:31",
+    "last_success": "2026-08-31T23:47:08",
     "deja_vu": {
         "datum": "15-08-2026",
         "gelijkenis": 60,
