@@ -65,7 +65,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -79,7 +79,7 @@
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "0/9",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
@@ -93,14 +93,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -114,28 +114,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "10/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "8/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
@@ -149,7 +149,7 @@
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "1/6",
+            "deelnemers": "0/6",
             "status": "Open"
         }
     ],
@@ -196,7 +196,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -259,7 +259,7 @@
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "6/10",
+            "deelnemers": "7/10",
             "status": "Open"
         },
         {
@@ -294,7 +294,7 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "7/11",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
@@ -429,7 +429,7 @@
                     "tijd": "09:45 - 10:30",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/10",
+                    "deelnemers": "3/10",
                     "status": "Open"
                 },
                 {
@@ -542,11 +542,10 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-03T10:41:41",
+    "last_success": "2026-09-03T19:37:49",
     "deja_vu": {
         "datum": "22-08-2026",
         "gelijkenis": 59,
         "soort": "lijkt op"
-    },
-    "last_alert": "2026-09-03T15:23:12"
+    }
 }
