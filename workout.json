@@ -23,7 +23,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/16",
+            "deelnemers": "8/16",
             "status": "Open"
         },
         {
@@ -44,14 +44,14 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "0/10",
+            "deelnemers": "2/10",
             "status": "Open"
         },
         {
@@ -107,7 +107,7 @@
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
@@ -128,7 +128,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -142,14 +142,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "5/11",
+            "deelnemers": "4/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -217,7 +217,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -394,7 +394,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-04T05:32:56",
+    "last_success": "2026-09-04T10:36:38",
     "deja_vu": {
         "datum": "13-08-2026",
         "gelijkenis": 59,
