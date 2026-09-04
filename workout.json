@@ -100,7 +100,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -114,21 +114,21 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -142,14 +142,14 @@
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "4/11",
+            "deelnemers": "9/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -196,7 +196,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "0/6",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
@@ -302,7 +302,7 @@
                     "tijd": "10:30 - 11:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "3/10",
+                    "deelnemers": "4/10",
                     "status": "Open"
                 },
                 {
@@ -330,7 +330,7 @@
                     "tijd": "12:15 - 13:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/16",
+                    "deelnemers": "3/16",
                     "status": "Open"
                 },
                 {
@@ -394,7 +394,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-04T15:15:35",
+    "last_success": "2026-09-04T19:26:42",
     "deja_vu": {
         "datum": "13-08-2026",
         "gelijkenis": 59,
