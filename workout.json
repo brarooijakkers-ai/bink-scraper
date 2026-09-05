@@ -147,7 +147,7 @@
             "tijd": "10:30 - 11:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
@@ -1176,7 +1176,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-05T20:00:01",
+    "last_success": "2026-09-05T20:52:07",
     "deja_vu": {
         "datum": "16-08-2026",
         "gelijkenis": 55,
