@@ -112,7 +112,7 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "2/6",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
@@ -140,7 +140,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -231,14 +231,14 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "5/9",
+            "deelnemers": "6/9",
             "status": "Open"
         },
         {
@@ -296,7 +296,7 @@
                     "tijd": "07:00 - 09:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/6",
+                    "deelnemers": "3/6",
                     "status": "Open"
                 },
                 {
@@ -324,7 +324,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/14",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
@@ -415,14 +415,14 @@
                     "tijd": "17:30 - 18:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "4/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "18:30 - 19:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "5/9",
+                    "deelnemers": "6/9",
                     "status": "Open"
                 },
                 {
@@ -479,7 +479,7 @@
                     "tijd": "07:00 - 09:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/6",
+                    "deelnemers": "1/6",
                     "status": "Open"
                 },
                 {
@@ -507,7 +507,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -542,7 +542,7 @@
                     "tijd": "16:30 - 17:30",
                     "type": "OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/9",
+                    "deelnemers": "1/9",
                     "status": "Open"
                 },
                 {
@@ -563,7 +563,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "HYROX",
                     "zaal": "Zaal 2",
-                    "deelnemers": "4/9",
+                    "deelnemers": "5/9",
                     "status": "Open"
                 },
                 {
@@ -627,14 +627,14 @@
                     "tijd": "07:00 - 09:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/6",
+                    "deelnemers": "3/6",
                     "status": "Open"
                 },
                 {
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -655,7 +655,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/14",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
@@ -676,7 +676,7 @@
                     "tijd": "12:00 - 12:45",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "5/9",
+                    "deelnemers": "6/9",
                     "status": "Open"
                 },
                 {
@@ -810,7 +810,7 @@
                     "tijd": "07:00 - 09:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/6",
+                    "deelnemers": "1/6",
                     "status": "Open"
                 },
                 {
@@ -979,14 +979,14 @@
                     "tijd": "09:00 - 11:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/6",
+                    "deelnemers": "3/6",
                     "status": "Open"
                 },
                 {
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "12/16",
+                    "deelnemers": "13/16",
                     "status": "Open"
                 },
                 {
@@ -1063,7 +1063,7 @@
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "8/9",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 },
                 {
@@ -1155,7 +1155,7 @@
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -1176,7 +1176,7 @@
                     "tijd": "12:15 - 14:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 1",
-                    "deelnemers": "0/10",
+                    "deelnemers": "2/10",
                     "status": "Open"
                 },
                 {
@@ -1274,5 +1274,5 @@
             ]
         }
     ],
-    "last_success": "2026-09-06T16:01:05"
+    "last_success": "2026-09-06T19:32:07"
 }
