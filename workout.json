@@ -65,7 +65,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -1274,5 +1274,5 @@
             ]
         }
     ],
-    "last_success": "2026-09-06T00:48:54"
+    "last_success": "2026-09-06T02:42:01"
 }
