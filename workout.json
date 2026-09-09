@@ -114,14 +114,14 @@
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "7/10",
+            "deelnemers": "8/10",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "6/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -142,7 +142,7 @@
             "tijd": "18:30 - 19:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -156,28 +156,28 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "3/9",
+            "deelnemers": "4/9",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -217,7 +217,7 @@
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/12",
+            "deelnemers": "2/12",
             "status": "Open"
         },
         {
@@ -231,7 +231,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -259,7 +259,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -301,7 +301,7 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
@@ -315,7 +315,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -442,7 +442,7 @@
                     "tijd": "16:30 - 17:15",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "5/10",
+                    "deelnemers": "6/10",
                     "status": "Open"
                 },
                 {
@@ -612,7 +612,7 @@
                     "tijd": "09:45 - 10:30",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/10",
+                    "deelnemers": "3/10",
                     "status": "Open"
                 },
                 {
@@ -633,7 +633,7 @@
                     "tijd": "10:30 - 11:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "1/10",
+                    "deelnemers": "2/10",
                     "status": "Open"
                 },
                 {
@@ -718,7 +718,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-09T15:32:52",
+    "last_success": "2026-09-09T19:40:45",
     "deja_vu": {
         "datum": "12-08-2026",
         "gelijkenis": 74,
