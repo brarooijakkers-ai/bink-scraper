@@ -142,7 +142,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "8/14",
+            "deelnemers": "14/14",
             "status": "Open"
         },
         {
@@ -196,7 +196,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
@@ -252,7 +252,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -273,7 +273,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "9/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -365,7 +365,7 @@
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "6/14",
+                    "deelnemers": "5/14",
                     "status": "Open"
                 },
                 {
@@ -535,7 +535,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-10T19:32:52",
+    "last_success": "2026-09-10T22:34:30",
     "deja_vu": {
         "datum": "12-08-2026",
         "gelijkenis": 60,
