@@ -44,7 +44,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "13/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -58,7 +58,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -1001,7 +1001,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-12T09:01:22",
+    "last_success": "2026-09-12T11:04:53",
     "deja_vu": {
         "datum": "03-09-2026",
         "gelijkenis": 58,
