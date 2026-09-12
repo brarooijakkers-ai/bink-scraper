@@ -97,8 +97,8 @@
         "type": "WOD",
         "deelnemers": "16/16",
         "wachtlijst": true,
-        "wachtlijst_plek": "5",
-        "wachtlijst_totaal": "5"
+        "wachtlijst_plek": "4",
+        "wachtlijst_totaal": "4"
     },
     "rooster_morgen": [
         {
@@ -1001,7 +1001,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-12T21:01:23",
+    "last_success": "2026-09-12T21:31:54",
     "deja_vu": {
         "datum": "03-09-2026",
         "gelijkenis": 58,
