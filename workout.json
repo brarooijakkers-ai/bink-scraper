@@ -3,21 +3,91 @@
     "dag": "Zaterdag",
     "workout": "Strength:\n\nevery 90sec x7: 3 power cleans TnG\n\nWOD:\n4 rounds\n2min amrap/1min rest\n10 clean and jerks 70/50kg\nmax bar muscle ups",
     "status_vandaag": {
-        "ingeschreven": true,
-        "tijd": "12:15 - 14:00",
-        "type": "OPENGYM",
-        "deelnemers": "4/10",
+        "ingeschreven": false,
+        "tijd": "",
+        "type": "",
+        "deelnemers": "",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
     },
     "rooster_vandaag": [
         {
+            "tijd": "09:15 - 10:00",
+            "type": "OPENGYM",
+            "zaal": "Buiten",
+            "deelnemers": "0/6",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "16/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "09:15 - 10:15",
+            "type": "OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:00",
+            "type": "OPENGYM",
+            "zaal": "Buiten",
+            "deelnemers": "0/6",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:15",
+            "type": "WOD",
+            "zaal": "Zaal 1",
+            "deelnemers": "13/16",
+            "status": "Open"
+        },
+        {
+            "tijd": "10:15 - 11:15",
+            "type": "OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "6/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:00",
+            "type": "FUNDAMENTALS",
+            "zaal": "Zaal 1",
+            "deelnemers": "7/14",
+            "status": "Open"
+        },
+        {
+            "tijd": "11:15 - 12:15",
+            "type": "OLY LIFTING",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
+            "tijd": "12:15 - 13:00",
+            "type": "METCON",
+            "zaal": "Zaal 2",
+            "deelnemers": "9/9",
+            "status": "Open"
+        },
+        {
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
             "deelnemers": "4/10",
-            "status": "Jij bent Ingeschreven"
+            "status": "Open"
+        },
+        {
+            "tijd": "13:00 - 14:00",
+            "type": "OPENGYM",
+            "zaal": "Zaal 2",
+            "deelnemers": "0/6",
+            "status": "Open"
         }
     ],
     "dag_morgen": "Zondag",
@@ -931,7 +1001,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-12T06:18:40",
+    "last_success": "2026-09-12T09:01:22",
     "deja_vu": {
         "datum": "03-09-2026",
         "gelijkenis": 58,
