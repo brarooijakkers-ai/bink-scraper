@@ -107,14 +107,14 @@
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "5/10",
+            "deelnemers": "6/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         }
     ],
@@ -1234,7 +1234,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-18T16:12:19",
+    "last_success": "2026-09-18T20:08:26",
     "deja_vu": {
         "datum": "01-09-2026",
         "gelijkenis": 67,
