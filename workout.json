@@ -196,7 +196,7 @@
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -217,7 +217,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "8/9",
+            "deelnemers": "9/9",
             "status": "Open"
         },
         {
@@ -231,7 +231,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "7/14",
             "status": "Open"
         },
         {
@@ -380,7 +380,7 @@
                     "tijd": "15:30 - 16:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -401,7 +401,7 @@
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "8/9",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 },
                 {
@@ -415,7 +415,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "4/14",
+                    "deelnemers": "7/14",
                     "status": "Open"
                 },
                 {
@@ -507,7 +507,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -535,7 +535,7 @@
                     "tijd": "16:30 - 17:15",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -598,7 +598,7 @@
                     "tijd": "19:30 - 20:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "8/11",
+                    "deelnemers": "10/11",
                     "status": "Open"
                 },
                 {
@@ -655,7 +655,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "6/14",
+                    "deelnemers": "8/14",
                     "status": "Open"
                 },
                 {
@@ -683,7 +683,7 @@
                     "tijd": "12:00 - 13:00",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -711,14 +711,14 @@
                     "tijd": "15:30 - 16:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "16:30 - 17:15",
                     "type": "HYROX FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/14",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
@@ -739,7 +739,7 @@
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "4/9",
+                    "deelnemers": "6/9",
                     "status": "Open"
                 },
                 {
@@ -753,7 +753,7 @@
                     "tijd": "18:30 - 19:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/9",
+                    "deelnemers": "8/9",
                     "status": "Open"
                 },
                 {
@@ -915,7 +915,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "6/11",
+                    "deelnemers": "8/11",
                     "status": "Open"
                 },
                 {
@@ -929,7 +929,7 @@
                     "tijd": "19:30 - 20:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/11",
+                    "deelnemers": "3/11",
                     "status": "Open"
                 },
                 {
@@ -986,7 +986,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "9/16",
+                    "deelnemers": "10/16",
                     "status": "Open"
                 },
                 {
@@ -1007,7 +1007,7 @@
                     "tijd": "12:00 - 13:00",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/16",
+                    "deelnemers": "2/16",
                     "status": "Open"
                 },
                 {
@@ -1261,7 +1261,7 @@
                     "tijd": "12:15 - 13:00",
                     "type": "BASIC OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "1/9",
+                    "deelnemers": "3/9",
                     "status": "Open"
                 },
                 {
@@ -1281,7 +1281,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-20T16:35:51",
+    "last_success": "2026-09-20T20:05:06",
     "deja_vu": {
         "datum": "16-02-2026",
         "gelijkenis": 83,
