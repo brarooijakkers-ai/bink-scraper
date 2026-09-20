@@ -140,7 +140,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "9/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -217,7 +217,7 @@
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "7/9",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
@@ -252,14 +252,14 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "12/14",
+            "deelnemers": "13/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -324,7 +324,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "9/14",
+                    "deelnemers": "11/14",
                     "status": "Open"
                 },
                 {
@@ -401,7 +401,7 @@
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/9",
+                    "deelnemers": "8/9",
                     "status": "Open"
                 },
                 {
@@ -436,14 +436,14 @@
                     "tijd": "18:30 - 19:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "12/14",
+                    "deelnemers": "13/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "19:30 - 20:15",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "0/14",
+                    "deelnemers": "1/14",
                     "status": "Open"
                 },
                 {
@@ -486,7 +486,7 @@
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "0/14",
+                    "deelnemers": "1/14",
                     "status": "Open"
                 },
                 {
@@ -598,7 +598,7 @@
                     "tijd": "19:30 - 20:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/11",
+                    "deelnemers": "8/11",
                     "status": "Open"
                 },
                 {
@@ -739,7 +739,7 @@
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "3/9",
+                    "deelnemers": "4/9",
                     "status": "Open"
                 },
                 {
@@ -753,7 +753,7 @@
                     "tijd": "18:30 - 19:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "6/9",
+                    "deelnemers": "7/9",
                     "status": "Open"
                 },
                 {
@@ -788,7 +788,7 @@
                     "tijd": "20:30 - 21:30",
                     "type": "POWERLIFTING",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -838,7 +838,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -922,7 +922,7 @@
                     "tijd": "19:30 - 20:15",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "0/14",
+                    "deelnemers": "1/14",
                     "status": "Open"
                 },
                 {
@@ -965,7 +965,7 @@
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/16",
+                    "deelnemers": "3/16",
                     "status": "Open"
                 },
                 {
@@ -1014,7 +1014,7 @@
                     "tijd": "12:00 - 13:00",
                     "type": "GYMNASTICS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/8",
+                    "deelnemers": "8/8",
                     "status": "Open"
                 },
                 {
@@ -1155,7 +1155,7 @@
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -1205,7 +1205,7 @@
                     "tijd": "09:15 - 10:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "9/14",
+                    "deelnemers": "10/14",
                     "status": "Open"
                 },
                 {
@@ -1226,14 +1226,14 @@
                     "tijd": "10:15 - 11:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "12/16",
+                    "deelnemers": "14/16",
                     "status": "Open"
                 },
                 {
@@ -1281,7 +1281,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-20T12:53:13",
+    "last_success": "2026-09-20T16:35:51",
     "deja_vu": {
         "datum": "16-02-2026",
         "gelijkenis": 83,
