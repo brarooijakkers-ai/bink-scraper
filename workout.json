@@ -23,7 +23,7 @@
             "tijd": "09:15 - 10:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "12/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
@@ -44,7 +44,7 @@
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -1281,7 +1281,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-20T00:44:21",
+    "last_success": "2026-09-20T02:47:34",
     "deja_vu": {
         "datum": "16-02-2026",
         "gelijkenis": 83,
