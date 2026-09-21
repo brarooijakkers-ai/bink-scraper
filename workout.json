@@ -135,7 +135,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -1056,7 +1056,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-21T01:57:04",
+    "last_success": "2026-09-21T06:36:12",
     "deja_vu": {
         "datum": "03-09-2026",
         "gelijkenis": 68,
