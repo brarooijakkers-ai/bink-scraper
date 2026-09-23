@@ -170,14 +170,14 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "POWERLIFTING",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -196,7 +196,7 @@
         "deelnemers": "14/14",
         "wachtlijst": true,
         "wachtlijst_plek": "2",
-        "wachtlijst_totaal": "3"
+        "wachtlijst_totaal": "2"
     },
     "rooster_morgen": [
         {
@@ -239,7 +239,7 @@
                     "tijd": "09:00 - 11:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/6",
+                    "deelnemers": "3/6",
                     "status": "Open"
                 },
                 {
@@ -330,7 +330,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/14",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
@@ -351,7 +351,7 @@
                     "tijd": "19:30 - 20:15",
                     "type": "HYROX FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "6/14",
+                    "deelnemers": "7/14",
                     "status": "Open"
                 },
                 {
@@ -592,7 +592,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-23T18:22:31",
+    "last_success": "2026-09-23T21:59:50",
     "deja_vu": {
         "datum": "05-09-2026",
         "gelijkenis": 73,
