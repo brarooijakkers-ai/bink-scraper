@@ -65,14 +65,14 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -100,7 +100,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "1/9",
+            "deelnemers": "2/9",
             "status": "Open"
         },
         {
@@ -114,21 +114,21 @@
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
+            "deelnemers": "11/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "11/11",
+            "deelnemers": "8/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -196,7 +196,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/16",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
@@ -266,7 +266,7 @@
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
@@ -372,7 +372,7 @@
                     "tijd": "11:15 - 12:15",
                     "type": "OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/9",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 },
                 {
@@ -542,7 +542,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-09-24T09:23:35",
+    "last_success": "2026-09-24T15:22:38",
     "deja_vu": {
         "datum": "06-09-2026",
         "gelijkenis": 61,
