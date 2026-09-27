@@ -51,7 +51,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "14/16",
             "status": "Open"
         },
         {
@@ -1281,7 +1281,7 @@
             ]
         }
     ],
-    "last_success": "2026-09-27T00:29:32",
+    "last_success": "2026-09-27T03:09:42",
     "deja_vu": {
         "datum": "24-08-2026",
         "gelijkenis": 65,
