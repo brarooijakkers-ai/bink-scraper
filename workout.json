@@ -23,7 +23,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
@@ -44,7 +44,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "7/14",
+            "deelnemers": "12/14",
             "status": "Open"
         },
         {
@@ -135,7 +135,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -163,7 +163,7 @@
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -210,7 +210,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "4/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
@@ -259,7 +259,7 @@
             "tijd": "16:30 - 17:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -287,7 +287,7 @@
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "4/9",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
@@ -329,7 +329,7 @@
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -358,7 +358,7 @@
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "4/14",
+                    "deelnemers": "5/14",
                     "status": "Open"
                 },
                 {
@@ -379,7 +379,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "11/14",
+                    "deelnemers": "12/14",
                     "status": "Open"
                 },
                 {
@@ -449,21 +449,21 @@
                     "tijd": "16:30 - 17:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "0/10",
+                    "deelnemers": "1/10",
                     "status": "Open"
                 },
                 {
                     "tijd": "17:30 - 18:15",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "17:30 - 18:15",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "5/9",
+                    "deelnemers": "7/9",
                     "status": "Open"
                 },
                 {
@@ -491,7 +491,7 @@
                     "tijd": "18:30 - 19:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "12/14",
+                    "deelnemers": "13/14",
                     "status": "Open"
                 },
                 {
@@ -512,7 +512,7 @@
                     "tijd": "20:30 - 21:30",
                     "type": "POWERLIFTING",
                     "zaal": "Zaal 1",
-                    "deelnemers": "4/14",
+                    "deelnemers": "5/14",
                     "status": "Open"
                 },
                 {
@@ -541,7 +541,7 @@
                     "tijd": "07:15 - 08:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -618,7 +618,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "HYROX",
                     "zaal": "Zaal 2",
-                    "deelnemers": "1/9",
+                    "deelnemers": "2/9",
                     "status": "Open"
                 },
                 {
@@ -653,7 +653,7 @@
                     "tijd": "19:30 - 20:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "4/11",
+                    "deelnemers": "5/11",
                     "status": "Open"
                 },
                 {
@@ -731,14 +731,14 @@
                     "tijd": "12:00 - 13:00",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/16",
+                    "deelnemers": "2/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "12:00 - 13:00",
                     "type": "GYMNASTICS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "7/8",
+                    "deelnemers": "8/8",
                     "status": "Open"
                 },
                 {
@@ -780,7 +780,7 @@
                     "tijd": "16:30 - 17:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "3/14",
+                    "deelnemers": "5/14",
                     "status": "Open"
                 },
                 {
@@ -815,7 +815,7 @@
                     "tijd": "19:30 - 20:15",
                     "type": "HYROX FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "3/14",
+                    "deelnemers": "4/14",
                     "status": "Open"
                 },
                 {
@@ -865,7 +865,7 @@
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "8/16",
+                    "deelnemers": "10/16",
                     "status": "Open"
                 },
                 {
@@ -879,7 +879,7 @@
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -978,7 +978,7 @@
                     "tijd": "11:15 - 12:15",
                     "type": "HYROX",
                     "zaal": "Zaal 2",
-                    "deelnemers": "2/9",
+                    "deelnemers": "5/9",
                     "status": "Open"
                 },
                 {
@@ -1056,7 +1056,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-10-05T03:43:33",
+    "last_success": "2026-10-05T10:36:21",
     "deja_vu": {
         "datum": "26-09-2026",
         "gelijkenis": 69,
