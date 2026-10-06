@@ -6,18 +6,18 @@
         "ingeschreven": true,
         "tijd": "18:30 - 19:30",
         "type": "WOD",
-        "deelnemers": "14/14",
-        "wachtlijst": true,
-        "wachtlijst_plek": "1",
-        "wachtlijst_totaal": "2"
+        "deelnemers": "13/14",
+        "wachtlijst": false,
+        "wachtlijst_plek": "?",
+        "wachtlijst_totaal": "?"
     },
     "rooster_vandaag": [
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "14/14",
-            "status": "Jij staat op Wachtlijst"
+            "deelnemers": "13/14",
+            "status": "Jij bent Ingeschreven"
         }
     ],
     "dag_morgen": "Woensdag",
@@ -42,7 +42,7 @@
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
@@ -91,7 +91,7 @@
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "1/14",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
@@ -126,14 +126,14 @@
             "tijd": "16:30 - 17:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "3/14",
+            "deelnemers": "5/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "TEENS",
             "zaal": "Zaal 2",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
@@ -189,7 +189,7 @@
             "tijd": "19:30 - 20:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "0/14",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
@@ -330,7 +330,7 @@
                     "tijd": "19:30 - 20:15",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -394,7 +394,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "9/16",
+                    "deelnemers": "10/16",
                     "status": "Open"
                 },
                 {
@@ -478,7 +478,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "6/14",
+                    "deelnemers": "4/14",
                     "status": "Open"
                 },
                 {
@@ -549,7 +549,7 @@
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "12/16",
+                    "deelnemers": "11/16",
                     "status": "Open"
                 },
                 {
@@ -669,7 +669,7 @@
                     "tijd": "12:15 - 13:00",
                     "type": "BASIC OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "1/9",
+                    "deelnemers": "2/9",
                     "status": "Open"
                 },
                 {
@@ -740,7 +740,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-10-06T09:19:00",
+    "last_success": "2026-10-06T16:51:44",
     "deja_vu": {
         "datum": "11-09-2026",
         "gelijkenis": 64,
