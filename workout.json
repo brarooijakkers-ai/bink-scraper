@@ -6,7 +6,7 @@
         "ingeschreven": true,
         "tijd": "10:15 - 11:15",
         "type": "WOD",
-        "deelnemers": "15/16",
+        "deelnemers": "14/16",
         "wachtlijst": false,
         "wachtlijst_plek": "?",
         "wachtlijst_totaal": "?"
@@ -16,7 +16,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "15/16",
+            "deelnemers": "14/16",
             "status": "Jij bent Ingeschreven"
         }
     ],
@@ -91,7 +91,7 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-10-17T01:18:23",
+    "last_success": "2026-10-17T05:31:55",
     "deja_vu": {
         "datum": "14-09-2026",
         "gelijkenis": 76,
