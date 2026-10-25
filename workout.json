@@ -140,7 +140,7 @@
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "5/14",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
@@ -231,7 +231,7 @@
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -324,7 +324,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "5/14",
+                    "deelnemers": "8/14",
                     "status": "Open"
                 },
                 {
@@ -415,7 +415,7 @@
                     "tijd": "17:30 - 18:30",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "2/14",
+                    "deelnemers": "3/14",
                     "status": "Open"
                 },
                 {
@@ -598,7 +598,7 @@
                     "tijd": "19:30 - 20:30",
                     "type": "FUNCTIONALBODYBUILDING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "10/11",
+                    "deelnemers": "11/11",
                     "status": "Open"
                 },
                 {
@@ -655,7 +655,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "7/14",
+                    "deelnemers": "8/14",
                     "status": "Open"
                 },
                 {
@@ -838,7 +838,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -986,7 +986,7 @@
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "7/16",
+                    "deelnemers": "8/16",
                     "status": "Open"
                 },
                 {
@@ -1162,7 +1162,7 @@
                     "tijd": "11:15 - 12:15",
                     "type": "OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "4/9",
+                    "deelnemers": "5/9",
                     "status": "Open"
                 },
                 {
@@ -1205,7 +1205,7 @@
                     "tijd": "09:15 - 10:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "7/14",
+                    "deelnemers": "8/14",
                     "status": "Open"
                 },
                 {
@@ -1226,7 +1226,7 @@
                     "tijd": "10:15 - 11:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -1281,7 +1281,7 @@
             ]
         }
     ],
-    "last_success": "2026-10-25T16:45:23",
+    "last_success": "2026-10-25T19:47:17",
     "deja_vu": {
         "datum": "09-09-2026",
         "gelijkenis": 76,
