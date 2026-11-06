@@ -63,7 +63,7 @@
             "tijd": "10:15 - 11:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "16/16",
+            "deelnemers": "15/16",
             "status": "Open"
         },
         {
@@ -77,7 +77,7 @@
             "tijd": "11:15 - 12:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "2/14",
+            "deelnemers": "3/14",
             "status": "Open"
         },
         {
@@ -148,7 +148,7 @@
                     "tijd": "10:15 - 11:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "3/14",
+                    "deelnemers": "4/14",
                     "status": "Open"
                 },
                 {
@@ -169,7 +169,7 @@
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "1/14",
+                    "deelnemers": "2/14",
                     "status": "Open"
                 },
                 {
@@ -1199,7 +1199,7 @@
             ]
         }
     ],
-    "last_success": "2026-11-06T18:50:48",
+    "last_success": "2026-11-06T23:50:42",
     "deja_vu": {
         "datum": "27-10-2026",
         "gelijkenis": 60,
