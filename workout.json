@@ -79,7 +79,7 @@
             "tijd": "12:15 - 14:00",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "2/10",
+            "deelnemers": "3/10",
             "status": "Open"
         },
         {
@@ -126,14 +126,14 @@
             "tijd": "09:45 - 10:30",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "0/10",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "10:15 - 11:00",
             "type": "OUTSIDE WOD",
             "zaal": "Buiten",
-            "deelnemers": "1/14",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
@@ -1169,7 +1169,7 @@
             ]
         }
     ],
-    "last_success": "2026-11-14T10:54:23",
+    "last_success": "2026-11-14T17:26:10",
     "deja_vu": {
         "datum": "13-10-2026",
         "gelijkenis": 74,
