@@ -1,7 +1,7 @@
 {
     "datum": "19-11-2026",
     "dag": "Donderdag",
-    "workout": "Geen WOD tekst gevonden.",
+    "workout": "Skill(s):\n\nbutterfly pull ups\n\nWOD:\namrap 20min\n400m run\n30 pull ups\n20 overhead squats 35/25kg",
     "status_vandaag": {
         "ingeschreven": false,
         "tijd": "",
@@ -16,140 +16,140 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "6/14",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:00",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/12",
             "status": "Open"
         },
         {
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "2/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/10",
             "status": "Open"
         },
         {
             "tijd": "11:00 - 12:45",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "10/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "OLY LIFTING",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "1/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "HYROX",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "8/9",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "OPENGYM",
             "zaal": "Buiten",
-            "deelnemers": "",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "9/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "11/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "5/11",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "20:30 - 21:30",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "1/6",
             "status": "Open"
         }
     ],
@@ -168,147 +168,147 @@
             "tijd": "07:00 - 09:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "6/6",
             "status": "Open"
         },
         {
             "tijd": "07:15 - 08:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "13/16",
             "status": "Open"
         },
         {
             "tijd": "08:15 - 09:15",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/10",
             "status": "Open"
         },
         {
             "tijd": "09:00 - 11:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "3/6",
             "status": "Open"
         },
         {
             "tijd": "09:15 - 10:15",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "16/16",
             "status": "Open"
         },
         {
             "tijd": "10:30 - 11:45",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/10",
             "status": "Open"
         },
         {
             "tijd": "11:00 - 12:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "4/16",
             "status": "Open"
         },
         {
             "tijd": "12:00 - 13:00",
             "type": "GYMNASTICS",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "8/8",
             "status": "Open"
         },
         {
             "tijd": "13:00 - 15:00",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "0/6",
             "status": "Open"
         },
         {
             "tijd": "13:15 - 15:15",
             "type": "OPENGYM",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/13",
             "status": "Open"
         },
         {
             "tijd": "15:00 - 16:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "1/6",
             "status": "Open"
         },
         {
             "tijd": "15:30 - 16:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "2/14",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:15",
             "type": "KIDS",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "1/10",
             "status": "Open"
         },
         {
             "tijd": "16:30 - 17:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "0/14",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:15",
             "type": "METCON",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "5/9",
             "status": "Open"
         },
         {
             "tijd": "17:30 - 18:30",
             "type": "WOD",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "8/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:15",
             "type": "FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "1/14",
             "status": "Open"
         },
         {
             "tijd": "18:30 - 19:30",
             "type": "FUNCTIONALBODYBUILDING",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "6/11",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "HYROX FUNDAMENTALS",
             "zaal": "Zaal 1",
-            "deelnemers": "",
+            "deelnemers": "4/14",
             "status": "Open"
         },
         {
             "tijd": "19:30 - 20:15",
             "type": "OPENGYM",
             "zaal": "Zaal 2",
-            "deelnemers": "",
+            "deelnemers": "0/6",
             "status": "Open"
         }
     ],
@@ -323,63 +323,63 @@
                     "tijd": "09:15 - 10:00",
                     "type": "OPENGYM",
                     "zaal": "Buiten",
-                    "deelnemers": "",
+                    "deelnemers": "0/6",
                     "status": "Open"
                 },
                 {
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "16/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "09:15 - 10:15",
                     "type": "OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "6/9",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:00",
                     "type": "OPENGYM",
                     "zaal": "Buiten",
-                    "deelnemers": "",
+                    "deelnemers": "0/6",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "16/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:15",
                     "type": "OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 },
                 {
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "6/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "11:15 - 12:15",
                     "type": "OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "6/9",
                     "status": "Open"
                 },
                 {
                     "tijd": "12:15 - 13:00",
                     "type": "METCON",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 }
             ]
@@ -394,84 +394,84 @@
                     "tijd": "09:15 - 09:45",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "3/10",
                     "status": "Open"
                 },
                 {
                     "tijd": "09:15 - 10:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "",
+                    "deelnemers": "14/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "09:15 - 10:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "16/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "09:45 - 10:30",
                     "type": "KIDS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "2/10",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:00",
                     "type": "OUTSIDE WOD",
                     "zaal": "Buiten",
-                    "deelnemers": "",
+                    "deelnemers": "0/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:15 - 11:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "16/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "10:30 - 11:15",
                     "type": "TEENS",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "0/10",
                     "status": "Open"
                 },
                 {
                     "tijd": "11:15 - 12:00",
                     "type": "FUNDAMENTALS",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "0/14",
                     "status": "Open"
                 },
                 {
                     "tijd": "11:15 - 12:15",
                     "type": "HYROX",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "9/9",
                     "status": "Open"
                 },
                 {
                     "tijd": "12:15 - 13:00",
                     "type": "BASIC OLY LIFTING",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "0/9",
                     "status": "Open"
                 },
                 {
                     "tijd": "12:15 - 13:15",
                     "type": "WOD",
                     "zaal": "Zaal 1",
-                    "deelnemers": "",
+                    "deelnemers": "3/16",
                     "status": "Open"
                 },
                 {
                     "tijd": "13:00 - 14:00",
                     "type": "OPENGYM",
                     "zaal": "Zaal 2",
-                    "deelnemers": "",
+                    "deelnemers": "3/6",
                     "status": "Open"
                 }
             ]
@@ -528,5 +528,10 @@
             "lessen": []
         }
     ],
-    "last_success": "2026-11-19T03:58:22"
+    "last_success": "2026-11-19T12:26:53",
+    "deja_vu": {
+        "datum": "02-10-2026",
+        "gelijkenis": 55,
+        "soort": "lijkt op"
+    }
 }
